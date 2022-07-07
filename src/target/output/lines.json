@@ -1,0 +1,2244 @@
+[
+    {
+        "expanded_representation": "class Cat: ||| []", 
+        "id": 1, 
+        "line_values": [], 
+        "template": "class Cat:"
+    }, 
+    {
+        "expanded_representation": "def __init__(self,___,___): ||| [{'print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")': ['myNaN'], 'print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")': ['myNaN'], 'print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")': ['myNaN'], 'print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")': ['myNaN']}, {'print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")': ['myNaN'], 'print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")': ['myNaN'], 'print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")': ['myNaN'], 'print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")': ['myNaN']}]", 
+        "id": 2, 
+        "line_values": [
+            {
+                "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                    "myNaN"
+                ], 
+                "print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")": [
+                    "myNaN"
+                ], 
+                "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                    "myNaN"
+                ], 
+                "print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")": [
+                    "myNaN"
+                ]
+            }, 
+            {
+                "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                    "myNaN"
+                ], 
+                "print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")": [
+                    "myNaN"
+                ], 
+                "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                    "myNaN"
+                ], 
+                "print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")": [
+                    "myNaN"
+                ]
+            }
+        ], 
+        "template": "def __init__(self,___,___):"
+    }, 
+    {
+        "expanded_representation": "self.name=___ ||| [{'print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")': ['myNaN'], 'print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")': ['myNaN'], 'print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")': ['myNaN'], 'print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")': ['myNaN']}]", 
+        "id": 3, 
+        "line_values": [
+            {
+                "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                    "myNaN"
+                ], 
+                "print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")": [
+                    "myNaN"
+                ], 
+                "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                    "myNaN"
+                ], 
+                "print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")": [
+                    "myNaN"
+                ]
+            }
+        ], 
+        "template": "self.name=___"
+    }, 
+    {
+        "expanded_representation": "self.age=___ ||| [{'print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")': ['myNaN'], 'print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")': ['myNaN'], 'print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")': ['myNaN'], 'print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")': ['myNaN']}]", 
+        "id": 4, 
+        "line_values": [
+            {
+                "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                    "myNaN"
+                ], 
+                "print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")": [
+                    "myNaN"
+                ], 
+                "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                    "myNaN"
+                ], 
+                "print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")": [
+                    "myNaN"
+                ]
+            }
+        ], 
+        "template": "self.age=___"
+    }, 
+    {
+        "expanded_representation": "def __str__(self): ||| []", 
+        "id": 5, 
+        "line_values": [], 
+        "template": "def __str__(self):"
+    }, 
+    {
+        "expanded_representation": "return \"name: \"+self.name+\", age: \"+str(self.age) ||| []", 
+        "id": 6, 
+        "line_values": [], 
+        "template": "return \"name: \"+self.name+\", age: \"+str(self.age)"
+    }, 
+    {
+        "expanded_representation": "def make_sound(self): ||| []", 
+        "id": 7, 
+        "line_values": [], 
+        "template": "def make_sound(self):"
+    }, 
+    {
+        "expanded_representation": "return \"Meow\" ||| []", 
+        "id": 8, 
+        "line_values": [], 
+        "template": "return \"Meow\""
+    }, 
+    {
+        "expanded_representation": "c=Cat(\"Fluffy\",3) ||| []", 
+        "id": 9, 
+        "line_values": [], 
+        "template": "c=Cat(\"Fluffy\",3)"
+    }, 
+    {
+        "expanded_representation": "def make_sound(): ||| []", 
+        "id": 10, 
+        "line_values": [], 
+        "template": "def make_sound():"
+    }, 
+    {
+        "expanded_representation": "def main(): ||| []", 
+        "id": 11, 
+        "line_values": [], 
+        "template": "def main():"
+    }, 
+    {
+        "expanded_representation": "print c ||| []", 
+        "id": 12, 
+        "line_values": [], 
+        "template": "print c"
+    }, 
+    {
+        "expanded_representation": "print c.make_sound() ||| []", 
+        "id": 13, 
+        "line_values": [], 
+        "template": "print c.make_sound()"
+    }, 
+    {
+        "expanded_representation": "main() ||| []", 
+        "id": 14, 
+        "line_values": [], 
+        "template": "main()"
+    }, 
+    {
+        "expanded_representation": "return \"name: \"+self.name+\", age\"+str(self.age) ||| []", 
+        "id": 15, 
+        "line_values": [], 
+        "template": "return \"name: \"+self.name+\", age\"+str(self.age)"
+    }, 
+    {
+        "expanded_representation": "return str(\"Meow\") ||| []", 
+        "id": 16, 
+        "line_values": [], 
+        "template": "return str(\"Meow\")"
+    }, 
+    {
+        "expanded_representation": "self.age=str(___) ||| [{'print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")': ['myNaN'], 'print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")': ['myNaN'], 'print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")': ['myNaN'], 'print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")': ['myNaN']}]", 
+        "id": 17, 
+        "line_values": [
+            {
+                "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                    "myNaN"
+                ], 
+                "print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")": [
+                    "myNaN"
+                ], 
+                "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                    "myNaN"
+                ], 
+                "print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")": [
+                    "myNaN"
+                ]
+            }
+        ], 
+        "template": "self.age=str(___)"
+    }, 
+    {
+        "expanded_representation": "return \"name: \"+self.name+\", age: \"+self.age ||| []", 
+        "id": 18, 
+        "line_values": [], 
+        "template": "return \"name: \"+self.name+\", age: \"+self.age"
+    }, 
+    {
+        "expanded_representation": "return \"name: \"+str(self.name)+\", \"+\"age: \"+str(self.age) ||| []", 
+        "id": 19, 
+        "line_values": [], 
+        "template": "return \"name: \"+str(self.name)+\", \"+\"age: \"+str(self.age)"
+    }, 
+    {
+        "expanded_representation": "return \"name: \"+self.name+\" \"+\"age: \"+str(self.age) ||| []", 
+        "id": 20, 
+        "line_values": [], 
+        "template": "return \"name: \"+self.name+\" \"+\"age: \"+str(self.age)"
+    }, 
+    {
+        "expanded_representation": "string=\"name: \"+___+\", age:\"+___ ||| [{'print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")': [u'Fluffy', u'Spike'], 'print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")': [u'Fluffy', u'Fluffy'], 'print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")': [u'Fluffy', u'Spike'], 'print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")': [u'Fluffy', u'Fluffy']}, {'print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")': [3, 2], 'print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")': [3, 3], 'print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")': [3, 2], 'print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")': [3, 3]}]", 
+        "id": 21, 
+        "line_values": [
+            {
+                "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                    "Fluffy", 
+                    "Fluffy"
+                ], 
+                "print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")": [
+                    "Fluffy", 
+                    "Fluffy"
+                ], 
+                "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                    "Fluffy", 
+                    "Spike"
+                ], 
+                "print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")": [
+                    "Fluffy", 
+                    "Spike"
+                ]
+            }, 
+            {
+                "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                    3, 
+                    3
+                ], 
+                "print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")": [
+                    3, 
+                    3
+                ], 
+                "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                    3, 
+                    2
+                ], 
+                "print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")": [
+                    3, 
+                    2
+                ]
+            }
+        ], 
+        "template": "string=\"name: \"+___+\", age:\"+___"
+    }, 
+    {
+        "expanded_representation": "return string ||| []", 
+        "id": 22, 
+        "line_values": [], 
+        "template": "return string"
+    }, 
+    {
+        "expanded_representation": "result=\"name: \"+self.name+\", age: \"+str(self.age) ||| []", 
+        "id": 23, 
+        "line_values": [], 
+        "template": "result=\"name: \"+self.name+\", age: \"+str(self.age)"
+    }, 
+    {
+        "expanded_representation": "return result ||| []", 
+        "id": 24, 
+        "line_values": [], 
+        "template": "return result"
+    }, 
+    {
+        "expanded_representation": "def __str__(self,make_sound): ||| []", 
+        "id": 25, 
+        "line_values": [], 
+        "template": "def __str__(self,make_sound):"
+    }, 
+    {
+        "expanded_representation": "make_sound=\"Meow\" ||| []", 
+        "id": 26, 
+        "line_values": [], 
+        "template": "make_sound=\"Meow\""
+    }, 
+    {
+        "expanded_representation": "self.make_sound=make.sound ||| []", 
+        "id": 27, 
+        "line_values": [], 
+        "template": "self.make_sound=make.sound"
+    }, 
+    {
+        "expanded_representation": "return make_sound ||| []", 
+        "id": 28, 
+        "line_values": [], 
+        "template": "return make_sound"
+    }, 
+    {
+        "expanded_representation": "result=\"name: \"+self.name+\", age:\"+str(self.age) ||| []", 
+        "id": 29, 
+        "line_values": [], 
+        "template": "result=\"name: \"+self.name+\", age:\"+str(self.age)"
+    }, 
+    {
+        "expanded_representation": "return ||| []", 
+        "id": 30, 
+        "line_values": [], 
+        "template": "return"
+    }, 
+    {
+        "expanded_representation": "return \"name: \"+self.name+\" age: \"+str(self.age) ||| []", 
+        "id": 31, 
+        "line_values": [], 
+        "template": "return \"name: \"+self.name+\" age: \"+str(self.age)"
+    }, 
+    {
+        "expanded_representation": "def __make_sound__(): ||| []", 
+        "id": 32, 
+        "line_values": [], 
+        "template": "def __make_sound__():"
+    }, 
+    {
+        "expanded_representation": "return \"name: \"+str(self.name)+\", age: \"+int(self.age) ||| []", 
+        "id": 33, 
+        "line_values": [], 
+        "template": "return \"name: \"+str(self.name)+\", age: \"+int(self.age)"
+    }, 
+    {
+        "expanded_representation": "return \"name: \"+self.name+\", \"+\"age: \"+self.age ||| []", 
+        "id": 34, 
+        "line_values": [], 
+        "template": "return \"name: \"+self.name+\", \"+\"age: \"+self.age"
+    }, 
+    {
+        "expanded_representation": "print \"Meow\" ||| []", 
+        "id": 35, 
+        "line_values": [], 
+        "template": "print \"Meow\""
+    }, 
+    {
+        "expanded_representation": "return \"name: \"+self.name+\" ,\"+\"age: \"+str(self.age) ||| []", 
+        "id": 36, 
+        "line_values": [], 
+        "template": "return \"name: \"+self.name+\" ,\"+\"age: \"+str(self.age)"
+    }, 
+    {
+        "expanded_representation": "return str(\"name: \",self.name,\"age: \",self.age) ||| []", 
+        "id": 37, 
+        "line_values": [], 
+        "template": "return str(\"name: \",self.name,\"age: \",self.age)"
+    }, 
+    {
+        "expanded_representation": "return 'name: '+self.name+','+'age:'+' '+self.age ||| []", 
+        "id": 38, 
+        "line_values": [], 
+        "template": "return 'name: '+self.name+','+'age:'+' '+self.age"
+    }, 
+    {
+        "expanded_representation": "def __init__(cat,___,___): ||| [{'print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")': ['myNaN'], 'print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")': ['myNaN'], 'print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")': ['myNaN'], 'print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")': ['myNaN']}, {'print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")': ['myNaN'], 'print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")': ['myNaN'], 'print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")': ['myNaN'], 'print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")': ['myNaN']}]", 
+        "id": 39, 
+        "line_values": [
+            {
+                "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                    "myNaN"
+                ], 
+                "print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")": [
+                    "myNaN"
+                ], 
+                "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                    "myNaN"
+                ], 
+                "print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")": [
+                    "myNaN"
+                ]
+            }, 
+            {
+                "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                    "myNaN"
+                ], 
+                "print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")": [
+                    "myNaN"
+                ], 
+                "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                    "myNaN"
+                ], 
+                "print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")": [
+                    "myNaN"
+                ]
+            }
+        ], 
+        "template": "def __init__(cat,___,___):"
+    }, 
+    {
+        "expanded_representation": "cat.name=___ ||| [{'print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")': ['myNaN'], 'print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")': ['myNaN'], 'print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")': ['myNaN'], 'print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")': ['myNaN']}]", 
+        "id": 40, 
+        "line_values": [
+            {
+                "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                    "myNaN"
+                ], 
+                "print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")": [
+                    "myNaN"
+                ], 
+                "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                    "myNaN"
+                ], 
+                "print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")": [
+                    "myNaN"
+                ]
+            }
+        ], 
+        "template": "cat.name=___"
+    }, 
+    {
+        "expanded_representation": "cat.age=___ ||| [{'print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")': ['myNaN'], 'print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")': ['myNaN'], 'print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")': ['myNaN'], 'print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")': ['myNaN']}]", 
+        "id": 41, 
+        "line_values": [
+            {
+                "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                    "myNaN"
+                ], 
+                "print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")": [
+                    "myNaN"
+                ], 
+                "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                    "myNaN"
+                ], 
+                "print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")": [
+                    "myNaN"
+                ]
+            }
+        ], 
+        "template": "cat.age=___"
+    }, 
+    {
+        "expanded_representation": "def __str__(cat): ||| []", 
+        "id": 42, 
+        "line_values": [], 
+        "template": "def __str__(cat):"
+    }, 
+    {
+        "expanded_representation": "return \"name: \"+str(cat.name)+\", age: \"+str(cat.age) ||| []", 
+        "id": 43, 
+        "line_values": [], 
+        "template": "return \"name: \"+str(cat.name)+\", age: \"+str(cat.age)"
+    }, 
+    {
+        "expanded_representation": "def make_sound(cat): ||| []", 
+        "id": 44, 
+        "line_values": [], 
+        "template": "def make_sound(cat):"
+    }, 
+    {
+        "expanded_representation": "return \"name: \"+self.name+\". age: \"+str(self.age) ||| []", 
+        "id": 45, 
+        "line_values": [], 
+        "template": "return \"name: \"+self.name+\". age: \"+str(self.age)"
+    }, 
+    {
+        "expanded_representation": "c=Cat('Fluffy',3) ||| []", 
+        "id": 46, 
+        "line_values": [], 
+        "template": "c=Cat('Fluffy',3)"
+    }, 
+    {
+        "expanded_representation": "return \"name: \"+self.name+\",\"+\" age: \"+str(self.age) ||| []", 
+        "id": 47, 
+        "line_values": [], 
+        "template": "return \"name: \"+self.name+\",\"+\" age: \"+str(self.age)"
+    }, 
+    {
+        "expanded_representation": "return \"name: \"+str(self.name)+\", age: \"+self.age ||| []", 
+        "id": 48, 
+        "line_values": [], 
+        "template": "return \"name: \"+str(self.name)+\", age: \"+self.age"
+    }, 
+    {
+        "expanded_representation": "___=\"\" ||| [{'print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")': 'not_initialized', 'print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")': 'not_initialized', 'print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")': ['myNaN', 'myNaN'], 'print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")': ['myNaN', 'myNaN']}]", 
+        "id": 49, 
+        "line_values": [
+            {
+                "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                    "myNaN", 
+                    "myNaN"
+                ], 
+                "print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")": "not_initialized", 
+                "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                    "myNaN", 
+                    "myNaN"
+                ], 
+                "print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")": "not_initialized"
+            }
+        ], 
+        "template": "___=\"\""
+    }, 
+    {
+        "expanded_representation": "___+=(\"name: \",self.name,\"age: \",self.age) ||| [{'print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")': 'not_initialized', 'print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")': 'not_initialized', 'print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")': ['myNaN', 'myNaN'], 'print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")': ['myNaN', 'myNaN']}]", 
+        "id": 50, 
+        "line_values": [
+            {
+                "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                    "myNaN", 
+                    "myNaN"
+                ], 
+                "print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")": "not_initialized", 
+                "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                    "myNaN", 
+                    "myNaN"
+                ], 
+                "print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")": "not_initialized"
+            }
+        ], 
+        "template": "___+=(\"name: \",self.name,\"age: \",self.age)"
+    }, 
+    {
+        "expanded_representation": "return ___ ||| [{'print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")': 'not_initialized', 'print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")': 'not_initialized', 'print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")': ['myNaN', 'myNaN', 'myNaN', 'myNaN'], 'print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")': ['myNaN', 'myNaN', 'myNaN', 'myNaN']}]", 
+        "id": 51, 
+        "line_values": [
+            {
+                "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                    "myNaN", 
+                    "myNaN", 
+                    "myNaN", 
+                    "myNaN"
+                ], 
+                "print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")": "not_initialized", 
+                "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                    "myNaN", 
+                    "myNaN", 
+                    "myNaN", 
+                    "myNaN"
+                ], 
+                "print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")": "not_initialized"
+            }
+        ], 
+        "template": "return ___"
+    }, 
+    {
+        "expanded_representation": "self.make_sound=\"Meow\" ||| []", 
+        "id": 52, 
+        "line_values": [], 
+        "template": "self.make_sound=\"Meow\""
+    }, 
+    {
+        "expanded_representation": "return \"name: \"+___+\" age: \"+___ ||| [{'print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")': [u'Fluffy', u'Spike'], 'print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")': [u'Fluffy', u'Fluffy'], 'print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")': [u'Fluffy', u'Spike'], 'print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")': [u'Fluffy', u'Fluffy']}, {'print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")': [3, 2], 'print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")': [3, 3], 'print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")': [3, 2], 'print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")': [3, 3]}]", 
+        "id": 53, 
+        "line_values": [
+            {
+                "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                    "Fluffy", 
+                    "Fluffy"
+                ], 
+                "print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")": [
+                    "Fluffy", 
+                    "Fluffy"
+                ], 
+                "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                    "Fluffy", 
+                    "Spike"
+                ], 
+                "print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")": [
+                    "Fluffy", 
+                    "Spike"
+                ]
+            }, 
+            {
+                "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                    3, 
+                    3
+                ], 
+                "print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")": [
+                    3, 
+                    3
+                ], 
+                "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                    3, 
+                    2
+                ], 
+                "print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")": [
+                    3, 
+                    2
+                ]
+            }
+        ], 
+        "template": "return \"name: \"+___+\" age: \"+___"
+    }, 
+    {
+        "expanded_representation": "return \"name: \"+self.name+\", age:\"+str(self.age) ||| []", 
+        "id": 54, 
+        "line_values": [], 
+        "template": "return \"name: \"+self.name+\", age:\"+str(self.age)"
+    }, 
+    {
+        "expanded_representation": "def __init__(self,name,age): ||| []", 
+        "id": 55, 
+        "line_values": [], 
+        "template": "def __init__(self,name,age):"
+    }, 
+    {
+        "expanded_representation": "self.name=name ||| []", 
+        "id": 56, 
+        "line_values": [], 
+        "template": "self.name=name"
+    }, 
+    {
+        "expanded_representation": "self.age=age ||| []", 
+        "id": 57, 
+        "line_values": [], 
+        "template": "self.age=age"
+    }, 
+    {
+        "expanded_representation": "return '\"name: '+self.name+', age: '+str(self.age)+'\"' ||| []", 
+        "id": 58, 
+        "line_values": [], 
+        "template": "return '\"name: '+self.name+', age: '+str(self.age)+'\"'"
+    }, 
+    {
+        "expanded_representation": "c=Cat(Fluffy,3) ||| []", 
+        "id": 59, 
+        "line_values": [], 
+        "template": "c=Cat(Fluffy,3)"
+    }, 
+    {
+        "expanded_representation": "return \"name: \"+self.name+\", \"+\"age\"+str(self.age) ||| []", 
+        "id": 60, 
+        "line_values": [], 
+        "template": "return \"name: \"+self.name+\", \"+\"age\"+str(self.age)"
+    }, 
+    {
+        "expanded_representation": "self.name=str(self.name) ||| []", 
+        "id": 61, 
+        "line_values": [], 
+        "template": "self.name=str(self.name)"
+    }, 
+    {
+        "expanded_representation": "self.age=str(self.age) ||| []", 
+        "id": 62, 
+        "line_values": [], 
+        "template": "self.age=str(self.age)"
+    }, 
+    {
+        "expanded_representation": "return 'name:'+self.name+' '+','+'age:'+' '+self.age ||| []", 
+        "id": 63, 
+        "line_values": [], 
+        "template": "return 'name:'+self.name+' '+','+'age:'+' '+self.age"
+    }, 
+    {
+        "expanded_representation": "def __init__(self,name,age,sound): ||| []", 
+        "id": 64, 
+        "line_values": [], 
+        "template": "def __init__(self,name,age,sound):"
+    }, 
+    {
+        "expanded_representation": "return \"name: \"+___+\", age: \"+str(___) ||| [{'print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")': [u'Fluffy', u'Spike'], 'print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")': [u'Fluffy', u'Fluffy'], 'print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")': [u'Fluffy', u'Spike'], 'print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")': [u'Fluffy', u'Fluffy']}, {'print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")': [3, 2], 'print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")': [3, 3], 'print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")': [3, 2], 'print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")': [3, 3]}]", 
+        "id": 65, 
+        "line_values": [
+            {
+                "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                    "Fluffy", 
+                    "Fluffy"
+                ], 
+                "print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")": [
+                    "Fluffy", 
+                    "Fluffy"
+                ], 
+                "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                    "Fluffy", 
+                    "Spike"
+                ], 
+                "print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")": [
+                    "Fluffy", 
+                    "Spike"
+                ]
+            }, 
+            {
+                "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                    3, 
+                    3
+                ], 
+                "print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")": [
+                    3, 
+                    3
+                ], 
+                "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                    3, 
+                    2
+                ], 
+                "print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")": [
+                    3, 
+                    2
+                ]
+            }
+        ], 
+        "template": "return \"name: \"+___+\", age: \"+str(___)"
+    }, 
+    {
+        "expanded_representation": "return \"name: \"+self.name+\", \"+\"age: \"+str(self.age)+\".\" ||| []", 
+        "id": 66, 
+        "line_values": [], 
+        "template": "return \"name: \"+self.name+\", \"+\"age: \"+str(self.age)+\".\""
+    }, 
+    {
+        "expanded_representation": "def __make_sound__(self): ||| []", 
+        "id": 67, 
+        "line_values": [], 
+        "template": "def __make_sound__(self):"
+    }, 
+    {
+        "expanded_representation": "return 'name: '+self.age+', age: '+str(self.age) ||| []", 
+        "id": 68, 
+        "line_values": [], 
+        "template": "return 'name: '+self.age+', age: '+str(self.age)"
+    }, 
+    {
+        "expanded_representation": "return \"name: \"+self.name+\", \"+\"age: \"+str(self.len) ||| []", 
+        "id": 69, 
+        "line_values": [], 
+        "template": "return \"name: \"+self.name+\", \"+\"age: \"+str(self.len)"
+    }, 
+    {
+        "expanded_representation": "return \" name: \" ||| []", 
+        "id": 70, 
+        "line_values": [], 
+        "template": "return \" name: \""
+    }, 
+    {
+        "expanded_representation": "return self.name+\", age: \"+self.age ||| []", 
+        "id": 71, 
+        "line_values": [], 
+        "template": "return self.name+\", age: \"+self.age"
+    }, 
+    {
+        "expanded_representation": "return 'name:'+self.name+', age:'+str(self.age) ||| []", 
+        "id": 72, 
+        "line_values": [], 
+        "template": "return 'name:'+self.name+', age:'+str(self.age)"
+    }, 
+    {
+        "expanded_representation": "return 'Meow' ||| []", 
+        "id": 73, 
+        "line_values": [], 
+        "template": "return 'Meow'"
+    }, 
+    {
+        "expanded_representation": "def __init__(c,___,___): ||| [{'print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")': ['myNaN'], 'print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")': ['myNaN'], 'print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")': ['myNaN'], 'print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")': ['myNaN']}, {'print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")': ['myNaN'], 'print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")': ['myNaN'], 'print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")': ['myNaN'], 'print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")': ['myNaN']}]", 
+        "id": 74, 
+        "line_values": [
+            {
+                "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                    "myNaN"
+                ], 
+                "print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")": [
+                    "myNaN"
+                ], 
+                "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                    "myNaN"
+                ], 
+                "print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")": [
+                    "myNaN"
+                ]
+            }, 
+            {
+                "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                    "myNaN"
+                ], 
+                "print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")": [
+                    "myNaN"
+                ], 
+                "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                    "myNaN"
+                ], 
+                "print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")": [
+                    "myNaN"
+                ]
+            }
+        ], 
+        "template": "def __init__(c,___,___):"
+    }, 
+    {
+        "expanded_representation": "c.name=___ ||| [{'print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")': ['myNaN'], 'print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")': ['myNaN'], 'print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")': ['myNaN'], 'print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")': ['myNaN']}]", 
+        "id": 75, 
+        "line_values": [
+            {
+                "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                    "myNaN"
+                ], 
+                "print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")": [
+                    "myNaN"
+                ], 
+                "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                    "myNaN"
+                ], 
+                "print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")": [
+                    "myNaN"
+                ]
+            }
+        ], 
+        "template": "c.name=___"
+    }, 
+    {
+        "expanded_representation": "c.age=str(___) ||| [{'print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")': ['myNaN'], 'print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")': ['myNaN'], 'print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")': ['myNaN'], 'print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")': ['myNaN']}]", 
+        "id": 76, 
+        "line_values": [
+            {
+                "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                    "myNaN"
+                ], 
+                "print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")": [
+                    "myNaN"
+                ], 
+                "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                    "myNaN"
+                ], 
+                "print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")": [
+                    "myNaN"
+                ]
+            }
+        ], 
+        "template": "c.age=str(___)"
+    }, 
+    {
+        "expanded_representation": "def __str__(c): ||| []", 
+        "id": 77, 
+        "line_values": [], 
+        "template": "def __str__(c):"
+    }, 
+    {
+        "expanded_representation": "return \"name: \"+c.name+\", age: \"+c.age ||| []", 
+        "id": 78, 
+        "line_values": [], 
+        "template": "return \"name: \"+c.name+\", age: \"+c.age"
+    }, 
+    {
+        "expanded_representation": "return \"name: \"+self.name+\", \"+\"age: \"+str(self.age) ||| []", 
+        "id": 79, 
+        "line_values": [], 
+        "template": "return \"name: \"+self.name+\", \"+\"age: \"+str(self.age)"
+    }, 
+    {
+        "expanded_representation": "return meow ||| []", 
+        "id": 80, 
+        "line_values": [], 
+        "template": "return meow"
+    }, 
+    {
+        "expanded_representation": "return \"name: \"+self.name+\", age:\"+self.age ||| []", 
+        "id": 81, 
+        "line_values": [], 
+        "template": "return \"name: \"+self.name+\", age:\"+self.age"
+    }, 
+    {
+        "expanded_representation": "return \"meow\" ||| []", 
+        "id": 82, 
+        "line_values": [], 
+        "template": "return \"meow\""
+    }, 
+    {
+        "expanded_representation": "self.name=str(___) ||| [{'print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")': ['myNaN'], 'print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")': ['myNaN'], 'print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")': ['myNaN'], 'print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")': ['myNaN']}]", 
+        "id": 83, 
+        "line_values": [
+            {
+                "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                    "myNaN"
+                ], 
+                "print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")": [
+                    "myNaN"
+                ], 
+                "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                    "myNaN"
+                ], 
+                "print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")": [
+                    "myNaN"
+                ]
+            }
+        ], 
+        "template": "self.name=str(___)"
+    }, 
+    {
+        "expanded_representation": "return 'name: {self.name}' ||| []", 
+        "id": 84, 
+        "line_values": [], 
+        "template": "return 'name: {self.name}'"
+    }, 
+    {
+        "expanded_representation": "c=\"Meow\" ||| []", 
+        "id": 85, 
+        "line_values": [], 
+        "template": "c=\"Meow\""
+    }, 
+    {
+        "expanded_representation": "return c ||| []", 
+        "id": 86, 
+        "line_values": [], 
+        "template": "return c"
+    }, 
+    {
+        "expanded_representation": "___=\"name: \"+self.name+\", age:\"+str(self.age) ||| [{'print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")': 'not_initialized', 'print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")': 'not_initialized', 'print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")': ['myNaN', 'myNaN'], 'print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")': ['myNaN', 'myNaN']}]", 
+        "id": 87, 
+        "line_values": [
+            {
+                "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                    "myNaN", 
+                    "myNaN"
+                ], 
+                "print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")": "not_initialized", 
+                "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                    "myNaN", 
+                    "myNaN"
+                ], 
+                "print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")": "not_initialized"
+            }
+        ], 
+        "template": "___=\"name: \"+self.name+\", age:\"+str(self.age)"
+    }, 
+    {
+        "expanded_representation": "return ___ ||| [{'print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")': 'not_initialized', 'print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")': 'not_initialized', 'print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")': ['myNaN', 'myNaN'], 'print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")': ['myNaN', 'myNaN']}]", 
+        "id": 88, 
+        "line_values": [
+            {
+                "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                    "myNaN", 
+                    "myNaN"
+                ], 
+                "print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")": "not_initialized", 
+                "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                    "myNaN", 
+                    "myNaN"
+                ], 
+                "print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")": "not_initialized"
+            }
+        ], 
+        "template": "return ___"
+    }, 
+    {
+        "expanded_representation": "return self.name+\"\"+str(self.age) ||| []", 
+        "id": 89, 
+        "line_values": [], 
+        "template": "return self.name+\"\"+str(self.age)"
+    }, 
+    {
+        "expanded_representation": "return \"name: \"+self.name+\", age: \"+int(self.age) ||| []", 
+        "id": 90, 
+        "line_values": [], 
+        "template": "return \"name: \"+self.name+\", age: \"+int(self.age)"
+    }, 
+    {
+        "expanded_representation": "___=\"Meow\" ||| [{'print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")': [], 'print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")': [], 'print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")': [], 'print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")': []}]", 
+        "id": 91, 
+        "line_values": [
+            {
+                "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [], 
+                "print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")": [], 
+                "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [], 
+                "print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")": []
+            }
+        ], 
+        "template": "___=\"Meow\""
+    }, 
+    {
+        "expanded_representation": "return ___ ||| [{'print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")': [], 'print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")': [], 'print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")': [], 'print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")': []}]", 
+        "id": 92, 
+        "line_values": [
+            {
+                "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [], 
+                "print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")": [], 
+                "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [], 
+                "print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")": []
+            }
+        ], 
+        "template": "return ___"
+    }, 
+    {
+        "expanded_representation": "return \"name: \"+Cat.name+\", age: \"+Cat.age ||| []", 
+        "id": 93, 
+        "line_values": [], 
+        "template": "return \"name: \"+Cat.name+\", age: \"+Cat.age"
+    }, 
+    {
+        "expanded_representation": "return \"name: \"+self.name+\"age: \"+str(self.age) ||| []", 
+        "id": 94, 
+        "line_values": [], 
+        "template": "return \"name: \"+self.name+\"age: \"+str(self.age)"
+    }, 
+    {
+        "expanded_representation": "return 'name: '+self.name+','+'age: '+self.age ||| []", 
+        "id": 95, 
+        "line_values": [], 
+        "template": "return 'name: '+self.name+','+'age: '+self.age"
+    }, 
+    {
+        "expanded_representation": "return 'name: '+str(self.name)+', age: '+str(self.age) ||| []", 
+        "id": 96, 
+        "line_values": [], 
+        "template": "return 'name: '+str(self.name)+', age: '+str(self.age)"
+    }, 
+    {
+        "expanded_representation": "return \"name: \"+self.name+\", age \"+str(self.age) ||| []", 
+        "id": 97, 
+        "line_values": [], 
+        "template": "return \"name: \"+self.name+\", age \"+str(self.age)"
+    }, 
+    {
+        "expanded_representation": "return 'name: '+self.name+' '+','+'age: '+self.age ||| []", 
+        "id": 98, 
+        "line_values": [], 
+        "template": "return 'name: '+self.name+' '+','+'age: '+self.age"
+    }, 
+    {
+        "expanded_representation": "return self.make_sound ||| []", 
+        "id": 99, 
+        "line_values": [], 
+        "template": "return self.make_sound"
+    }, 
+    {
+        "expanded_representation": "return \"name\"+\" \"+___+\", age: \"+str(___) ||| [{'print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")': [u'Fluffy', u'Spike'], 'print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")': [u'Fluffy', u'Fluffy'], 'print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")': [u'Fluffy', u'Spike'], 'print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")': [u'Fluffy', u'Fluffy']}, {'print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")': [3, 2], 'print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")': [3, 3], 'print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")': [3, 2], 'print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")': [3, 3]}]", 
+        "id": 100, 
+        "line_values": [
+            {
+                "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                    "Fluffy", 
+                    "Fluffy"
+                ], 
+                "print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")": [
+                    "Fluffy", 
+                    "Fluffy"
+                ], 
+                "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                    "Fluffy", 
+                    "Spike"
+                ], 
+                "print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")": [
+                    "Fluffy", 
+                    "Spike"
+                ]
+            }, 
+            {
+                "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                    3, 
+                    3
+                ], 
+                "print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")": [
+                    3, 
+                    3
+                ], 
+                "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                    3, 
+                    2
+                ], 
+                "print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")": [
+                    3, 
+                    2
+                ]
+            }
+        ], 
+        "template": "return \"name\"+\" \"+___+\", age: \"+str(___)"
+    }, 
+    {
+        "expanded_representation": "return 'name: '+self.name+', age: '+str(self.age) ||| []", 
+        "id": 101, 
+        "line_values": [], 
+        "template": "return 'name: '+self.name+', age: '+str(self.age)"
+    }, 
+    {
+        "expanded_representation": "return \"name: \"+self.name+', age: '+self.age ||| []", 
+        "id": 102, 
+        "line_values": [], 
+        "template": "return \"name: \"+self.name+', age: '+self.age"
+    }, 
+    {
+        "expanded_representation": "string=\"name: \"+self.name+\", age:\"+self.age ||| []", 
+        "id": 103, 
+        "line_values": [], 
+        "template": "string=\"name: \"+self.name+\", age:\"+self.age"
+    }, 
+    {
+        "expanded_representation": "return 'name: {self.name}age: {self.age}' ||| []", 
+        "id": 104, 
+        "line_values": [], 
+        "template": "return 'name: {self.name}age: {self.age}'"
+    }, 
+    {
+        "expanded_representation": "return \"name: \"+self.name+\" age: \"+self.age ||| []", 
+        "id": 105, 
+        "line_values": [], 
+        "template": "return \"name: \"+self.name+\" age: \"+self.age"
+    }, 
+    {
+        "expanded_representation": "return \"name: \"+str(self.name)+\", age: \"+str(self.age) ||| []", 
+        "id": 106, 
+        "line_values": [], 
+        "template": "return \"name: \"+str(self.name)+\", age: \"+str(self.age)"
+    }, 
+    {
+        "expanded_representation": "def __init__(self,___,___,___): ||| [{'print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")': ['myNaN'], 'print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")': ['myNaN'], 'print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")': ['myNaN'], 'print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")': ['myNaN']}, {'print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")': ['myNaN'], 'print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")': ['myNaN'], 'print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")': ['myNaN'], 'print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")': ['myNaN']}, {'print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")': ['myNaN'], 'print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")': ['myNaN'], 'print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")': ['myNaN'], 'print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")': ['myNaN']}]", 
+        "id": 107, 
+        "line_values": [
+            {
+                "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                    "myNaN"
+                ], 
+                "print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")": [
+                    "myNaN"
+                ], 
+                "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                    "myNaN"
+                ], 
+                "print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")": [
+                    "myNaN"
+                ]
+            }, 
+            {
+                "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                    "myNaN"
+                ], 
+                "print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")": [
+                    "myNaN"
+                ], 
+                "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                    "myNaN"
+                ], 
+                "print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")": [
+                    "myNaN"
+                ]
+            }, 
+            {
+                "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                    "myNaN"
+                ], 
+                "print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")": [
+                    "myNaN"
+                ], 
+                "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                    "myNaN"
+                ], 
+                "print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")": [
+                    "myNaN"
+                ]
+            }
+        ], 
+        "template": "def __init__(self,___,___,___):"
+    }, 
+    {
+        "expanded_representation": "c=Cat(\"Fluffy\",3,\"Meow\") ||| []", 
+        "id": 108, 
+        "line_values": [], 
+        "template": "c=Cat(\"Fluffy\",3,\"Meow\")"
+    }, 
+    {
+        "expanded_representation": "print \"Mewo\" ||| []", 
+        "id": 109, 
+        "line_values": [], 
+        "template": "print \"Mewo\""
+    }, 
+    {
+        "expanded_representation": "return \"name: name, age: age\" ||| []", 
+        "id": 110, 
+        "line_values": [], 
+        "template": "return \"name: name, age: age\""
+    }, 
+    {
+        "expanded_representation": "return \"name: \"+self.name+\", age:\"+___ ||| [{'print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")': [3, 2], 'print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")': [3, 3], 'print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")': [3, 2], 'print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")': [3, 3]}]", 
+        "id": 111, 
+        "line_values": [
+            {
+                "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                    3, 
+                    3
+                ], 
+                "print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")": [
+                    3, 
+                    3
+                ], 
+                "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                    3, 
+                    2
+                ], 
+                "print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")": [
+                    3, 
+                    2
+                ]
+            }
+        ], 
+        "template": "return \"name: \"+self.name+\", age:\"+___"
+    }, 
+    {
+        "expanded_representation": "___+=\"name: \" ||| [{'print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")': 'not_initialized', 'print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")': 'not_initialized', 'print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")': ['myNaN', 'myNaN'], 'print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")': ['myNaN', 'myNaN']}]", 
+        "id": 112, 
+        "line_values": [
+            {
+                "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                    "myNaN", 
+                    "myNaN"
+                ], 
+                "print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")": "not_initialized", 
+                "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                    "myNaN", 
+                    "myNaN"
+                ], 
+                "print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")": "not_initialized"
+            }
+        ], 
+        "template": "___+=\"name: \""
+    }, 
+    {
+        "expanded_representation": "___+=self.name ||| [{'print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")': 'not_initialized', 'print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")': 'not_initialized', 'print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")': ['myNaN', 'myNaN', 'myNaN', 'myNaN'], 'print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")': ['myNaN', 'myNaN', 'myNaN', 'myNaN']}]", 
+        "id": 113, 
+        "line_values": [
+            {
+                "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                    "myNaN", 
+                    "myNaN", 
+                    "myNaN", 
+                    "myNaN"
+                ], 
+                "print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")": "not_initialized", 
+                "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                    "myNaN", 
+                    "myNaN", 
+                    "myNaN", 
+                    "myNaN"
+                ], 
+                "print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")": "not_initialized"
+            }
+        ], 
+        "template": "___+=self.name"
+    }, 
+    {
+        "expanded_representation": "return ___ ||| [{'print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")': [], 'print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")': [], 'print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")': ['myNaN'], 'print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")': ['myNaN']}]", 
+        "id": 114, 
+        "line_values": [
+            {
+                "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                    "myNaN"
+                ], 
+                "print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")": [], 
+                "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                    "myNaN"
+                ], 
+                "print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")": []
+            }
+        ], 
+        "template": "return ___"
+    }, 
+    {
+        "expanded_representation": "def __str__(): ||| []", 
+        "id": 115, 
+        "line_values": [], 
+        "template": "def __str__():"
+    }, 
+    {
+        "expanded_representation": "return self.name+\"\"+self.age ||| []", 
+        "id": 116, 
+        "line_values": [], 
+        "template": "return self.name+\"\"+self.age"
+    }, 
+    {
+        "expanded_representation": "return self.name+\", age:\"+self.age ||| []", 
+        "id": 117, 
+        "line_values": [], 
+        "template": "return self.name+\", age:\"+self.age"
+    }, 
+    {
+        "expanded_representation": "return \"name: \"+self.name+\", age: \"+str(___) ||| [{'print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")': [3, 2], 'print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")': [3, 3], 'print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")': [3, 2], 'print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")': [3, 3]}]", 
+        "id": 118, 
+        "line_values": [
+            {
+                "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                    3, 
+                    3
+                ], 
+                "print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")": [
+                    3, 
+                    3
+                ], 
+                "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                    3, 
+                    2
+                ], 
+                "print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")": [
+                    3, 
+                    2
+                ]
+            }
+        ], 
+        "template": "return \"name: \"+self.name+\", age: \"+str(___)"
+    }, 
+    {
+        "expanded_representation": "sound=\"Meow\" ||| []", 
+        "id": 119, 
+        "line_values": [], 
+        "template": "sound=\"Meow\""
+    }, 
+    {
+        "expanded_representation": "return sound ||| []", 
+        "id": 120, 
+        "line_values": [], 
+        "template": "return sound"
+    }, 
+    {
+        "expanded_representation": "return 'age: {self.age}' ||| []", 
+        "id": 121, 
+        "line_values": [], 
+        "template": "return 'age: {self.age}'"
+    }, 
+    {
+        "expanded_representation": "return \"name: self.name, age: self.age\" ||| []", 
+        "id": 122, 
+        "line_values": [], 
+        "template": "return \"name: self.name, age: self.age\""
+    }, 
+    {
+        "expanded_representation": "def makes_sound(self): ||| []", 
+        "id": 123, 
+        "line_values": [], 
+        "template": "def makes_sound(self):"
+    }, 
+    {
+        "expanded_representation": "return self.name+\", \"+str(self.age) ||| []", 
+        "id": 124, 
+        "line_values": [], 
+        "template": "return self.name+\", \"+str(self.age)"
+    }, 
+    {
+        "expanded_representation": "return 'name: '+self.name+', age:'+str(self.age) ||| []", 
+        "id": 125, 
+        "line_values": [], 
+        "template": "return 'name: '+self.name+', age:'+str(self.age)"
+    }, 
+    {
+        "expanded_representation": "return \"name: \"+self.name+\", age: \"+str(self.len) ||| []", 
+        "id": 126, 
+        "line_values": [], 
+        "template": "return \"name: \"+self.name+\", age: \"+str(self.len)"
+    }, 
+    {
+        "expanded_representation": "return 'name: '+self.name+' '+','+'age: '+' '+self.age ||| []", 
+        "id": 127, 
+        "line_values": [], 
+        "template": "return 'name: '+self.name+' '+','+'age: '+' '+self.age"
+    }, 
+    {
+        "expanded_representation": "return \"name:\"+self.name and \"age:\"+self.age ||| []", 
+        "id": 128, 
+        "line_values": [], 
+        "template": "return \"name:\"+self.name and \"age:\"+self.age"
+    }, 
+    {
+        "expanded_representation": "name=self.name ||| []", 
+        "id": 129, 
+        "line_values": [], 
+        "template": "name=self.name"
+    }, 
+    {
+        "expanded_representation": "age=self.age ||| []", 
+        "id": 130, 
+        "line_values": [], 
+        "template": "age=self.age"
+    }, 
+    {
+        "expanded_representation": "return '\"name: '+self.name+', '+'age: '+str(self.age)+'\"' ||| []", 
+        "id": 131, 
+        "line_values": [], 
+        "template": "return '\"name: '+self.name+', '+'age: '+str(self.age)+'\"'"
+    }, 
+    {
+        "expanded_representation": "return 'name:'+self.name+','+'age:'+self.age ||| []", 
+        "id": 132, 
+        "line_values": [], 
+        "template": "return 'name:'+self.name+','+'age:'+self.age"
+    }, 
+    {
+        "expanded_representation": "return \"name:\"+self.name+\",\"+\"age:\"+self.age ||| []", 
+        "id": 133, 
+        "line_values": [], 
+        "template": "return \"name:\"+self.name+\",\"+\"age:\"+self.age"
+    }, 
+    {
+        "expanded_representation": "return self.name+\", \"+self.age ||| []", 
+        "id": 134, 
+        "line_values": [], 
+        "template": "return self.name+\", \"+self.age"
+    }, 
+    {
+        "expanded_representation": "c=cat(\"Fluffy\",3) ||| []", 
+        "id": 135, 
+        "line_values": [], 
+        "template": "c=cat(\"Fluffy\",3)"
+    }, 
+    {
+        "expanded_representation": "self.age=int(___) ||| [{'print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")': ['myNaN'], 'print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")': ['myNaN'], 'print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")': ['myNaN'], 'print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")': ['myNaN']}]", 
+        "id": 136, 
+        "line_values": [
+            {
+                "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                    "myNaN"
+                ], 
+                "print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")": [
+                    "myNaN"
+                ], 
+                "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                    "myNaN"
+                ], 
+                "print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")": [
+                    "myNaN"
+                ]
+            }
+        ], 
+        "template": "self.age=int(___)"
+    }, 
+    {
+        "expanded_representation": "return \"name: \"+self.name+\" \"+\"age: \"+int(self.age) ||| []", 
+        "id": 137, 
+        "line_values": [], 
+        "template": "return \"name: \"+self.name+\" \"+\"age: \"+int(self.age)"
+    }, 
+    {
+        "expanded_representation": "return self.name+\": \"+self.name+\". age: \"+str(self.age) ||| []", 
+        "id": 138, 
+        "line_values": [], 
+        "template": "return self.name+\": \"+self.name+\". age: \"+str(self.age)"
+    }, 
+    {
+        "expanded_representation": "self.age=str(sge) ||| []", 
+        "id": 139, 
+        "line_values": [], 
+        "template": "self.age=str(sge)"
+    }, 
+    {
+        "expanded_representation": "return \"name: \"+self.name+\" age: \"+str(___) ||| [{'print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")': [3, 2], 'print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")': [3, 3], 'print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")': [3, 2], 'print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")': [3, 3]}]", 
+        "id": 140, 
+        "line_values": [
+            {
+                "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                    3, 
+                    3
+                ], 
+                "print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")": [
+                    3, 
+                    3
+                ], 
+                "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                    3, 
+                    2
+                ], 
+                "print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")": [
+                    3, 
+                    2
+                ]
+            }
+        ], 
+        "template": "return \"name: \"+self.name+\" age: \"+str(___)"
+    }, 
+    {
+        "expanded_representation": "return \"name: \"+cat.name+\", age: \"+cat.age ||| []", 
+        "id": 141, 
+        "line_values": [], 
+        "template": "return \"name: \"+cat.name+\", age: \"+cat.age"
+    }, 
+    {
+        "expanded_representation": "return(\"name: \",self.name,\"age: \",self.age) ||| []", 
+        "id": 142, 
+        "line_values": [], 
+        "template": "return(\"name: \",self.name,\"age: \",self.age)"
+    }, 
+    {
+        "expanded_representation": "return \"name: \"+str(self.name)+\", age: \"+str(___) ||| [{'print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")': [3, 2], 'print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")': [3, 3], 'print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")': [3, 2], 'print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")': [3, 3]}]", 
+        "id": 143, 
+        "line_values": [
+            {
+                "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                    3, 
+                    3
+                ], 
+                "print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")": [
+                    3, 
+                    3
+                ], 
+                "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                    3, 
+                    2
+                ], 
+                "print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")": [
+                    3, 
+                    2
+                ]
+            }
+        ], 
+        "template": "return \"name: \"+str(self.name)+\", age: \"+str(___)"
+    }, 
+    {
+        "expanded_representation": "return \"name: \"+self.name+\", age: \"+str(self.age()) ||| []", 
+        "id": 144, 
+        "line_values": [], 
+        "template": "return \"name: \"+self.name+\", age: \"+str(self.age())"
+    }, 
+    {
+        "expanded_representation": "def _init_(self,name,age): ||| []", 
+        "id": 145, 
+        "line_values": [], 
+        "template": "def _init_(self,name,age):"
+    }, 
+    {
+        "expanded_representation": "def _str_(self): ||| []", 
+        "id": 146, 
+        "line_values": [], 
+        "template": "def _str_(self):"
+    }, 
+    {
+        "expanded_representation": "return \"name: \"+name+\", age: \"+age ||| []", 
+        "id": 147, 
+        "line_values": [], 
+        "template": "return \"name: \"+name+\", age: \"+age"
+    }, 
+    {
+        "expanded_representation": "___=\"name: \"+self.name+\", age: \"+str(self.age) ||| [{'print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")': 'not_initialized', 'print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")': 'not_initialized', 'print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")': ['myNaN', 'myNaN'], 'print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")': ['myNaN', 'myNaN']}]", 
+        "id": 148, 
+        "line_values": [
+            {
+                "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                    "myNaN", 
+                    "myNaN"
+                ], 
+                "print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")": "not_initialized", 
+                "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                    "myNaN", 
+                    "myNaN"
+                ], 
+                "print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")": "not_initialized"
+            }
+        ], 
+        "template": "___=\"name: \"+self.name+\", age: \"+str(self.age)"
+    }, 
+    {
+        "expanded_representation": "'''def __str__(self, make_sound): ||| []", 
+        "id": 149, 
+        "line_values": [], 
+        "template": "'''def __str__(self, make_sound):"
+    }, 
+    {
+        "expanded_representation": "c = \"Meow\" ||| []", 
+        "id": 150, 
+        "line_values": [], 
+        "template": "c = \"Meow\""
+    }, 
+    {
+        "expanded_representation": "return c''' ||| []", 
+        "id": 151, 
+        "line_values": [], 
+        "template": "return c'''"
+    }, 
+    {
+        "expanded_representation": "___+=\"name:\" ||| [{'print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")': 'not_initialized', 'print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")': 'not_initialized', 'print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")': ['myNaN', 'myNaN'], 'print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")': ['myNaN', 'myNaN']}]", 
+        "id": 152, 
+        "line_values": [
+            {
+                "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                    "myNaN", 
+                    "myNaN"
+                ], 
+                "print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")": "not_initialized", 
+                "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                    "myNaN", 
+                    "myNaN"
+                ], 
+                "print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")": "not_initialized"
+            }
+        ], 
+        "template": "___+=\"name:\""
+    }, 
+    {
+        "expanded_representation": "___+=\"age:\" ||| [{'print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")': [], 'print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")': [], 'print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")': ['myNaN'], 'print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")': ['myNaN']}]", 
+        "id": 153, 
+        "line_values": [
+            {
+                "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                    "myNaN"
+                ], 
+                "print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")": [], 
+                "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                    "myNaN"
+                ], 
+                "print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")": []
+            }
+        ], 
+        "template": "___+=\"age:\""
+    }, 
+    {
+        "expanded_representation": "___+=str(self.age) ||| [{'print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")': [], 'print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")': [], 'print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")': ['myNaN'], 'print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")': ['myNaN']}]", 
+        "id": 154, 
+        "line_values": [
+            {
+                "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                    "myNaN"
+                ], 
+                "print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")": [], 
+                "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                    "myNaN"
+                ], 
+                "print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")": []
+            }
+        ], 
+        "template": "___+=str(self.age)"
+    }, 
+    {
+        "expanded_representation": "return ___ ||| [{'print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")': [], 'print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")': [], 'print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")': [u''], 'print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")': [u'']}]", 
+        "id": 155, 
+        "line_values": [
+            {
+                "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                    ""
+                ], 
+                "print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")": [], 
+                "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                    ""
+                ], 
+                "print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")": []
+            }
+        ], 
+        "template": "return ___"
+    }, 
+    {
+        "expanded_representation": "def make_sound(wrd): ||| []", 
+        "id": 156, 
+        "line_values": [], 
+        "template": "def make_sound(wrd):"
+    }, 
+    {
+        "expanded_representation": "return(\"name : {}, age: {}\").format(self.name,self.age) ||| []", 
+        "id": 157, 
+        "line_values": [], 
+        "template": "return(\"name : {}, age: {}\").format(self.name,self.age)"
+    }, 
+    {
+        "expanded_representation": "___+=\"age: \" ||| [{'print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")': [], 'print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")': [], 'print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")': ['myNaN'], 'print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")': ['myNaN']}]", 
+        "id": 158, 
+        "line_values": [
+            {
+                "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                    "myNaN"
+                ], 
+                "print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")": [], 
+                "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                    "myNaN"
+                ], 
+                "print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")": []
+            }
+        ], 
+        "template": "___+=\"age: \""
+    }, 
+    {
+        "expanded_representation": "return 'name: '+self.name+','+' age: '+self.age ||| []", 
+        "id": 159, 
+        "line_values": [], 
+        "template": "return 'name: '+self.name+','+' age: '+self.age"
+    }, 
+    {
+        "expanded_representation": "def make_sound(c): ||| []", 
+        "id": 160, 
+        "line_values": [], 
+        "template": "def make_sound(c):"
+    }, 
+    {
+        "expanded_representation": "def __init__(self,name,age,make_sound): ||| []", 
+        "id": 161, 
+        "line_values": [], 
+        "template": "def __init__(self,name,age,make_sound):"
+    }, 
+    {
+        "expanded_representation": "return \"name: \"+self.name+\", \"+str(self.age) ||| []", 
+        "id": 162, 
+        "line_values": [], 
+        "template": "return \"name: \"+self.name+\", \"+str(self.age)"
+    }, 
+    {
+        "expanded_representation": "___+=self.name+\" \" ||| [{'print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")': 'not_initialized', 'print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")': 'not_initialized', 'print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")': ['myNaN', 'myNaN', 'myNaN', 'myNaN'], 'print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")': ['myNaN', 'myNaN', 'myNaN', 'myNaN']}]", 
+        "id": 163, 
+        "line_values": [
+            {
+                "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                    "myNaN", 
+                    "myNaN", 
+                    "myNaN", 
+                    "myNaN"
+                ], 
+                "print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")": "not_initialized", 
+                "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                    "myNaN", 
+                    "myNaN", 
+                    "myNaN", 
+                    "myNaN"
+                ], 
+                "print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")": "not_initialized"
+            }
+        ], 
+        "template": "___+=self.name+\" \""
+    }, 
+    {
+        "expanded_representation": "self.sound=sound ||| []", 
+        "id": 164, 
+        "line_values": [], 
+        "template": "self.sound=sound"
+    }, 
+    {
+        "expanded_representation": "return \"name:  \"+self.name+\", age: \"+str(self.age) ||| []", 
+        "id": 165, 
+        "line_values": [], 
+        "template": "return \"name:  \"+self.name+\", age: \"+str(self.age)"
+    }, 
+    {
+        "expanded_representation": "return \"name:\"+___+\",\"+\"age:\"+___ ||| [{'print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")': [u'Fluffy', u'Spike'], 'print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")': [u'Fluffy', u'Fluffy'], 'print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")': [u'Fluffy', u'Spike'], 'print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")': [u'Fluffy', u'Fluffy']}, {'print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")': [3, 2], 'print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")': [3, 3], 'print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")': [3, 2], 'print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")': [3, 3]}]", 
+        "id": 166, 
+        "line_values": [
+            {
+                "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                    "Fluffy", 
+                    "Fluffy"
+                ], 
+                "print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")": [
+                    "Fluffy", 
+                    "Fluffy"
+                ], 
+                "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                    "Fluffy", 
+                    "Spike"
+                ], 
+                "print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")": [
+                    "Fluffy", 
+                    "Spike"
+                ]
+            }, 
+            {
+                "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                    3, 
+                    3
+                ], 
+                "print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")": [
+                    3, 
+                    3
+                ], 
+                "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                    3, 
+                    2
+                ], 
+                "print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")": [
+                    3, 
+                    2
+                ]
+            }
+        ], 
+        "template": "return \"name:\"+___+\",\"+\"age:\"+___"
+    }, 
+    {
+        "expanded_representation": "c.age=___ ||| [{'print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")': ['myNaN'], 'print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")': ['myNaN'], 'print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")': ['myNaN'], 'print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")': ['myNaN']}]", 
+        "id": 167, 
+        "line_values": [
+            {
+                "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                    "myNaN"
+                ], 
+                "print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")": [
+                    "myNaN"
+                ], 
+                "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                    "myNaN"
+                ], 
+                "print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")": [
+                    "myNaN"
+                ]
+            }
+        ], 
+        "template": "c.age=___"
+    }, 
+    {
+        "expanded_representation": "self.name ||| []", 
+        "id": 168, 
+        "line_values": [], 
+        "template": "self.name"
+    }, 
+    {
+        "expanded_representation": "self.age ||| []", 
+        "id": 169, 
+        "line_values": [], 
+        "template": "self.age"
+    }, 
+    {
+        "expanded_representation": "def __age__(self): ||| []", 
+        "id": 170, 
+        "line_values": [], 
+        "template": "def __age__(self):"
+    }, 
+    {
+        "expanded_representation": "def __init__(name,age): ||| []", 
+        "id": 171, 
+        "line_values": [], 
+        "template": "def __init__(name,age):"
+    }, 
+    {
+        "expanded_representation": "return 'name: '+self.name+' '+','+'age:'+' '+self.age ||| []", 
+        "id": 172, 
+        "line_values": [], 
+        "template": "return 'name: '+self.name+' '+','+'age:'+' '+self.age"
+    }, 
+    {
+        "expanded_representation": "return \"name: \"+___+\", \"+\"age: \"+str(___) ||| [{'print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")': [u'Fluffy', u'Spike'], 'print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")': [u'Fluffy', u'Fluffy'], 'print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")': [u'Fluffy', u'Spike'], 'print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")': [u'Fluffy', u'Fluffy']}, {'print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")': [3, 2], 'print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")': [3, 3], 'print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")': [3, 2], 'print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")': [3, 3]}]", 
+        "id": 173, 
+        "line_values": [
+            {
+                "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                    "Fluffy", 
+                    "Fluffy"
+                ], 
+                "print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")": [
+                    "Fluffy", 
+                    "Fluffy"
+                ], 
+                "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                    "Fluffy", 
+                    "Spike"
+                ], 
+                "print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")": [
+                    "Fluffy", 
+                    "Spike"
+                ]
+            }, 
+            {
+                "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                    3, 
+                    3
+                ], 
+                "print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")": [
+                    3, 
+                    3
+                ], 
+                "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                    3, 
+                    2
+                ], 
+                "print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")": [
+                    3, 
+                    2
+                ]
+            }
+        ], 
+        "template": "return \"name: \"+___+\", \"+\"age: \"+str(___)"
+    }, 
+    {
+        "expanded_representation": "c=\"name: \"+self.name+\", \"+\"age: \"+str(self.len) ||| []", 
+        "id": 174, 
+        "line_values": [], 
+        "template": "c=\"name: \"+self.name+\", \"+\"age: \"+str(self.len)"
+    }, 
+    {
+        "expanded_representation": "return 'name: {self.name}, age: {self.age}' ||| []", 
+        "id": 175, 
+        "line_values": [], 
+        "template": "return 'name: {self.name}, age: {self.age}'"
+    }, 
+    {
+        "expanded_representation": "return \"name: \"+___+\", \"+\"age: \"+str(___) ||| [{'print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")': [u'Fluffy'], 'print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")': [u'Fluffy'], 'print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")': [u'Fluffy'], 'print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")': [u'Fluffy']}, {'print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")': [3], 'print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")': [3], 'print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")': [3], 'print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")': [3]}]", 
+        "id": 176, 
+        "line_values": [
+            {
+                "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                    "Fluffy"
+                ], 
+                "print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")": [
+                    "Fluffy"
+                ], 
+                "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                    "Fluffy"
+                ], 
+                "print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")": [
+                    "Fluffy"
+                ]
+            }, 
+            {
+                "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                    3
+                ], 
+                "print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")": [
+                    3
+                ], 
+                "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                    3
+                ], 
+                "print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")": [
+                    3
+                ]
+            }
+        ], 
+        "template": "return \"name: \"+___+\", \"+\"age: \"+str(___)"
+    }, 
+    {
+        "expanded_representation": "return self.name+\". age: \"+str(self.age) ||| []", 
+        "id": 177, 
+        "line_values": [], 
+        "template": "return self.name+\". age: \"+str(self.age)"
+    }, 
+    {
+        "expanded_representation": "return(\"name: {}, age: {}\").format(self.name,self.age) ||| []", 
+        "id": 178, 
+        "line_values": [], 
+        "template": "return(\"name: {}, age: {}\").format(self.name,self.age)"
+    }, 
+    {
+        "expanded_representation": "self.make_sound=___ ||| [{'print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")': [], 'print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")': [], 'print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")': [], 'print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")': []}]", 
+        "id": 179, 
+        "line_values": [
+            {
+                "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [], 
+                "print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")": [], 
+                "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [], 
+                "print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")": []
+            }
+        ], 
+        "template": "self.make_sound=___"
+    }, 
+    {
+        "expanded_representation": "return ___+\", \"+\"age: \"+___ ||| [{'print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")': [u'Fluffy', u'Spike'], 'print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")': [u'Fluffy', u'Fluffy'], 'print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")': [u'Fluffy', u'Spike'], 'print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")': [u'Fluffy', u'Fluffy']}, {'print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")': [3, 2], 'print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")': [3, 3], 'print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")': [3, 2], 'print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")': [3, 3]}]", 
+        "id": 180, 
+        "line_values": [
+            {
+                "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                    "Fluffy", 
+                    "Fluffy"
+                ], 
+                "print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")": [
+                    "Fluffy", 
+                    "Fluffy"
+                ], 
+                "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                    "Fluffy", 
+                    "Spike"
+                ], 
+                "print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")": [
+                    "Fluffy", 
+                    "Spike"
+                ]
+            }, 
+            {
+                "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                    3, 
+                    3
+                ], 
+                "print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")": [
+                    3, 
+                    3
+                ], 
+                "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                    3, 
+                    2
+                ], 
+                "print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")": [
+                    3, 
+                    2
+                ]
+            }
+        ], 
+        "template": "return ___+\", \"+\"age: \"+___"
+    }, 
+    {
+        "expanded_representation": "return self.name+\", \"+\"age: \"+self.age ||| []", 
+        "id": 181, 
+        "line_values": [], 
+        "template": "return self.name+\", \"+\"age: \"+self.age"
+    }, 
+    {
+        "expanded_representation": "return \"name: {c.name}, age: {c.age}\" ||| []", 
+        "id": 182, 
+        "line_values": [], 
+        "template": "return \"name: {c.name}, age: {c.age}\""
+    }, 
+    {
+        "expanded_representation": "return \"name: \"+self.name+\" \"+\"age: \"+self.age ||| []", 
+        "id": 183, 
+        "line_values": [], 
+        "template": "return \"name: \"+self.name+\" \"+\"age: \"+self.age"
+    }, 
+    {
+        "expanded_representation": "return \"name:\"+self.name+\",\"+\"age:\"+str(self.age) ||| []", 
+        "id": 184, 
+        "line_values": [], 
+        "template": "return \"name:\"+self.name+\",\"+\"age:\"+str(self.age)"
+    }, 
+    {
+        "expanded_representation": "return \"name: \"+self.name ||| []", 
+        "id": 185, 
+        "line_values": [], 
+        "template": "return \"name: \"+self.name"
+    }, 
+    {
+        "expanded_representation": "return \"name: \"+___.self+\" age: \"+___.self ||| [{'print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")': [u'Fluffy', u'Spike'], 'print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")': [u'Fluffy', u'Fluffy'], 'print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")': [u'Fluffy', u'Spike'], 'print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")': [u'Fluffy', u'Fluffy']}, {'print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")': [3, 2], 'print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")': [3, 3], 'print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")': [3, 2], 'print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")': [3, 3]}]", 
+        "id": 186, 
+        "line_values": [
+            {
+                "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                    "Fluffy", 
+                    "Fluffy"
+                ], 
+                "print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")": [
+                    "Fluffy", 
+                    "Fluffy"
+                ], 
+                "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                    "Fluffy", 
+                    "Spike"
+                ], 
+                "print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")": [
+                    "Fluffy", 
+                    "Spike"
+                ]
+            }, 
+            {
+                "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                    3, 
+                    3
+                ], 
+                "print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")": [
+                    3, 
+                    3
+                ], 
+                "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                    3, 
+                    2
+                ], 
+                "print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")": [
+                    3, 
+                    2
+                ]
+            }
+        ], 
+        "template": "return \"name: \"+___.self+\" age: \"+___.self"
+    }, 
+    {
+        "expanded_representation": "return \"name: \"+self.name+\", \"+\"age\"+self.age ||| []", 
+        "id": 187, 
+        "line_values": [], 
+        "template": "return \"name: \"+self.name+\", \"+\"age\"+self.age"
+    }, 
+    {
+        "expanded_representation": "def __str__(self,___,___): ||| [{'print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")': ['myNaN'], 'print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")': ['myNaN'], 'print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")': ['myNaN'], 'print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")': ['myNaN']}, {'print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")': ['myNaN'], 'print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")': ['myNaN'], 'print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")': ['myNaN'], 'print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")': ['myNaN']}]", 
+        "id": 188, 
+        "line_values": [
+            {
+                "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                    "myNaN"
+                ], 
+                "print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")": [
+                    "myNaN"
+                ], 
+                "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                    "myNaN"
+                ], 
+                "print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")": [
+                    "myNaN"
+                ]
+            }, 
+            {
+                "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                    "myNaN"
+                ], 
+                "print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")": [
+                    "myNaN"
+                ], 
+                "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                    "myNaN"
+                ], 
+                "print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")": [
+                    "myNaN"
+                ]
+            }
+        ], 
+        "template": "def __str__(self,___,___):"
+    }, 
+    {
+        "expanded_representation": "return 'name: '+str(___)+', age: '+___ ||| [{'print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")': [u'Fluffy', u'Spike'], 'print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")': [u'Fluffy', u'Fluffy'], 'print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")': [u'Fluffy', u'Spike'], 'print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")': [u'Fluffy', u'Fluffy']}, {'print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")': [3, 2], 'print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")': [3, 3], 'print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")': [3, 2], 'print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")': [3, 3]}]", 
+        "id": 189, 
+        "line_values": [
+            {
+                "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                    "Fluffy", 
+                    "Fluffy"
+                ], 
+                "print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")": [
+                    "Fluffy", 
+                    "Fluffy"
+                ], 
+                "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                    "Fluffy", 
+                    "Spike"
+                ], 
+                "print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")": [
+                    "Fluffy", 
+                    "Spike"
+                ]
+            }, 
+            {
+                "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                    3, 
+                    3
+                ], 
+                "print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")": [
+                    3, 
+                    3
+                ], 
+                "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                    3, 
+                    2
+                ], 
+                "print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")": [
+                    3, 
+                    2
+                ]
+            }
+        ], 
+        "template": "return 'name: '+str(___)+', age: '+___"
+    }, 
+    {
+        "expanded_representation": "class cat: ||| []", 
+        "id": 190, 
+        "line_values": [], 
+        "template": "class cat:"
+    }, 
+    {
+        "expanded_representation": "return((\"name: \"<<self.name)<<\", age: \")<<str(self.age) ||| []", 
+        "id": 191, 
+        "line_values": [], 
+        "template": "return((\"name: \"<<self.name)<<\", age: \")<<str(self.age)"
+    }, 
+    {
+        "expanded_representation": "return \"name: \"+self.name+\",\"+\"age: \"+str(self.age) ||| []", 
+        "id": 192, 
+        "line_values": [], 
+        "template": "return \"name: \"+self.name+\",\"+\"age: \"+str(self.age)"
+    }, 
+    {
+        "expanded_representation": "return \"name: \"+self.name+\"age: \"+self.age ||| []", 
+        "id": 193, 
+        "line_values": [], 
+        "template": "return \"name: \"+self.name+\"age: \"+self.age"
+    }, 
+    {
+        "expanded_representation": "def __init(self,name,age): ||| []", 
+        "id": 194, 
+        "line_values": [], 
+        "template": "def __init(self,name,age):"
+    }, 
+    {
+        "expanded_representation": "def __make_sound(self): ||| []", 
+        "id": 195, 
+        "line_values": [], 
+        "template": "def __make_sound(self):"
+    }, 
+    {
+        "expanded_representation": "return \"name: \"+___+\", age: \"+___ ||| [{'print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")': [u'Fluffy', u'Spike'], 'print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")': [u'Fluffy', u'Fluffy'], 'print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")': [u'Fluffy', u'Spike'], 'print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")': [u'Fluffy', u'Fluffy']}, {'print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")': [3, 2], 'print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")': [3, 3], 'print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")': [3, 2], 'print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")': [3, 3]}]", 
+        "id": 196, 
+        "line_values": [
+            {
+                "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                    "Fluffy", 
+                    "Fluffy"
+                ], 
+                "print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")": [
+                    "Fluffy", 
+                    "Fluffy"
+                ], 
+                "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                    "Fluffy", 
+                    "Spike"
+                ], 
+                "print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")": [
+                    "Fluffy", 
+                    "Spike"
+                ]
+            }, 
+            {
+                "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                    3, 
+                    3
+                ], 
+                "print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")": [
+                    3, 
+                    3
+                ], 
+                "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                    3, 
+                    2
+                ], 
+                "print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")": [
+                    3, 
+                    2
+                ]
+            }
+        ], 
+        "template": "return \"name: \"+___+\", age: \"+___"
+    }, 
+    {
+        "expanded_representation": "def __self__(self): ||| []", 
+        "id": 197, 
+        "line_values": [], 
+        "template": "def __self__(self):"
+    }, 
+    {
+        "expanded_representation": "def __init_(self,name,age): ||| []", 
+        "id": 198, 
+        "line_values": [], 
+        "template": "def __init_(self,name,age):"
+    }, 
+    {
+        "expanded_representation": "return \"name: \"+name+\", \"+\"age: \"+str(age) ||| []", 
+        "id": 199, 
+        "line_values": [], 
+        "template": "return \"name: \"+name+\", \"+\"age: \"+str(age)"
+    }, 
+    {
+        "expanded_representation": "___+=self.age ||| [{'print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")': [], 'print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")': [], 'print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")': ['myNaN'], 'print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")': ['myNaN']}]", 
+        "id": 200, 
+        "line_values": [
+            {
+                "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                    "myNaN"
+                ], 
+                "print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")": [], 
+                "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                    "myNaN"
+                ], 
+                "print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")": []
+            }
+        ], 
+        "template": "___+=self.age"
+    }, 
+    {
+        "expanded_representation": "___+=self.name+\", \" ||| [{'print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")': 'not_initialized', 'print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")': 'not_initialized', 'print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")': ['myNaN', 'myNaN', 'myNaN', 'myNaN'], 'print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")': ['myNaN', 'myNaN', 'myNaN', 'myNaN']}]", 
+        "id": 201, 
+        "line_values": [
+            {
+                "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                    "myNaN", 
+                    "myNaN", 
+                    "myNaN", 
+                    "myNaN"
+                ], 
+                "print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")": "not_initialized", 
+                "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                    "myNaN", 
+                    "myNaN", 
+                    "myNaN", 
+                    "myNaN"
+                ], 
+                "print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")": "not_initialized"
+            }
+        ], 
+        "template": "___+=self.name+\", \""
+    }, 
+    {
+        "expanded_representation": "return \"name: \"+self.name+\" , age: \"+self.age ||| []", 
+        "id": 202, 
+        "line_values": [], 
+        "template": "return \"name: \"+self.name+\" , age: \"+self.age"
+    }
+]

@@ -10,6 +10,7 @@ import sys
 import time
 import json
 
+
 t0 = time.clock()
 
 from external import pg_logger
@@ -40,8 +41,8 @@ from pipeline_default_functions import extract_sequences
 # If a problem has custom test case definitions, they must be defined as a
 # string in affixes.py. The import below changed accordingly and toggled. See
 # affixes.py for some examples.
-# from affixes import null_testcase_defs as testcase_defs    # simple test cases
-from affixes import testcase_defs_gustavo as testcase_defs           # custom test cases
+from affixes import null_testcase_defs as testcase_defs    # simple test cases
+#from affixes import testcase_check_pass as testcase_defs           # custom test cases
 
 # If a problem involves subclassing (i.e., student submissions can assume that
 # a parent class definition will be supplied), the parent class definition
@@ -376,6 +377,7 @@ def execute_and_pickle(source_dir, dest_dir, testcases, output_only):
             do_pickle(sol_id, all_traces, all_outputs, testcases, dest_dir)
         except pickle.PicklingError:
             if STOP_ON_ERROR: raise
+            print STOP_ON_ERROR
             skipped_pickling.append(sol_id)
 
     return skipped_running, skipped_pickling

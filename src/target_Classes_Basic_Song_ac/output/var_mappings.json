@@ -1,0 +1,813 @@
+[
+    {
+        "maps_to": [
+            [
+                "self.leng=len", 
+                "return str(___,len)", 
+                "self.alen=len", 
+                "return self.title+\" \"+str(len)", 
+                "self.number=len", 
+                "self.len=int(len)", 
+                "return ___+\", \"+len", 
+                "return str(self.title)+str(len)", 
+                "def __self__(___,len):", 
+                "self.len=str(len)", 
+                "print(___,\",\",len)", 
+                "def __str__(self,___,len):", 
+                "return ___+str(len)", 
+                "def __str__(___,len):", 
+                "def __init__(self,___,len):", 
+                "return(self.title,len)", 
+                "self.length=len", 
+                "return ___+\", \"+str(len)", 
+                "return self.title+\",\"+str.self(len)", 
+                "self.num=len", 
+                "self.len=len", 
+                "return self.title+\", \"+str(len)", 
+                "return(___,len)", 
+                "self.length=str(len)", 
+                "Song.len=len", 
+                "return self.title+\", \"+len", 
+                "return ___+','+len", 
+                "return ___+', '+len", 
+                "def __init__(Song,___,len):"
+            ]
+        ], 
+        "match_type": "values_match", 
+        "original": [
+            "def __init__(self,___,len):", 
+            "self.len=len"
+        ], 
+        "solution": "Classes_Basic_Song_acstudent_94320s", 
+        "values_of_match": {
+            "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                150
+            ], 
+            "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                150, 
+                183
+            ]
+        }
+    }, 
+    {
+        "maps_to": [
+            [
+                "self.name=title", 
+                "def __str__(self,title,___):", 
+                "self.title=title", 
+                "return title+str(___)", 
+                "self.tittle=title", 
+                "return title+', '+___", 
+                "return title+\", \"+str(___)", 
+                "Song.title=str(title)", 
+                "return title+\", \"+___", 
+                "def __self__(title,___):", 
+                "def __init__(self,title,___):", 
+                "print(title,\",\",___)", 
+                "return str(title,___)", 
+                "return title+','+___", 
+                "def __init__(Song,title,___):", 
+                "def __str__(title,___):", 
+                "self.title=str(title)", 
+                "return title+\", \"+self.len", 
+                "return(title,___)"
+            ]
+        ], 
+        "match_type": "values_match", 
+        "original": [
+            "def __init__(self,title,___):", 
+            "self.title=title"
+        ], 
+        "solution": "Classes_Basic_Song_acstudent_94320s", 
+        "values_of_match": {
+            "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                "Respect"
+            ], 
+            "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                "Respect", 
+                "Truth Hurts"
+            ]
+        }
+    }, 
+    {
+        "maps_to": [
+            [
+                "self.leng=len", 
+                "return str(___,len)", 
+                "self.alen=len", 
+                "return self.title+\" \"+str(len)", 
+                "self.number=len", 
+                "self.len=int(len)", 
+                "return ___+\", \"+len", 
+                "return str(self.title)+str(len)", 
+                "def __self__(___,len):", 
+                "self.len=str(len)", 
+                "print(___,\",\",len)", 
+                "def __str__(self,___,len):", 
+                "return ___+str(len)", 
+                "def __str__(___,len):", 
+                "def __init__(self,___,len):", 
+                "return(self.title,len)", 
+                "self.length=len", 
+                "return ___+\", \"+str(len)", 
+                "return self.title+\",\"+str.self(len)", 
+                "self.num=len", 
+                "self.len=len", 
+                "return self.title+\", \"+str(len)", 
+                "return(___,len)", 
+                "self.length=str(len)", 
+                "Song.len=len", 
+                "return self.title+\", \"+len", 
+                "return ___+','+len", 
+                "return ___+', '+len", 
+                "def __init__(Song,___,len):"
+            ]
+        ], 
+        "match_type": "values_match", 
+        "original": [
+            "def __init__(self,___,leng):"
+        ], 
+        "solution": "Classes_Basic_Song_acstudent_37508s", 
+        "values_of_match": {
+            "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                150
+            ], 
+            "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                150, 
+                183
+            ]
+        }
+    }, 
+    {
+        "maps_to": [
+            [
+                "self.name=title", 
+                "def __str__(self,title,___):", 
+                "self.title=title", 
+                "return title+str(___)", 
+                "self.tittle=title", 
+                "return title+', '+___", 
+                "return title+\", \"+str(___)", 
+                "Song.title=str(title)", 
+                "return title+\", \"+___", 
+                "def __self__(title,___):", 
+                "def __init__(self,title,___):", 
+                "print(title,\",\",___)", 
+                "return str(title,___)", 
+                "return title+','+___", 
+                "def __init__(Song,title,___):", 
+                "def __str__(title,___):", 
+                "self.title=str(title)", 
+                "return title+\", \"+self.len", 
+                "return(title,___)"
+            ]
+        ], 
+        "match_type": "values_match", 
+        "original": [
+            "def __init__(self,title,___):", 
+            "self.title=title"
+        ], 
+        "solution": "Classes_Basic_Song_acstudent_37508s", 
+        "values_of_match": {
+            "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                "Respect"
+            ], 
+            "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                "Respect", 
+                "Truth Hurts"
+            ]
+        }
+    }, 
+    {
+        "maps_to": [
+            [
+                "self.leng=len", 
+                "return str(___,len)", 
+                "self.alen=len", 
+                "return self.title+\" \"+str(len)", 
+                "self.number=len", 
+                "self.len=int(len)", 
+                "return ___+\", \"+len", 
+                "return str(self.title)+str(len)", 
+                "def __self__(___,len):", 
+                "self.len=str(len)", 
+                "print(___,\",\",len)", 
+                "def __str__(self,___,len):", 
+                "return ___+str(len)", 
+                "def __str__(___,len):", 
+                "def __init__(self,___,len):", 
+                "return(self.title,len)", 
+                "self.length=len", 
+                "return ___+\", \"+str(len)", 
+                "return self.title+\",\"+str.self(len)", 
+                "self.num=len", 
+                "self.len=len", 
+                "return self.title+\", \"+str(len)", 
+                "return(___,len)", 
+                "self.length=str(len)", 
+                "Song.len=len", 
+                "return self.title+\", \"+len", 
+                "return ___+','+len", 
+                "return ___+', '+len", 
+                "def __init__(Song,___,len):"
+            ]
+        ], 
+        "match_type": "values_match", 
+        "original": [
+            "def __init__(self,___,len):", 
+            "self.len=len"
+        ], 
+        "solution": "Classes_Basic_Song_acstudent_82155s", 
+        "values_of_match": {
+            "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                150
+            ], 
+            "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                150, 
+                183
+            ]
+        }
+    }, 
+    {
+        "maps_to": [
+            [
+                "self.name=title", 
+                "def __str__(self,title,___):", 
+                "self.title=title", 
+                "return title+str(___)", 
+                "self.tittle=title", 
+                "return title+', '+___", 
+                "return title+\", \"+str(___)", 
+                "Song.title=str(title)", 
+                "return title+\", \"+___", 
+                "def __self__(title,___):", 
+                "def __init__(self,title,___):", 
+                "print(title,\",\",___)", 
+                "return str(title,___)", 
+                "return title+','+___", 
+                "def __init__(Song,title,___):", 
+                "def __str__(title,___):", 
+                "self.title=str(title)", 
+                "return title+\", \"+self.len", 
+                "return(title,___)"
+            ]
+        ], 
+        "match_type": "values_match", 
+        "original": [
+            "def __init__(self,title,___):", 
+            "self.title=title"
+        ], 
+        "solution": "Classes_Basic_Song_acstudent_82155s", 
+        "values_of_match": {
+            "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                "Respect"
+            ], 
+            "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                "Respect", 
+                "Truth Hurts"
+            ]
+        }
+    }, 
+    {
+        "maps_to": [
+            [
+                "self.leng=len", 
+                "return str(___,len)", 
+                "self.alen=len", 
+                "return self.title+\" \"+str(len)", 
+                "self.number=len", 
+                "self.len=int(len)", 
+                "return ___+\", \"+len", 
+                "return str(self.title)+str(len)", 
+                "def __self__(___,len):", 
+                "self.len=str(len)", 
+                "print(___,\",\",len)", 
+                "def __str__(self,___,len):", 
+                "return ___+str(len)", 
+                "def __str__(___,len):", 
+                "def __init__(self,___,len):", 
+                "return(self.title,len)", 
+                "self.length=len", 
+                "return ___+\", \"+str(len)", 
+                "return self.title+\",\"+str.self(len)", 
+                "self.num=len", 
+                "self.len=len", 
+                "return self.title+\", \"+str(len)", 
+                "return(___,len)", 
+                "self.length=str(len)", 
+                "Song.len=len", 
+                "return self.title+\", \"+len", 
+                "return ___+','+len", 
+                "return ___+', '+len", 
+                "def __init__(Song,___,len):"
+            ]
+        ], 
+        "match_type": "values_match", 
+        "original": [
+            "def __init__(self,___,len):", 
+            "self.len=len"
+        ], 
+        "solution": "Classes_Basic_Song_acstudent_35789s", 
+        "values_of_match": {
+            "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                150
+            ], 
+            "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                150, 
+                183
+            ]
+        }
+    }, 
+    {
+        "maps_to": [
+            [
+                "self.name=title", 
+                "def __str__(self,title,___):", 
+                "self.title=title", 
+                "return title+str(___)", 
+                "self.tittle=title", 
+                "return title+', '+___", 
+                "return title+\", \"+str(___)", 
+                "Song.title=str(title)", 
+                "return title+\", \"+___", 
+                "def __self__(title,___):", 
+                "def __init__(self,title,___):", 
+                "print(title,\",\",___)", 
+                "return str(title,___)", 
+                "return title+','+___", 
+                "def __init__(Song,title,___):", 
+                "def __str__(title,___):", 
+                "self.title=str(title)", 
+                "return title+\", \"+self.len", 
+                "return(title,___)"
+            ]
+        ], 
+        "match_type": "values_match", 
+        "original": [
+            "def __init__(self,title,___):", 
+            "self.title=title"
+        ], 
+        "solution": "Classes_Basic_Song_acstudent_35789s", 
+        "values_of_match": {
+            "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                "Respect"
+            ], 
+            "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                "Respect", 
+                "Truth Hurts"
+            ]
+        }
+    }, 
+    {
+        "maps_to": [
+            [
+                "self.leng=len", 
+                "return str(___,len)", 
+                "self.alen=len", 
+                "return self.title+\" \"+str(len)", 
+                "self.number=len", 
+                "self.len=int(len)", 
+                "return ___+\", \"+len", 
+                "return str(self.title)+str(len)", 
+                "def __self__(___,len):", 
+                "self.len=str(len)", 
+                "print(___,\",\",len)", 
+                "def __str__(self,___,len):", 
+                "return ___+str(len)", 
+                "def __str__(___,len):", 
+                "def __init__(self,___,len):", 
+                "return(self.title,len)", 
+                "self.length=len", 
+                "return ___+\", \"+str(len)", 
+                "return self.title+\",\"+str.self(len)", 
+                "self.num=len", 
+                "self.len=len", 
+                "return self.title+\", \"+str(len)", 
+                "return(___,len)", 
+                "self.length=str(len)", 
+                "Song.len=len", 
+                "return self.title+\", \"+len", 
+                "return ___+','+len", 
+                "return ___+', '+len", 
+                "def __init__(Song,___,len):"
+            ]
+        ], 
+        "match_type": "values_match", 
+        "original": [
+            "def __init__(self,___,num):", 
+            "self.num=num"
+        ], 
+        "solution": "Classes_Basic_Song_acstudent_37517s", 
+        "values_of_match": {
+            "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                150
+            ], 
+            "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                150, 
+                183
+            ]
+        }
+    }, 
+    {
+        "maps_to": [
+            [
+                "self.name=title", 
+                "def __str__(self,title,___):", 
+                "self.title=title", 
+                "return title+str(___)", 
+                "self.tittle=title", 
+                "return title+', '+___", 
+                "return title+\", \"+str(___)", 
+                "Song.title=str(title)", 
+                "return title+\", \"+___", 
+                "def __self__(title,___):", 
+                "def __init__(self,title,___):", 
+                "print(title,\",\",___)", 
+                "return str(title,___)", 
+                "return title+','+___", 
+                "def __init__(Song,title,___):", 
+                "def __str__(title,___):", 
+                "self.title=str(title)", 
+                "return title+\", \"+self.len", 
+                "return(title,___)"
+            ]
+        ], 
+        "match_type": "values_match", 
+        "original": [
+            "def __init__(self,title,___):", 
+            "self.title=title"
+        ], 
+        "solution": "Classes_Basic_Song_acstudent_37517s", 
+        "values_of_match": {
+            "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                "Respect"
+            ], 
+            "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                "Respect", 
+                "Truth Hurts"
+            ]
+        }
+    }, 
+    {
+        "info_content": 8.242030801922732, 
+        "maps_to": [
+            [
+                "self.leng=len", 
+                "return str(___,len)", 
+                "self.alen=len", 
+                "return self.title+\" \"+str(len)", 
+                "self.number=len", 
+                "self.len=int(len)", 
+                "return ___+\", \"+len", 
+                "return str(self.title)+str(len)", 
+                "def __self__(___,len):", 
+                "self.len=str(len)", 
+                "print(___,\",\",len)", 
+                "def __str__(self,___,len):", 
+                "return ___+str(len)", 
+                "def __str__(___,len):", 
+                "def __init__(self,___,len):", 
+                "return(self.title,len)", 
+                "self.length=len", 
+                "return ___+\", \"+str(len)", 
+                "return self.title+\",\"+str.self(len)", 
+                "self.num=len", 
+                "self.len=len", 
+                "return self.title+\", \"+str(len)", 
+                "return(___,len)", 
+                "self.length=str(len)", 
+                "Song.len=len", 
+                "return self.title+\", \"+len", 
+                "return ___+','+len", 
+                "return ___+', '+len", 
+                "def __init__(Song,___,len):"
+            ]
+        ], 
+        "match_type": "templates_match_perfectly", 
+        "original": [
+            "def __init__(self,___,len):", 
+            "self.len=len"
+        ], 
+        "solution": "Classes_Basic_Song_acstudent_75819s", 
+        "values_of_match": {
+            "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                150
+            ], 
+            "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                150, 
+                183
+            ]
+        }
+    }, 
+    {
+        "info_content": 9.715961990255146, 
+        "maps_to": [
+            [
+                "self.name=title", 
+                "def __str__(self,title,___):", 
+                "self.title=title", 
+                "return title+str(___)", 
+                "self.tittle=title", 
+                "return title+', '+___", 
+                "return title+\", \"+str(___)", 
+                "Song.title=str(title)", 
+                "return title+\", \"+___", 
+                "def __self__(title,___):", 
+                "def __init__(self,title,___):", 
+                "print(title,\",\",___)", 
+                "return str(title,___)", 
+                "return title+','+___", 
+                "def __init__(Song,title,___):", 
+                "def __str__(title,___):", 
+                "self.title=str(title)", 
+                "return title+\", \"+self.len", 
+                "return(title,___)"
+            ]
+        ], 
+        "match_type": "templates_match_perfectly", 
+        "original": [
+            "def __init__(self,title,___):", 
+            "self.title=title"
+        ], 
+        "solution": "Classes_Basic_Song_acstudent_75819s", 
+        "values_of_match": {
+            "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                "Respect"
+            ], 
+            "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                "Respect", 
+                "Truth Hurts"
+            ]
+        }
+    }, 
+    {
+        "maps_to": [
+            [
+                "self.leng=len", 
+                "return str(___,len)", 
+                "self.alen=len", 
+                "return self.title+\" \"+str(len)", 
+                "self.number=len", 
+                "self.len=int(len)", 
+                "return ___+\", \"+len", 
+                "return str(self.title)+str(len)", 
+                "def __self__(___,len):", 
+                "self.len=str(len)", 
+                "print(___,\",\",len)", 
+                "def __str__(self,___,len):", 
+                "return ___+str(len)", 
+                "def __str__(___,len):", 
+                "def __init__(self,___,len):", 
+                "return(self.title,len)", 
+                "self.length=len", 
+                "return ___+\", \"+str(len)", 
+                "return self.title+\",\"+str.self(len)", 
+                "self.num=len", 
+                "self.len=len", 
+                "return self.title+\", \"+str(len)", 
+                "return(___,len)", 
+                "self.length=str(len)", 
+                "Song.len=len", 
+                "return self.title+\", \"+len", 
+                "return ___+','+len", 
+                "return ___+', '+len", 
+                "def __init__(Song,___,len):"
+            ]
+        ], 
+        "match_type": "values_match", 
+        "original": [
+            "def __init__(self,___,len):", 
+            "self.len=len"
+        ], 
+        "solution": "Classes_Basic_Song_acstudent_35786s", 
+        "values_of_match": {
+            "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                150
+            ], 
+            "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                150, 
+                183
+            ]
+        }
+    }, 
+    {
+        "maps_to": [
+            [
+                "self.name=title", 
+                "def __str__(self,title,___):", 
+                "self.title=title", 
+                "return title+str(___)", 
+                "self.tittle=title", 
+                "return title+', '+___", 
+                "return title+\", \"+str(___)", 
+                "Song.title=str(title)", 
+                "return title+\", \"+___", 
+                "def __self__(title,___):", 
+                "def __init__(self,title,___):", 
+                "print(title,\",\",___)", 
+                "return str(title,___)", 
+                "return title+','+___", 
+                "def __init__(Song,title,___):", 
+                "def __str__(title,___):", 
+                "self.title=str(title)", 
+                "return title+\", \"+self.len", 
+                "return(title,___)"
+            ]
+        ], 
+        "match_type": "values_match", 
+        "original": [
+            "def __init__(self,title,___):", 
+            "self.title=title"
+        ], 
+        "solution": "Classes_Basic_Song_acstudent_35786s", 
+        "values_of_match": {
+            "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                "Respect"
+            ], 
+            "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                "Respect", 
+                "Truth Hurts"
+            ]
+        }
+    }, 
+    {
+        "maps_to": [
+            [
+                "self.leng=len", 
+                "return str(___,len)", 
+                "self.alen=len", 
+                "return self.title+\" \"+str(len)", 
+                "self.number=len", 
+                "self.len=int(len)", 
+                "return ___+\", \"+len", 
+                "return str(self.title)+str(len)", 
+                "def __self__(___,len):", 
+                "self.len=str(len)", 
+                "print(___,\",\",len)", 
+                "def __str__(self,___,len):", 
+                "return ___+str(len)", 
+                "def __str__(___,len):", 
+                "def __init__(self,___,len):", 
+                "return(self.title,len)", 
+                "self.length=len", 
+                "return ___+\", \"+str(len)", 
+                "return self.title+\",\"+str.self(len)", 
+                "self.num=len", 
+                "self.len=len", 
+                "return self.title+\", \"+str(len)", 
+                "return(___,len)", 
+                "self.length=str(len)", 
+                "Song.len=len", 
+                "return self.title+\", \"+len", 
+                "return ___+','+len", 
+                "return ___+', '+len", 
+                "def __init__(Song,___,len):"
+            ]
+        ], 
+        "match_type": "values_match", 
+        "original": [
+            "def __init__(self,___,len):", 
+            "self.len=len"
+        ], 
+        "solution": "Classes_Basic_Song_acstudent_20461s", 
+        "values_of_match": {
+            "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                150
+            ], 
+            "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                150, 
+                183
+            ]
+        }
+    }, 
+    {
+        "maps_to": [
+            [
+                "self.name=title", 
+                "def __str__(self,title,___):", 
+                "self.title=title", 
+                "return title+str(___)", 
+                "self.tittle=title", 
+                "return title+', '+___", 
+                "return title+\", \"+str(___)", 
+                "Song.title=str(title)", 
+                "return title+\", \"+___", 
+                "def __self__(title,___):", 
+                "def __init__(self,title,___):", 
+                "print(title,\",\",___)", 
+                "return str(title,___)", 
+                "return title+','+___", 
+                "def __init__(Song,title,___):", 
+                "def __str__(title,___):", 
+                "self.title=str(title)", 
+                "return title+\", \"+self.len", 
+                "return(title,___)"
+            ]
+        ], 
+        "match_type": "values_match", 
+        "original": [
+            "def __init__(self,title,___):", 
+            "self.title=title"
+        ], 
+        "solution": "Classes_Basic_Song_acstudent_20461s", 
+        "values_of_match": {
+            "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                "Respect"
+            ], 
+            "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                "Respect", 
+                "Truth Hurts"
+            ]
+        }
+    }, 
+    {
+        "maps_to": [
+            [
+                "self.leng=len", 
+                "return str(___,len)", 
+                "self.alen=len", 
+                "return self.title+\" \"+str(len)", 
+                "self.number=len", 
+                "self.len=int(len)", 
+                "return ___+\", \"+len", 
+                "return str(self.title)+str(len)", 
+                "def __self__(___,len):", 
+                "self.len=str(len)", 
+                "print(___,\",\",len)", 
+                "def __str__(self,___,len):", 
+                "return ___+str(len)", 
+                "def __str__(___,len):", 
+                "def __init__(self,___,len):", 
+                "return(self.title,len)", 
+                "self.length=len", 
+                "return ___+\", \"+str(len)", 
+                "return self.title+\",\"+str.self(len)", 
+                "self.num=len", 
+                "self.len=len", 
+                "return self.title+\", \"+str(len)", 
+                "return(___,len)", 
+                "self.length=str(len)", 
+                "Song.len=len", 
+                "return self.title+\", \"+len", 
+                "return ___+','+len", 
+                "return ___+', '+len", 
+                "def __init__(Song,___,len):"
+            ]
+        ], 
+        "match_type": "values_match", 
+        "original": [
+            "def __init__(self,___,leng):", 
+            "self.leng=leng"
+        ], 
+        "solution": "Classes_Basic_Song_acstudent_37515s", 
+        "values_of_match": {
+            "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                150
+            ], 
+            "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                150, 
+                183
+            ]
+        }
+    }, 
+    {
+        "maps_to": [
+            [
+                "self.name=title", 
+                "def __str__(self,title,___):", 
+                "self.title=title", 
+                "return title+str(___)", 
+                "self.tittle=title", 
+                "return title+', '+___", 
+                "return title+\", \"+str(___)", 
+                "Song.title=str(title)", 
+                "return title+\", \"+___", 
+                "def __self__(title,___):", 
+                "def __init__(self,title,___):", 
+                "print(title,\",\",___)", 
+                "return str(title,___)", 
+                "return title+','+___", 
+                "def __init__(Song,title,___):", 
+                "def __str__(title,___):", 
+                "self.title=str(title)", 
+                "return title+\", \"+self.len", 
+                "return(title,___)"
+            ]
+        ], 
+        "match_type": "values_match", 
+        "original": [
+            "def __init__(self,title,___):", 
+            "self.title=title"
+        ], 
+        "solution": "Classes_Basic_Song_acstudent_37515s", 
+        "values_of_match": {
+            "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                "Respect"
+            ], 
+            "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                "Respect", 
+                "Truth Hurts"
+            ]
+        }
+    }
+]

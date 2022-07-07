@@ -1,0 +1,1958 @@
+[
+    {
+        "expanded_representation": "class Song: ||| []", 
+        "id": 1, 
+        "line_values": [], 
+        "template": "class Song:"
+    }, 
+    {
+        "expanded_representation": "def __init__(self,___,___): ||| [{'Song(\\'Respect\\',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"': ['myNaN'], 'Song(\\'Truth Hurts\\',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"': ['myNaN']}, {'Song(\\'Respect\\',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"': ['myNaN'], 'Song(\\'Truth Hurts\\',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"': ['myNaN']}]", 
+        "id": 2, 
+        "line_values": [
+            {
+                "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                    "myNaN"
+                ], 
+                "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                    "myNaN"
+                ]
+            }, 
+            {
+                "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                    "myNaN"
+                ], 
+                "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                    "myNaN"
+                ]
+            }
+        ], 
+        "template": "def __init__(self,___,___):"
+    }, 
+    {
+        "expanded_representation": "self.title=___ ||| [{'Song(\\'Respect\\',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"': ['myNaN'], 'Song(\\'Truth Hurts\\',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"': ['myNaN']}]", 
+        "id": 3, 
+        "line_values": [
+            {
+                "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                    "myNaN"
+                ], 
+                "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                    "myNaN"
+                ]
+            }
+        ], 
+        "template": "self.title=___"
+    }, 
+    {
+        "expanded_representation": "self.len=___ ||| [{'Song(\\'Respect\\',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"': ['myNaN'], 'Song(\\'Truth Hurts\\',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"': ['myNaN']}]", 
+        "id": 4, 
+        "line_values": [
+            {
+                "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                    "myNaN"
+                ], 
+                "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                    "myNaN"
+                ]
+            }
+        ], 
+        "template": "self.len=___"
+    }, 
+    {
+        "expanded_representation": "def __str__(self): ||| []", 
+        "id": 5, 
+        "line_values": [], 
+        "template": "def __str__(self):"
+    }, 
+    {
+        "expanded_representation": "return self.title+self.len ||| []", 
+        "id": 6, 
+        "line_values": [], 
+        "template": "return self.title+self.len"
+    }, 
+    {
+        "expanded_representation": "s=Song('Respect',150) ||| []", 
+        "id": 7, 
+        "line_values": [], 
+        "template": "s=Song('Respect',150)"
+    }, 
+    {
+        "expanded_representation": "return self.title+\", \"+___ ||| [{'Song(\\'Respect\\',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"': [150, 150], 'Song(\\'Truth Hurts\\',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"': [150, 183]}]", 
+        "id": 8, 
+        "line_values": [
+            {
+                "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                    150, 
+                    150
+                ], 
+                "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                    150, 
+                    183
+                ]
+            }
+        ], 
+        "template": "return self.title+\", \"+___"
+    }, 
+    {
+        "expanded_representation": "return \"{self.title}, {str(self.len)}\" ||| []", 
+        "id": 9, 
+        "line_values": [], 
+        "template": "return \"{self.title}, {str(self.len)}\""
+    }, 
+    {
+        "expanded_representation": "return self.title+\",\"+str(self.len) ||| []", 
+        "id": 10, 
+        "line_values": [], 
+        "template": "return self.title+\",\"+str(self.len)"
+    }, 
+    {
+        "expanded_representation": "self.leng=___ ||| [{'Song(\\'Respect\\',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"': ['myNaN'], 'Song(\\'Truth Hurts\\',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"': ['myNaN']}]", 
+        "id": 11, 
+        "line_values": [
+            {
+                "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                    "myNaN"
+                ], 
+                "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                    "myNaN"
+                ]
+            }
+        ], 
+        "template": "self.leng=___"
+    }, 
+    {
+        "expanded_representation": "return self.title+\", \"+str(self.len) ||| []", 
+        "id": 12, 
+        "line_values": [], 
+        "template": "return self.title+\", \"+str(self.len)"
+    }, 
+    {
+        "expanded_representation": "def main(): ||| []", 
+        "id": 13, 
+        "line_values": [], 
+        "template": "def main():"
+    }, 
+    {
+        "expanded_representation": "print s ||| []", 
+        "id": 14, 
+        "line_values": [], 
+        "template": "print s"
+    }, 
+    {
+        "expanded_representation": "main() ||| []", 
+        "id": 15, 
+        "line_values": [], 
+        "template": "main()"
+    }, 
+    {
+        "expanded_representation": "def _init_(self,title,len): ||| []", 
+        "id": 16, 
+        "line_values": [], 
+        "template": "def _init_(self,title,len):"
+    }, 
+    {
+        "expanded_representation": "self.title=title ||| []", 
+        "id": 17, 
+        "line_values": [], 
+        "template": "self.title=title"
+    }, 
+    {
+        "expanded_representation": "self.len=len ||| []", 
+        "id": 18, 
+        "line_values": [], 
+        "template": "self.len=len"
+    }, 
+    {
+        "expanded_representation": "def _str_(self): ||| []", 
+        "id": 19, 
+        "line_values": [], 
+        "template": "def _str_(self):"
+    }, 
+    {
+        "expanded_representation": "return self.title+\", \"+self.len ||| []", 
+        "id": 20, 
+        "line_values": [], 
+        "template": "return self.title+\", \"+self.len"
+    }, 
+    {
+        "expanded_representation": "return str(self.title)+', '+str(self.len) ||| []", 
+        "id": 21, 
+        "line_values": [], 
+        "template": "return str(self.title)+', '+str(self.len)"
+    }, 
+    {
+        "expanded_representation": "def __init__(self,title): ||| []", 
+        "id": 22, 
+        "line_values": [], 
+        "template": "def __init__(self,title):"
+    }, 
+    {
+        "expanded_representation": "return(title,len(self)) ||| []", 
+        "id": 23, 
+        "line_values": [], 
+        "template": "return(title,len(self))"
+    }, 
+    {
+        "expanded_representation": "return self.title+\" \"+self.len ||| []", 
+        "id": 24, 
+        "line_values": [], 
+        "template": "return self.title+\" \"+self.len"
+    }, 
+    {
+        "expanded_representation": "self.length=___ ||| [{'Song(\\'Respect\\',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"': ['myNaN'], 'Song(\\'Truth Hurts\\',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"': ['myNaN']}]", 
+        "id": 25, 
+        "line_values": [
+            {
+                "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                    "myNaN"
+                ], 
+                "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                    "myNaN"
+                ]
+            }
+        ], 
+        "template": "self.length=___"
+    }, 
+    {
+        "expanded_representation": "return self.title+\", \"+str(___) ||| [{'Song(\\'Respect\\',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"': [150, 150], 'Song(\\'Truth Hurts\\',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"': [150, 183]}]", 
+        "id": 26, 
+        "line_values": [
+            {
+                "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                    150, 
+                    150
+                ], 
+                "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                    150, 
+                    183
+                ]
+            }
+        ], 
+        "template": "return self.title+\", \"+str(___)"
+    }, 
+    {
+        "expanded_representation": "s=Song('Respect',10) ||| []", 
+        "id": 27, 
+        "line_values": [], 
+        "template": "s=Song('Respect',10)"
+    }, 
+    {
+        "expanded_representation": "return self.title+' '+str(self.len) ||| []", 
+        "id": 28, 
+        "line_values": [], 
+        "template": "return self.title+' '+str(self.len)"
+    }, 
+    {
+        "expanded_representation": "self.len=int(___) ||| [{'Song(\\'Respect\\',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"': ['myNaN'], 'Song(\\'Truth Hurts\\',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"': ['myNaN']}]", 
+        "id": 29, 
+        "line_values": [
+            {
+                "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                    "myNaN"
+                ], 
+                "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                    "myNaN"
+                ]
+            }
+        ], 
+        "template": "self.len=int(___)"
+    }, 
+    {
+        "expanded_representation": "return self.title+\" \"+str(self.len) ||| []", 
+        "id": 30, 
+        "line_values": [], 
+        "template": "return self.title+\" \"+str(self.len)"
+    }, 
+    {
+        "expanded_representation": "return self.tutle+\", \"+str(self.len) ||| []", 
+        "id": 31, 
+        "line_values": [], 
+        "template": "return self.tutle+\", \"+str(self.len)"
+    }, 
+    {
+        "expanded_representation": "def __init__(self,title,len): ||| []", 
+        "id": 32, 
+        "line_values": [], 
+        "template": "def __init__(self,title,len):"
+    }, 
+    {
+        "expanded_representation": "return str(self.title+\", \"+len) ||| []", 
+        "id": 33, 
+        "line_values": [], 
+        "template": "return str(self.title+\", \"+len)"
+    }, 
+    {
+        "expanded_representation": "return self.title+\",\"+self.len ||| []", 
+        "id": 34, 
+        "line_values": [], 
+        "template": "return self.title+\",\"+self.len"
+    }, 
+    {
+        "expanded_representation": "return self.title+','+str(self.len) ||| []", 
+        "id": 35, 
+        "line_values": [], 
+        "template": "return self.title+','+str(self.len)"
+    }, 
+    {
+        "expanded_representation": "class Song(object): ||| []", 
+        "id": 36, 
+        "line_values": [], 
+        "template": "class Song(object):"
+    }, 
+    {
+        "expanded_representation": "self.angle1=angle1 ||| []", 
+        "id": 37, 
+        "line_values": [], 
+        "template": "self.angle1=angle1"
+    }, 
+    {
+        "expanded_representation": "self.angle2=angle2 ||| []", 
+        "id": 38, 
+        "line_values": [], 
+        "template": "self.angle2=angle2"
+    }, 
+    {
+        "expanded_representation": "return self.title+\" ,\"+str(self.len) ||| []", 
+        "id": 39, 
+        "line_values": [], 
+        "template": "return self.title+\" ,\"+str(self.len)"
+    }, 
+    {
+        "expanded_representation": "def __init_(self,title,len_): ||| []", 
+        "id": 40, 
+        "line_values": [], 
+        "template": "def __init_(self,title,len_):"
+    }, 
+    {
+        "expanded_representation": "self.len=len_ ||| []", 
+        "id": 41, 
+        "line_values": [], 
+        "template": "self.len=len_"
+    }, 
+    {
+        "expanded_representation": "return str(self.title,ste(self.len)) ||| []", 
+        "id": 42, 
+        "line_values": [], 
+        "template": "return str(self.title,ste(self.len))"
+    }, 
+    {
+        "expanded_representation": "def __int__(self,title,len): ||| []", 
+        "id": 43, 
+        "line_values": [], 
+        "template": "def __int__(self,title,len):"
+    }, 
+    {
+        "expanded_representation": "self.tittle=___ ||| [{'Song(\\'Respect\\',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"': ['myNaN'], 'Song(\\'Truth Hurts\\',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"': ['myNaN']}]", 
+        "id": 44, 
+        "line_values": [
+            {
+                "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                    "myNaN"
+                ], 
+                "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                    "myNaN"
+                ]
+            }
+        ], 
+        "template": "self.tittle=___"
+    }, 
+    {
+        "expanded_representation": "return self.tittle+self.len ||| []", 
+        "id": 45, 
+        "line_values": [], 
+        "template": "return self.tittle+self.len"
+    }, 
+    {
+        "expanded_representation": "print(___,\",\",___) ||| [{'Song(\\'Respect\\',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"': [u'Respect', u'Respect'], 'Song(\\'Truth Hurts\\',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"': [u'Respect', u'Truth Hurts']}, {'Song(\\'Respect\\',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"': [150, 150], 'Song(\\'Truth Hurts\\',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"': [150, 183]}]", 
+        "id": 46, 
+        "line_values": [
+            {
+                "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                    "Respect", 
+                    "Respect"
+                ], 
+                "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                    "Respect", 
+                    "Truth Hurts"
+                ]
+            }, 
+            {
+                "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                    150, 
+                    150
+                ], 
+                "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                    150, 
+                    183
+                ]
+            }
+        ], 
+        "template": "print(___,\",\",___)"
+    }, 
+    {
+        "expanded_representation": "print self.title+\", \"+str(self.len) ||| []", 
+        "id": 47, 
+        "line_values": [], 
+        "template": "print self.title+\", \"+str(self.len)"
+    }, 
+    {
+        "expanded_representation": "return(___,___) ||| [{'Song(\\'Respect\\',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"': [u'Respect', u'Respect'], 'Song(\\'Truth Hurts\\',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"': [u'Respect', u'Truth Hurts']}, {'Song(\\'Respect\\',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"': [150, 150], 'Song(\\'Truth Hurts\\',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"': [150, 183]}]", 
+        "id": 48, 
+        "line_values": [
+            {
+                "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                    "Respect", 
+                    "Respect"
+                ], 
+                "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                    "Respect", 
+                    "Truth Hurts"
+                ]
+            }, 
+            {
+                "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                    150, 
+                    150
+                ], 
+                "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                    150, 
+                    183
+                ]
+            }
+        ], 
+        "template": "return(___,___)"
+    }, 
+    {
+        "expanded_representation": "return self.title+\", \"+str(self.length) ||| []", 
+        "id": 49, 
+        "line_values": [], 
+        "template": "return self.title+\", \"+str(self.length)"
+    }, 
+    {
+        "expanded_representation": "___=self.title() ||| [{'Song(\\'Respect\\',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"': ['myNaN'], 'Song(\\'Truth Hurts\\',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"': ['myNaN']}]", 
+        "id": 50, 
+        "line_values": [
+            {
+                "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                    "myNaN"
+                ], 
+                "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                    "myNaN"
+                ]
+            }
+        ], 
+        "template": "___=self.title()"
+    }, 
+    {
+        "expanded_representation": "def __self__(___,___): ||| [{'Song(\\'Respect\\',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"': ['myNaN'], 'Song(\\'Truth Hurts\\',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"': ['myNaN']}, {'Song(\\'Respect\\',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"': ['myNaN'], 'Song(\\'Truth Hurts\\',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"': ['myNaN']}]", 
+        "id": 51, 
+        "line_values": [
+            {
+                "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                    "myNaN"
+                ], 
+                "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                    "myNaN"
+                ]
+            }, 
+            {
+                "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                    "myNaN"
+                ], 
+                "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                    "myNaN"
+                ]
+            }
+        ], 
+        "template": "def __self__(___,___):"
+    }, 
+    {
+        "expanded_representation": "return ___+', '+___ ||| [{'Song(\\'Respect\\',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"': [u'Respect'], 'Song(\\'Truth Hurts\\',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"': [u'Respect']}, {'Song(\\'Respect\\',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"': [150], 'Song(\\'Truth Hurts\\',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"': [150]}]", 
+        "id": 52, 
+        "line_values": [
+            {
+                "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                    "Respect"
+                ], 
+                "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                    "Respect"
+                ]
+            }, 
+            {
+                "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                    150
+                ], 
+                "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                    150
+                ]
+            }
+        ], 
+        "template": "return ___+', '+___"
+    }, 
+    {
+        "expanded_representation": "return ___+\", \"+___ ||| [{'Song(\\'Respect\\',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"': [u'Respect', u'Respect'], 'Song(\\'Truth Hurts\\',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"': [u'Respect', u'Truth Hurts']}, {'Song(\\'Respect\\',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"': [150, 150], 'Song(\\'Truth Hurts\\',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"': [150, 183]}]", 
+        "id": 53, 
+        "line_values": [
+            {
+                "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                    "Respect", 
+                    "Respect"
+                ], 
+                "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                    "Respect", 
+                    "Truth Hurts"
+                ]
+            }, 
+            {
+                "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                    150, 
+                    150
+                ], 
+                "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                    150, 
+                    183
+                ]
+            }
+        ], 
+        "template": "return ___+\", \"+___"
+    }, 
+    {
+        "expanded_representation": "___=___.self ||| [{'Song(\\'Respect\\',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"': ['myNaN'], 'Song(\\'Truth Hurts\\',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"': ['myNaN']}, {'Song(\\'Respect\\',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"': ['myNaN'], 'Song(\\'Truth Hurts\\',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"': ['myNaN']}]", 
+        "id": 54, 
+        "line_values": [
+            {
+                "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                    "myNaN"
+                ], 
+                "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                    "myNaN"
+                ]
+            }, 
+            {
+                "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                    "myNaN"
+                ], 
+                "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                    "myNaN"
+                ]
+            }
+        ], 
+        "template": "___=___.self"
+    }, 
+    {
+        "expanded_representation": "return ___+\", \"+___ ||| [{'Song(\\'Respect\\',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"': [u'Respect'], 'Song(\\'Truth Hurts\\',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"': [u'Respect']}, {'Song(\\'Respect\\',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"': [150], 'Song(\\'Truth Hurts\\',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"': [150]}]", 
+        "id": 55, 
+        "line_values": [
+            {
+                "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                    "Respect"
+                ], 
+                "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                    "Respect"
+                ]
+            }, 
+            {
+                "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                    150
+                ], 
+                "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                    150
+                ]
+            }
+        ], 
+        "template": "return ___+\", \"+___"
+    }, 
+    {
+        "expanded_representation": "self.len=str(___) ||| [{'Song(\\'Respect\\',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"': ['myNaN'], 'Song(\\'Truth Hurts\\',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"': ['myNaN']}]", 
+        "id": 56, 
+        "line_values": [
+            {
+                "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                    "myNaN"
+                ], 
+                "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                    "myNaN"
+                ]
+            }
+        ], 
+        "template": "self.len=str(___)"
+    }, 
+    {
+        "expanded_representation": "def __init__(self,title,num): ||| []", 
+        "id": 57, 
+        "line_values": [], 
+        "template": "def __init__(self,title,num):"
+    }, 
+    {
+        "expanded_representation": "self.num=num ||| []", 
+        "id": 58, 
+        "line_values": [], 
+        "template": "self.num=num"
+    }, 
+    {
+        "expanded_representation": "return self.title+\", \"+self.num ||| []", 
+        "id": 59, 
+        "line_values": [], 
+        "template": "return self.title+\", \"+self.num"
+    }, 
+    {
+        "expanded_representation": "self.title=str(___) ||| [{'Song(\\'Respect\\',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"': ['myNaN'], 'Song(\\'Truth Hurts\\',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"': ['myNaN']}]", 
+        "id": 60, 
+        "line_values": [
+            {
+                "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                    "myNaN"
+                ], 
+                "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                    "myNaN"
+                ]
+            }
+        ], 
+        "template": "self.title=str(___)"
+    }, 
+    {
+        "expanded_representation": "def __int__(self,title,lenh): ||| []", 
+        "id": 61, 
+        "line_values": [], 
+        "template": "def __int__(self,title,lenh):"
+    }, 
+    {
+        "expanded_representation": "self.len=lenh ||| []", 
+        "id": 62, 
+        "line_values": [], 
+        "template": "self.len=lenh"
+    }, 
+    {
+        "expanded_representation": "return self.title+', '+self.lenh ||| []", 
+        "id": 63, 
+        "line_values": [], 
+        "template": "return self.title+', '+self.lenh"
+    }, 
+    {
+        "expanded_representation": "self.name=___ ||| [{'Song(\\'Respect\\',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"': ['myNaN'], 'Song(\\'Truth Hurts\\',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"': ['myNaN']}]", 
+        "id": 64, 
+        "line_values": [
+            {
+                "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                    "myNaN"
+                ], 
+                "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                    "myNaN"
+                ]
+            }
+        ], 
+        "template": "self.name=___"
+    }, 
+    {
+        "expanded_representation": "return self.name+\",\"+str(self.leng) ||| []", 
+        "id": 65, 
+        "line_values": [], 
+        "template": "return self.name+\",\"+str(self.leng)"
+    }, 
+    {
+        "expanded_representation": "return(self.title,str(self.len)) ||| []", 
+        "id": 66, 
+        "line_values": [], 
+        "template": "return(self.title,str(self.len))"
+    }, 
+    {
+        "expanded_representation": "self.title=tile ||| []", 
+        "id": 67, 
+        "line_values": [], 
+        "template": "self.title=tile"
+    }, 
+    {
+        "expanded_representation": "return self.title+', '+str(self.len) ||| []", 
+        "id": 68, 
+        "line_values": [], 
+        "template": "return self.title+', '+str(self.len)"
+    }, 
+    {
+        "expanded_representation": "return self.title+','+self.len ||| []", 
+        "id": 69, 
+        "line_values": [], 
+        "template": "return self.title+','+self.len"
+    }, 
+    {
+        "expanded_representation": "return f(self.title,self.len) ||| []", 
+        "id": 70, 
+        "line_values": [], 
+        "template": "return f(self.title,self.len)"
+    }, 
+    {
+        "expanded_representation": "___=self.title ||| [{'Song(\\'Respect\\',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"': ['myNaN'], 'Song(\\'Truth Hurts\\',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"': ['myNaN']}]", 
+        "id": 71, 
+        "line_values": [
+            {
+                "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                    "myNaN"
+                ], 
+                "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                    "myNaN"
+                ]
+            }
+        ], 
+        "template": "___=self.title"
+    }, 
+    {
+        "expanded_representation": "___=self.length ||| [{'Song(\\'Respect\\',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"': ['myNaN'], 'Song(\\'Truth Hurts\\',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"': ['myNaN']}]", 
+        "id": 72, 
+        "line_values": [
+            {
+                "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                    "myNaN"
+                ], 
+                "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                    "myNaN"
+                ]
+            }
+        ], 
+        "template": "___=self.length"
+    }, 
+    {
+        "expanded_representation": "s=Song(self,'Respect',150) ||| []", 
+        "id": 73, 
+        "line_values": [], 
+        "template": "s=Song(self,'Respect',150)"
+    }, 
+    {
+        "expanded_representation": "self.leng=0 ||| []", 
+        "id": 74, 
+        "line_values": [], 
+        "template": "self.leng=0"
+    }, 
+    {
+        "expanded_representation": "return self.title+\", \"+str(self.leng) ||| []", 
+        "id": 75, 
+        "line_values": [], 
+        "template": "return self.title+\", \"+str(self.leng)"
+    }, 
+    {
+        "expanded_representation": "return(self.title,self.len) ||| []", 
+        "id": 76, 
+        "line_values": [], 
+        "template": "return(self.title,self.len)"
+    }, 
+    {
+        "expanded_representation": "___=self.num() ||| [{'Song(\\'Respect\\',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"': ['myNaN'], 'Song(\\'Truth Hurts\\',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"': ['myNaN']}]", 
+        "id": 77, 
+        "line_values": [
+            {
+                "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                    "myNaN"
+                ], 
+                "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                    "myNaN"
+                ]
+            }
+        ], 
+        "template": "___=self.num()"
+    }, 
+    {
+        "expanded_representation": "def __intit(self,title,len): ||| []", 
+        "id": 78, 
+        "line_values": [], 
+        "template": "def __intit(self,title,len):"
+    }, 
+    {
+        "expanded_representation": "self.lenh=lenh ||| []", 
+        "id": 79, 
+        "line_values": [], 
+        "template": "self.lenh=lenh"
+    }, 
+    {
+        "expanded_representation": "return self.title+', '+str(self.lenh) ||| []", 
+        "id": 80, 
+        "line_values": [], 
+        "template": "return self.title+', '+str(self.lenh)"
+    }, 
+    {
+        "expanded_representation": "def __init__(self,title,leng): ||| []", 
+        "id": 81, 
+        "line_values": [], 
+        "template": "def __init__(self,title,leng):"
+    }, 
+    {
+        "expanded_representation": "self.name=name ||| []", 
+        "id": 82, 
+        "line_values": [], 
+        "template": "self.name=name"
+    }, 
+    {
+        "expanded_representation": "self.leng=leng ||| []", 
+        "id": 83, 
+        "line_values": [], 
+        "template": "self.leng=leng"
+    }, 
+    {
+        "expanded_representation": "return self.name+\" \"+self.leng ||| []", 
+        "id": 84, 
+        "line_values": [], 
+        "template": "return self.name+\" \"+self.leng"
+    }, 
+    {
+        "expanded_representation": "def __init_(self,title,len): ||| []", 
+        "id": 85, 
+        "line_values": [], 
+        "template": "def __init_(self,title,len):"
+    }, 
+    {
+        "expanded_representation": "def __str__(self,s): ||| []", 
+        "id": 86, 
+        "line_values": [], 
+        "template": "def __str__(self,s):"
+    }, 
+    {
+        "expanded_representation": "___=self.len ||| [{'Song(\\'Respect\\',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"': ['myNaN'], 'Song(\\'Truth Hurts\\',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"': ['myNaN']}]", 
+        "id": 87, 
+        "line_values": [
+            {
+                "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                    "myNaN"
+                ], 
+                "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                    "myNaN"
+                ]
+            }
+        ], 
+        "template": "___=self.len"
+    }, 
+    {
+        "expanded_representation": "def __str__(___,___): ||| [{'Song(\\'Respect\\',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"': ['myNaN'], 'Song(\\'Truth Hurts\\',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"': ['myNaN']}, {'Song(\\'Respect\\',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"': ['myNaN'], 'Song(\\'Truth Hurts\\',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"': ['myNaN']}]", 
+        "id": 88, 
+        "line_values": [
+            {
+                "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                    "myNaN"
+                ], 
+                "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                    "myNaN"
+                ]
+            }, 
+            {
+                "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                    "myNaN"
+                ], 
+                "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                    "myNaN"
+                ]
+            }
+        ], 
+        "template": "def __str__(___,___):"
+    }, 
+    {
+        "expanded_representation": "self.num=___ ||| [{'Song(\\'Respect\\',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"': ['myNaN'], 'Song(\\'Truth Hurts\\',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"': ['myNaN']}]", 
+        "id": 89, 
+        "line_values": [
+            {
+                "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                    "myNaN"
+                ], 
+                "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                    "myNaN"
+                ]
+            }
+        ], 
+        "template": "self.num=___"
+    }, 
+    {
+        "expanded_representation": "return self.title+', '+self.num ||| []", 
+        "id": 90, 
+        "line_values": [], 
+        "template": "return self.title+', '+self.num"
+    }, 
+    {
+        "expanded_representation": "return self.title+str(self.len) ||| []", 
+        "id": 91, 
+        "line_values": [], 
+        "template": "return self.title+str(self.len)"
+    }, 
+    {
+        "expanded_representation": "return str(self.title)+str(___) ||| [{'Song(\\'Respect\\',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"': [150, 150], 'Song(\\'Truth Hurts\\',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"': [150, 183]}]", 
+        "id": 92, 
+        "line_values": [
+            {
+                "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                    150, 
+                    150
+                ], 
+                "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                    150, 
+                    183
+                ]
+            }
+        ], 
+        "template": "return str(self.title)+str(___)"
+    }, 
+    {
+        "expanded_representation": "return self.title+\" \"+self.num ||| []", 
+        "id": 93, 
+        "line_values": [], 
+        "template": "return self.title+\" \"+self.num"
+    }, 
+    {
+        "expanded_representation": "return str(___,___) ||| [{'Song(\\'Respect\\',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"': [u'Respect', u'Respect'], 'Song(\\'Truth Hurts\\',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"': [u'Respect', u'Truth Hurts']}, {'Song(\\'Respect\\',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"': [150, 150], 'Song(\\'Truth Hurts\\',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"': [150, 183]}]", 
+        "id": 94, 
+        "line_values": [
+            {
+                "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                    "Respect", 
+                    "Respect"
+                ], 
+                "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                    "Respect", 
+                    "Truth Hurts"
+                ]
+            }, 
+            {
+                "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                    150, 
+                    150
+                ], 
+                "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                    150, 
+                    183
+                ]
+            }
+        ], 
+        "template": "return str(___,___)"
+    }, 
+    {
+        "expanded_representation": "return self.title+\",\"+\" \"+str(self.len) ||| []", 
+        "id": 95, 
+        "line_values": [], 
+        "template": "return self.title+\",\"+\" \"+str(self.len)"
+    }, 
+    {
+        "expanded_representation": "return self.title+' '+self.len ||| []", 
+        "id": 96, 
+        "line_values": [], 
+        "template": "return self.title+' '+self.len"
+    }, 
+    {
+        "expanded_representation": "def __str__(): ||| []", 
+        "id": 97, 
+        "line_values": [], 
+        "template": "def __str__():"
+    }, 
+    {
+        "expanded_representation": "def __self__(self): ||| []", 
+        "id": 98, 
+        "line_values": [], 
+        "template": "def __self__(self):"
+    }, 
+    {
+        "expanded_representation": "self.len-___ ||| [{'Song(\\'Respect\\',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"': ['myNaN'], 'Song(\\'Truth Hurts\\',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"': ['myNaN']}]", 
+        "id": 99, 
+        "line_values": [
+            {
+                "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                    "myNaN"
+                ], 
+                "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                    "myNaN"
+                ]
+            }
+        ], 
+        "template": "self.len-___"
+    }, 
+    {
+        "expanded_representation": "class song: ||| []", 
+        "id": 100, 
+        "line_values": [], 
+        "template": "class song:"
+    }, 
+    {
+        "expanded_representation": "def __init__(self,tittle,len): ||| []", 
+        "id": 101, 
+        "line_values": [], 
+        "template": "def __init__(self,tittle,len):"
+    }, 
+    {
+        "expanded_representation": "self.tittle=tittle ||| []", 
+        "id": 102, 
+        "line_values": [], 
+        "template": "self.tittle=tittle"
+    }, 
+    {
+        "expanded_representation": "self.length=str(___) ||| [{'Song(\\'Respect\\',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"': ['myNaN'], 'Song(\\'Truth Hurts\\',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"': ['myNaN']}]", 
+        "id": 103, 
+        "line_values": [
+            {
+                "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                    "myNaN"
+                ], 
+                "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                    "myNaN"
+                ]
+            }
+        ], 
+        "template": "self.length=str(___)"
+    }, 
+    {
+        "expanded_representation": "return self.title+', '+self.length ||| []", 
+        "id": 104, 
+        "line_values": [], 
+        "template": "return self.title+', '+self.length"
+    }, 
+    {
+        "expanded_representation": "return self.title+\",\"+str.self.len ||| []", 
+        "id": 105, 
+        "line_values": [], 
+        "template": "return self.title+\",\"+str.self.len"
+    }, 
+    {
+        "expanded_representation": "result=self.title+\", \"+self.len ||| []", 
+        "id": 106, 
+        "line_values": [], 
+        "template": "result=self.title+\", \"+self.len"
+    }, 
+    {
+        "expanded_representation": "s=Song() ||| []", 
+        "id": 107, 
+        "line_values": [], 
+        "template": "s=Song()"
+    }, 
+    {
+        "expanded_representation": "return self.title ||| []", 
+        "id": 108, 
+        "line_values": [], 
+        "template": "return self.title"
+    }, 
+    {
+        "expanded_representation": "return self.len ||| []", 
+        "id": 109, 
+        "line_values": [], 
+        "template": "return self.len"
+    }, 
+    {
+        "expanded_representation": "return str(self.title)+\",\"+str(self.len) ||| []", 
+        "id": 110, 
+        "line_values": [], 
+        "template": "return str(self.title)+\",\"+str(self.len)"
+    }, 
+    {
+        "expanded_representation": "return ___+str(___) ||| [{'Song(\\'Respect\\',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"': [u'Respect', u'Respect'], 'Song(\\'Truth Hurts\\',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"': [u'Respect', u'Truth Hurts']}, {'Song(\\'Respect\\',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"': [150, 150], 'Song(\\'Truth Hurts\\',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"': [150, 183]}]", 
+        "id": 111, 
+        "line_values": [
+            {
+                "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                    "Respect", 
+                    "Respect"
+                ], 
+                "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                    "Respect", 
+                    "Truth Hurts"
+                ]
+            }, 
+            {
+                "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                    150, 
+                    150
+                ], 
+                "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                    150, 
+                    183
+                ]
+            }
+        ], 
+        "template": "return ___+str(___)"
+    }, 
+    {
+        "expanded_representation": "def __str__(s): ||| []", 
+        "id": 112, 
+        "line_values": [], 
+        "template": "def __str__(s):"
+    }, 
+    {
+        "expanded_representation": "return s.title+\", \"+s.len ||| []", 
+        "id": 113, 
+        "line_values": [], 
+        "template": "return s.title+\", \"+s.len"
+    }, 
+    {
+        "expanded_representation": "return self.title+\" \"+str(self.length) ||| []", 
+        "id": 114, 
+        "line_values": [], 
+        "template": "return self.title+\" \"+str(self.length)"
+    }, 
+    {
+        "expanded_representation": "return self.title+', '+str(self.num) ||| []", 
+        "id": 115, 
+        "line_values": [], 
+        "template": "return self.title+', '+str(self.num)"
+    }, 
+    {
+        "expanded_representation": "return self.title+\", \"+self.length ||| []", 
+        "id": 116, 
+        "line_values": [], 
+        "template": "return self.title+\", \"+self.length"
+    }, 
+    {
+        "expanded_representation": "return str(self.title,\",\",self.len) ||| []", 
+        "id": 117, 
+        "line_values": [], 
+        "template": "return str(self.title,\",\",self.len)"
+    }, 
+    {
+        "expanded_representation": "self.len=\"len\" ||| []", 
+        "id": 118, 
+        "line_values": [], 
+        "template": "self.len=\"len\""
+    }, 
+    {
+        "expanded_representation": "return \"\"+self.title+\",\"+str(self.len) ||| []", 
+        "id": 119, 
+        "line_values": [], 
+        "template": "return \"\"+self.title+\",\"+str(self.len)"
+    }, 
+    {
+        "expanded_representation": "return self.title+\",\"+str.self(___) ||| [{'Song(\\'Respect\\',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"': [150, 150], 'Song(\\'Truth Hurts\\',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"': [150, 183]}]", 
+        "id": 120, 
+        "line_values": [
+            {
+                "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                    150, 
+                    150
+                ], 
+                "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                    150, 
+                    183
+                ]
+            }
+        ], 
+        "template": "return self.title+\",\"+str.self(___)"
+    }, 
+    {
+        "expanded_representation": "def __str__(self,___,___): ||| [{'Song(\\'Respect\\',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"': ['myNaN'], 'Song(\\'Truth Hurts\\',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"': ['myNaN']}, {'Song(\\'Respect\\',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"': ['myNaN'], 'Song(\\'Truth Hurts\\',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"': ['myNaN']}]", 
+        "id": 121, 
+        "line_values": [
+            {
+                "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                    "myNaN"
+                ], 
+                "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                    "myNaN"
+                ]
+            }, 
+            {
+                "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                    "myNaN"
+                ], 
+                "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                    "myNaN"
+                ]
+            }
+        ], 
+        "template": "def __str__(self,___,___):"
+    }, 
+    {
+        "expanded_representation": "return str(self.title+\", \"+self.len) ||| []", 
+        "id": 122, 
+        "line_values": [], 
+        "template": "return str(self.title+\", \"+self.len)"
+    }, 
+    {
+        "expanded_representation": "s=self.code=('Respect',150) ||| []", 
+        "id": 123, 
+        "line_values": [], 
+        "template": "s=self.code=('Respect',150)"
+    }, 
+    {
+        "expanded_representation": "return \"\"\"self.title + \", \" + str(self.len) +\"\"\" ||| []", 
+        "id": 124, 
+        "line_values": [], 
+        "template": "return \"\"\"self.title + \", \" + str(self.len) +\"\"\""
+    }, 
+    {
+        "expanded_representation": "def __int__(self,name,leng): ||| []", 
+        "id": 125, 
+        "line_values": [], 
+        "template": "def __int__(self,name,leng):"
+    }, 
+    {
+        "expanded_representation": "return self.name+', '+str(self.leng) ||| []", 
+        "id": 126, 
+        "line_values": [], 
+        "template": "return self.name+', '+str(self.leng)"
+    }, 
+    {
+        "expanded_representation": "return str(self.title+', '+self.num) ||| []", 
+        "id": 127, 
+        "line_values": [], 
+        "template": "return str(self.title+', '+self.num)"
+    }, 
+    {
+        "expanded_representation": "return str(self.title)+\", \"+str(self.num) ||| []", 
+        "id": 128, 
+        "line_values": [], 
+        "template": "return str(self.title)+\", \"+str(self.num)"
+    }, 
+    {
+        "expanded_representation": "self.len=str(self.len) ||| []", 
+        "id": 129, 
+        "line_values": [], 
+        "template": "self.len=str(self.len)"
+    }, 
+    {
+        "expanded_representation": "return str(self.title)+\", \"+str(self.len) ||| []", 
+        "id": 130, 
+        "line_values": [], 
+        "template": "return str(self.title)+\", \"+str(self.len)"
+    }, 
+    {
+        "expanded_representation": "return str(self.title,str(self.len)) ||| []", 
+        "id": 131, 
+        "line_values": [], 
+        "template": "return str(self.title,str(self.len))"
+    }, 
+    {
+        "expanded_representation": "return \"self.title\"+\", \"+str(self.len) ||| []", 
+        "id": 132, 
+        "line_values": [], 
+        "template": "return \"self.title\"+\", \"+str(self.len)"
+    }, 
+    {
+        "expanded_representation": "return self.title+\" \"+str(___) ||| [{'Song(\\'Respect\\',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"': [150, 150], 'Song(\\'Truth Hurts\\',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"': [150, 183]}]", 
+        "id": 133, 
+        "line_values": [
+            {
+                "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                    150, 
+                    150
+                ], 
+                "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                    150, 
+                    183
+                ]
+            }
+        ], 
+        "template": "return self.title+\" \"+str(___)"
+    }, 
+    {
+        "expanded_representation": "return ___+', '+___ ||| [{'Song(\\'Respect\\',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"': [u'Respect', u'Respect'], 'Song(\\'Truth Hurts\\',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"': [u'Respect', u'Truth Hurts']}, {'Song(\\'Respect\\',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"': [150, 150], 'Song(\\'Truth Hurts\\',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"': [150, 183]}]", 
+        "id": 134, 
+        "line_values": [
+            {
+                "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                    "Respect", 
+                    "Respect"
+                ], 
+                "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                    "Respect", 
+                    "Truth Hurts"
+                ]
+            }, 
+            {
+                "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                    150, 
+                    150
+                ], 
+                "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                    150, 
+                    183
+                ]
+            }
+        ], 
+        "template": "return ___+', '+___"
+    }, 
+    {
+        "expanded_representation": "class Songs: ||| []", 
+        "id": 135, 
+        "line_values": [], 
+        "template": "class Songs:"
+    }, 
+    {
+        "expanded_representation": "def __init__(self,name,leng): ||| []", 
+        "id": 136, 
+        "line_values": [], 
+        "template": "def __init__(self,name,leng):"
+    }, 
+    {
+        "expanded_representation": "return self.name+\", \"+str(self.leng) ||| []", 
+        "id": 137, 
+        "line_values": [], 
+        "template": "return self.name+\", \"+str(self.leng)"
+    }, 
+    {
+        "expanded_representation": "return self.title+\" \"+self.len(str) ||| []", 
+        "id": 138, 
+        "line_values": [], 
+        "template": "return self.title+\" \"+self.len(str)"
+    }, 
+    {
+        "expanded_representation": "def __init__(Song,___,___): ||| [{'Song(\\'Respect\\',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"': ['myNaN'], 'Song(\\'Truth Hurts\\',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"': ['myNaN']}, {'Song(\\'Respect\\',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"': ['myNaN'], 'Song(\\'Truth Hurts\\',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"': ['myNaN']}]", 
+        "id": 139, 
+        "line_values": [
+            {
+                "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                    "myNaN"
+                ], 
+                "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                    "myNaN"
+                ]
+            }, 
+            {
+                "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                    "myNaN"
+                ], 
+                "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                    "myNaN"
+                ]
+            }
+        ], 
+        "template": "def __init__(Song,___,___):"
+    }, 
+    {
+        "expanded_representation": "Song.title=str(___) ||| [{'Song(\\'Respect\\',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"': ['myNaN'], 'Song(\\'Truth Hurts\\',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"': ['myNaN']}]", 
+        "id": 140, 
+        "line_values": [
+            {
+                "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                    "myNaN"
+                ], 
+                "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                    "myNaN"
+                ]
+            }
+        ], 
+        "template": "Song.title=str(___)"
+    }, 
+    {
+        "expanded_representation": "Song.len=___ ||| [{'Song(\\'Respect\\',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"': ['myNaN'], 'Song(\\'Truth Hurts\\',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"': ['myNaN']}]", 
+        "id": 141, 
+        "line_values": [
+            {
+                "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                    "myNaN"
+                ], 
+                "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                    "myNaN"
+                ]
+            }
+        ], 
+        "template": "Song.len=___"
+    }, 
+    {
+        "expanded_representation": "def __str__(Song): ||| []", 
+        "id": 142, 
+        "line_values": [], 
+        "template": "def __str__(Song):"
+    }, 
+    {
+        "expanded_representation": "return Song.title+\", \"+str(Song.len) ||| []", 
+        "id": 143, 
+        "line_values": [], 
+        "template": "return Song.title+\", \"+str(Song.len)"
+    }, 
+    {
+        "expanded_representation": "return ___+\", \"+str(___) ||| [{'Song(\\'Respect\\',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"': [u'Respect'], 'Song(\\'Truth Hurts\\',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"': [u'Respect']}, {'Song(\\'Respect\\',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"': [150], 'Song(\\'Truth Hurts\\',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"': [150]}]", 
+        "id": 144, 
+        "line_values": [
+            {
+                "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                    "Respect"
+                ], 
+                "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                    "Respect"
+                ]
+            }, 
+            {
+                "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                    150
+                ], 
+                "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                    150
+                ]
+            }
+        ], 
+        "template": "return ___+\", \"+str(___)"
+    }, 
+    {
+        "expanded_representation": "return(str(self.title),int(self.len)) ||| []", 
+        "id": 145, 
+        "line_values": [], 
+        "template": "return(str(self.title),int(self.len))"
+    }, 
+    {
+        "expanded_representation": "return(\"self.title +\",\" + self.len\") ||| []", 
+        "id": 146, 
+        "line_values": [], 
+        "template": "return(\"self.title +\",\" + self.len\")"
+    }, 
+    {
+        "expanded_representation": "self.title=name ||| []", 
+        "id": 147, 
+        "line_values": [], 
+        "template": "self.title=name"
+    }, 
+    {
+        "expanded_representation": "def _init_(self,title,num): ||| []", 
+        "id": 148, 
+        "line_values": [], 
+        "template": "def _init_(self,title,num):"
+    }, 
+    {
+        "expanded_representation": "class Song(self): ||| []", 
+        "id": 149, 
+        "line_values": [], 
+        "template": "class Song(self):"
+    }, 
+    {
+        "expanded_representation": "return self.title+', '+self.len ||| []", 
+        "id": 150, 
+        "line_values": [], 
+        "template": "return self.title+', '+self.len"
+    }, 
+    {
+        "expanded_representation": "return self.title+\" \"+self.len.str() ||| []", 
+        "id": 151, 
+        "line_values": [], 
+        "template": "return self.title+\" \"+self.len.str()"
+    }, 
+    {
+        "expanded_representation": "title=self.title() ||| []", 
+        "id": 152, 
+        "line_values": [], 
+        "template": "title=self.title()"
+    }, 
+    {
+        "expanded_representation": "num=self.title() ||| []", 
+        "id": 153, 
+        "line_values": [], 
+        "template": "num=self.title()"
+    }, 
+    {
+        "expanded_representation": "def __self__(title,num): ||| []", 
+        "id": 154, 
+        "line_values": [], 
+        "template": "def __self__(title,num):"
+    }, 
+    {
+        "expanded_representation": "return title+', '+num ||| []", 
+        "id": 155, 
+        "line_values": [], 
+        "template": "return title+', '+num"
+    }, 
+    {
+        "expanded_representation": "def __int__(self,name,lenh): ||| []", 
+        "id": 156, 
+        "line_values": [], 
+        "template": "def __int__(self,name,lenh):"
+    }, 
+    {
+        "expanded_representation": "return self.name+', '+str(self.lenh) ||| []", 
+        "id": 157, 
+        "line_values": [], 
+        "template": "return self.name+', '+str(self.lenh)"
+    }, 
+    {
+        "expanded_representation": "def __init__(self,Song,leng): ||| []", 
+        "id": 158, 
+        "line_values": [], 
+        "template": "def __init__(self,Song,leng):"
+    }, 
+    {
+        "expanded_representation": "self.title=Song ||| []", 
+        "id": 159, 
+        "line_values": [], 
+        "template": "self.title=Song"
+    }, 
+    {
+        "expanded_representation": "return self.Song+\" \"+self.leng ||| []", 
+        "id": 160, 
+        "line_values": [], 
+        "template": "return self.Song+\" \"+self.leng"
+    }, 
+    {
+        "expanded_representation": "def __intit__(self,title,len): ||| []", 
+        "id": 161, 
+        "line_values": [], 
+        "template": "def __intit__(self,title,len):"
+    }, 
+    {
+        "expanded_representation": "return(self.title,\",\",self.len) ||| []", 
+        "id": 162, 
+        "line_values": [], 
+        "template": "return(self.title,\",\",self.len)"
+    }, 
+    {
+        "expanded_representation": "return self.title+\", \"+str(self.num) ||| []", 
+        "id": 163, 
+        "line_values": [], 
+        "template": "return self.title+\", \"+str(self.num)"
+    }, 
+    {
+        "expanded_representation": "return result ||| []", 
+        "id": 164, 
+        "line_values": [], 
+        "template": "return result"
+    }, 
+    {
+        "expanded_representation": "self.num=len(___) ||| [{'Song(\\'Respect\\',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"': ['myNaN'], 'Song(\\'Truth Hurts\\',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"': ['myNaN']}]", 
+        "id": 165, 
+        "line_values": [
+            {
+                "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                    "myNaN"
+                ], 
+                "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                    "myNaN"
+                ]
+            }
+        ], 
+        "template": "self.num=len(___)"
+    }, 
+    {
+        "expanded_representation": "return self.num ||| []", 
+        "id": 166, 
+        "line_values": [], 
+        "template": "return self.num"
+    }, 
+    {
+        "expanded_representation": "return ___+\", \"+str(___) ||| [{'Song(\\'Respect\\',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"': [u'Respect', u'Respect'], 'Song(\\'Truth Hurts\\',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"': [u'Respect', u'Truth Hurts']}, {'Song(\\'Respect\\',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"': [150, 150], 'Song(\\'Truth Hurts\\',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"': [150, 183]}]", 
+        "id": 167, 
+        "line_values": [
+            {
+                "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                    "Respect", 
+                    "Respect"
+                ], 
+                "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                    "Respect", 
+                    "Truth Hurts"
+                ]
+            }, 
+            {
+                "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                    150, 
+                    150
+                ], 
+                "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                    150, 
+                    183
+                ]
+            }
+        ], 
+        "template": "return ___+\", \"+str(___)"
+    }, 
+    {
+        "expanded_representation": "return self.title+\",\"+\" \"+str(self.length) ||| []", 
+        "id": 168, 
+        "line_values": [], 
+        "template": "return self.title+\",\"+\" \"+str(self.length)"
+    }, 
+    {
+        "expanded_representation": "return self.title+', '+str(self.length) ||| []", 
+        "id": 169, 
+        "line_values": [], 
+        "template": "return self.title+', '+str(self.length)"
+    }, 
+    {
+        "expanded_representation": "return self.title+\" \"+self.length ||| []", 
+        "id": 170, 
+        "line_values": [], 
+        "template": "return self.title+\" \"+self.length"
+    }, 
+    {
+        "expanded_representation": "self.number=___ ||| [{'Song(\\'Respect\\',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"': ['myNaN'], 'Song(\\'Truth Hurts\\',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"': ['myNaN']}]", 
+        "id": 171, 
+        "line_values": [
+            {
+                "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                    "myNaN"
+                ], 
+                "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                    "myNaN"
+                ]
+            }
+        ], 
+        "template": "self.number=___"
+    }, 
+    {
+        "expanded_representation": "return self.title+\",\"+str(self.number) ||| []", 
+        "id": 172, 
+        "line_values": [], 
+        "template": "return self.title+\",\"+str(self.number)"
+    }, 
+    {
+        "expanded_representation": "return \"self.title,str(self.len)\" ||| []", 
+        "id": 173, 
+        "line_values": [], 
+        "template": "return \"self.title,str(self.len)\""
+    }, 
+    {
+        "expanded_representation": "def __init__(x,y): ||| []", 
+        "id": 174, 
+        "line_values": [], 
+        "template": "def __init__(x,y):"
+    }, 
+    {
+        "expanded_representation": "title=str(x) ||| []", 
+        "id": 175, 
+        "line_values": [], 
+        "template": "title=str(x)"
+    }, 
+    {
+        "expanded_representation": "len=int(y) ||| []", 
+        "id": 176, 
+        "line_values": [], 
+        "template": "len=int(y)"
+    }, 
+    {
+        "expanded_representation": "def __str__(title,len): ||| []", 
+        "id": 177, 
+        "line_values": [], 
+        "template": "def __str__(title,len):"
+    }, 
+    {
+        "expanded_representation": "return title+\", \"+str(len) ||| []", 
+        "id": 178, 
+        "line_values": [], 
+        "template": "return title+\", \"+str(len)"
+    }, 
+    {
+        "expanded_representation": "return(self.title,self.length) ||| []", 
+        "id": 179, 
+        "line_values": [], 
+        "template": "return(self.title,self.length)"
+    }, 
+    {
+        "expanded_representation": "return self.title+\" ,\"+self.len ||| []", 
+        "id": 180, 
+        "line_values": [], 
+        "template": "return self.title+\" ,\"+self.len"
+    }, 
+    {
+        "expanded_representation": "s=Song('Respect',190) ||| []", 
+        "id": 181, 
+        "line_values": [], 
+        "template": "s=Song('Respect',190)"
+    }, 
+    {
+        "expanded_representation": "self.alen=___ ||| [{'Song(\\'Respect\\',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"': ['myNaN'], 'Song(\\'Truth Hurts\\',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"': ['myNaN']}]", 
+        "id": 182, 
+        "line_values": [
+            {
+                "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                    "myNaN"
+                ], 
+                "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                    "myNaN"
+                ]
+            }
+        ], 
+        "template": "self.alen=___"
+    }, 
+    {
+        "expanded_representation": "return self.title+\", \"+self.alen ||| []", 
+        "id": 183, 
+        "line_values": [], 
+        "template": "return self.title+\", \"+self.alen"
+    }, 
+    {
+        "expanded_representation": "class Song(title,len): ||| []", 
+        "id": 184, 
+        "line_values": [], 
+        "template": "class Song(title,len):"
+    }, 
+    {
+        "expanded_representation": "self.num-=num ||| []", 
+        "id": 185, 
+        "line_values": [], 
+        "template": "self.num-=num"
+    }, 
+    {
+        "expanded_representation": "self.code=('Respect',150) ||| []", 
+        "id": 186, 
+        "line_values": [], 
+        "template": "self.code=('Respect',150)"
+    }, 
+    {
+        "expanded_representation": "return str(self.title,self.len) ||| []", 
+        "id": 187, 
+        "line_values": [], 
+        "template": "return str(self.title,self.len)"
+    }, 
+    {
+        "expanded_representation": "return(self.title,___) ||| [{'Song(\\'Respect\\',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"': [150, 150], 'Song(\\'Truth Hurts\\',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"': [150, 183]}]", 
+        "id": 188, 
+        "line_values": [
+            {
+                "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                    150, 
+                    150
+                ], 
+                "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                    150, 
+                    183
+                ]
+            }
+        ], 
+        "template": "return(self.title,___)"
+    }, 
+    {
+        "expanded_representation": "print self.title+\", \"+self.len ||| []", 
+        "id": 189, 
+        "line_values": [], 
+        "template": "print self.title+\", \"+self.len"
+    }, 
+    {
+        "expanded_representation": "self.len=str(len) ||| []", 
+        "id": 190, 
+        "line_values": [], 
+        "template": "self.len=str(len)"
+    }, 
+    {
+        "expanded_representation": "return self.title+\", \"+self.leng ||| []", 
+        "id": 191, 
+        "line_values": [], 
+        "template": "return self.title+\", \"+self.leng"
+    }, 
+    {
+        "expanded_representation": "s=Song('Respect',150(str)) ||| []", 
+        "id": 192, 
+        "line_values": [], 
+        "template": "s=Song('Respect',150(str))"
+    }, 
+    {
+        "expanded_representation": "___=str(self.len) ||| [{'Song(\\'Respect\\',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"': ['myNaN', 'myNaN'], 'Song(\\'Truth Hurts\\',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"': ['myNaN', 'myNaN']}]", 
+        "id": 193, 
+        "line_values": [
+            {
+                "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                    "myNaN", 
+                    "myNaN"
+                ], 
+                "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                    "myNaN", 
+                    "myNaN"
+                ]
+            }
+        ], 
+        "template": "___=str(self.len)"
+    }, 
+    {
+        "expanded_representation": "return self.title+\", \"+___ ||| [{'Song(\\'Respect\\',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"': ['myNaN', 'myNaN'], 'Song(\\'Truth Hurts\\',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"': ['myNaN', 'myNaN']}]", 
+        "id": 194, 
+        "line_values": [
+            {
+                "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                    "myNaN", 
+                    "myNaN"
+                ], 
+                "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                    "myNaN", 
+                    "myNaN"
+                ]
+            }
+        ], 
+        "template": "return self.title+\", \"+___"
+    }, 
+    {
+        "expanded_representation": "return ___+','+___ ||| [{'Song(\\'Respect\\',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"': [u'Respect', u'Respect'], 'Song(\\'Truth Hurts\\',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"': [u'Respect', u'Truth Hurts']}, {'Song(\\'Respect\\',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"': [150, 150], 'Song(\\'Truth Hurts\\',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"': [150, 183]}]", 
+        "id": 195, 
+        "line_values": [
+            {
+                "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                    "Respect", 
+                    "Respect"
+                ], 
+                "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                    "Respect", 
+                    "Truth Hurts"
+                ]
+            }, 
+            {
+                "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                    150, 
+                    150
+                ], 
+                "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                    150, 
+                    183
+                ]
+            }
+        ], 
+        "template": "return ___+','+___"
+    }, 
+    {
+        "expanded_representation": "return self.title+\", \"+str(self.number) ||| []", 
+        "id": 196, 
+        "line_values": [], 
+        "template": "return self.title+\", \"+str(self.number)"
+    }, 
+    {
+        "expanded_representation": "def __intit(self,title,length): ||| []", 
+        "id": 197, 
+        "line_values": [], 
+        "template": "def __intit(self,title,length):"
+    }, 
+    {
+        "expanded_representation": "self.length=length ||| []", 
+        "id": 198, 
+        "line_values": [], 
+        "template": "self.length=length"
+    }, 
+    {
+        "expanded_representation": "return str(self.title)+','+str(self.len) ||| []", 
+        "id": 199, 
+        "line_values": [], 
+        "template": "return str(self.title)+','+str(self.len)"
+    }, 
+    {
+        "expanded_representation": "return \"\"+self.title+\", \"+str(self.len) ||| []", 
+        "id": 200, 
+        "line_values": [], 
+        "template": "return \"\"+self.title+\", \"+str(self.len)"
+    }, 
+    {
+        "expanded_representation": "print(self.title,\",\",self.len) ||| []", 
+        "id": 201, 
+        "line_values": [], 
+        "template": "print(self.title,\",\",self.len)"
+    }, 
+    {
+        "expanded_representation": "return self.name+\" \"+str(self.leng) ||| []", 
+        "id": 202, 
+        "line_values": [], 
+        "template": "return self.name+\" \"+str(self.leng)"
+    }, 
+    {
+        "expanded_representation": "def _init_(self,title,length): ||| []", 
+        "id": 203, 
+        "line_values": [], 
+        "template": "def _init_(self,title,length):"
+    }, 
+    {
+        "expanded_representation": "self.len=length ||| []", 
+        "id": 204, 
+        "line_values": [], 
+        "template": "self.len=length"
+    }, 
+    {
+        "expanded_representation": "return self.name+\" , \"+str(self.leng) ||| []", 
+        "id": 205, 
+        "line_values": [], 
+        "template": "return self.name+\" , \"+str(self.leng)"
+    }, 
+    {
+        "expanded_representation": "___=self.title+\", \"+str(self.len) ||| [{'Song(\\'Respect\\',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"': ['myNaN', 'myNaN'], 'Song(\\'Truth Hurts\\',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"': ['myNaN', 'myNaN']}]", 
+        "id": 206, 
+        "line_values": [
+            {
+                "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                    "myNaN", 
+                    "myNaN"
+                ], 
+                "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                    "myNaN", 
+                    "myNaN"
+                ]
+            }
+        ], 
+        "template": "___=self.title+\", \"+str(self.len)"
+    }, 
+    {
+        "expanded_representation": "return ___ ||| [{'Song(\\'Respect\\',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"': ['myNaN', 'myNaN'], 'Song(\\'Truth Hurts\\',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"': ['myNaN', 'myNaN']}]", 
+        "id": 207, 
+        "line_values": [
+            {
+                "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                    "myNaN", 
+                    "myNaN"
+                ], 
+                "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                    "myNaN", 
+                    "myNaN"
+                ]
+            }
+        ], 
+        "template": "return ___"
+    }, 
+    {
+        "expanded_representation": "self.num-=___ ||| [{'Song(\\'Respect\\',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"': ['myNaN'], 'Song(\\'Truth Hurts\\',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"': ['myNaN']}]", 
+        "id": 208, 
+        "line_values": [
+            {
+                "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                    "myNaN"
+                ], 
+                "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                    "myNaN"
+                ]
+            }
+        ], 
+        "template": "self.num-=___"
+    }, 
+    {
+        "expanded_representation": "return self.title+\" \"+___ ||| [{'Song(\\'Respect\\',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"': ['myNaN', 'myNaN'], 'Song(\\'Truth Hurts\\',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"': ['myNaN', 'myNaN']}]", 
+        "id": 209, 
+        "line_values": [
+            {
+                "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                    "myNaN", 
+                    "myNaN"
+                ], 
+                "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                    "myNaN", 
+                    "myNaN"
+                ]
+            }
+        ], 
+        "template": "return self.title+\" \"+___"
+    }, 
+    {
+        "expanded_representation": "self.len=len(title) ||| []", 
+        "id": 210, 
+        "line_values": [], 
+        "template": "self.len=len(title)"
+    }, 
+    {
+        "expanded_representation": "return self.title+\", \"+str(len(title)) ||| []", 
+        "id": 211, 
+        "line_values": [], 
+        "template": "return self.title+\", \"+str(len(title))"
+    }, 
+    {
+        "expanded_representation": "return str.title+\", \"+str.len ||| []", 
+        "id": 212, 
+        "line_values": [], 
+        "template": "return str.title+\", \"+str.len"
+    }, 
+    {
+        "expanded_representation": "return ___+\", \"+self.len ||| [{'Song(\\'Respect\\',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"': [u'Respect', u'Respect'], 'Song(\\'Truth Hurts\\',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"': [u'Respect', u'Truth Hurts']}]", 
+        "id": 213, 
+        "line_values": [
+            {
+                "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                    "Respect", 
+                    "Respect"
+                ], 
+                "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                    "Respect", 
+                    "Truth Hurts"
+                ]
+            }
+        ], 
+        "template": "return ___+\", \"+self.len"
+    }, 
+    {
+        "expanded_representation": "return self.title+str(self.length) ||| []", 
+        "id": 214, 
+        "line_values": [], 
+        "template": "return self.title+str(self.length)"
+    }, 
+    {
+        "expanded_representation": "return(str(self.title),self.len) ||| []", 
+        "id": 215, 
+        "line_values": [], 
+        "template": "return(str(self.title),self.len)"
+    }, 
+    {
+        "expanded_representation": "return self.title+\" \"+str(self.num) ||| []", 
+        "id": 216, 
+        "line_values": [], 
+        "template": "return self.title+\" \"+str(self.num)"
+    }
+]

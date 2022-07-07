@@ -1,0 +1,31 @@
+,acid,anon_code
+28403,Classes_Basic_Airport_ac,"class Airport:
+    def __init__(self, name, code):
+        self.name = name
+        self.code = code 
+    def __str__(self):
+        return self.name + "" "" + self.code
+a = Airport(""Detroit"", ""DTW"")
+print(a)
+
+"
+33689,Classes_Basic_Airport_ac,"class Airport:
+    def __init__(self, name, code):
+        self.name = name
+        self.code = code
+    def __str__(self):
+        return self.name + self.code
+a = Airport(""Detroit"", ""DTW"")
+print(a)
+
+"
+33693,Classes_Basic_Airport_ac,"class Airport:
+    def __init__(self, name, code):
+        self.name = name
+        self.code = code
+    def __str__(self):
+        return self.name + "" "" + self.code
+a = Airport(""Detroit"", ""DTW"")
+print(a)
+
+"

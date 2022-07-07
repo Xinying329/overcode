@@ -15,7 +15,7 @@ CorrectTestResults = new Mongo.Collection('CorrectTestResults');
 var RELOAD = true;
 
 ///////////////////////////////////////////////////////////////////////////////
-// Define paths here
+// Define paths 
 ///////////////////////////////////////////////////////////////////////////////
 // FUTURE WORK: Usability: make this a config file or something similar instead
 // of requiring changes directly to the code
@@ -37,6 +37,7 @@ var data_path = path.join(base_path, 'overcode_data/', DATA_DIR_NAME, 'data/');
 // Path to the desired location of the log file. This is where grading events
 // are recorded.
 var logging_path = path.join(base_path, 'overcode/logging/log.txt');
+
 
 ///////////////////////////////////////////////////////////////////////////////
 

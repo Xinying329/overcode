@@ -1,0 +1,736 @@
+[
+    {
+        "id": 1, 
+        "sequence": {
+            "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                3
+            ], 
+            "print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")": [
+                3
+            ], 
+            "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                3, 
+                2
+            ], 
+            "print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")": [
+                3, 
+                2
+            ]
+        }, 
+        "varName": "age"
+    }, 
+    {
+        "id": 2, 
+        "sequence": {
+            "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                "Fluffy"
+            ], 
+            "print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")": [
+                "Fluffy"
+            ], 
+            "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                "Fluffy", 
+                "Spike"
+            ], 
+            "print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")": [
+                "Fluffy", 
+                "Spike"
+            ]
+        }, 
+        "varName": "name"
+    }, 
+    {
+        "id": 3, 
+        "sequence": {
+            "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                "name: Fluffy, age: 3"
+            ], 
+            "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                "name: Spike, age: 2"
+            ]
+        }, 
+        "varName": "result"
+    }, 
+    {
+        "id": 4, 
+        "sequence": {
+            "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                "", 
+                "name: ", 
+                "name: Fluffy, ", 
+                "name: Fluffy, age: ", 
+                "name: Fluffy, age: 3"
+            ], 
+            "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                "", 
+                "name: ", 
+                "name: Spike, ", 
+                "name: Spike, age: ", 
+                "name: Spike, age: 2"
+            ]
+        }, 
+        "varName": "new_str"
+    }, 
+    {
+        "id": 5, 
+        "sequence": {
+            "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                3
+            ], 
+            "print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")": [
+                3
+            ], 
+            "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                3
+            ], 
+            "print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")": [
+                3
+            ]
+        }, 
+        "varName": "age"
+    }, 
+    {
+        "id": 6, 
+        "sequence": {
+            "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                "Fluffy"
+            ], 
+            "print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")": [
+                "Fluffy"
+            ], 
+            "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                "Fluffy"
+            ], 
+            "print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")": [
+                "Fluffy"
+            ]
+        }, 
+        "varName": "name"
+    }, 
+    {
+        "id": 7, 
+        "sequence": {
+            "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                3
+            ], 
+            "print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")": [
+                3
+            ], 
+            "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                2
+            ], 
+            "print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")": [
+                2
+            ]
+        }, 
+        "varName": "age"
+    }, 
+    {
+        "id": 8, 
+        "sequence": {
+            "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                "Fluffy"
+            ], 
+            "print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")": [
+                "Fluffy"
+            ], 
+            "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                "Spike"
+            ], 
+            "print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")": [
+                "Spike"
+            ]
+        }, 
+        "varName": "name"
+    }, 
+    {
+        "id": 9, 
+        "sequence": {
+            "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                ""
+            ], 
+            "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                ""
+            ]
+        }, 
+        "varName": "new_str"
+    }, 
+    {
+        "id": 10, 
+        "sequence": {
+            "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                "name: Fluffy, age:3"
+            ], 
+            "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                "name: Spike, age:2"
+            ]
+        }, 
+        "varName": "string"
+    }, 
+    {
+        "id": 11, 
+        "sequence": {
+            "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                "Meow"
+            ], 
+            "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                "Meow"
+            ]
+        }, 
+        "varName": "make_sound"
+    }, 
+    {
+        "id": 12, 
+        "sequence": {
+            "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                3
+            ], 
+            "print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")": [
+                3
+            ], 
+            "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                3
+            ], 
+            "print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")": [
+                3
+            ]
+        }, 
+        "varName": "age"
+    }, 
+    {
+        "id": 13, 
+        "sequence": {
+            "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                "Fluffy"
+            ], 
+            "print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")": [
+                "Fluffy"
+            ], 
+            "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                "Fluffy"
+            ], 
+            "print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")": [
+                "Fluffy"
+            ]
+        }, 
+        "varName": "name"
+    }, 
+    {
+        "id": 14, 
+        "sequence": {
+            "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                3
+            ], 
+            "print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")": [
+                3
+            ], 
+            "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                2
+            ], 
+            "print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")": [
+                2
+            ]
+        }, 
+        "varName": "age"
+    }, 
+    {
+        "id": 15, 
+        "sequence": {
+            "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                "Fluffy"
+            ], 
+            "print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")": [
+                "Fluffy"
+            ], 
+            "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                "Spike"
+            ], 
+            "print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")": [
+                "Spike"
+            ]
+        }, 
+        "varName": "name"
+    }, 
+    {
+        "id": 16, 
+        "sequence": {
+            "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                "Meow"
+            ], 
+            "print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")": [
+                "Meow"
+            ], 
+            "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                "Meow"
+            ], 
+            "print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")": [
+                "Meow"
+            ]
+        }, 
+        "varName": "make_sound"
+    }, 
+    {
+        "id": 17, 
+        "sequence": {
+            "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                3
+            ], 
+            "print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")": [
+                3
+            ], 
+            "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                3
+            ], 
+            "print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")": [
+                3
+            ]
+        }, 
+        "varName": "age"
+    }, 
+    {
+        "id": 18, 
+        "sequence": {
+            "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                "Fluffy"
+            ], 
+            "print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")": [
+                "Fluffy"
+            ], 
+            "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                "Fluffy"
+            ], 
+            "print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")": [
+                "Fluffy"
+            ]
+        }, 
+        "varName": "name"
+    }, 
+    {
+        "id": 19, 
+        "sequence": {
+            "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                "", 
+                "name: ", 
+                "name: Fluffy"
+            ], 
+            "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                "", 
+                "name: ", 
+                "name: Spike"
+            ]
+        }, 
+        "varName": "new_str"
+    }, 
+    {
+        "id": 20, 
+        "sequence": {
+            "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                3
+            ], 
+            "print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")": [
+                3
+            ], 
+            "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                3
+            ], 
+            "print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")": [
+                3
+            ]
+        }, 
+        "varName": "age"
+    }, 
+    {
+        "id": 21, 
+        "sequence": {
+            "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                "Fluffy"
+            ], 
+            "print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")": [
+                "Fluffy"
+            ], 
+            "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                "Fluffy"
+            ], 
+            "print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")": [
+                "Fluffy"
+            ]
+        }, 
+        "varName": "name"
+    }, 
+    {
+        "id": 22, 
+        "sequence": {
+            "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                3
+            ], 
+            "print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")": [
+                3
+            ], 
+            "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                3
+            ], 
+            "print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")": [
+                3
+            ]
+        }, 
+        "varName": "age"
+    }, 
+    {
+        "id": 23, 
+        "sequence": {
+            "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                "Fluffy"
+            ], 
+            "print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")": [
+                "Fluffy"
+            ], 
+            "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                "Fluffy"
+            ], 
+            "print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")": [
+                "Fluffy"
+            ]
+        }, 
+        "varName": "name"
+    }, 
+    {
+        "id": 24, 
+        "sequence": {
+            "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                3
+            ], 
+            "print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")": [
+                3
+            ], 
+            "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                3
+            ], 
+            "print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")": [
+                3
+            ]
+        }, 
+        "varName": "age"
+    }, 
+    {
+        "id": 25, 
+        "sequence": {
+            "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                "Fluffy"
+            ], 
+            "print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")": [
+                "Fluffy"
+            ], 
+            "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                "Fluffy"
+            ], 
+            "print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")": [
+                "Fluffy"
+            ]
+        }, 
+        "varName": "name"
+    }, 
+    {
+        "id": 26, 
+        "sequence": {
+            "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                "", 
+                "name:", 
+                "name:Fluffy", 
+                "name:Fluffyage:", 
+                "name:Fluffyage:3"
+            ], 
+            "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                "", 
+                "name:", 
+                "name:Spike", 
+                "name:Spikeage:", 
+                "name:Spikeage:2"
+            ]
+        }, 
+        "varName": "new_str"
+    }, 
+    {
+        "id": 27, 
+        "sequence": {
+            "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                3
+            ], 
+            "print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")": [
+                3
+            ], 
+            "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                3
+            ], 
+            "print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")": [
+                3
+            ]
+        }, 
+        "varName": "age"
+    }, 
+    {
+        "id": 28, 
+        "sequence": {
+            "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                "Fluffy"
+            ], 
+            "print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")": [
+                "Fluffy"
+            ], 
+            "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                "Fluffy"
+            ], 
+            "print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")": [
+                "Fluffy"
+            ]
+        }, 
+        "varName": "name"
+    }, 
+    {
+        "id": 29, 
+        "sequence": {
+            "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                "", 
+                "name: ", 
+                "name: Fluffy", 
+                "name: Fluffyage: ", 
+                "name: Fluffyage: 3"
+            ], 
+            "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                "", 
+                "name: ", 
+                "name: Spike", 
+                "name: Spikeage: ", 
+                "name: Spikeage: 2"
+            ]
+        }, 
+        "varName": "new_str"
+    }, 
+    {
+        "id": 30, 
+        "sequence": {
+            "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                "name: Fluffy, age:3"
+            ], 
+            "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                "name: Spike, age:2"
+            ]
+        }, 
+        "varName": "result"
+    }, 
+    {
+        "id": 31, 
+        "sequence": {
+            "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                "", 
+                "name: ", 
+                "name: Fluffy ", 
+                "name: Fluffy age: ", 
+                "name: Fluffy age: 3"
+            ], 
+            "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                "", 
+                "name: ", 
+                "name: Spike ", 
+                "name: Spike age: ", 
+                "name: Spike age: 2"
+            ]
+        }, 
+        "varName": "new_str"
+    }, 
+    {
+        "id": 32, 
+        "sequence": {
+            "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                3
+            ], 
+            "print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")": [
+                3
+            ], 
+            "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                3
+            ], 
+            "print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")": [
+                3
+            ]
+        }, 
+        "varName": "age"
+    }, 
+    {
+        "id": 33, 
+        "sequence": {
+            "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                "Fluffy"
+            ], 
+            "print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")": [
+                "Fluffy"
+            ], 
+            "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                "Fluffy"
+            ], 
+            "print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")": [
+                "Fluffy"
+            ]
+        }, 
+        "varName": "name"
+    }, 
+    {
+        "id": 34, 
+        "sequence": {
+            "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                "", 
+                "name: ", 
+                "name: Fluffy", 
+                "name: Fluffyage: ", 
+                "name: Fluffyage: 3"
+            ], 
+            "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                "", 
+                "name: ", 
+                "name: Spike", 
+                "name: Spikeage: ", 
+                "name: Spikeage: 2"
+            ]
+        }, 
+        "varName": "new_str"
+    }, 
+    {
+        "id": 35, 
+        "sequence": {
+            "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                3
+            ], 
+            "print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")": [
+                3
+            ], 
+            "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                3
+            ], 
+            "print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")": [
+                3
+            ]
+        }, 
+        "varName": "age"
+    }, 
+    {
+        "id": 36, 
+        "sequence": {
+            "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                "Fluffy"
+            ], 
+            "print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")": [
+                "Fluffy"
+            ], 
+            "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                "Fluffy"
+            ], 
+            "print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")": [
+                "Fluffy"
+            ]
+        }, 
+        "varName": "name"
+    }, 
+    {
+        "id": 37, 
+        "sequence": {
+            "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                "Meow"
+            ], 
+            "print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")": [
+                "Meow"
+            ], 
+            "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                "Meow"
+            ], 
+            "print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")": [
+                "Meow"
+            ]
+        }, 
+        "varName": "make_sound"
+    }, 
+    {
+        "id": 38, 
+        "sequence": {
+            "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                3
+            ], 
+            "print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")": [
+                3
+            ], 
+            "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                3
+            ], 
+            "print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")": [
+                3
+            ]
+        }, 
+        "varName": "age"
+    }, 
+    {
+        "id": 39, 
+        "sequence": {
+            "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                "Fluffy"
+            ], 
+            "print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")": [
+                "Fluffy"
+            ], 
+            "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                "Fluffy"
+            ], 
+            "print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")": [
+                "Fluffy"
+            ]
+        }, 
+        "varName": "name"
+    }, 
+    {
+        "id": 40, 
+        "sequence": {
+            "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                "", 
+                "name: ", 
+                "name: Fluffy", 
+                "name: Fluffyage: ", 
+                "name: Fluffyage: 3"
+            ], 
+            "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                "", 
+                "name: ", 
+                "name: Spike", 
+                "name: Spikeage: ", 
+                "name: Spikeage: 2"
+            ]
+        }, 
+        "varName": "new_str"
+    }, 
+    {
+        "id": 41, 
+        "sequence": {
+            "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                "Meow"
+            ], 
+            "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                "Meow"
+            ]
+        }, 
+        "varName": "make_sound"
+    }, 
+    {
+        "id": 42, 
+        "sequence": {
+            "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": [
+                "", 
+                "name: ", 
+                "name: Fluffy", 
+                "name: Fluffyage: "
+            ], 
+            "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": [
+                "", 
+                "name: ", 
+                "name: Spike", 
+                "name: Spikeage: "
+            ]
+        }, 
+        "varName": "new_str"
+    }
+]

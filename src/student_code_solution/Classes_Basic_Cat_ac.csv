@@ -1,0 +1,8085 @@
+,acid,anon_code
+2047,Classes_Basic_Cat_ac,"class Cat:
+    
+    def __init__(self, name, age):
+        
+        self.name = name
+        self.age = age
+        
+    def __str__(self):
+        
+        return ""name: "" + self.name + "", age: "" + str(age)
+    
+    def make_sound(self):
+        
+        return ""Meow""
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+2051,Classes_Basic_Cat_ac,"class Cat:
+    
+    def __init__(self, name, age):
+        
+        self.name = name
+        self.age = age
+        
+    def __str__(self):
+        
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+    
+    def make_sound(self):
+        
+        return ""Meow""
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+2532,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self,name,age):
+        self.name=name
+        self.age=age
+    def __str__(self):
+        return f'name: {self.name}, age: {self.age}'
+    def make_sound(self):
+        return 'Meow'
+
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+2556,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self,name,age):
+        self.name=name
+        self.age=age
+    def __str__(self)
+        return f'name: {name}, age: {age}'
+    def make_sound(self):
+        return 'Meow'
+
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+2557,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self,name,age):
+        self.name=name
+        self.age=age
+    def __str__(self):
+        return f'name: {name}, age: {age}'
+    def make_sound(self):
+        return 'Meow'
+
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+4710,Classes_Basic_Cat_ac,"class Cat:
+   def __init__(self,name,age):
+       self.name = name
+       self.age = age
+       #self.make_sound = ""Meow""
+   def __str__(self):
+       return ""name: "" + self.name + "" age: "" + str(self.age)
+   def make_sound():
+       return str(""Meow"")
+        
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c,make_sound())
+
+"
+4711,Classes_Basic_Cat_ac,"class Cat:
+   def __init__(self,name,age,make_sound):
+       self.name = name
+       self.age = age
+       #self.make_sound = ""Meow""
+   def __str__(self):
+       return ""name: "" + self.name + "" age: "" + str(self.age)
+   def make_sound():
+       return str(""Meow"")
+        
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c,make_sound())
+
+"
+4712,Classes_Basic_Cat_ac,"class Cat:
+   def __init__(self,name,age):
+       self.name = name
+       self.age = age
+       #self.make_sound = ""Meow""
+   def __str__(self):
+       return ""name: "" + self.name + "" age: "" + str(self.age)
+   def make_sound(self):
+       return str(""Meow"")
+        
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+4713,Classes_Basic_Cat_ac,"class Cat:
+   def __init__(self,name,age,make_sound):
+       self.name = name
+       self.age = age
+       #self.make_sound = ""Meow""
+   def __str__(self):
+       return ""name: "" + self.name + "" age: "" + str(self.age)
+   def make_sound():
+       return str(""Meow"")
+        
+    
+c = Cat(""Fluffy"", 3, ""Meow"")
+print(c)
+print(c,make_sound())
+
+"
+4714,Classes_Basic_Cat_ac,"class Cat:
+   def __init__(self,name,age,make_sound):
+       self.name = name
+       self.age = age
+       #self.make_sound = ""Meow""
+   def __str__(self):
+       return ""name: "" + self.name + "" age: "" + str(self.age)
+   def make_sound(self):
+       return str(""Meow"")
+        
+    
+c = Cat(""Fluffy"", 3, ""Meow"")
+print(c)
+print(c,make_sound())
+
+"
+4715,Classes_Basic_Cat_ac,"class Cat:
+   def __init__(self,name,age):
+       self.name = name
+       self.age = age
+       #self.make_sound = ""Meow""
+   def __str__(self):
+       return ""name: "" + self.name + "" age: "" + str(self.age)
+   def make_sound(self):
+       return str(""Meow"")
+        
+    
+c = Cat(""Fluffy"", 3, ""Meow"")
+print(c)
+print(c,make_sound())
+
+"
+4716,Classes_Basic_Cat_ac,"class Cat:
+   def __init__(self,name,age):
+       self.name = name
+       self.age = age
+       #self.make_sound = ""Meow""
+   def __str__(self):
+       return ""name: "" + self.name + "" age: "" + str(self.age)
+   def make_sound(self):
+       return str(""Meow"")
+        
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c,make_sound())
+
+"
+4717,Classes_Basic_Cat_ac,"class Cat:
+   def __init__(self,name,age):
+       self.name = name
+       self.age = age
+       #self.make_sound = ""Meow""
+   def __str__(self):
+       return ""name: "" + self.name + "", age: "" + str(self.age)
+   def make_sound(self):
+       return str(""Meow"")
+        
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+4719,Classes_Basic_Cat_ac,"class Cat:
+   def __init__(self,name,age):
+       self.name = name
+       self.age = age
+   def __str__(self):
+       return ""name: "" + self.name + "" age: "" + self.age
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+4721,Classes_Basic_Cat_ac,"class Cat:
+   def __init__(self,name,age):
+       self.name = name
+       self.age = age
+       self.make_sound = ""Meow""
+   def __str__(self):
+       return ""name: "" + self.name + "" age: "" + str(self.age)
+   def __make_sound__():
+       #return self.make_sound
+       return str(""Meow"") 
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+4722,Classes_Basic_Cat_ac,"class Cat:
+   def __init__(self,name,age):
+       self.name = name
+       self.age = age
+       self.make_sound = ""Meow""
+   def __str__(self):
+       return ""name: "" + self.name + "" age: "" + str(self.age)
+   def __make_sound__(self):
+       return self.make_sound
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+4725,Classes_Basic_Cat_ac,"class Cat:
+   def __init__(self,name,age):
+       self.name = name
+       self.age = age
+       self.make_sound = ""Meow""
+   def __str__(self):
+       return ""name: "" + self.name + "" age: "" + str(self.age)
+   def __make_sound__():
+       return self.make_sound
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+4727,Classes_Basic_Cat_ac,"class Cat:
+   def __init__(self,name,age):
+       self.name = name
+       self.age = age
+   def __str__(self):
+       return ""name: "" + self.name + "" age: "" + str(self.age)
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+4728,Classes_Basic_Cat_ac,"class Cat:
+   def __init__(self,name,age):
+       self.name = name
+       self.age = age
+       #self.make_sound = ""Meow""
+   def __str__(self):
+       return ""name: "" + self.name + "" age: "" + str(self.age)
+   def __make_sound__():
+       #return self.make_sound
+       return str(""Meow"") 
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+4731,Classes_Basic_Cat_ac,"class Cat:
+   def __init__(self,name,age):
+       self.name = name
+       self.age = age
+   def __str__(self):
+       return ""name: "" + name + "" age: "" + age
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+4732,Classes_Basic_Cat_ac,"class Cat
+   def __init__(self,name,age):
+       self.name = name
+       self.age = age
+   def __str__(self)
+       return ""name: "" + name + "" age: "" + age
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+4733,Classes_Basic_Cat_ac,"class Cat:
+   def __init__(self,name,age):
+       self.name = name
+       self.age = age
+   def __str__(self)
+       return ""name: "" + name + "" age: "" + age
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+4734,Classes_Basic_Cat_ac,"class Cat:
+   def __init__(self,name,age):
+       self.name = name
+       self.age = age
+       self.make_sound = ""Meow""
+   def __str__(self):
+       return ""name: "" + self.name + "" age: "" + str(self.age)
+   def __make_sound__():
+       return self.make_sound
+        
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c,make_sound())
+
+"
+4735,Classes_Basic_Cat_ac,"class Cat:
+   def __init__(self,name,age):
+       self.name = name
+       self.age = age
+       self.make_sound = ""Meow""
+   def __str__(self):
+       return ""name: "" + self.name + "" age: "" + str(self.age)
+   def make_sound():
+       return self.make_sound
+        
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c,make_sound())
+
+"
+4736,Classes_Basic_Cat_ac,"class Cat:
+   def __init__(self,name,age,make_sound()):
+       self.name = name
+       self.age = age
+       #self.make_sound = ""Meow""
+   def __str__(self):
+       return ""name: "" + self.name + "" age: "" + str(self.age)
+   def make_sound():
+       return str(""Meow"")
+        
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c,make_sound())
+
+"
+4739,Classes_Basic_Cat_ac,"class Cat:
+   def __init__(self,name,age):
+       self.name = name
+       self.age = age
+   def __str__(self):
+       return ""name: "" + self.name + "" age: "" + str(self.age)
+   def __make_sound__(self):
+       return ""Meow""
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+6047,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        
+    def __str__(self):
+        return ""name: "" + self.name + "", "" + ""age: "" + str(self.age)
+    
+    def make_sound(self):
+        print(""Meow"")
+        
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+6052,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        
+    def __str__(self):
+        return ""name: "" + self.name + "", "" + ""age: "" + self.age
+    
+    def make_sound(self):
+        print(""Meow"")
+        
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+6053,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        
+    def __str__(self):
+        return ""name: "" + self.name + "", "" + ""age: "" + str(self.age)
+    
+    def make_sound(self):
+        return ""Meow""
+        
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+8388,Classes_Basic_Cat_ac,"
+class Cat:
+    def __init__(self,name,age):
+        self.name=name
+        self.age=age
+    def __str__(self):
+        return (""name: "" + self.name + "" ,"" + ""age: "" + str(self.age))
+    def make_sound(self):
+        return ""Meow""
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+8390,Classes_Basic_Cat_ac,"
+class Cat:
+    def __init__(self,name,age):
+        self.name=name
+        self.age=age
+    def __str__(self):
+        return (""name: "" + self.name + "", "" + ""age: "" + str(self.age))
+    def make_sound(self):
+        return ""Meow""
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+8394,Classes_Basic_Cat_ac,"
+class Cat:
+    def __init__(self,name,age):
+        self.name=name
+        self.age=age
+    
+    def __str__(self):
+        return ""name: "" + self.name + "" "" + ""age: "" + self.age
+    
+    def make_sound(self):
+        return ""Meow""
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+8395,Classes_Basic_Cat_ac,"
+class Cat:
+    def __init__(self,name,age):
+        self.name=name
+        self.age=int(age)
+    def __str__(self):
+        return (""name: "" + self.name + "" "" + ""age: "" + self.age)
+    def make_sound(self):
+        return ""Meow""
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+8396,Classes_Basic_Cat_ac,"
+class Cat:
+    def __init__(self,name,age):
+        self.name=name
+        self.age=int(age)
+    def __str__(self):
+        return (""name: "" + self.name + "" "" + ""age: "" + int(self.age))
+    def make_sound(self):
+        return ""Meow""
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+8397,Classes_Basic_Cat_ac,"
+class Cat:
+    def __init__(self,name,age):
+        self.name=name
+        self.age=age
+    def __str__(self):
+        return (""name: "" + self.name + "" "" + ""age: "" + int(self.age))
+    def make_sound(self):
+        return ""Meow""
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+8400,Classes_Basic_Cat_ac,"
+class Cat:
+    def __init__(self,name,age):
+        self.name=name
+        self.age=int(age)
+    def __str__(self):
+        return ""name: "" + self.name + "" "" + ""age: "" + self.age
+    def make_sound(self):
+        return ""Meow""
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+8401,Classes_Basic_Cat_ac,"
+class Cat:
+    def __init__(self,name,age):
+        self.name=name
+        self.age=age
+    
+    def __str__(self):
+        return ""name: "" + self.name #+ "" "" + ""age: "" + self.age
+    
+    def make_sound(self):
+        return ""Meow""
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+8402,Classes_Basic_Cat_ac,"
+class Cat:
+    def __init__(self,name,age):
+        self.name=name
+        self.age=age
+    def __str__(self):
+        return (""name: "" + self.name + "" "" + ""age: "" + str(self.age))
+    def make_sound(self):
+        return ""Meow""
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+8403,Classes_Basic_Cat_ac,"
+class Cat:
+    def __init__(self,name,age):
+        self.name=name
+        int(self.age)=int(age)
+    def __str__(self):
+        return (""name: "" + self.name + "" "" + ""age: "" + self.age)
+    def make_sound(self):
+        return ""Meow""
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+8454,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+    def make_sound(self):
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+8465,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+    def make_sound():
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+16608,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+    
+    def make_sound(self):
+        return ""Meow""
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+16610,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+16615,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+    
+    def make_sound():
+        return ""Meow""
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+16617,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def __str__(self):
+        return name: "" + self.name + "", age: "" + self.age
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+16618,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + self.age
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+17061,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name=name
+        self.age=age
+    def __str__(self):
+        return ""name: "" + self.name+ "", age: ""+ str(self.age)
+    def make_sound():
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+17062,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name=name
+        self.age=age
+    def __str__(self):
+        return ""name: "" + self.name+ "", age: ""+ str(self.age)
+    def make_sound(self):
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+17792,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self,name,age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return f'name: {self.name}, age: {self.age}'
+
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+17797,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self,name,age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return f'name: {self.name}, age: {self.age}'
+    def make_sound(self):
+        return ""Meow""
+
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+18498,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self,  name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", age:"" + str(self.age)
+    def make_sound(self):
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+18500,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self,  name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", age:"" + self.age
+    def make_sound():
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+18501,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self,  name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", age:"" + str(self.age)
+    def make_sound():
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+18503,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self,  name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+    def make_sound(self):
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+19213,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+19219,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+    
+    def make_sound():
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+19220,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+    
+    def make_sound(self):
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+19759,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age 
+        
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+    
+    def make_sound():
+        return ""Meow""
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+19761,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age 
+        
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+    
+    def make_sound(self):
+        return ""Meow""
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+19775,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age 
+        
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age())
+    
+    def make_sound():
+        return ""Meow""
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+20463,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+    
+    def make_sound(self):
+        return ""Meow""
+        
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+20468,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+    
+    def make_sound():
+        return ""Meow""
+        
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+21806,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+    def make_sound(self):
+        return ""Meow""
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+21809,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + self.age
+    def make_sound():
+        return ""Meow""
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+21812,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+    def make_sound():
+        return ""Meow""
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+23726,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self,name,age):
+        self.name = name
+        self.name = age
+    def __str__(self):
+        return ""name: "" + self.name +"", age: "" + str(self.age)
+    def make_sound(self):
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+23733,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self,name,age):
+        self.name = name
+        self.name = age
+    def __self__(self):
+        return ""name: "" + self.name +"", age: "" + str(self.age)
+    def make_sound(self):
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+23734,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self,name,age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name +"", age: "" + str(self.age)
+    def make_sound(self):
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+23740,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self,name,age):
+        self.name = name
+        self.name = age
+    def __self__(self):
+        return ""name: "" + self.name +"", age: "" + str(self.age)
+    def make_sound:
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+25091,Classes_Basic_Cat_ac,"class Cat:
+    def _init_ (self, name, age):
+        self.name = name
+        self.age = age
+    def _str_:
+        return ""name: "" + name + "", age: "" + age
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+25097,Classes_Basic_Cat_ac,"class Cat:
+    def _init_ (self, name, age):
+        self.name = name
+        self.age = age
+    def _str_(self):
+        return ""name: "" + name + "", age: "" + age
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+25101,Classes_Basic_Cat_ac,"class Cat:
+    def __init__ (self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+    def make_sound:
+        return ""Meow""
+
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+25107,Classes_Basic_Cat_ac,"class Cat:
+    def __init__ (self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+25109,Classes_Basic_Cat_ac,"class Cat:
+    def __init__ (self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + name + "", age: "" + age
+
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+25110,Classes_Basic_Cat_ac,"class Cat:
+    def __init__ (self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+    def make_sound(self):
+        return ""Meow""
+
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+25111,Classes_Basic_Cat_ac,"class Cat:
+    def __init__ (self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+    def make_sound():
+        return ""Meow""
+
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+25738,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name,age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: ""+self.name + "", age: "" +  str(self.age)
+    def make_sound(self):
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+25740,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name,age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: ""+self.name + "", age: "" +  self.age
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+25741,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name,age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: ""+self.name + "", age: "" +  str(self.age)
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+25742,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name,age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: ""+self.name + "", age: "" +  str(self.age)
+    def make_sound:
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+25743,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name,age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: ""+self.name + "", age: "" +  str(self.age)
+    def make_sound():
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+26265,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+    def make_sound(self):
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+27220,Classes_Basic_Cat_ac,"class Cat: 
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return f'name: {self.name}, age: {self.age}'
+    def make_sound(self):
+        return ""Meow"" 
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+27225,Classes_Basic_Cat_ac,"class Cat: 
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return f'name: {self.name} , f'age {self.age}'
+    def make_sound(self):
+        return ""Meow"" 
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+27230,Classes_Basic_Cat_ac,"class Cat: 
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return f'name: {self.name} {self.age}'
+    def make_sound(self):
+        return ""Meow"" 
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+27236,Classes_Basic_Cat_ac,"class Cat: 
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return f'Name : {self.name, self.age}'
+    def make_sound:
+        return ""Meow"" 
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+27242,Classes_Basic_Cat_ac,"class Cat: 
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return f'name: {self.name} , age: {self.age}'
+    def make_sound(self):
+        return ""Meow"" 
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+27243,Classes_Basic_Cat_ac,"class Cat: 
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return f'Name : {self.name, self.age}'
+    def make_sound():
+        return ""Meow"" 
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+27245,Classes_Basic_Cat_ac,"class Cat: 
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return f'Name : {self.name, self.age}'
+    def make_sound(str):
+        return ""Meow"" 
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+27246,Classes_Basic_Cat_ac,"class Cat: 
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return f'Name : {self.name, self.age}'
+    def make_sound(self):
+        return ""Meow"" 
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+27247,Classes_Basic_Cat_ac,"class Cat: 
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return f'name: {self.name} , f'age: {self.age}'
+    def make_sound(self):
+        return ""Meow"" 
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+27248,Classes_Basic_Cat_ac,"class Cat: 
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return f'Name : {self.name, self.age}'
+    
+    def make_sound:
+        return ""Meow"" 
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+27249,Classes_Basic_Cat_ac,"class Cat: 
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return f'Name : {self.name, self.age}'
+    def make_sound(self, name):
+        return ""Meow"" 
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+27250,Classes_Basic_Cat_ac,"class Cat: 
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return f'name: {self.name, self.age}'
+    def make_sound(self):
+        return ""Meow"" 
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+27251,Classes_Basic_Cat_ac,"class Cat: 
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return f'Name: {self.name, self.age}'
+    def make_sound(self):
+        return ""Meow"" 
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+27252,Classes_Basic_Cat_ac,"class Cat: 
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return f'name: {self.name} , {self.age}'
+    def make_sound(self):
+        return ""Meow"" 
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+28413,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+    def make_sound(self):
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+28415,Classes_Basic_Cat_ac,"class Cat:
+    def __init(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+    def make_sound(self):
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+28733,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+    
+    def make_sound(self):
+        return ""Meow""
+        
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+28735,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + self.age
+    
+    def make_sound(self):
+        return ""Meow""
+        
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+29455,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        
+    def __str__(self):
+    
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+29457,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+    
+    def make_sound(self):
+        return ""Meow""
+    
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+29634,Classes_Basic_Cat_ac,"class Cat:
+    def __init__ (self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return f'name: {self.name}, age: {self.age}'
+    def make_sound(self):
+        return ""Meow""
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+29637,Classes_Basic_Cat_ac,"class Cat:
+    def __init__ (self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return f'name: {self.name}, age: {self.age}'
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+29957,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + str(self.name) + "", age: "" + str(self.age)
+    def make_sound():
+        return ""Meow""
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+29958,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + str(self.name) + "", age: "" + str(self.age)
+    def make_sound(self):
+        return ""Meow""
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+30276,Classes_Basic_Cat_ac,"class Cat:
+    def __init__ (self, name, age):
+        self.name = name
+        self.age = age
+    
+    def __str__(self):
+        return f'name: {self.name}, age: {self.age}'
+    
+    def make_sound(self):
+        return ""Meow""
+
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+31138,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self,name,age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: ""+ name + "", age: ""+str(age)
+    def make_sound(self):
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+31139,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self,name,age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: ""+ self.name + "", age: ""+str(self.age)
+    def make_sound(self):
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+31141,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self,name,age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: ""+ name + "", age: ""+str(age)
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+31142,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self,name,age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name""+"" ""+ name+ "", age: ""+str(age)
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+31143,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self,name,age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name""+"" ""+ name + "", age: ""+str(age)
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+31286,Classes_Basic_Cat_ac,"class Cat:
+    
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    
+    def __str__(self):
+        return ""name: "" + str(self.name) + "", age: "" + int(self.age)
+    
+    def make_sound():
+        return ""Meow""
+
+
+
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+31345,Classes_Basic_Cat_ac,"class Cat:
+    
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + self.age
+    
+    def make_sound():
+        return ""Meow""
+
+
+
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+31346,Classes_Basic_Cat_ac,"class Cat:
+    
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + int(self.age)
+    
+    def make_sound(self):
+        return ""Meow""
+
+
+
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+31347,Classes_Basic_Cat_ac,"class Cat:
+    
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+    
+    def make_sound(self):
+        return ""Meow""
+        
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+32030,Classes_Basic_Cat_ac,"class Cat:
+    
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+    
+    def make_sound(self):
+        return ""Meow""
+        
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+32032,Classes_Basic_Cat_ac,"class Cat:
+    
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        
+    def __str__(self):
+        return ""name:  "" + self.name + "", age: "" + str(self.age)
+    
+    def make_sound(self):
+        return ""Meow""
+        
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+32581,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self,name,age):
+        self.name = name
+        self.age = age
+        
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+    
+    def make_sound(self):
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+32582,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self,name,age):
+        self.name = name
+        self.age = age
+        
+    def __str__(self):
+        return ""name: "" + self.name + "", age "" + str(self.age)
+    
+    def make_sound(self):
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+32584,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self,name,age):
+        self.name = name
+        self.age = age
+        
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+    
+    def make_sound(self):
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+32585,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self,name,age):
+        self.name = name
+        self.age = age
+        
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+    
+    def make_sound():
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+33141,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    
+    def __str__(self):
+        return ""name: "" + self.name + "", "" + ""age: "" + str(self.age)
+    
+    def make_sound():
+        return ""Meow""
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+33148,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    
+    def __str__(self):
+        return ""name: "" + self.name + "", "" + ""age: "" + self.age
+    
+    def make_sound():
+        return ""Meow""
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+33149,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    
+    def __str__(self):
+        return ""name: "" + self.name + "", "" + ""age: "" + str(self.age)
+    
+    def make_sound(self):
+        return ""Meow""
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+33690,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return 'name: ' + self.name + ', age: ' + str(self.age)
+    def make_sound(self):
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+33695,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return 'name: ' + self.name + ', age: ' + str(self.age)
+    def make_sound:
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+33696,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return 'name: ' + self.name + ', age: ' + str(self.age)
+    def make_sound():
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+34463,Classes_Basic_Cat_ac,"class Cat: 
+    def __init__(c, name, age):
+        c.name = name
+        c.age = str(age)
+    def __str__(c):
+        return ""name: "" + c.name + "", age: "" + c.age
+    def make_sound():
+        return ""Meow""
+        
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+34464,Classes_Basic_Cat_ac,"class Cat: 
+    def __init__(c, name, age):
+        c.name = name
+        c.age = age
+    def __str__(c):
+        return ""name: "" + c.name + "", age: "" + c.age
+    def make_sound():
+        return ""Meow""
+        
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+34465,Classes_Basic_Cat_ac,"class Cat: 
+    def __init__(c, name, age):
+        c.name = name
+        c.age = str(age)
+    def __str__(c):
+        return ""name: "" + c.name + "", age: "" + c.age
+    def make_sound(self):
+        return self.""Meow""
+        
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+34466,Classes_Basic_Cat_ac,"class Cat: 
+    def __init__(c, name, age):
+        c.name = name
+        c.age = str(age)
+    def __str__(c):
+        return ""name: {c.name}, age: {c.age}"" 
+    def make_sound():
+        return ""Meow""
+        
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+34467,Classes_Basic_Cat_ac,"class Cat: 
+    def __init__(c, name, age):
+        c.name = name
+        c.age = age
+    def __str__(c):
+        return ""Name: "" c.name + "", age: "" + c.age
+    def make_sound():
+        return ""Meow""
+        
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+34468,Classes_Basic_Cat_ac,"class Cat: 
+    def __init__(c, name, age):
+        c.name = name
+        c.age = age
+    def __str__(c):
+        return ""name: "" c.name + "", age: "" + c.age
+    def make_sound():
+        return ""Meow""
+        
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+34469,Classes_Basic_Cat_ac,"class Cat: 
+    def __init__(c, name, age):
+        c.name = name
+        c.age = str(age)
+    def __str__(c):
+        return ""name: "" + c.name + "", age: "" + c.age
+    def make_sound():
+        return ""Meow""
+        
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+34478,Classes_Basic_Cat_ac,"class Cat:
+        def __init__(self, name, age):
+            self.name = name
+            self.age = age
+        def __str__(self):
+            return f""name: {self.name}, age: {self.age}""
+        def make_sound(self):
+            return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+34622,Classes_Basic_Cat_ac,"class Cat():
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return 'name: ' + str(self.name) + ', age: ' + str(self.age)
+        
+        
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+34624,Classes_Basic_Cat_ac,"class Cat():
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return 'name: ' + str(self.name) + ', age: ' + str(self.age)
+    def make_sound(self):
+        return 'Meow'
+        
+        
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+34625,Classes_Basic_Cat_ac,"class Cat():
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return 'name: ' + str(name) + ', age: ' + age
+        
+        
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+35144,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name 
+        self.age = age
+        
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+    
+    def make_sound(self):
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+35149,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name 
+        self.age = age
+        
+    def __str__(self):
+        return ""name: "" + name + "", age: "" + str(age)
+    
+    def make_sound(self):
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+35153,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name 
+        self.age = age
+        
+    def __str__(self, name, age):
+        return ""name: "" + name + "", age: "" + str(age)
+    
+    def make_sound(self):
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+35798,Classes_Basic_Cat_ac,"class Cat:
+    def __init_(self, name, age):
+        self.name = name
+        self.age = age
+        
+    def __str__(self):
+        return ""name: "" + name + "", "" + ""age: "" + str(age)
+    
+    def make_sound(self):
+        return ""Meow""
+
+def main():
+    c = Cat(""Fluffy"", 3)
+    print(c)
+    print(c.make_sound())
+
+main()
+"
+35799,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        
+    def __str__(self):
+        return ""name: "" + name + "", "" + ""age: "" + str(age)
+    
+    def make_sound(self):
+        return ""Meow""
+
+def main():
+    c = Cat(""Fluffy"", 3)
+    print(c)
+    print(c.make_sound())
+
+main()
+"
+35800,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        
+    def __str__(self):
+        return ""name: "" + self.name + "", "" + ""age: "" + str(self.age)
+    
+    def make_sound(self):
+        return ""Meow""
+
+def main():
+    c = Cat(""Fluffy"", 3)
+    print(c)
+    print(c.make_sound())
+
+main()
+"
+37518,Classes_Basic_Cat_ac,"class Cat:
+    
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    
+    def __str__(self):
+        return ""name: "" + str(self.name) + "", "" + ""age: "" + str(self.age)
+    
+def main():
+    c = Cat(""Fluffy"", 3)
+    print(c)
+    #print(c.make_sound())
+    
+main()
+
+"
+37519,Classes_Basic_Cat_ac,"class Cat:
+    
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    
+    def __str__(self):
+        return ""name: "" + str(self.name) + "", "" + ""age: "" + str(self.age)
+    
+def main():
+    c = Cat(""Fluffy"", 3)
+    print(c)
+    print(c.make_sound())
+    
+main()
+
+"
+37520,Classes_Basic_Cat_ac,"class Cat:
+    
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    
+    def __str__(self):
+        return ""name: "" + str(self.name) + "", "" + ""age: "" + str(self.age)
+    
+    def make_sound(self):
+        return ""Meow""
+    
+def main():
+    c = Cat(""Fluffy"", 3)
+    print(c)
+    print(c.make_sound())
+    
+main()
+
+"
+38058,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return f""name: {self.name}, age: {self.age}""
+    def make_sound(self):
+        return ""Meow""
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+38234,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self,name,age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+    def make_sound(self):
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+38246,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self,name,age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", age:"" + str(self.age)
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+38249,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self,name,age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", age:"" + str(self.age)
+    def make_sound(self):
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+38250,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self,name,age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", age:"" + age
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+38251,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self,name,age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", age:"" + self.age
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+39419,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" +self.name+"", age: "" +str(self.age)
+    def make_sound(self):
+        return ""Meow""
+
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+39445,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" +self.name+"", age: "" str(self.age)
+    def make_sound(self):
+        return ""Meow""
+
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+39450,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return f""name: self.name, age: self.age""
+    def make_sound(self):
+        return ""Meow""
+
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+39452,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" +self.name+"", age: "" +str(self.age)
+    def make_sound():
+        return ""Meow""
+
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+39453,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" +self.name+"", age: "" +str(self.age)
+    def make_sound(self):
+        return ""Meow""
+
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+39902,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+    def make_sound(self):
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+40444,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        
+    def __str__(self):
+        return f""name: {self.name}, age: {self.age}""
+    
+    def make_sound(self):
+        return ""Meow""
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())"
+40446,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        
+    def __str__(self):
+        return f""name: {self.name}, age: {self.age}""
+    
+    def make_sound():
+        return ""Meow""
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())"
+41351,Classes_Basic_Cat_ac,"class Cat: 
+    def __init__(self, name, age): 
+        self.name = name
+        self.age = age 
+    def __str__(self): 
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+41352,Classes_Basic_Cat_ac,"class Cat: 
+    def __init__(self, name, age): 
+        self.name = name
+        self.age = age 
+    def __str__(self): 
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+    def make_sound(self): 
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+42319,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        
+    def __str__(self):
+        return f'name: {self.name}, age: {self.age}'
+    
+    def make_sound(self):
+        return ""Meow""
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+42328,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        
+    def __str__(self):
+        return f'name: {self.name} age: {self.age}'
+    
+    def make_sound(self):
+        return ""Meow""
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+43494,Classes_Basic_Cat_ac,"class Cat: 
+    def __init__(self,name,age): 
+        self.name=name 
+        self.age=age
+    def __str__(self): 
+        return ""name: ""+self.name+"" age: ""+self.age
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+43496,Classes_Basic_Cat_ac,"class Cat: 
+    def __init__(self,name,age): 
+        self.name=name 
+        self.age=age
+    def __str__(self): 
+        return ""name: ""+self.name+"" age: ""+str(self.age)
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+43499,Classes_Basic_Cat_ac,"class Cat: 
+    def __init__(self,name,age,sound): 
+        self.name=name 
+        self.age=age
+    def __str__(self): 
+        return ""name: ""+self.name+"" age: ""+str(self.age)
+    def make_sound(): 
+        return 
+        
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+43500,Classes_Basic_Cat_ac,"class Cat: 
+    def __init__(self,name,age): 
+        self.name=name 
+        self.age=age
+    def __str__(self): 
+        return ""name: ""+name.self+"" age: ""+age.self
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+43501,Classes_Basic_Cat_ac,"class Cat: 
+    def __init__(self,name,age): 
+        self.name=name 
+        self.age=age
+    def __str__(self): 
+        return ""name: ""+self.name+"" age: ""+str(self.age)
+    def make_sound(cat): 
+        return ""Meow""
+        
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+43502,Classes_Basic_Cat_ac,"class Cat: 
+    def __init__(self,name,age): 
+        self.name=name 
+        self.age=age
+    def __str__(self): 
+        return ""name: ""+self.name+"" age: ""+str(self.age)
+    def make_sound(self): 
+        self.sound=sound
+        return sound
+        
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+43503,Classes_Basic_Cat_ac,"class Cat: 
+    def __init__(self,name,age): 
+        self.name=name 
+        self.age=age
+    def __str__(self): 
+        return ""name: ""+name+"" age: ""+age
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+43506,Classes_Basic_Cat_ac,"class Cat: 
+    def __init__(self,name,age): 
+        self.name=name 
+        self.age=age
+    def __str__(self): 
+        return ""name: ""+self.name+"", age: ""+str(self.age)
+    def make_sound(cat): 
+        return ""Meow""
+        
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+43507,Classes_Basic_Cat_ac,"class Cat: 
+    def __init__(self,name,age,sound): 
+        self.name=name 
+        self.age=age
+    def __str__(self): 
+        return ""name: ""+self.name+"" age: ""+str(self.age)
+    def make_sound(): 
+        return ""Meow""
+        
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+43510,Classes_Basic_Cat_ac,"class Cat: 
+    def __init__(self,name,age): 
+        self.name=name 
+        self.age=age
+    def __str__(self): 
+        return ""name: ""+self.name+"" age: ""+str(self.age)
+    def make_sound(): 
+        return ""Meow""
+        
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+44053,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self,name,age):
+        self.name=name
+        self.age=age
+    def __str__(self):
+        return f'name: {self.name}, age: {self.age}'
+    
+    def make_sound(self):
+        return ""Meow""
+        
+        
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+44172,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self,name,age):
+        self.name=name
+        self.age=age
+    def __str__(self):
+        return f'name: {self.name}, age:{self.age}'
+    
+    def make_sound():
+        return ""Meow""
+        
+        
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+44173,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self,name,age):
+        self.name=name
+        self.age=age
+    def __str__(self):
+        return f'name: {self.name}, age:{self.age}'
+    
+    def make_sound(self):
+        return ""Meow""
+        
+        
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+44174,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self,name,age):
+        self.name=name
+        self.age=age
+    def __str__(self):
+        return f'name: {self.name}+"",""+ age:{self.age}'
+    
+    def make_sound():
+        return ""Meow""
+        
+        
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+44921,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self,name,age):
+        self.name=name
+        self.age=age
+    def __str__(self):
+        return 'name: '+self.name+', age: '+str(self.age)
+    def make_sound(self):
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+44922,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self,name,age):
+        self.name=name
+        self.age=age
+    def __str__(self):
+        return 'name: '+self.age+', age: '+str(self.age)
+    def make_sound(self):
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+45348,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+    def make_sound(self):
+        return ""Meow""
+
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+46222,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: ""+self.name+"", age: ""+str(self.age)
+    def make_sound(self):
+        return ""Meow""
+
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+46223,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: ""+self.name+"", age: ""+str(self.age)
+
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+46444,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    
+    def __str__(self):
+        return f""name: {self.name}, age: {self.age}""
+        
+        
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+46447,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    
+    def __str__(self):
+        return f""name: {self.name}, age: {self.age}""
+    
+    def make_sound(self):
+        return ""Meow""
+        
+        
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+46448,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+    
+    def make_sound(self):
+        return ""Meow""
+        
+        
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+47224,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+    
+    def make_sound():
+        return ""Meow""
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+47225,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__():
+        return ""name: "" + self.name + "", age: "" + self.age
+    
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+47227,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+    
+    def make_sound(self):
+        return ""Meow""
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+47228,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(name, age):
+        self.name = name
+        self.age = age
+    def __str__():
+        return ""name: "" + self.name + "", age: "" + self.age
+    
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+47229,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+    
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+47230,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + self.age
+    
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+47965,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return f""name: {self.name}, age: {self.age}""
+    def make_sound(self):
+        return ""Meow""
+        
+        
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+47966,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return f""name: {self.name} , age: {self.age}""
+    def make_sound(self):
+        return ""Meow""
+        
+        
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+48467,Classes_Basic_Cat_ac,"
+class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        new_str = """"
+        new_str += ""name: ""
+        new_str += self.name
+        new_str += ""age: ""
+        new_str += str(self.age)
+        return new_str
+    def make_sound(self):
+        return ""Meow""
+
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+48471,Classes_Basic_Cat_ac,"
+class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return str(""name: "", self.name, ""age: "", self.age)
+
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+48472,Classes_Basic_Cat_ac,"
+class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        new_str = """"
+        new_str += ""name: ""
+        new_str += self.name
+        return new_str
+
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+48474,Classes_Basic_Cat_ac,"
+class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        new_str = """"
+        new_str += ""name: ""
+        new_str += self.name
+        new_str += ""age: ""
+        new_str += self.age
+        return new_str
+    def make_sound():
+        return ""Meow""
+
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+48475,Classes_Basic_Cat_ac,"
+class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        new_str = """"
+        new_str += ""name: ""
+        new_str += self.name
+        new_str += ""age: ""
+        new_str += str(self.age)
+        return new_str
+    def make_sound(self):
+        return ""Meow""
+
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+48476,Classes_Basic_Cat_ac,"
+class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "", self.name, ""age: "", self.age
+
+
+
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+48478,Classes_Basic_Cat_ac,"
+class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        new_str = """"
+        new_str += ""name: "", self.name, ""age: "", self.age
+        return new_str
+
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+48480,Classes_Basic_Cat_ac,"
+class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        new_str = """"
+        new_str += ""name: ""
+        new_str += self.name + "", ""
+        new_str += ""age: ""
+        new_str += str(self.age)
+        return new_str
+    def make_sound(self):
+        return ""Meow""
+
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+48481,Classes_Basic_Cat_ac,"
+class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        new_str = """"
+        new_str += ""name: ""
+        new_str += self.name
+        new_str += ""age: ""
+        new_str += str(self.age)
+        return new_str
+    def make_sound():
+        return ""Meow""
+
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+48482,Classes_Basic_Cat_ac,"
+class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        new_str = """"
+        new_str += ""name:""
+        new_str += self.name
+        new_str += ""age:""
+        new_str += str(self.age)
+        return new_str
+    def make_sound(self):
+        return ""Meow""
+
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+48483,Classes_Basic_Cat_ac,"
+class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        new_str = """"
+        new_str += ""name: ""
+        new_str += self.name + "" ""
+        new_str += ""age: ""
+        new_str += str(self.age)
+        return new_str
+    def make_sound(self):
+        return ""Meow""
+
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+49046,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + name + "", age: "" + str(age)
+    def make_sound(self):
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+49047,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+    def make_sound(self):
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+49342,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+        
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+49345,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+    def make_sound():
+        return ""Meow""
+        
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+49346,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+    def make_sound(self):
+        return ""Meow""
+        
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+49886,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", age:"" + str(self.age)
+    def make_sound(self):
+        return ""meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+49887,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+    def make_sound(self):
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+49888,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+    def make_sound(self):
+        return ""meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+50531,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" str(self.age)
+    def make_sound():
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+50532,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = str(age)
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + self.age
+    def make_sound():
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+50533,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = str(age)
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + self.age
+    def make_sound(self):
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+51863,Classes_Basic_Cat_ac,"class cat: 
+    def __init__(self, name, age):
+        self.name = name 
+        self.age = age
+    def __str__(self):
+        return ""name: ""self.name + "", age:"" + str(self.age)
+        
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+51864,Classes_Basic_Cat_ac,"class Cat: 
+    def __init__(self, name, age):
+        self.name = name 
+        self.age = age
+    def __str__(self):
+        return ""name: ""+ self.name + "", age:"" + self.age
+        
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+51865,Classes_Basic_Cat_ac,"class Cat: 
+    def __init__(self, name, age):
+        self.name = name 
+        self.age = age
+    def __str__(self):
+        return ""name: ""+ self.name + "", age: "" + str(self.age)
+    def make_sound(self):
+        return ""Meow""
+        
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+51866,Classes_Basic_Cat_ac,"class cat: 
+    def __init__(self, name, age):
+        self.name = name 
+        self.age = age
+    def __str__(self):
+        return ""name: ""+ self.name + "", age:"" + self.age
+        
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+51867,Classes_Basic_Cat_ac,"class cat: 
+    def __init__(self, name, age):
+        self.name = name 
+        self.age = age
+    def __str__(self):
+        return ""name: ""self.name + "", age:"" + str(self.len)
+        
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+51868,Classes_Basic_Cat_ac,"class Cat: 
+    def __init__(self, name, age):
+        self.name = name 
+        self.age = age
+    def __str__(self):
+        return ""name: ""+ self.name + "", age: "" + str(self.age)
+        
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+51869,Classes_Basic_Cat_ac,"class Cat: 
+    def __init__(self, name, age):
+        self.name = name 
+        self.age = age
+    def __str__(self):
+        return ""name: ""+ self.name + "", age:"" + str(self.age)
+        
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+52518,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        
+    def __str__(self):
+        return (""name: "" + self.name + "", age: "" + str(self.age))
+    
+    def make_sound():
+        return ""Meow""
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+52520,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        
+    def __str__(self):
+        return (""name: "" + self.name + "", age: "" + str(self.age))
+    
+    def make_sound():
+        reutnr ""Meow""
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+52521,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        
+    def __str__(self):
+        return (""name: "" + self.name + "", age: "" + str(self.age))
+    
+    def make_sound(self):
+        return ""Meow""
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+53159,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+    def make_sound(self):
+        return ""Meow""
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+53172,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(age)
+    def make_sound(self):
+        return ""Meow""
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+54574,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+54577,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+    
+    def make_sound():
+        return ""Meow""
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+54578,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+    
+    def make_sound(self):
+        return ""Meow""
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+54579,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+    
+    def make_sound(self):
+        return ""Meow""
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+55037,Classes_Basic_Cat_ac,"def __init__(self, name, age):
+    name = self.name
+    age = self.age
+    
+def __str__(self):
+    return '""name: ' + self.name + ', ' + 'age: ' + str(self.age) + '""' 
+
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+55040,Classes_Basic_Cat_ac,"def __init__(self, name, age):
+    self.name = name
+    self.age = age
+    
+def __str__(self):
+    return '""name: ' + self.name + ', age: ' + str(self.age) + '""' 
+
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+55041,Classes_Basic_Cat_ac,"def __init__(self, name, age):
+    self.name = name
+    self.age = age
+    
+def __str__(self):
+    return '""name: ' + self.name + ', ' + 'age: ' + str(self.age) + '""' 
+
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+55042,Classes_Basic_Cat_ac,"def __init__(self, name, age):
+    self.name = name
+    self.age = age
+    
+def __str__(self):
+    return '""name: ' + self.name + ', age: ' + str(self.age) + '""' 
+
+def make_sound():
+    return ""Meow""
+
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+55043,Classes_Basic_Cat_ac,"def __init__(self, name, age):
+    self.name = name
+    self.age = age
+    
+def __str__(self):
+    return '""name: ' + self.name + ', age: ' + str(self.age) + '""' 
+
+def make_sound():
+    return ""Meow""
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+55044,Classes_Basic_Cat_ac,"
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+55045,Classes_Basic_Cat_ac,"def __init__(self, name, age):
+    self.name = name
+    self.age = age
+    
+def __str__(self):
+    return '""name: ' + self.name + ', age: ' + str(self.age) + '""' 
+
+def make_sound(self):
+    return self.""Meow""
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+55046,Classes_Basic_Cat_ac,"Class cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    
+    def __str__(self):
+        return 'name: ' + self.name + ', age: ' + str(self.age) 
+
+    def make_sound(self):
+        return ""Meow""
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+55047,Classes_Basic_Cat_ac,"def __init__(self, name, age):
+    self.name = name
+    self.age = age
+    
+def __str__(self):
+    return '""name: ' + self.name + ', age: ' + str(self.age) + '""' 
+
+def make_sound():
+    return ""Meow""
+
+c = Cat(Fluffy, 3)
+print(c)
+print(c.make_sound())
+
+"
+55048,Classes_Basic_Cat_ac,"Class Cat:
+def __init__(self, name, age):
+    self.name = name
+    self.age = age
+    
+def __str__(self):
+    return '""name: ' + self.name + ', age: ' + str(self.age) + '""' 
+
+def make_sound(self):
+    return ""Meow""
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+55049,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    
+    def __str__(self):
+        return 'name: ' + self.name + ', age: ' + str(self.age) 
+
+    def make_sound(self):
+        return ""Meow""
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+55050,Classes_Basic_Cat_ac,"Class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    
+    def __str__(self):
+        return 'name: ' + self.name + ', age: ' + str(self.age) 
+
+    def make_sound(self):
+        return ""Meow""
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+55431,Classes_Basic_Cat_ac,"class Cat:
+    
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        
+    def __str__(self):
+        return f'name: {self.name}, age: {self.age}'
+    
+    def make_sound(self):
+        return 'Meow'
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+55982,Classes_Basic_Cat_ac,"class Cat :
+    def __init__(self, name, age):
+        self.name = name 
+        self.age = age
+    def __str__(self):
+        return ""name: ""self.name + "", "" + ""age: ""self.age
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+55985,Classes_Basic_Cat_ac,"class Cat :
+    def __init__(self, name, age):
+        self.name = name 
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", "" + ""age: "" + str(self.age)
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+55986,Classes_Basic_Cat_ac,"class Cat :
+    def __init__(self, name, age):
+        self.name = name 
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", "" + ""age: "" + self.age
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+55987,Classes_Basic_Cat_ac,"class Cat :
+    def __init__(self, name, age):
+        self.name = name 
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", "" + ""age: "" + str(self.age)
+    def make_sound(self):
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+56689,Classes_Basic_Cat_ac,"class Cat: 
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age 
+    def __str__(self):
+        return ""name: ""+ self.name + "", age: "" + self.age
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+56695,Classes_Basic_Cat_ac,"class Cat: 
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age 
+    def __str__(self):
+        return ""name: ""+ self.name + "", age: "" + str(self.age)
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+56696,Classes_Basic_Cat_ac,"class Cat: 
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age 
+    def __str__(self):
+        return ""name: ""+ self.name + "", age: "" + str(self.age)
+    
+    def make_sound(self):
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+57453,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = str(age)
+    def __str__(self):
+        return 'name: ' + self.name + ',' + 'age: ' + self.age
+    def make_sound(self):
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+57454,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = str(age)
+    def __str__(self):
+        return 'name: ' + self.name + ',' + ' age: ' + self.age
+    def make_sound(self):
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+57455,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = str(age)
+    def __str__(self):
+        return f 'name: {self.name}, age: {self.age}'
+    def make_sound(self):
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+57456,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = str(age)
+    def __str__(self):
+        return 'name: {self.name}, age: {self.age}'
+    def make_sound(self):
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+57459,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = str(age)
+    def __str__(self):
+        return 'name:' + self.name + ',' + 'age:' + self.age
+    def make_sound(self):
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+57460,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = str(age)
+    def __str__(self):
+        return 'name:' {self.name} + ',' + age: {self.age}'
+    def make_sound(self):
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+57461,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = str(age)
+    def __str__(self):
+        return 'name:' + {self.name} + ',' + 'age:' + {self.age}'
+    def make_sound(self):
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+57462,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = str(age)
+    def __str__(self):
+        return 'name: ' + self.name + ' ' + ',' + 'age:' + ' ' + self.age
+    def make_sound(self):
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+57463,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = str(age)
+    def __str__(self):
+        return 'name:' + {self.name} + ',' + 'age:' + {self.age}
+    def make_sound(self):
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+57464,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = str(age)
+    def __str__(self):
+        return 'name: ' + self.name + ',' + 'age:' + ' ' + self.age
+    def make_sound(self):
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+57465,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = str(age)
+    def __str__(self):
+        return 'name:' + self.name + ' ' + ',' + 'age:' + ' ' + self.age
+    def make_sound(self):
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+57466,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = str(age)
+    def __str__(self):
+        return 'name: ' + self.name + ' ' + ',' + 'age: ' + ' ' + self.age
+    def make_sound(self):
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+57467,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = str(age)
+    def __str__(self):
+        return 'name: ' + self.name + ' ' + ',' + 'age: ' + self.age
+    def make_sound(self):
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+58199,Classes_Basic_Cat_ac,"class Cat:
+    
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        
+    def __str__(self):
+        return  ""name: "" self.name + "" "" + ""age: ""str(self.age)
+        
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+58206,Classes_Basic_Cat_ac,"class Cat:
+    
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        
+    def __str__(self):
+        return  self.name + """" + self.age
+        
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+58207,Classes_Basic_Cat_ac,"class Cat:
+    
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        
+    def __str__(self):
+        return ""name: "" + self.name + "" age: "" + self.age
+        
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+58210,Classes_Basic_Cat_ac,"class Cat:
+    
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        
+    def __str__(self):
+        return  ""name: "" + self.name + "" "" + ""age: "" + str(self.age)
+    
+    def make_sound(self):
+        return ""Meow""
+        
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+58212,Classes_Basic_Cat_ac,"class Cat:
+    
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        
+    def __str__(self):
+        return  ""name: "" + self.name + "", "" + ""age: "" + str(self.age)
+    
+    def make_sound(self):
+        return ""Meow""
+        
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+58213,Classes_Basic_Cat_ac,"class Cat:
+    
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        
+    def __str__(self):
+        return ""name: "" + name + "" age: "" + age
+        
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+58214,Classes_Basic_Cat_ac,"class Cat:
+    
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        
+    def __str__(self):
+        return  ""name: "" + self.name + "" "" + ""age: "" + str(self.age)
+        
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+58215,Classes_Basic_Cat_ac,"class Cat:
+    
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        
+    def __str__(self):
+        return  self.name + """" + str(self.age)
+        
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+58674,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        result = ""name: "" + self.name + "", age: "" + str(self.age)
+        return result
+    def make_sound(self):
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+59314,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return f'name: {self.name}, age: {self.age}'
+    
+    def make_sound(self):
+        return ""Meow""
+    
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+59704,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+    
+    def make_sound(self):
+        return ""Meow""
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+59706,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+60181,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        
+    def __str__(self):
+        return ""name: {}, age: {}"".format(self.name, self.age)
+    
+    def make_sound(self):
+        return ""Meow""
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+60182,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        
+    def __str__(self):
+        return ""name : {}, age: {}"".format(self.name, self.age)
+    
+    def make_sound(self):
+        return ""Meow""
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+60785,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self,name,age):
+        self.name=name
+        self.age=age
+        
+    def __str__(self):
+        return ""name: ""+self.name+"", age: ""+str(self.age)
+    
+    def make_sound(self):
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+61651,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = str(age)
+        
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + self.age
+    
+    def make_sound(self):
+        return ""Meow""
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+62076,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(cat, name, age):
+        cat.name = name
+        cat.age = age
+    def __str__(cat):
+        return ""name: "" + str(cat.name) + "", age: "" + str(cat.age)
+    def make_sound():
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+62078,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(cat, name, age):
+        cat.name = name
+        cat.age = age
+    def __str__(cat):
+        return ""name: "" + str(cat.name) + "", age: "" + str(cat.age)
+    def make_sound(cat):
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+62082,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(cat, name, age):
+        cat.name = name
+        cat.age = age
+    def __str__(cat):
+        return ""name: "" + cat.name + "", age: "" + cat.age
+    def make_sound():
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+62583,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name=name
+        self.age=str(age)
+    def __str__(self):
+        return ""name: "" +self.name+ "", age:"" + self.age 
+    def make_sound(self):
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+62587,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name=name
+        self.age=str(sge)
+    def __str__(self):
+        return ""name: "" +self.name+ "", age:"" + self.age 
+    def make_sound(self):
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+62594,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name=name
+        self.age=str(age)
+    def __str__(self):
+        return ""name: "" +self.name+ "", age: "" + self.age 
+    def make_sound(self):
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+63091,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    
+    def __str__(self):
+        return ""name: ""+self.name+"", age: ""+str(age)
+    
+    def make_sound(self):
+        return ""Meow""
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+63094,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    
+    def __str__(self):
+        return ""name: ""+self.name+"", age: ""+str(self.age)
+    
+    def make_sound(self):
+        return ""Meow""
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+64062,Classes_Basic_Cat_ac,"class Cat:
+    def __init__ (self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self)
+        return ""name: "" + self.name + "", age: "" + self.age
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+64063,Classes_Basic_Cat_ac,"class Cat:
+    def __init__ (self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        self.name = str(self.name)
+        self.age = str(self.age)
+        return ""name: "" + self.name + "", age: "" + self.age
+    def make_sound(self):
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+64064,Classes_Basic_Cat_ac,"class Cat:
+    def __init__ (self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        self.name = str(self.name)
+        self.age = str(self.age)
+        return ""name: "" + self.name + "", age: "" + self.age
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+64065,Classes_Basic_Cat_ac,"class Cat:
+    def __init__ (self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + self.age
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+64066,Classes_Basic_Cat_ac,"class Cat:
+    def __init__ (self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        self.name = str(self.name)
+        self.age = str(self.age)
+        return ""name: "" + self.name + "", age: "" + self.age
+    def make_sound(self):
+        return ""meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+64067,Classes_Basic_Cat_ac,"class Cat:
+    def __init__ (self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        self.name = str(self.name)
+        self.age = str(self.age)
+        return ""name: "" + self.name + "", age: "" + self.age
+    def make_sound(self):
+        return meow
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+64584,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+    
+    def make_sound():
+        return ""Meow""
+
+def main():
+    c = Cat(""Fluffy"", 3)
+    print(c)
+    print(c.make_sound())
+main()
+
+"
+64585,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+64586,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+
+def main():
+    c = Cat(""Fluffy"", 3)
+    print(c)
+    print(c.make_sound())
+main()
+
+"
+64587,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+    
+    def make_sound(self):
+        return ""Meow""
+
+def main():
+    c = Cat(""Fluffy"", 3)
+    print(c)
+    print(c.make_sound())
+main()
+
+"
+65390,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return f""name: {self.name}, age: {self.age}""
+    def make_sound(self):
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+65407,Classes_Basic_Cat_ac,"
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+65750,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return f""name: {self.name}, age: {self.age}""
+    def make_sound(self):
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+66090,Classes_Basic_Cat_ac,"class Cat:
+    
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+    def make_sound(self):
+        return ""Meow""
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+66092,Classes_Basic_Cat_ac,"class Cat:
+    
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+    def make_sound():
+        return ""Meow""
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+66093,Classes_Basic_Cat_ac,"class Cat:
+    
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+66671,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self,name,age):
+        self.name = name
+        self.age = age
+def __str__(self):
+        return 'name:' + self.name + ', age:' + str(self.age)
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+66672,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self,name,age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return 'name:' + self.name + ', age:' + str(self.age)
+    def make_sound():
+    return 'Meow'
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+66673,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self,name,age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return 'name:' + self.name + ', age:' + str(self.age)
+    def make_sound():
+    return'Meow'
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+66676,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self,name,age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return 'name:' + self.name + ', age:' + str(self.age)
+    def make_sound(''):
+        return'Meow'
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+66678,Classes_Basic_Cat_ac,"def __init__(self,name,age):
+    self.name = name
+    self.age = age
+def __str__(self):
+    return 'name:' + self.name + ', age:' + str(self.age)
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+66679,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self,name,age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return 'name: ' + self.name + ', age: ' + str(self.age)
+    def make_sound(self):
+        return'Meow'
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+66680,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self,name,age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return 'name:' + self.name + ', age:' + str(self.age)
+    def make_sound():
+        return'Meow'
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+66681,Classes_Basic_Cat_ac,"def __init__(self,name,age):
+    self.name = name
+    self.age = age
+def __str__(self):
+    return 'name:' + self.name + ', age:' + str(self.age)
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+66682,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self,name,age):
+        self.name = name
+        self.age = age
+def __str__(self):
+        return 'name:' + self.name + ', age:' + str(self.age)
+def make_sound():
+    return 'Meow'
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+66683,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self,name,age):
+    self.name = name
+    self.age = age
+def __str__(self):
+    return 'name:' + self.name + ', age:' + str(self.age)
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+66684,Classes_Basic_Cat_ac,"def __init__(self,name,age):
+    self.name = name
+    self.age = age
+def __str__(self):
+    return 'name:' + self.name + ', age:' + str(self.age)
+
+c = cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+66685,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self,name,age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return 'name:' + self.name + ', age:' + str(self.age)
+    def make_sound(self):
+        return'Meow'
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+66687,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self,name,age):
+        self.name = name
+        self.age = age
+def __str__(self):
+    return 'name:' + self.name + ', age:' + str(self.age)
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+66688,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self,name,age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return 'name: ' + self.name + ', age:' + str(self.age)
+    def make_sound(self):
+        return'Meow'
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+67632,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + str(self.name) + "", age: "" + str(age)
+    def make_sound(self):
+        return ""Meow""
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+67633,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + str(self.name) + "", age: "" + str(self.age)
+    def make_sound(self):
+        return ""Meow""
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+68388,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = str(name)
+        self.age = age
+    def __str__(self):
+        return ""name:"" + self.name and ""age:"" + self.age
+    def make_sound(self):
+        return ""Meow""
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+68389,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = str(name)
+        self.age = age
+    def __str__(self):
+        return f'name: {self.name}' + "", "" + f'age: {self.age}'
+         
+    def make_sound(self):
+        return ""Meow""
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+68390,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = str(name)
+        self.age = age
+    def __str__(self):
+        return 'name: {self.name}' 'age: {self.age}'
+         
+    def make_sound(self):
+        return ""Meow""
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+68391,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = str(name)
+        self.age = age
+    def __str__(self):
+        return 'name: {self.name}'
+        return 'age: {self.age}'
+    def make_sound(self):
+        return ""Meow""
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+68392,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = str(name)
+        self.age = age
+    def __str__(self):
+        return 'name: {self.name}'
+    def make_sound(self):
+        return ""Meow""
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+69004,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+    def make_sound():
+        print(""Meow"")
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+69011,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+    def make_sound:
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+69013,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+    def make_sound():
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+69014,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+    def make_sound():
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+69015,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+    def make_sound(self):
+        return ""Meow""
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+69702,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+    def make_sound(self):
+        return ""Meow""
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+69703,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+70345,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return f""name: {self.name}, age: {self.age}""
+
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+70347,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return f""name: {self.name}, age: {self.age}""
+    def make_sound(self):
+        return f""Meow'
+
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+70348,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return f""name: {self.name}, age: {self.age}""
+    def make_sound():
+        return f""Meow'
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+70349,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return f""name: {self.name}, age: {self.age}""
+    def make_sound(self):
+        return f""Meow""
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+70396,Classes_Basic_Cat_ac,"class Cat
+    def_init_(self, name, age):
+        self.name = name
+        self.age = age
+    def_str_(self):
+        print(""name:age: age"")
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+70397,Classes_Basic_Cat_ac,"class Cat():
+    def_init_(self, name, age):
+        self.name = name
+        self.age = age
+    def_str_(self):
+        print(""name:age: age"")
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+70400,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age) 
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+70403,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age) 
+    def make_sound():
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+70405,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age) 
+    def make_sound:
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+70406,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age) 
+    def make_sound(self):
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+71086,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return f""name: {self.name}, age: {self.age}""
+    def make_sound(self):
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+71261,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        
+    def __age__(self):
+        return ""name: "" + self.name + "", "" + ""age: "" + str(self.age) + "".""
+    
+    def make_sound(self):
+        return ""Meow""
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+71270,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        
+    def __age__(self):
+        return ""name: "" + self.name + "", "" + ""age: "" + str(self.age) + "".""
+    
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+71271,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        
+    def __age__(self):
+        return ""name: "" + self.name + "", "" + ""age: "" + str(self.age) + "".""
+    
+    def make_sound():
+        return ""Meow""
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+71272,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        
+    def __str__(self):
+        return ""name: "" + self.name + "", "" + ""age: "" + str(self.age)
+    
+    def make_sound(self):
+        return ""Meow""
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+71273,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name
+        self.age
+        
+    def __age__(self):
+        return ""name: "" + self.name + "", "" + ""age: "" + str(self.age) + "".""
+    
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+71274,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        
+    def __str__(self):
+        return ""name: "" + self.name + "", "" + ""age: "" + str(self.age) + "".""
+    
+    def make_sound(self):
+        return ""Meow""
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+71860,Classes_Basic_Cat_ac,"class Cat:
+    
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        
+    def __str__(self):
+        return ""name: "" + self.name + "" age: "" + str(age)
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+71865,Classes_Basic_Cat_ac,"class Cat:
+    
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+    
+    def make_sound(self):
+        return ""Meow""
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+71873,Classes_Basic_Cat_ac,"class Cat:
+    
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        
+    def __str__(self):
+        return ""name: "" + self.name + "" age: "" + str(self.age)
+    
+    def make_sound():
+        return ""Meow""
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+71874,Classes_Basic_Cat_ac,"class Cat:
+    
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        
+    def __str__(self):
+        return ""name: "" + self.name + "" age: "" + str(self.age)
+    
+    def make_sound(self):
+        return ""Meow""
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+71880,Classes_Basic_Cat_ac,"class Cat:
+    
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        
+    def __str__(self):
+        return ""name: "" + self.name + "" age: "" + str(self.age)
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+71905,Classes_Basic_Cat_ac,"
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+72583,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = str(age)
+    def __str__(self):
+        return self.name + "", age: "" + self.age
+        
+        
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+72584,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = str(age)
+    def __str__(self):
+        return self.name + "", age:"" + self.age
+        
+        
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+72585,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = str(age)
+    def __str__(self):
+        return self.name + "", age: "" + self.age
+    def make_sound(self):
+        return ""Meow""
+        
+        
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+72586,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = str(age)
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + self.age
+    def make_sound(self):
+        return ""Meow""
+        
+        
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+73172,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name 
+        self.age = age
+      
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+    
+    def make_sound(self):
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+73174,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name 
+        self.age = age
+      
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + self.age
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+73178,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name 
+        self.age = age
+      
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+73589,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + str(self.name) + "", age: "" + self.age
+"
+73590,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + str(self.name) + "", age: "" + self.age
+    def make_sound(self):
+        return self.""Meow""
+"
+73591,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + str(self.name) + "", age: "" + self.age
+    def make_sound():
+        return ""Meow""
+"
+73592,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return f""name: {self.name}, age: {self.age}""
+    def make_sound(self):
+        return ""Meow""
+"
+73593,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return f""name: {self.name}, age: {selfage}""
+    def make_sound(self):
+        return ""Meow""
+"
+74156,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+    def make_sound(self):
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+74778,Classes_Basic_Cat_ac,"class Cat:
+    def __init__ (self, name, age):
+        self.name = name
+        self.age = age
+    def __str__ (self):
+        return ""name: "" self.name + "", age: "" + str(self.age)
+    def make_sound(self):
+        return ""Meow""
+        
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+74781,Classes_Basic_Cat_ac,"class Cat
+    def __init__ (self, name, age):
+        self.name = name
+        self.age = age
+    def __str__ (self):
+        return self.name + "", "" + self.age
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+74788,Classes_Basic_Cat_ac,"class Cat:
+    def __init__ (self, name, age):
+        self.name = name
+        self.age = age
+    def __str__ (self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+    def make_sound(self):
+        return ""Meow""
+        
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+74791,Classes_Basic_Cat_ac,"class Cat:
+    def __init__ (self, name, age):
+        self.name = name
+        self.age = age
+    def __str__ (self):
+        return self.name + "", "" + str(self.age)
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+74797,Classes_Basic_Cat_ac,"class Cat:
+    def __init__ (self, name, age):
+        self.name = name
+        self.age = age
+    def __str__ (self):
+        return self.name + "", "" + str(self.age)
+    def make_sound(self):
+        return ""Meow""
+        
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+74799,Classes_Basic_Cat_ac,"class Cat:
+    def __init__ (self, name, age):
+        self.name = name
+        self.age = age
+    def __str__ (self):
+        return self.name + "", "" + self.age
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+75315,Classes_Basic_Cat_ac,"class Cat:
+    
+    def __init__(self, name, age):
+        self.name = name
+        self.age = str(age)
+        
+    def __str__(self):
+        return ""name: "" + self.name + ', age: ' + self.age
+    
+    def make_sound(c):
+        return ""Meow""
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+75317,Classes_Basic_Cat_ac,"class Cat:
+    
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        
+    def __str__(self)
+        return ""name: "" + self.name + ', age: ' + self.age
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+75318,Classes_Basic_Cat_ac,"class Cat:
+    
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        
+    def __str__(self):
+        return ""name: "" + self.name + ', age: ' + self.age
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+75319,Classes_Basic_Cat_ac,"class Cat:
+    
+    def __init__(self, name, age):
+        self.name = name
+        self.age = str(age)
+        
+    def __str__(self):
+        return ""name: "" + self.name + ', age: ' + self.age
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+75320,Classes_Basic_Cat_ac,"class Cat:
+    
+    def __init__(self, name, age):
+        self.name = name
+        self.age = str(age)
+        
+    def __str__(self):
+        return ""name: "" + self.name + ', age: ' + self.age
+    
+    def make_sound():
+        return ""Meow""
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+75820,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return f""name: {self.name}, age: {self.age}""
+    def make_sound(self):
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+75832,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return f""name: {self.name}, age: {self.age}""
+    def make_sound(self):
+        return self.""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+76464,Classes_Basic_Cat_ac,"class Cat:
+   def __init__(self, name, age):
+    self.name = name
+    self.age = age
+    
+   def __str__(self):
+    return f""name:{self.name},age:{self.age}""
+
+    def make_sound():
+        return ""Meow""
+    
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+76467,Classes_Basic_Cat_ac,"class Cat:
+   def __init__(self, name, age):
+    self.name = name
+    self.age = age
+    
+   def __str__(self):
+    return f""name:{self.name},age:{self.age}""
+    
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+76470,Classes_Basic_Cat_ac,"class Cat:
+   def __init__(self, name, age):
+    self.name = name
+    self.age = age
+    
+   def __str__(self):
+    return f""name:{self.name},age:{self.age}""
+
+    def make_sound(self):
+        return ""Meow""
+    
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+76471,Classes_Basic_Cat_ac,"class Cat:
+   def __init__(self, name, age):
+    self.name = name
+    self.age = age
+    
+   def __str__(self):
+    return f""name:{self.name},age:{self.age}""
+
+    def make_sound(self):
+        return ""Meow""
+    
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+76472,Classes_Basic_Cat_ac,"class Cat:
+   def __init__(self, name, age):
+    self.name = name
+    self.age = age
+    
+   def __str__(self):
+    return f""name:{self.name},age:{self.age}""
+    
+   def make_sound(self):
+        return ""Meow""
+    
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+76473,Classes_Basic_Cat_ac,"class Cat:
+   def __init__(self, name, age):
+    self.name = name
+    self.age = age
+    
+   def __str__(self):
+    return f""name:{self.name}, age: {self.age}""
+    
+   def make_sound(self):
+        return ""Meow""
+    
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+76474,Classes_Basic_Cat_ac,"class Cat:
+   def __init__(self, name, age):
+    self.name = name
+    self.age = age
+    
+   def __str__(self):
+    return f""name: {self.name}, age: {self.age}""
+    
+   def make_sound(self):
+        return ""Meow""
+    
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+76475,Classes_Basic_Cat_ac,"class Cat:
+   def __init__(self, name, age):
+    self.name = name
+    self.age = age
+    
+   def __str__(self):
+    return f""name:{self.name}, age:{self.age}""
+    
+   def make_sound(self):
+        return ""Meow""
+    
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+76937,Classes_Basic_Cat_ac,"class Cat: 
+    def __init__(self,name,age):
+        self.name = name
+        self.age = age
+    def __str__(self): 
+        return ""name: "" + str(self.name) + "", age: "" + str(self.age)
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+76939,Classes_Basic_Cat_ac,"class Cat: 
+    def __init__(self,name,age):
+        self.name = name
+        self.age = age
+    def __str__(self): 
+        return ""name: "" + str(self.name) + "", age: "" + str(self.age)
+    def make_sound(self):
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+77407,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" << self.name << "", age: "" << str(self.age)
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+77408,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+77409,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+    def make_sound(self):
+        return ""Meow""
+        
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+78054,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name "", age:"" + self.age
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+78055,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = str(age)
+    def __str__(self):
+        return self.name + "", age:"" + self.age
+    def make_sound(self):
+        return ""Meow""
+
+c = Cat('Fluffy', 3)
+print(c)
+print(c.make_sound())
+
+"
+78057,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = str(age)
+    
+    def __str__(self):
+        return ""name: "" + self.name "", age:"" + self.age
+    
+    def make_sound(self):
+        return ""Meow""
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+78058,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = str(age):
+    def __str__(self):
+        return ""name: "" + self.name "", age:"" + self.age
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+78060,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = str(age)
+    
+    def __str__(self):
+        return ""name: "" + self.name "", age:"" + self.age
+    
+    def make_sound(self):
+        return ""Meow""
+
+c = Cat('Fluffy', 3)
+print(c)
+print(c.make_sound())
+
+"
+78063,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = str(age)
+    def __str__(self):
+        return ""name: "" + self.name "", age:"" + self.age
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+78064,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = str(age)
+    def __str__(self):
+        return "" name: ""
+        return self.name + "", age: "" + self.age
+    def make_sound(self):
+        return ""Meow""
+
+c = Cat('Fluffy', 3)
+print(c)
+print(c.make_sound())
+
+"
+78067,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = str(age)
+    def __str__(self):
+        return ""name: "" + self.name "", age:"" + self.age
+    def make_sound(self):
+        return ""Meow""
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+78073,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = str(age)
+    
+    def __str__(self):
+        return ""name: "" + self.name "", age: "" + self.age
+    
+    def make_sound(self):
+        return ""Meow""
+
+c = Cat('Fluffy', 3)
+print(c)
+print(c.make_sound())
+
+"
+78074,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = str(age)
+    def __str__(self):
+        return ""name: "" self.name + "", "" + self.age
+    def make_sound(self):
+        return ""Meow""
+
+c = Cat('Fluffy', 3)
+print(c)
+print(c.make_sound())
+
+"
+78075,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = str(age)
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + self.age
+    def make_sound(self):
+        return ""Meow""
+
+c = Cat('Fluffy', 3)
+print(c)
+print(c.make_sound())
+    
+
+
+"
+78076,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = str(age)
+    def __str__(self):
+        return self.name + "", age: "" + self.age
+    def make_sound(self):
+        return ""Meow""
+
+c = Cat('Fluffy', 3)
+print(c)
+print(c.make_sound())
+
+"
+78077,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = str(age)
+    def __str__(self):
+        return self.name + "", "" + self.age
+
+c = Cat('Fluffy', 3)
+print(c)
+print(c.make_sound())
+
+"
+78078,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = str(age)
+    def __str__(self):
+        return self.name + "", "" + self.age
+    def make_sound(self):
+        return ""Meow""
+
+c = Cat('Fluffy', 3)
+print(c)
+print(c.make_sound())
+
+"
+78079,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = str(age)
+    def __str__(self):
+        return "" name: "" self.name + "", age: "" + self.age
+    def make_sound(self):
+        return ""Meow""
+
+c = Cat('Fluffy', 3)
+print(c)
+print(c.make_sound())
+
+"
+78080,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = str(age)
+    def __str__(self):
+        return ""name: "" self.name + "", age: "" + self.age
+    def make_sound(self):
+        return ""Meow""
+
+c = Cat('Fluffy', 3)
+print(c)
+print(c.make_sound())
+
+"
+78081,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = str(age)
+    def __str__(self):
+        return ""name: "" self.name + "", age: "" + self.age
+    def make_sound(self):
+        return ""Meow""
+
+def main():
+    c = Cat('Fluffy', 3)
+    print(c)
+    print(c.make_sound())
+    
+main()
+
+"
+78949,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return f ""name: {self.name}, age: {self.age}""
+    def make_sound(self):
+        return ""Meow""
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+78951,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+    def make_sound(self):
+        return ""Meow""
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+78952,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return self.""Meow""
+    def make_sound(self):
+        return f ""name: {self.name}, age: {self.age}""
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+78953,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" str(self.age)
+    def make_sound(self):
+        return ""Meow""
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+79529,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+    def makes_sound(self):
+        return ""Meow""
+
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+79530,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+    def make_sound(self):
+        return ""Meow""
+
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+79995,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+    def make_sound(self):
+        return ""Meow""
+        
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+79997,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+    def make_sound():
+        return ""Meow""
+        
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+79999,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", "" + str(self.age)
+    def make_sound():
+        return ""Meow
+        
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+80000,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+    def make_sound():
+        print(""Mewo"")
+        
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+80003,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", "" + str(self.age)
+    def make_sound():
+        return ""Meow""
+        
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+80005,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", age"" + str(self.age)
+    def make_sound():
+        return ""Meow""
+        
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+80006,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+    def make_sound(self):
+        print(""Mewo"")
+        
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+80580,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+    def make_sound():
+        print(""Meow"")
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+80581,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+    def make_sound(self):
+        print(""Meow"")
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+80584,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    delf __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(age)
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+80587,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+80589,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+    def make_sound(self):
+        return ""Meow""
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+80592,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(age)
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+80593,Classes_Basic_Cat_ac,"
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+80594,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+    def make_sound(self):
+        print(""Meow"")
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+
+"
+80600,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+    def make_sound(self):
+        print(""Meow"")
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+"
+80604,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+    def make_sound(self):
+        return ""Meow""
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+
+"
+80872,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self,name,age):
+        self.name=name
+        self.age=age
+    def __str__(self):
+        return f'name: {self.name}, age: {self.age}'
+    def make_sound():
+        return 'Meow'
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+80873,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self,name,age):
+        self.name=name
+        self.age=age
+    def __str__(self):
+        return f'name: {self.name}, age: {self.age}'
+    def make_sound(self):
+        return 'Meow'
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+81431,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self,name,age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name +"", "" + ""age: "" +str(self.age)
+    def make_sound(self):
+        return ""Meow""
+
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+81432,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self,name,age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name +"", "" + ""age: "" +str(self.len)
+    def make_sound(self):
+        return ""Meow""
+
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+82159,Classes_Basic_Cat_ac,"class Cat:
+
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+    
+    def make_sound(self):
+        return ""Meow""
+        
+def main():
+    c = Cat(""Fluffy"", 3)
+    print(c)
+    print(c.make_sound())
+
+main()
+
+
+"
+82165,Classes_Basic_Cat_ac,"class Cat:
+
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.len)
+
+def main():
+    c = Cat(""Fluffy"", 3)
+    print(c)
+    print(c.make_sound())
+
+main()
+
+
+"
+82166,Classes_Basic_Cat_ac,"class Cat:
+
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+
+def main():
+    c = Cat(""Fluffy"", 3)
+    print(c)
+    print(c.make_sound())
+
+main()
+
+
+"
+82779,Classes_Basic_Cat_ac,"class Cat:
+    def __init__ (self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", "" + ""age: "" + str(self.age)
+    def make_sound(self):
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+82786,Classes_Basic_Cat_ac,"class Cat:
+    def __init__ (self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", "" + ""age"" + self.age
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+82792,Classes_Basic_Cat_ac,"class Cat:
+    def __init__ (self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", "" + ""age"" + str(self.age)
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+82793,Classes_Basic_Cat_ac,"class Cat:
+    def __init__ (self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", "" + ""age: "" + str(self.age)
+    def make_sound(self):
+        return meow
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+83636,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+    def make_sound():
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+83640,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + self.age
+    def make_sound():
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+83641,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+    def make_sound(self):
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+84354,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + name + "", "" + ""age: "" + str(age) 
+        
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+84356,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", "" + ""age: "" + str(self.age) 
+        
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+84357,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", "" + ""age: "" + str(self.age)
+    def make_sound (self): 
+        return ""Meow""
+        
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+84625,Classes_Basic_Cat_ac,"class Cat:
+    
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        
+    def __str__(self):
+        result = ""name: "" + self.name + "", age:"" + str(self.age)
+        return result
+    
+    def __str__(self):
+        return 
+        
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+84858,Classes_Basic_Cat_ac,"class Cat:
+    
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        
+    def __str__(self):
+        
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+84864,Classes_Basic_Cat_ac,"class Cat:
+    
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        
+    def __str__(self):
+        string = ""name: "" + self.name + "", age:"" + str(self.age)
+        return string
+        
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+84865,Classes_Basic_Cat_ac,"class Cat:
+    
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        
+    def __str__(self):
+        string = ""name: "" + name + "", age:"" + age
+        return string
+        
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+84866,Classes_Basic_Cat_ac,"class Cat:
+    
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        
+    def __str__(self):
+        string = ""name: "" + self.name + "", age:"" + self.age
+        return string
+        
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+84867,Classes_Basic_Cat_ac,"class Cat:
+    
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        
+    def __str__(self):
+        result = ""name: "" + self.name + "", age:"" + str(self.age)
+        return result
+    
+    def __str__(self, make_sound):
+        sound = ""Meow""
+        return sound
+        
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+84868,Classes_Basic_Cat_ac,"class Cat:
+    
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        
+    def __str__(self):
+        result = ""name: "" + self.name + "", age: "" + str(self.age)
+        return result
+    
+    def make_sound:
+        c = ""Meow""
+        return c
+        
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+84869,Classes_Basic_Cat_ac,"class Cat:
+    
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        
+    def __str__(self):
+        result = ""name: "" + self.name + "", age: "" + str(self.age)
+        return result
+    
+    def __str__(self, make_sound):
+        c = ""Meow""
+        return c
+        
+c = Cat(""Fluffy"", 3)
+#print(c)
+print(c.make_sound())"
+84870,Classes_Basic_Cat_ac,"class Cat:
+    
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        
+    def __str__(self):
+        result = ""name: "" + self.name + "", age: "" + str(self.age)
+        return result
+    
+    def __str__(self, make_sound):
+        self.make_sound = ""Meow""
+        return make_sound
+        
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound(""Meow""))"
+84871,Classes_Basic_Cat_ac,"class Cat:
+    
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        
+    def __str__(self):
+        result = ""name: "" + self.name + "", age: "" + str(self.age)
+        return result
+    
+    def __str__(self):
+        make_sound = ""Meow""
+        self.make_sound = make_sound
+        return make_sound
+        
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())"
+84872,Classes_Basic_Cat_ac,"class Cat:
+    
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        
+    def __str__(self):
+        result = ""name: "" + self.name + "", age: "" + str(self.age)
+        return result
+    
+    '''def __str__(self, make_sound):
+        c = ""Meow""
+        return c'''
+        
+c = Cat(""Fluffy"", 3)
+print(c)
+#print(c.make_sound())
+
+"
+84873,Classes_Basic_Cat_ac,"class Cat:
+    
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        
+    def __str__(self):
+        result = ""name: "" + self.name + "", age:"" + str(self.age)
+        return result
+    
+    '''def __str__(self, make_sound):
+        c = ""Meow""
+        return c'''
+        
+c = Cat(""Fluffy"", 3)
+print(c)
+#print(c.make_sound())
+
+"
+84874,Classes_Basic_Cat_ac,"class Cat:
+    
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        
+    def __str__(self):
+        result = ""name: "" + self.name + "", age:"" + str(self.age)
+        return result
+    
+    def __str__(self, make_sound):
+        c = ""Meow""
+        return c
+        
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+84875,Classes_Basic_Cat_ac,"class Cat:
+    
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        
+    def __str__(self):
+        result = ""name: "" + self.name + "", age: "" + str(self.age)
+        return result
+    
+    def make_sound:
+        c = ""Meow""
+        return c
+        
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())"
+84876,Classes_Basic_Cat_ac,"class Cat:
+    
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        
+    def __str__(self):
+        result = ""name: "" + self.name + "", age: "" + str(self.age)
+        return result
+    
+    def __str__(self, make_sound):
+        c = ""Meow""
+        return c
+        
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())"
+84877,Classes_Basic_Cat_ac,"class Cat:
+    
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        
+    def __str__(self):
+        result = ""name: "" + self.name + "", age: "" + str(self.age)
+        return result
+    
+    def __str__(self, make_sound):
+        c = ""Meow""
+        return c
+        
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())"
+84878,Classes_Basic_Cat_ac,"class Cat:
+    
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        
+    def __str__(self):
+        result = ""name: "" + self.name + "", age: "" + str(self.age)
+        return result
+    
+    def __str__(self, make_sound):
+        self.make_sound = ""Meow""
+        return make_sound
+        
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())"
+84879,Classes_Basic_Cat_ac,"class Cat:
+    
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        
+    def __str__(self):
+        result = ""name: "" + self.name + "", age: "" + str(self.age)
+        return result
+    
+    def __str__(self, make_sound):
+        self.make_sound = ""Meow""
+        return make_sound
+        
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())"
+84880,Classes_Basic_Cat_ac,"class Cat:
+    
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        
+    def __str__(self):
+        result = ""name: "" + self.name + "", age: "" + str(self.age)
+        return result
+    
+    def __str__(self):
+        make_sound = ""Meow""
+        self.make_sound = make.sound
+        return make_sound
+        
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())"
+84881,Classes_Basic_Cat_ac,"class Cat:
+    
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        
+    def __str__(self):
+        result = ""name: "" + self.name + "", age: "" + str(self.age)
+        return result
+    
+    def __str__(self, make_sound):
+        make_sound = ""Meow""
+        self.make_sound = make.sound
+        return make_sound
+        
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())"
+84882,Classes_Basic_Cat_ac,"class Cat:
+    
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        
+    def __str__(self):
+        result = ""name: "" + self.name + "", age: "" + str(self.age)
+        return result
+    
+    def __str__(self, make_sound):
+        self.make_sound = make.sound
+        make_sound = ""Meow""
+        return make_sound
+        
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())"
+84883,Classes_Basic_Cat_ac,"class Cat:
+    
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        
+    def __str__(self):
+        result = ""name: "" + self.name + "", age: "" + str(self.age)
+        return result
+    
+    def make_sound:
+        return ""Meow""
+        
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())"
+84884,Classes_Basic_Cat_ac,"class Cat:
+    
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        
+    def __str__(self):
+        result = f""name: {self.name}, age: {self.age}""
+    
+    def make_sound(self):
+        return ""Meow""
+        
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())"
+84885,Classes_Basic_Cat_ac,"class Cat:
+    
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        
+    def __str__(self):
+        result f""name: {self.name}, age: {self.age}""
+    
+    def make_sound(self):
+        return ""Meow""
+        
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())"
+84886,Classes_Basic_Cat_ac,"class Cat:
+    
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        
+    def __str__(self):
+        return f""name: {self.name}, age: {self.age}""
+    
+    def make_sound(self):
+        return ""Meow""
+        
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())"
+85520,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+    
+    def make_sound(self):
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+85523,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+    
+    def make_sound:
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+85525,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+86708,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    
+    def __str__(self):
+        return ""name: "" + name + "", age: "" + str(age)
+    
+    def make_sound(self):
+        return ""Meow""
+
+
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+86714,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+    
+    def make_sound(self):
+        return ""Meow""
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+87353,Classes_Basic_Cat_ac,"class Cat: 
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return name + "", "" + ""age: "" + age
+    def make_sound(self):
+        return ""Meow""
+        
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+87356,Classes_Basic_Cat_ac,"class Cat: 
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", "" + ""age: "" + self.age
+    def make_sound(self):
+        return ""Meow""
+        
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+87364,Classes_Basic_Cat_ac,"class Cat: 
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", "" + ""age: "" + str(self.age)
+    def make_sound(self):
+        return ""Meow""
+        
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+87365,Classes_Basic_Cat_ac,"class Cat: 
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return self.name + "", "" + ""age: "" + self.age
+    def make_sound(self):
+        return ""Meow""
+        
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+87932,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+    
+    def make_sound(self):
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+87933,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + self.age
+    
+    def make_sound(self):
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+88605,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return f""name: {self.name}, age: {self.age}""
+    def make_sound(self):
+        return ""Meow""
+        
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())"
+88608,Classes_Basic_Cat_ac,"class Cat:
+     def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", "" + ""age: "" + str(self.len)
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+88610,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", "" + ""age: "" + str(self.len)
+        
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+88611,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        c = ""name: "" + self.name + "", "" + ""age: "" + str(self.len)
+        return c
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+88613,Classes_Basic_Cat_ac,"class Cat:
+     def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self)
+        return ""name: "" + self.name + "", "" + ""age: "" + str(self.len)
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+88614,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", "" + ""age: "" + str(self.len)
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+88616,Classes_Basic_Cat_ac,"class Cat:
+     def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", "" + ""age: "" + str(self.len)
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+88617,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return f ""name: {self:name}, age: {self:age}""
+    def make_sound(self):
+        return ""Meow""
+        
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+88618,Classes_Basic_Cat_ac,"class Cat:
+     def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        def __str__(self):
+        return ""name: "" + self.name + "", "" + ""age: "" + str(self.len)
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+88619,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return f""name: {self:name}, age: {self:age}""
+    def make_sound(self):
+        return ""Meow""
+        
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+88620,Classes_Basic_Cat_ac,"class Cat:
+     def __init__(self, name, age):
+        self.name = name
+        self.age = age
+     def __str__(self):
+        return ""name: "" + self.name + "", "" + ""age: "" + str(self.len)
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+88621,Classes_Basic_Cat_ac,"class Cat:
+     def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", "" + ""age: "" + str(self.len)
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+88622,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return f""name: {self:name}, age: {self:age}""
+    def make_sound(self):
+        return ""Meow""
+        
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+88623,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return f""name: {self:name}, age: {self:age}""
+    def make_sound(self):
+        return ""Meow""
+        
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())"
+89775,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self,name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name:""+self.name+"",""+""age:""+ self.age
+    def make_sound(self):
+        return ""Meow""
+
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+89776,Classes_Basic_Cat_ac,"class cat:
+    def __init__(self,name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: name, age: age""
+
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+89777,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self,name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: name, age: age""
+
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+89778,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self,name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: name, age: age""
+    def make_sound(self):
+        return ""Meow""
+
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+89779,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self,name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: self.name, age: self.age""
+    def make_sound(self):
+        return ""Meow""
+
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+89780,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self,name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name:""+ name +"",""+""age:""+ age
+    def make_sound(self):
+        return ""Meow""
+
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+89781,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self,name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name:""+ self.nam e+"",""+""age:""+ self.age
+    def make_sound(self):
+        return ""Meow""
+
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+89782,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self,name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name:""+ self.name +"",""+""age:""+ str(self.age)
+    def make_sound(self):
+        return ""Meow""
+
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+89783,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self,name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: ""+ self.name +"",""+""age: ""+ str(self.age)
+    def make_sound(self):
+        return ""Meow""
+
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+89784,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self,name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name:""+ self.name +"",""+""age:""+ self.age
+    def make_sound(self):
+        return ""Meow""
+
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+89786,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self,name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: ""+ self.name +"",""+"" age: ""+ str(self.age)
+    def make_sound(self):
+        return ""Meow""
+
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+89852,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self,name,age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + Cat.name + "", age: "" + Cat.age
+  
+    def make_sound(self):
+        return ""Meow""
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+89857,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self,name,age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + Cat.name + "", age: "" + Cat.age
+  
+def make_sound(self):
+        return ""Meow""
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+89860,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self,name,age):
+        self.name = name
+        self.age = age
+    
+    def __str__(self):
+        return ""name: "" + Cat.name + "", age: "" + Cat.age
+  
+    def make_sound(self):
+        return ""Meow""
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+89863,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self,name,age):
+        self.name = name
+        self.age = age
+    
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + self.age
+  
+    def make_sound(self):
+        return ""Meow""
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+89868,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self,name,age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + Cat.name + "", age: "" + Cat.age
+    def make_sound:
+        return ""Meow""
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+89869,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self,name,age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + Cat.name + "", age: "" + Cat.age
+    def make_sound(self):
+        return ""Meow""
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+89870,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self,name,age):
+        self.name = name
+        self.age = age
+    
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+  
+    def make_sound(self):
+        return ""Meow""
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+90365,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "". age: "" + str(self.age)
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+90366,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "". age: "" + str(self.age)
+    def make_sound(self):
+        return ""Meow""
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+90368,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return self.name + "". age: "" + str(self.age)
+    def make_sound(self):
+        return ""Meow""
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+90372,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return self.name + "": "" + self.name + "". age: "" + str(self.age)
+    def make_sound(self):
+        return ""Meow""
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+90375,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+    def make_sound(self):
+        return ""Meow""
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+90377,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "". age: "" str(self.age)
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+90379,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "". age: "" + str(self.age)
+    def make_sound(self)
+        return ""Meow""
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+91322,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        self.name = str(self.name)
+        self.age = str(self.age)
+        return ""name: "" + self.name + "" , age: "" + self.age
+    def make_sound(self):
+        return ""Meow""
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+91325,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        self.name = str(self.name)
+        self.age = str(self.age)
+        return ""name: "" + self.name + "", age: "" + self.age
+    def make_sound(self):
+        return ""Meow""
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+91985,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + self.age
+    def make_sound():
+        return ""Meow""
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+91986,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__():
+        return ""name: "" + self.name + "", age: "" + self.age
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+91987,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+    def make_sound(self):
+        return ""Meow""
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+91988,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__():
+        return ""name: "" + self.name + "", age: "" + self.age
+    def make_sound():
+        return ""Meow""
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+91989,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+    def make_sound():
+        return ""Meow""
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+92580,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" self.age
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+92581,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        
+    def __str__(self):
+        return f“name: {self.name}, age: {self.age}”
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+92582,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        
+    def __str__(self):
+        return f'name: {self.name}, age: {self.age}'
+    
+    def make_sound(self):
+        return 'Meow'
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+92583,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        
+    def __str__(self):
+        return f'name: {self.name}, age: {self.age}'
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+92586,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        
+    def __str__(self):
+        return f'name: {self.name}, age: {self.age}'
+    
+    def make_sound:
+        return 'Meow'
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+92935,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return f'name: {self.name}, age: {self.age}'
+    def make_sound:
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+92937,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return f'name: {self.name}, age: {self.age}'
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+92938,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return f'name: {self.name}, age: {self.age}'
+    def make_sound(self):
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+92939,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return f'name: {self.name}, age: {self.age}'
+    def make_sound():
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+93584,Classes_Basic_Cat_ac,"class Cat:
+    def __init__ (self, name, age):
+        self.name=name
+        self.age=age
+    def __str__(self):
+        return ""name: "" + self.name+ "", age: "" + str(self.age)
+    def __make_sound__(self):
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+93588,Classes_Basic_Cat_ac,"class Cat:
+    def __init__ (self, name, age):
+        self.name=name
+        self.age=age
+    def __str__(self):
+        return ""name: "" + self.name+ "", age: "" + str(self.age)
+    def make_sound(self):
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+93589,Classes_Basic_Cat_ac,"class Cat:
+    def __init__ (self, name, age):
+        self.name=name
+        self.age=age
+    def __str__(self):
+        return ""name: "" + self.name+ "", age: "" + self.age
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+93590,Classes_Basic_Cat_ac,"class Cat:
+    def __init__ (self, name, age):
+        self.name=name
+        self.age=age
+    def __str__(self):
+        return ""name: "" + self.name+ "", age: "" + str(self.age)
+    def __make_sound(self):
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+93592,Classes_Basic_Cat_ac,"class Cat:
+    def __init__ (self, name, age):
+        self.name=name
+        self.age=age
+    def __str__(self):
+        return ""name: "" + self.name+ "", age: "" + str(self.age)
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+93929,Classes_Basic_Cat_ac,"
+
+class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+    def make_sound(wrd):
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())"
+93930,Classes_Basic_Cat_ac,"
+
+class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + self.age
+    def make_sound(wrd):
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())"
+93931,Classes_Basic_Cat_ac,"
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + self.age
+    def make_sound(wrd):
+        return ""Meow"""
+94295,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        
+    def __str__(self):
+        return f""name: {self.name}, age: {self.age}""
+    
+    def make_sound:
+        return ""Meow""
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+94296,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        
+    def __str__(self):
+        return f""name: {self.name}, age: {self.age}""
+    
+    def make_sound(self):
+        return ""Meow""
+
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+94711,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return f""name: {self.name}, age: {self.age}""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+94712,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return f""name: {self.name}, age: {self.age}""
+    def make_sound(self):
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+94714,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def__str__(self):
+        return f""name: {self.name}, age: {self.age}""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+95422,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return f""Name:{self.name}, age: {self.age}""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+95427,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return f""Name: {self.name}, age: {self.age}""
+    def make_sound(self):
+        return ""Meow""
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+95435,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return f""Name: {self.name}, age: {self.age}""
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+95436,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return f""name: {self.name}, age: {self.age}""
+    def make_sound(self):
+        return ""Meow""
+    
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+95897,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self,name,age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: ""+self.name+ "", age: ""+ self.age
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+95899,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self,name,age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: ""+self.name+ "", age: ""+ str(self.age)
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+95901,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self,name,age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: ""+self.name+ "", age: ""+ str(self.age)
+    def make_sound():
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+95905,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self,name,age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: ""+self.name+ "", age: ""+ str(self.age)
+    def make_sound(self):
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+96215,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + ""age: "" + self.age
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+96216,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "", age: "" + str(self.age)
+    def make_sound(self):
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+96223,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + ""age: "" + str(self.age)
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+96224,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + "" age: "" + str(self.age)
+    def make_sound(self):
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"
+96227,Classes_Basic_Cat_ac,"class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return ""name: "" + self.name + ""age: "" + str(self.age)
+    def make_sound(self):
+        return ""Meow""
+c = Cat(""Fluffy"", 3)
+print(c)
+print(c.make_sound())
+
+"

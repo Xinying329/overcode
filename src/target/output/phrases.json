@@ -1,0 +1,1347 @@
+[
+    {
+        "code": "class Cat:", 
+        "corresponding_lines": [
+            1
+        ], 
+        "id": 1
+    }, 
+    {
+        "code": "def __init__(self,name,age):", 
+        "corresponding_lines": [
+            2, 
+            55
+        ], 
+        "id": 2
+    }, 
+    {
+        "code": "self.name=name", 
+        "corresponding_lines": [
+            56, 
+            3
+        ], 
+        "id": 3
+    }, 
+    {
+        "code": "self.age=age", 
+        "corresponding_lines": [
+            57, 
+            4
+        ], 
+        "id": 4
+    }, 
+    {
+        "code": "def __str__(self):", 
+        "corresponding_lines": [
+            5
+        ], 
+        "id": 5
+    }, 
+    {
+        "code": "return \"name: \"+self.name+\", age: \"+str(self.age)", 
+        "corresponding_lines": [
+            6
+        ], 
+        "id": 6
+    }, 
+    {
+        "code": "def make_sound(self):", 
+        "corresponding_lines": [
+            7
+        ], 
+        "id": 7
+    }, 
+    {
+        "code": "return \"Meow\"", 
+        "corresponding_lines": [
+            8
+        ], 
+        "id": 8
+    }, 
+    {
+        "code": "c=Cat(\"Fluffy\",3)", 
+        "corresponding_lines": [
+            9
+        ], 
+        "id": 9
+    }, 
+    {
+        "code": "return str(\"Meow\")", 
+        "corresponding_lines": [
+            16
+        ], 
+        "id": 10
+    }, 
+    {
+        "code": "self.age=str(age)", 
+        "corresponding_lines": [
+            17
+        ], 
+        "id": 11
+    }, 
+    {
+        "code": "return \"name: \"+self.name+\", age: \"+self.age", 
+        "corresponding_lines": [
+            18
+        ], 
+        "id": 12
+    }, 
+    {
+        "code": "def __init__(cat,name,age):", 
+        "corresponding_lines": [
+            39
+        ], 
+        "id": 13
+    }, 
+    {
+        "code": "cat.name=name", 
+        "corresponding_lines": [
+            40
+        ], 
+        "id": 14
+    }, 
+    {
+        "code": "cat.age=age", 
+        "corresponding_lines": [
+            41
+        ], 
+        "id": 15
+    }, 
+    {
+        "code": "def __str__(cat):", 
+        "corresponding_lines": [
+            42
+        ], 
+        "id": 16
+    }, 
+    {
+        "code": "return \"name: \"+str(cat.name)+\", age: \"+str(cat.age)", 
+        "corresponding_lines": [
+            43
+        ], 
+        "id": 17
+    }, 
+    {
+        "code": "def make_sound(cat):", 
+        "corresponding_lines": [
+            44
+        ], 
+        "id": 18
+    }, 
+    {
+        "code": "c=Cat('Fluffy',3)", 
+        "corresponding_lines": [
+            46
+        ], 
+        "id": 19
+    }, 
+    {
+        "code": "return \"name: \"+self.name+\",\"+\" age: \"+str(self.age)", 
+        "corresponding_lines": [
+            47
+        ], 
+        "id": 20
+    }, 
+    {
+        "code": "return \"name: \"+self.name+\", \"+\"age: \"+str(self.age)", 
+        "corresponding_lines": [
+            79
+        ], 
+        "id": 21
+    }, 
+    {
+        "code": "return 'name: '+self.name+', age: '+str(self.age)", 
+        "corresponding_lines": [
+            101
+        ], 
+        "id": 22
+    }, 
+    {
+        "code": "return \"name: \"+str(self.name)+\", age: \"+str(self.age)", 
+        "corresponding_lines": [
+            106
+        ], 
+        "id": 23
+    }, 
+    {
+        "code": "self.name=str(self.name)", 
+        "corresponding_lines": [
+            61
+        ], 
+        "id": 24
+    }, 
+    {
+        "code": "self.age=str(self.age)", 
+        "corresponding_lines": [
+            62
+        ], 
+        "id": 25
+    }, 
+    {
+        "code": "return 'Meow'", 
+        "corresponding_lines": [
+            73
+        ], 
+        "id": 26
+    }, 
+    {
+        "code": "return 'name: '+self.name+','+' age: '+self.age", 
+        "corresponding_lines": [
+            159
+        ], 
+        "id": 27
+    }, 
+    {
+        "code": "return \"name: \"+self.name+', age: '+self.age", 
+        "corresponding_lines": [
+            102
+        ], 
+        "id": 28
+    }, 
+    {
+        "code": "def make_sound(c):", 
+        "corresponding_lines": [
+            160
+        ], 
+        "id": 29
+    }, 
+    {
+        "code": "def make_sound(wrd):", 
+        "corresponding_lines": [
+            156
+        ], 
+        "id": 30
+    }, 
+    {
+        "code": "result=\"name: \"+self.name+\", age: \"+str(self.age)", 
+        "corresponding_lines": [
+            148, 
+            23
+        ], 
+        "id": 31
+    }, 
+    {
+        "code": "return result", 
+        "corresponding_lines": [
+            88, 
+            24
+        ], 
+        "id": 32
+    }, 
+    {
+        "code": "return(\"name: {}, age: {}\").format(self.name,self.age)", 
+        "corresponding_lines": [
+            178
+        ], 
+        "id": 33
+    }, 
+    {
+        "code": "return 'name: '+str(self.name)+', age: '+str(self.age)", 
+        "corresponding_lines": [
+            96
+        ], 
+        "id": 34
+    }, 
+    {
+        "code": "new_str=\"\"", 
+        "corresponding_lines": [
+            49
+        ], 
+        "id": 35
+    }, 
+    {
+        "code": "new_str+=\"name: \"", 
+        "corresponding_lines": [
+            112
+        ], 
+        "id": 36
+    }, 
+    {
+        "code": "new_str+=self.name+\", \"", 
+        "corresponding_lines": [
+            201
+        ], 
+        "id": 37
+    }, 
+    {
+        "code": "new_str+=\"age: \"", 
+        "corresponding_lines": [
+            158
+        ], 
+        "id": 38
+    }, 
+    {
+        "code": "new_str+=str(self.age)", 
+        "corresponding_lines": [
+            154
+        ], 
+        "id": 39
+    }, 
+    {
+        "code": "return new_str", 
+        "corresponding_lines": [
+            51, 
+            114, 
+            155
+        ], 
+        "id": 40
+    }, 
+    {
+        "code": "def make_sound():", 
+        "corresponding_lines": [
+            10
+        ], 
+        "id": 41
+    }, 
+    {
+        "code": "def main():", 
+        "corresponding_lines": [
+            11
+        ], 
+        "id": 42
+    }, 
+    {
+        "code": "print c", 
+        "corresponding_lines": [
+            12
+        ], 
+        "id": 43
+    }, 
+    {
+        "code": "print c.make_sound()", 
+        "corresponding_lines": [
+            13
+        ], 
+        "id": 44
+    }, 
+    {
+        "code": "main()", 
+        "corresponding_lines": [
+            14
+        ], 
+        "id": 45
+    }, 
+    {
+        "code": "return \"name: \"+self.name+\", age\"+str(self.age)", 
+        "corresponding_lines": [
+            15
+        ], 
+        "id": 46
+    }, 
+    {
+        "code": "return \"name: \"+str(self.name)+\", \"+\"age: \"+str(self.age)", 
+        "corresponding_lines": [
+            19
+        ], 
+        "id": 47
+    }, 
+    {
+        "code": "return \"name: \"+self.name+\" \"+\"age: \"+str(self.age)", 
+        "corresponding_lines": [
+            20
+        ], 
+        "id": 48
+    }, 
+    {
+        "code": "string=\"name: \"+name+\", age:\"+age", 
+        "corresponding_lines": [
+            21
+        ], 
+        "id": 49
+    }, 
+    {
+        "code": "return string", 
+        "corresponding_lines": [
+            88, 
+            22
+        ], 
+        "id": 50
+    }, 
+    {
+        "code": "def __str__(self,make_sound):", 
+        "corresponding_lines": [
+            25
+        ], 
+        "id": 51
+    }, 
+    {
+        "code": "make_sound=\"Meow\"", 
+        "corresponding_lines": [
+            26, 
+            91
+        ], 
+        "id": 52
+    }, 
+    {
+        "code": "self.make_sound=make.sound", 
+        "corresponding_lines": [
+            27
+        ], 
+        "id": 53
+    }, 
+    {
+        "code": "return make_sound", 
+        "corresponding_lines": [
+            92, 
+            28
+        ], 
+        "id": 54
+    }, 
+    {
+        "code": "self.name=age", 
+        "corresponding_lines": [
+            3
+        ], 
+        "id": 55
+    }, 
+    {
+        "code": "result=\"name: \"+self.name+\", age:\"+str(self.age)", 
+        "corresponding_lines": [
+            29, 
+            87
+        ], 
+        "id": 56
+    }, 
+    {
+        "code": "return", 
+        "corresponding_lines": [
+            30
+        ], 
+        "id": 57
+    }, 
+    {
+        "code": "return \"name: \"+self.name+\" age: \"+str(self.age)", 
+        "corresponding_lines": [
+            31
+        ], 
+        "id": 58
+    }, 
+    {
+        "code": "def __make_sound__():", 
+        "corresponding_lines": [
+            32
+        ], 
+        "id": 59
+    }, 
+    {
+        "code": "return \"name: \"+str(self.name)+\", age: \"+int(self.age)", 
+        "corresponding_lines": [
+            33
+        ], 
+        "id": 60
+    }, 
+    {
+        "code": "return \"name: \"+self.name+\", \"+\"age: \"+self.age", 
+        "corresponding_lines": [
+            34
+        ], 
+        "id": 61
+    }, 
+    {
+        "code": "print \"Meow\"", 
+        "corresponding_lines": [
+            35
+        ], 
+        "id": 62
+    }, 
+    {
+        "code": "return \"name: \"+self.name+\" ,\"+\"age: \"+str(self.age)", 
+        "corresponding_lines": [
+            36
+        ], 
+        "id": 63
+    }, 
+    {
+        "code": "return str(\"name: \",self.name,\"age: \",self.age)", 
+        "corresponding_lines": [
+            37
+        ], 
+        "id": 64
+    }, 
+    {
+        "code": "return 'name: '+self.name+','+'age:'+' '+self.age", 
+        "corresponding_lines": [
+            38
+        ], 
+        "id": 65
+    }, 
+    {
+        "code": "return \"name: \"+self.name+\". age: \"+str(self.age)", 
+        "corresponding_lines": [
+            45
+        ], 
+        "id": 66
+    }, 
+    {
+        "code": "return \"name: \"+str(self.name)+\", age: \"+self.age", 
+        "corresponding_lines": [
+            48
+        ], 
+        "id": 67
+    }, 
+    {
+        "code": "new_str+=(\"name: \",self.name,\"age: \",self.age)", 
+        "corresponding_lines": [
+            50
+        ], 
+        "id": 68
+    }, 
+    {
+        "code": "self.make_sound=\"Meow\"", 
+        "corresponding_lines": [
+            52
+        ], 
+        "id": 69
+    }, 
+    {
+        "code": "return \"name: \"+name+\" age: \"+age", 
+        "corresponding_lines": [
+            53
+        ], 
+        "id": 70
+    }, 
+    {
+        "code": "return \"name: \"+self.name+\", age:\"+str(self.age)", 
+        "corresponding_lines": [
+            54
+        ], 
+        "id": 71
+    }, 
+    {
+        "code": "return '\"name: '+self.name+', age: '+str(self.age)+'\"'", 
+        "corresponding_lines": [
+            58
+        ], 
+        "id": 72
+    }, 
+    {
+        "code": "c=Cat(Fluffy,3)", 
+        "corresponding_lines": [
+            59
+        ], 
+        "id": 73
+    }, 
+    {
+        "code": "return \"name: \"+self.name+\", \"+\"age\"+str(self.age)", 
+        "corresponding_lines": [
+            60
+        ], 
+        "id": 74
+    }, 
+    {
+        "code": "return 'name:'+self.name+' '+','+'age:'+' '+self.age", 
+        "corresponding_lines": [
+            63
+        ], 
+        "id": 75
+    }, 
+    {
+        "code": "def __init__(self,name,age,sound):", 
+        "corresponding_lines": [
+            64
+        ], 
+        "id": 76
+    }, 
+    {
+        "code": "return \"name: \"+name+\", age: \"+str(age)", 
+        "corresponding_lines": [
+            65
+        ], 
+        "id": 77
+    }, 
+    {
+        "code": "return \"name: \"+self.name+\", \"+\"age: \"+str(self.age)+\".\"", 
+        "corresponding_lines": [
+            66
+        ], 
+        "id": 78
+    }, 
+    {
+        "code": "def __make_sound__(self):", 
+        "corresponding_lines": [
+            67
+        ], 
+        "id": 79
+    }, 
+    {
+        "code": "return 'name: '+self.age+', age: '+str(self.age)", 
+        "corresponding_lines": [
+            68
+        ], 
+        "id": 80
+    }, 
+    {
+        "code": "return \"name: \"+self.name+\", \"+\"age: \"+str(self.len)", 
+        "corresponding_lines": [
+            69
+        ], 
+        "id": 81
+    }, 
+    {
+        "code": "return \" name: \"", 
+        "corresponding_lines": [
+            70
+        ], 
+        "id": 82
+    }, 
+    {
+        "code": "return self.name+\", age: \"+self.age", 
+        "corresponding_lines": [
+            71
+        ], 
+        "id": 83
+    }, 
+    {
+        "code": "return 'name:'+self.name+', age:'+str(self.age)", 
+        "corresponding_lines": [
+            72
+        ], 
+        "id": 84
+    }, 
+    {
+        "code": "def __init__(c,name,age):", 
+        "corresponding_lines": [
+            74
+        ], 
+        "id": 85
+    }, 
+    {
+        "code": "c.name=name", 
+        "corresponding_lines": [
+            75
+        ], 
+        "id": 86
+    }, 
+    {
+        "code": "c.age=str(age)", 
+        "corresponding_lines": [
+            76
+        ], 
+        "id": 87
+    }, 
+    {
+        "code": "def __str__(c):", 
+        "corresponding_lines": [
+            77
+        ], 
+        "id": 88
+    }, 
+    {
+        "code": "return \"name: \"+c.name+\", age: \"+c.age", 
+        "corresponding_lines": [
+            78
+        ], 
+        "id": 89
+    }, 
+    {
+        "code": "return meow", 
+        "corresponding_lines": [
+            80
+        ], 
+        "id": 90
+    }, 
+    {
+        "code": "return \"name: \"+self.name+\", age:\"+self.age", 
+        "corresponding_lines": [
+            81
+        ], 
+        "id": 91
+    }, 
+    {
+        "code": "return \"meow\"", 
+        "corresponding_lines": [
+            82
+        ], 
+        "id": 92
+    }, 
+    {
+        "code": "self.name=str(name)", 
+        "corresponding_lines": [
+            83
+        ], 
+        "id": 93
+    }, 
+    {
+        "code": "return 'name: {self.name}'", 
+        "corresponding_lines": [
+            84
+        ], 
+        "id": 94
+    }, 
+    {
+        "code": "c=\"Meow\"", 
+        "corresponding_lines": [
+            85
+        ], 
+        "id": 95
+    }, 
+    {
+        "code": "return c", 
+        "corresponding_lines": [
+            86
+        ], 
+        "id": 96
+    }, 
+    {
+        "code": "string=\"name: \"+self.name+\", age:\"+str(self.age)", 
+        "corresponding_lines": [
+            87
+        ], 
+        "id": 97
+    }, 
+    {
+        "code": "return self.name+\"\"+str(self.age)", 
+        "corresponding_lines": [
+            89
+        ], 
+        "id": 98
+    }, 
+    {
+        "code": "return \"name: \"+self.name+\", age: \"+int(self.age)", 
+        "corresponding_lines": [
+            90
+        ], 
+        "id": 99
+    }, 
+    {
+        "code": "return \"name: \"+Cat.name+\", age: \"+Cat.age", 
+        "corresponding_lines": [
+            93
+        ], 
+        "id": 100
+    }, 
+    {
+        "code": "return \"name: \"+self.name+\"age: \"+str(self.age)", 
+        "corresponding_lines": [
+            94
+        ], 
+        "id": 101
+    }, 
+    {
+        "code": "return 'name: '+self.name+','+'age: '+self.age", 
+        "corresponding_lines": [
+            95
+        ], 
+        "id": 102
+    }, 
+    {
+        "code": "return \"name: \"+self.name+\", age \"+str(self.age)", 
+        "corresponding_lines": [
+            97
+        ], 
+        "id": 103
+    }, 
+    {
+        "code": "return 'name: '+self.name+' '+','+'age: '+self.age", 
+        "corresponding_lines": [
+            98
+        ], 
+        "id": 104
+    }, 
+    {
+        "code": "return self.make_sound", 
+        "corresponding_lines": [
+            99
+        ], 
+        "id": 105
+    }, 
+    {
+        "code": "return \"name\"+\" \"+name+\", age: \"+str(age)", 
+        "corresponding_lines": [
+            100
+        ], 
+        "id": 106
+    }, 
+    {
+        "code": "string=\"name: \"+self.name+\", age:\"+self.age", 
+        "corresponding_lines": [
+            103
+        ], 
+        "id": 107
+    }, 
+    {
+        "code": "return 'name: {self.name}age: {self.age}'", 
+        "corresponding_lines": [
+            104
+        ], 
+        "id": 108
+    }, 
+    {
+        "code": "return \"name: \"+self.name+\" age: \"+self.age", 
+        "corresponding_lines": [
+            105
+        ], 
+        "id": 109
+    }, 
+    {
+        "code": "def __init__(self,name,age,make_sound):", 
+        "corresponding_lines": [
+            161, 
+            107
+        ], 
+        "id": 110
+    }, 
+    {
+        "code": "c=Cat(\"Fluffy\",3,\"Meow\")", 
+        "corresponding_lines": [
+            108
+        ], 
+        "id": 111
+    }, 
+    {
+        "code": "print \"Mewo\"", 
+        "corresponding_lines": [
+            109
+        ], 
+        "id": 112
+    }, 
+    {
+        "code": "return \"name: name, age: age\"", 
+        "corresponding_lines": [
+            110
+        ], 
+        "id": 113
+    }, 
+    {
+        "code": "return \"name: \"+self.name+\", age:\"+age", 
+        "corresponding_lines": [
+            111
+        ], 
+        "id": 114
+    }, 
+    {
+        "code": "new_str+=self.name", 
+        "corresponding_lines": [
+            113
+        ], 
+        "id": 115
+    }, 
+    {
+        "code": "def __str__():", 
+        "corresponding_lines": [
+            115
+        ], 
+        "id": 116
+    }, 
+    {
+        "code": "return self.name+\"\"+self.age", 
+        "corresponding_lines": [
+            116
+        ], 
+        "id": 117
+    }, 
+    {
+        "code": "return self.name+\", age:\"+self.age", 
+        "corresponding_lines": [
+            117
+        ], 
+        "id": 118
+    }, 
+    {
+        "code": "return \"name: \"+self.name+\", age: \"+str(age)", 
+        "corresponding_lines": [
+            118
+        ], 
+        "id": 119
+    }, 
+    {
+        "code": "sound=\"Meow\"", 
+        "corresponding_lines": [
+            119
+        ], 
+        "id": 120
+    }, 
+    {
+        "code": "return sound", 
+        "corresponding_lines": [
+            120
+        ], 
+        "id": 121
+    }, 
+    {
+        "code": "return 'age: {self.age}'", 
+        "corresponding_lines": [
+            121
+        ], 
+        "id": 122
+    }, 
+    {
+        "code": "return \"name: self.name, age: self.age\"", 
+        "corresponding_lines": [
+            122
+        ], 
+        "id": 123
+    }, 
+    {
+        "code": "def makes_sound(self):", 
+        "corresponding_lines": [
+            123
+        ], 
+        "id": 124
+    }, 
+    {
+        "code": "return self.name+\", \"+str(self.age)", 
+        "corresponding_lines": [
+            124
+        ], 
+        "id": 125
+    }, 
+    {
+        "code": "return 'name: '+self.name+', age:'+str(self.age)", 
+        "corresponding_lines": [
+            125
+        ], 
+        "id": 126
+    }, 
+    {
+        "code": "return \"name: \"+self.name+\", age: \"+str(self.len)", 
+        "corresponding_lines": [
+            126
+        ], 
+        "id": 127
+    }, 
+    {
+        "code": "return 'name: '+self.name+' '+','+'age: '+' '+self.age", 
+        "corresponding_lines": [
+            127
+        ], 
+        "id": 128
+    }, 
+    {
+        "code": "return \"name:\"+self.name and \"age:\"+self.age", 
+        "corresponding_lines": [
+            128
+        ], 
+        "id": 129
+    }, 
+    {
+        "code": "name=self.name", 
+        "corresponding_lines": [
+            129
+        ], 
+        "id": 130
+    }, 
+    {
+        "code": "age=self.age", 
+        "corresponding_lines": [
+            130
+        ], 
+        "id": 131
+    }, 
+    {
+        "code": "return '\"name: '+self.name+', '+'age: '+str(self.age)+'\"'", 
+        "corresponding_lines": [
+            131
+        ], 
+        "id": 132
+    }, 
+    {
+        "code": "return 'name:'+self.name+','+'age:'+self.age", 
+        "corresponding_lines": [
+            132
+        ], 
+        "id": 133
+    }, 
+    {
+        "code": "return \"name:\"+self.name+\",\"+\"age:\"+self.age", 
+        "corresponding_lines": [
+            133
+        ], 
+        "id": 134
+    }, 
+    {
+        "code": "return self.name+\", \"+self.age", 
+        "corresponding_lines": [
+            134
+        ], 
+        "id": 135
+    }, 
+    {
+        "code": "c=cat(\"Fluffy\",3)", 
+        "corresponding_lines": [
+            135
+        ], 
+        "id": 136
+    }, 
+    {
+        "code": "self.age=int(age)", 
+        "corresponding_lines": [
+            136
+        ], 
+        "id": 137
+    }, 
+    {
+        "code": "return \"name: \"+self.name+\" \"+\"age: \"+int(self.age)", 
+        "corresponding_lines": [
+            137
+        ], 
+        "id": 138
+    }, 
+    {
+        "code": "return self.name+\": \"+self.name+\". age: \"+str(self.age)", 
+        "corresponding_lines": [
+            138
+        ], 
+        "id": 139
+    }, 
+    {
+        "code": "self.age=str(sge)", 
+        "corresponding_lines": [
+            139
+        ], 
+        "id": 140
+    }, 
+    {
+        "code": "return \"name: \"+self.name+\" age: \"+str(age)", 
+        "corresponding_lines": [
+            140
+        ], 
+        "id": 141
+    }, 
+    {
+        "code": "return \"name: \"+cat.name+\", age: \"+cat.age", 
+        "corresponding_lines": [
+            141
+        ], 
+        "id": 142
+    }, 
+    {
+        "code": "return(\"name: \",self.name,\"age: \",self.age)", 
+        "corresponding_lines": [
+            142
+        ], 
+        "id": 143
+    }, 
+    {
+        "code": "return \"name: \"+str(self.name)+\", age: \"+str(age)", 
+        "corresponding_lines": [
+            143
+        ], 
+        "id": 144
+    }, 
+    {
+        "code": "return \"name: \"+self.name+\", age: \"+str(self.age())", 
+        "corresponding_lines": [
+            144
+        ], 
+        "id": 145
+    }, 
+    {
+        "code": "def _init_(self,name,age):", 
+        "corresponding_lines": [
+            145
+        ], 
+        "id": 146
+    }, 
+    {
+        "code": "def _str_(self):", 
+        "corresponding_lines": [
+            146
+        ], 
+        "id": 147
+    }, 
+    {
+        "code": "return \"name: \"+name+\", age: \"+age", 
+        "corresponding_lines": [
+            147, 
+            196
+        ], 
+        "id": 148
+    }, 
+    {
+        "code": "'''def __str__(self, make_sound):", 
+        "corresponding_lines": [
+            149
+        ], 
+        "id": 149
+    }, 
+    {
+        "code": "c = \"Meow\"", 
+        "corresponding_lines": [
+            150
+        ], 
+        "id": 150
+    }, 
+    {
+        "code": "return c'''", 
+        "corresponding_lines": [
+            151
+        ], 
+        "id": 151
+    }, 
+    {
+        "code": "new_str+=\"name:\"", 
+        "corresponding_lines": [
+            152
+        ], 
+        "id": 152
+    }, 
+    {
+        "code": "new_str+=\"age:\"", 
+        "corresponding_lines": [
+            153
+        ], 
+        "id": 153
+    }, 
+    {
+        "code": "return(\"name : {}, age: {}\").format(self.name,self.age)", 
+        "corresponding_lines": [
+            157
+        ], 
+        "id": 154
+    }, 
+    {
+        "code": "return \"name: \"+self.name+\", \"+str(self.age)", 
+        "corresponding_lines": [
+            162
+        ], 
+        "id": 155
+    }, 
+    {
+        "code": "new_str+=self.name+\" \"", 
+        "corresponding_lines": [
+            163
+        ], 
+        "id": 156
+    }, 
+    {
+        "code": "self.sound=sound", 
+        "corresponding_lines": [
+            164
+        ], 
+        "id": 157
+    }, 
+    {
+        "code": "return \"name:  \"+self.name+\", age: \"+str(self.age)", 
+        "corresponding_lines": [
+            165
+        ], 
+        "id": 158
+    }, 
+    {
+        "code": "return \"name:\"+name+\",\"+\"age:\"+age", 
+        "corresponding_lines": [
+            166
+        ], 
+        "id": 159
+    }, 
+    {
+        "code": "c.age=age", 
+        "corresponding_lines": [
+            167
+        ], 
+        "id": 160
+    }, 
+    {
+        "code": "self.name", 
+        "corresponding_lines": [
+            168
+        ], 
+        "id": 161
+    }, 
+    {
+        "code": "self.age", 
+        "corresponding_lines": [
+            169
+        ], 
+        "id": 162
+    }, 
+    {
+        "code": "def __age__(self):", 
+        "corresponding_lines": [
+            170
+        ], 
+        "id": 163
+    }, 
+    {
+        "code": "def __init__(name,age):", 
+        "corresponding_lines": [
+            171
+        ], 
+        "id": 164
+    }, 
+    {
+        "code": "return 'name: '+self.name+' '+','+'age:'+' '+self.age", 
+        "corresponding_lines": [
+            172
+        ], 
+        "id": 165
+    }, 
+    {
+        "code": "return \"name: \"+name+\", \"+\"age: \"+str(age)", 
+        "corresponding_lines": [
+            176, 
+            173, 
+            199
+        ], 
+        "id": 166
+    }, 
+    {
+        "code": "c=\"name: \"+self.name+\", \"+\"age: \"+str(self.len)", 
+        "corresponding_lines": [
+            174
+        ], 
+        "id": 167
+    }, 
+    {
+        "code": "return 'name: {self.name}, age: {self.age}'", 
+        "corresponding_lines": [
+            175
+        ], 
+        "id": 168
+    }, 
+    {
+        "code": "return self.name+\". age: \"+str(self.age)", 
+        "corresponding_lines": [
+            177
+        ], 
+        "id": 169
+    }, 
+    {
+        "code": "self.make_sound=make_sound", 
+        "corresponding_lines": [
+            179
+        ], 
+        "id": 170
+    }, 
+    {
+        "code": "return name+\", \"+\"age: \"+age", 
+        "corresponding_lines": [
+            180
+        ], 
+        "id": 171
+    }, 
+    {
+        "code": "return self.name+\", \"+\"age: \"+self.age", 
+        "corresponding_lines": [
+            181
+        ], 
+        "id": 172
+    }, 
+    {
+        "code": "return \"name: {c.name}, age: {c.age}\"", 
+        "corresponding_lines": [
+            182
+        ], 
+        "id": 173
+    }, 
+    {
+        "code": "return \"name: \"+self.name+\" \"+\"age: \"+self.age", 
+        "corresponding_lines": [
+            183
+        ], 
+        "id": 174
+    }, 
+    {
+        "code": "return \"name:\"+self.name+\",\"+\"age:\"+str(self.age)", 
+        "corresponding_lines": [
+            184
+        ], 
+        "id": 175
+    }, 
+    {
+        "code": "return \"name: \"+self.name", 
+        "corresponding_lines": [
+            185
+        ], 
+        "id": 176
+    }, 
+    {
+        "code": "return \"name: \"+name.self+\" age: \"+age.self", 
+        "corresponding_lines": [
+            186
+        ], 
+        "id": 177
+    }, 
+    {
+        "code": "return \"name: \"+self.name+\", \"+\"age\"+self.age", 
+        "corresponding_lines": [
+            187
+        ], 
+        "id": 178
+    }, 
+    {
+        "code": "def __str__(self,name,age):", 
+        "corresponding_lines": [
+            188
+        ], 
+        "id": 179
+    }, 
+    {
+        "code": "return 'name: '+str(name)+', age: '+age", 
+        "corresponding_lines": [
+            189
+        ], 
+        "id": 180
+    }, 
+    {
+        "code": "class cat:", 
+        "corresponding_lines": [
+            190
+        ], 
+        "id": 181
+    }, 
+    {
+        "code": "return((\"name: \"<<self.name)<<\", age: \")<<str(self.age)", 
+        "corresponding_lines": [
+            191
+        ], 
+        "id": 182
+    }, 
+    {
+        "code": "return \"name: \"+self.name+\",\"+\"age: \"+str(self.age)", 
+        "corresponding_lines": [
+            192
+        ], 
+        "id": 183
+    }, 
+    {
+        "code": "return \"name: \"+self.name+\"age: \"+self.age", 
+        "corresponding_lines": [
+            193
+        ], 
+        "id": 184
+    }, 
+    {
+        "code": "def __init(self,name,age):", 
+        "corresponding_lines": [
+            194
+        ], 
+        "id": 185
+    }, 
+    {
+        "code": "def __make_sound(self):", 
+        "corresponding_lines": [
+            195
+        ], 
+        "id": 186
+    }, 
+    {
+        "code": "def __self__(self):", 
+        "corresponding_lines": [
+            197
+        ], 
+        "id": 187
+    }, 
+    {
+        "code": "def __init_(self,name,age):", 
+        "corresponding_lines": [
+            198
+        ], 
+        "id": 188
+    }, 
+    {
+        "code": "new_str+=self.age", 
+        "corresponding_lines": [
+            200
+        ], 
+        "id": 189
+    }, 
+    {
+        "code": "return \"name: \"+self.name+\" , age: \"+self.age", 
+        "corresponding_lines": [
+            202
+        ], 
+        "id": 190
+    }
+]

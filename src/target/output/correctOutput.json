@@ -1,0 +1,6 @@
+{
+  "print(Cat(\"Spike\", 2).make_sound(), \"Meow\", \"testing make_sound with Spike\")": "('Meow', 'Meow', 'testing make_sound with Spike')\n", 
+  "print(Cat(\"Fluffy\", 3).make_sound(), \"Meow\", \"testing make_sound with Fluffy\")": "('Meow', 'Meow', 'testing make_sound with Fluffy')\n", 
+  "print(Cat(\"Spike\", 2).__str__(), \"name: Spike, age: 2\", \"testing __str__ on Spike\")": "('name: Spike, age: 2', 'name: Spike, age: 2', 'testing __str__ on Spike')\n", 
+  "print(Cat(\"Fluffy\", 3).__str__(), \"name: Fluffy, age: 3\", \"testing __str__ on Fluffy\")": "('name: Fluffy, age: 3', 'name: Fluffy, age: 3', 'testing __str__ on Fluffy')\n"
+}

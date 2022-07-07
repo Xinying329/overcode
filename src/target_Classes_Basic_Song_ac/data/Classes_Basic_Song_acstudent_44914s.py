@@ -1,0 +1,9 @@
+class Song:
+    def __int__(self,name,lenh):
+        self.name=name
+        self.lenh=lenh
+    def __str__(self):
+        return self.name +', '+str(self.lenh)
+s = Song('Respect',150)
+print(s)
+

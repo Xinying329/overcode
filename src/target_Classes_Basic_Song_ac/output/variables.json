@@ -1,0 +1,154 @@
+[
+    {
+        "id": 1, 
+        "sequence": {
+            "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                150
+            ], 
+            "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                150, 
+                183
+            ]
+        }, 
+        "varName": "len"
+    }, 
+    {
+        "id": 2, 
+        "sequence": {
+            "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                "Respect"
+            ], 
+            "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                "Respect", 
+                "Truth Hurts"
+            ]
+        }, 
+        "varName": "title"
+    }, 
+    {
+        "id": 3, 
+        "sequence": {
+            "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                150
+            ], 
+            "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                150
+            ]
+        }, 
+        "varName": "len___2"
+    }, 
+    {
+        "id": 4, 
+        "sequence": {
+            "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                "Respect"
+            ], 
+            "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                "Respect"
+            ]
+        }, 
+        "varName": "title___2"
+    }, 
+    {
+        "id": 5, 
+        "sequence": {
+            "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                10, 
+                150
+            ], 
+            "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                10, 
+                183
+            ]
+        }, 
+        "varName": "len___4"
+    }, 
+    {
+        "id": 6, 
+        "sequence": {
+            "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                150
+            ], 
+            "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                183
+            ]
+        }, 
+        "varName": "len___3"
+    }, 
+    {
+        "id": 7, 
+        "sequence": {
+            "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                "Respect"
+            ], 
+            "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                "Truth Hurts"
+            ]
+        }, 
+        "varName": "title___3"
+    }, 
+    {
+        "id": 8, 
+        "sequence": {
+            "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                190, 
+                150
+            ], 
+            "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                190, 
+                183
+            ]
+        }, 
+        "varName": "len___5"
+    }, 
+    {
+        "id": 9, 
+        "sequence": {
+            "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                "150"
+            ], 
+            "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                "183"
+            ]
+        }, 
+        "varName": "length"
+    }, 
+    {
+        "id": 10, 
+        "sequence": {
+            "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                "Respect, 150"
+            ], 
+            "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                "Truth Hurts, 183"
+            ]
+        }, 
+        "varName": "result"
+    }, 
+    {
+        "id": 11, 
+        "sequence": {
+            "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                150
+            ], 
+            "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                183, 
+                150
+            ]
+        }, 
+        "varName": "len"
+    }, 
+    {
+        "id": 12, 
+        "sequence": {
+            "Song('Respect',150).__str__(), \"Respect, 150\", \"testing __str__ with Respect\"": [
+                "Respect"
+            ], 
+            "Song('Truth Hurts',183).__str__(), \"Truth Hurts, 183\", \"testing __str__ with Truth Hurts\"": [
+                "Truth Hurts", 
+                "Respect"
+            ]
+        }, 
+        "varName": "title"
+    }
+]

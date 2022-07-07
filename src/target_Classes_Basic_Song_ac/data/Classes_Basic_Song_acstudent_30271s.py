@@ -1,0 +1,10 @@
+class Song:
+    __init__(self, title, len):
+        self.title = title
+        self.len = len
+    __str__(self):
+        return self.title + ", " + str(len)
+
+s = Song('Respect',150)
+print(s)
+

@@ -397,15 +397,18 @@ def populate_from_pickles(all_solutions, pickleSrc):
 
     # Get the correct answer from answer.py
     answer_path = path.join(pickleSrc, 'answer.pickle')
+    print answer_path
+    
+
     if path.isfile(answer_path):
         with open(answer_path, 'r') as f:
+            print pickle.load(f)
             unpickled = pickle.load(f)
-
+        
         testcases, correct_outputs = unpickled['testcases'], unpickled['outputs']
         testcase_to_correct_output = {testcases[i]: correct_outputs[i] for i in range(len(testcases))}
         print "ANSWER:", testcase_to_correct_output
 
-    
     # Now load the rest of the solutions
     for filename in os.listdir(pickleSrc):
         skip_flag = False #initialize flag to not skip solution
@@ -503,6 +506,7 @@ def find_canon_names(all_abstracts):
 
 def find_template_info_scores(abstracts):
     counts = Counter()
+    print("abstracts in find_template_info_scores",abstracts)
     for avar in abstracts:
         counts.update(avar.templates_with_indices)
     total = float(sum(counts.values()))
@@ -988,7 +992,9 @@ def find_matching_var(var_to_match, correct_abstracts, scores, threshold):
     """
     best_avars = []
     best_info_content = 0
+    
     for avar in correct_abstracts:
+        
         # See if var_to_match has exactly the same values as a correct
         # AbstractVariable
         if avar.should_contain(var_to_match):

@@ -1,0 +1,1577 @@
+[
+    {
+        "code": "class Song:", 
+        "corresponding_lines": [
+            1
+        ], 
+        "id": 1
+    }, 
+    {
+        "code": "def __init__(self,title,len):", 
+        "corresponding_lines": [
+            32, 
+            2
+        ], 
+        "id": 2
+    }, 
+    {
+        "code": "self.title=title", 
+        "corresponding_lines": [
+            17, 
+            3
+        ], 
+        "id": 3
+    }, 
+    {
+        "code": "self.len=len", 
+        "corresponding_lines": [
+            18, 
+            4
+        ], 
+        "id": 4
+    }, 
+    {
+        "code": "def __str__(self):", 
+        "corresponding_lines": [
+            5
+        ], 
+        "id": 5
+    }, 
+    {
+        "code": "return self.title+self.len", 
+        "corresponding_lines": [
+            6
+        ], 
+        "id": 6
+    }, 
+    {
+        "code": "s=Song('Respect',150)", 
+        "corresponding_lines": [
+            7
+        ], 
+        "id": 7
+    }, 
+    {
+        "code": "return self.title+\", \"+len", 
+        "corresponding_lines": [
+            8
+        ], 
+        "id": 8
+    }, 
+    {
+        "code": "return \"{self.title}, {str(self.len)}\"", 
+        "corresponding_lines": [
+            9
+        ], 
+        "id": 9
+    }, 
+    {
+        "code": "return self.title+\",\"+str(self.len)", 
+        "corresponding_lines": [
+            10
+        ], 
+        "id": 10
+    }, 
+    {
+        "code": "def __init__(self,title___2,len___2):", 
+        "corresponding_lines": [
+            2
+        ], 
+        "id": 11
+    }, 
+    {
+        "code": "self.title=title___2", 
+        "corresponding_lines": [
+            3
+        ], 
+        "id": 12
+    }, 
+    {
+        "code": "self.leng=len___2", 
+        "corresponding_lines": [
+            11
+        ], 
+        "id": 13
+    }, 
+    {
+        "code": "return self.title+\", \"+str(self.len)", 
+        "corresponding_lines": [
+            12
+        ], 
+        "id": 14
+    }, 
+    {
+        "code": "def main():", 
+        "corresponding_lines": [
+            13
+        ], 
+        "id": 15
+    }, 
+    {
+        "code": "print s", 
+        "corresponding_lines": [
+            14
+        ], 
+        "id": 16
+    }, 
+    {
+        "code": "main()", 
+        "corresponding_lines": [
+            15
+        ], 
+        "id": 17
+    }, 
+    {
+        "code": "def _init_(self,title,len):", 
+        "corresponding_lines": [
+            16
+        ], 
+        "id": 18
+    }, 
+    {
+        "code": "def _str_(self):", 
+        "corresponding_lines": [
+            19
+        ], 
+        "id": 19
+    }, 
+    {
+        "code": "return self.title+\", \"+self.len", 
+        "corresponding_lines": [
+            20
+        ], 
+        "id": 20
+    }, 
+    {
+        "code": "return str(self.title)+', '+str(self.len)", 
+        "corresponding_lines": [
+            21
+        ], 
+        "id": 21
+    }, 
+    {
+        "code": "def __init__(self,title):", 
+        "corresponding_lines": [
+            22
+        ], 
+        "id": 22
+    }, 
+    {
+        "code": "return(title,len(self))", 
+        "corresponding_lines": [
+            23
+        ], 
+        "id": 23
+    }, 
+    {
+        "code": "return self.title+\" \"+self.len", 
+        "corresponding_lines": [
+            24
+        ], 
+        "id": 24
+    }, 
+    {
+        "code": "self.length=len", 
+        "corresponding_lines": [
+            25
+        ], 
+        "id": 25
+    }, 
+    {
+        "code": "return self.title+\", \"+str(len)", 
+        "corresponding_lines": [
+            26
+        ], 
+        "id": 26
+    }, 
+    {
+        "code": "def __init__(self,title,len___4):", 
+        "corresponding_lines": [
+            2
+        ], 
+        "id": 27
+    }, 
+    {
+        "code": "self.len=len___4", 
+        "corresponding_lines": [
+            4
+        ], 
+        "id": 28
+    }, 
+    {
+        "code": "s=Song('Respect',10)", 
+        "corresponding_lines": [
+            27
+        ], 
+        "id": 29
+    }, 
+    {
+        "code": "return self.title+' '+str(self.len)", 
+        "corresponding_lines": [
+            28
+        ], 
+        "id": 30
+    }, 
+    {
+        "code": "self.len=int(len)", 
+        "corresponding_lines": [
+            29
+        ], 
+        "id": 31
+    }, 
+    {
+        "code": "return self.title+\" \"+str(self.len)", 
+        "corresponding_lines": [
+            30
+        ], 
+        "id": 32
+    }, 
+    {
+        "code": "return self.tutle+\", \"+str(self.len)", 
+        "corresponding_lines": [
+            31
+        ], 
+        "id": 33
+    }, 
+    {
+        "code": "return str(self.title+\", \"+len)", 
+        "corresponding_lines": [
+            33
+        ], 
+        "id": 34
+    }, 
+    {
+        "code": "return self.title+\",\"+self.len", 
+        "corresponding_lines": [
+            34
+        ], 
+        "id": 35
+    }, 
+    {
+        "code": "return self.title+','+str(self.len)", 
+        "corresponding_lines": [
+            35
+        ], 
+        "id": 36
+    }, 
+    {
+        "code": "class Song(object):", 
+        "corresponding_lines": [
+            36
+        ], 
+        "id": 37
+    }, 
+    {
+        "code": "self.angle1=angle1", 
+        "corresponding_lines": [
+            37
+        ], 
+        "id": 38
+    }, 
+    {
+        "code": "self.angle2=angle2", 
+        "corresponding_lines": [
+            38
+        ], 
+        "id": 39
+    }, 
+    {
+        "code": "self.len=len___2", 
+        "corresponding_lines": [
+            4
+        ], 
+        "id": 40
+    }, 
+    {
+        "code": "return self.title+\" ,\"+str(self.len)", 
+        "corresponding_lines": [
+            39
+        ], 
+        "id": 41
+    }, 
+    {
+        "code": "def __init__(self,title___3,len___3):", 
+        "corresponding_lines": [
+            2
+        ], 
+        "id": 42
+    }, 
+    {
+        "code": "self.title=title___3", 
+        "corresponding_lines": [
+            3
+        ], 
+        "id": 43
+    }, 
+    {
+        "code": "self.len=len___3", 
+        "corresponding_lines": [
+            4
+        ], 
+        "id": 44
+    }, 
+    {
+        "code": "def __init_(self,title,len_):", 
+        "corresponding_lines": [
+            40
+        ], 
+        "id": 45
+    }, 
+    {
+        "code": "self.len=len_", 
+        "corresponding_lines": [
+            41
+        ], 
+        "id": 46
+    }, 
+    {
+        "code": "return str(self.title,ste(self.len))", 
+        "corresponding_lines": [
+            42
+        ], 
+        "id": 47
+    }, 
+    {
+        "code": "def __int__(self,title,len):", 
+        "corresponding_lines": [
+            43
+        ], 
+        "id": 48
+    }, 
+    {
+        "code": "self.tittle=title", 
+        "corresponding_lines": [
+            44
+        ], 
+        "id": 49
+    }, 
+    {
+        "code": "return self.tittle+self.len", 
+        "corresponding_lines": [
+            45
+        ], 
+        "id": 50
+    }, 
+    {
+        "code": "print(title,\",\",len)", 
+        "corresponding_lines": [
+            46
+        ], 
+        "id": 51
+    }, 
+    {
+        "code": "return(title,len)", 
+        "corresponding_lines": [
+            48
+        ], 
+        "id": 52
+    }, 
+    {
+        "code": "return self.title+\", \"+str(self.length)", 
+        "corresponding_lines": [
+            49
+        ], 
+        "id": 53
+    }, 
+    {
+        "code": "title___2=self.title()", 
+        "corresponding_lines": [
+            50
+        ], 
+        "id": 54
+    }, 
+    {
+        "code": "len___2=self.title()", 
+        "corresponding_lines": [
+            50
+        ], 
+        "id": 55
+    }, 
+    {
+        "code": "def __self__(title___2,len___2):", 
+        "corresponding_lines": [
+            51
+        ], 
+        "id": 56
+    }, 
+    {
+        "code": "return title___2+', '+len___2", 
+        "corresponding_lines": [
+            52
+        ], 
+        "id": 57
+    }, 
+    {
+        "code": "return title+\", \"+len", 
+        "corresponding_lines": [
+            53
+        ], 
+        "id": 58
+    }, 
+    {
+        "code": "title___2=title___2.self", 
+        "corresponding_lines": [
+            54
+        ], 
+        "id": 59
+    }, 
+    {
+        "code": "len___2=title___2.self", 
+        "corresponding_lines": [
+            54
+        ], 
+        "id": 60
+    }, 
+    {
+        "code": "return title___2+\", \"+len___2", 
+        "corresponding_lines": [
+            55
+        ], 
+        "id": 61
+    }, 
+    {
+        "code": "self.len=str(len)", 
+        "corresponding_lines": [
+            56, 
+            190
+        ], 
+        "id": 62
+    }, 
+    {
+        "code": "def __init__(self,title,num):", 
+        "corresponding_lines": [
+            57
+        ], 
+        "id": 63
+    }, 
+    {
+        "code": "self.num=num", 
+        "corresponding_lines": [
+            58
+        ], 
+        "id": 64
+    }, 
+    {
+        "code": "return self.title+\", \"+self.num", 
+        "corresponding_lines": [
+            59
+        ], 
+        "id": 65
+    }, 
+    {
+        "code": "self.title=str(title)", 
+        "corresponding_lines": [
+            60
+        ], 
+        "id": 66
+    }, 
+    {
+        "code": "def __int__(self,title,lenh):", 
+        "corresponding_lines": [
+            61
+        ], 
+        "id": 67
+    }, 
+    {
+        "code": "self.len=lenh", 
+        "corresponding_lines": [
+            62
+        ], 
+        "id": 68
+    }, 
+    {
+        "code": "return self.title+', '+self.lenh", 
+        "corresponding_lines": [
+            63
+        ], 
+        "id": 69
+    }, 
+    {
+        "code": "self.name=title", 
+        "corresponding_lines": [
+            64
+        ], 
+        "id": 70
+    }, 
+    {
+        "code": "self.leng=len", 
+        "corresponding_lines": [
+            11
+        ], 
+        "id": 71
+    }, 
+    {
+        "code": "return self.name+\",\"+str(self.leng)", 
+        "corresponding_lines": [
+            65
+        ], 
+        "id": 72
+    }, 
+    {
+        "code": "return(self.title,str(self.len))", 
+        "corresponding_lines": [
+            66
+        ], 
+        "id": 73
+    }, 
+    {
+        "code": "self.title=tile", 
+        "corresponding_lines": [
+            67
+        ], 
+        "id": 74
+    }, 
+    {
+        "code": "return self.title+', '+str(self.len)", 
+        "corresponding_lines": [
+            68
+        ], 
+        "id": 75
+    }, 
+    {
+        "code": "return self.title+','+self.len", 
+        "corresponding_lines": [
+            69
+        ], 
+        "id": 76
+    }, 
+    {
+        "code": "return f(self.title,self.len)", 
+        "corresponding_lines": [
+            70
+        ], 
+        "id": 77
+    }, 
+    {
+        "code": "title___2=self.title", 
+        "corresponding_lines": [
+            71
+        ], 
+        "id": 78
+    }, 
+    {
+        "code": "len___2=self.length", 
+        "corresponding_lines": [
+            72
+        ], 
+        "id": 79
+    }, 
+    {
+        "code": "s=Song(self,'Respect',150)", 
+        "corresponding_lines": [
+            73
+        ], 
+        "id": 80
+    }, 
+    {
+        "code": "return(self.title,self.len)", 
+        "corresponding_lines": [
+            76
+        ], 
+        "id": 81
+    }, 
+    {
+        "code": "len___2=self.num()", 
+        "corresponding_lines": [
+            77
+        ], 
+        "id": 82
+    }, 
+    {
+        "code": "def __intit(self,title,len):", 
+        "corresponding_lines": [
+            78
+        ], 
+        "id": 83
+    }, 
+    {
+        "code": "self.lenh=lenh", 
+        "corresponding_lines": [
+            79
+        ], 
+        "id": 84
+    }, 
+    {
+        "code": "return self.title+', '+str(self.lenh)", 
+        "corresponding_lines": [
+            80
+        ], 
+        "id": 85
+    }, 
+    {
+        "code": "def __init__(self,title,leng):", 
+        "corresponding_lines": [
+            81
+        ], 
+        "id": 86
+    }, 
+    {
+        "code": "self.name=name", 
+        "corresponding_lines": [
+            82
+        ], 
+        "id": 87
+    }, 
+    {
+        "code": "self.leng=leng", 
+        "corresponding_lines": [
+            83
+        ], 
+        "id": 88
+    }, 
+    {
+        "code": "return self.name+\" \"+self.leng", 
+        "corresponding_lines": [
+            84
+        ], 
+        "id": 89
+    }, 
+    {
+        "code": "def __init_(self,title,len):", 
+        "corresponding_lines": [
+            85
+        ], 
+        "id": 90
+    }, 
+    {
+        "code": "def __str__(self,s):", 
+        "corresponding_lines": [
+            86
+        ], 
+        "id": 91
+    }, 
+    {
+        "code": "len___2=self.len", 
+        "corresponding_lines": [
+            87
+        ], 
+        "id": 92
+    }, 
+    {
+        "code": "def __str__(title,len):", 
+        "corresponding_lines": [
+            88, 
+            177
+        ], 
+        "id": 93
+    }, 
+    {
+        "code": "self.num=len", 
+        "corresponding_lines": [
+            89
+        ], 
+        "id": 94
+    }, 
+    {
+        "code": "return self.title+', '+self.num", 
+        "corresponding_lines": [
+            90
+        ], 
+        "id": 95
+    }, 
+    {
+        "code": "return self.title+str(self.len)", 
+        "corresponding_lines": [
+            91
+        ], 
+        "id": 96
+    }, 
+    {
+        "code": "return str(self.title)+str(len)", 
+        "corresponding_lines": [
+            92
+        ], 
+        "id": 97
+    }, 
+    {
+        "code": "return self.title+\" \"+self.num", 
+        "corresponding_lines": [
+            93
+        ], 
+        "id": 98
+    }, 
+    {
+        "code": "return str(title,len)", 
+        "corresponding_lines": [
+            94
+        ], 
+        "id": 99
+    }, 
+    {
+        "code": "return self.title+\",\"+\" \"+str(self.len)", 
+        "corresponding_lines": [
+            95
+        ], 
+        "id": 100
+    }, 
+    {
+        "code": "return self.title+' '+self.len", 
+        "corresponding_lines": [
+            96
+        ], 
+        "id": 101
+    }, 
+    {
+        "code": "def __str__():", 
+        "corresponding_lines": [
+            97
+        ], 
+        "id": 102
+    }, 
+    {
+        "code": "def __self__(self):", 
+        "corresponding_lines": [
+            98
+        ], 
+        "id": 103
+    }, 
+    {
+        "code": "self.len-len___2", 
+        "corresponding_lines": [
+            99
+        ], 
+        "id": 104
+    }, 
+    {
+        "code": "class song:", 
+        "corresponding_lines": [
+            100
+        ], 
+        "id": 105
+    }, 
+    {
+        "code": "def __init__(self,tittle,len):", 
+        "corresponding_lines": [
+            101
+        ], 
+        "id": 106
+    }, 
+    {
+        "code": "self.tittle=tittle", 
+        "corresponding_lines": [
+            102
+        ], 
+        "id": 107
+    }, 
+    {
+        "code": "self.length=str(len)", 
+        "corresponding_lines": [
+            103
+        ], 
+        "id": 108
+    }, 
+    {
+        "code": "return self.title+', '+self.length", 
+        "corresponding_lines": [
+            104
+        ], 
+        "id": 109
+    }, 
+    {
+        "code": "return self.title+\",\"+str.self.len", 
+        "corresponding_lines": [
+            105
+        ], 
+        "id": 110
+    }, 
+    {
+        "code": "result=self.title+\", \"+self.len", 
+        "corresponding_lines": [
+            106
+        ], 
+        "id": 111
+    }, 
+    {
+        "code": "s=Song()", 
+        "corresponding_lines": [
+            107
+        ], 
+        "id": 112
+    }, 
+    {
+        "code": "return self.title", 
+        "corresponding_lines": [
+            108
+        ], 
+        "id": 113
+    }, 
+    {
+        "code": "return self.len", 
+        "corresponding_lines": [
+            109
+        ], 
+        "id": 114
+    }, 
+    {
+        "code": "return str(self.title)+\",\"+str(self.len)", 
+        "corresponding_lines": [
+            110
+        ], 
+        "id": 115
+    }, 
+    {
+        "code": "return title+str(len)", 
+        "corresponding_lines": [
+            111
+        ], 
+        "id": 116
+    }, 
+    {
+        "code": "def __str__(s):", 
+        "corresponding_lines": [
+            112
+        ], 
+        "id": 117
+    }, 
+    {
+        "code": "return s.title+\", \"+s.len", 
+        "corresponding_lines": [
+            113
+        ], 
+        "id": 118
+    }, 
+    {
+        "code": "len___2=self.title", 
+        "corresponding_lines": [
+            71
+        ], 
+        "id": 119
+    }, 
+    {
+        "code": "return self.title+\" \"+str(self.length)", 
+        "corresponding_lines": [
+            114
+        ], 
+        "id": 120
+    }, 
+    {
+        "code": "return self.title+', '+str(self.num)", 
+        "corresponding_lines": [
+            115
+        ], 
+        "id": 121
+    }, 
+    {
+        "code": "return self.title+\", \"+self.length", 
+        "corresponding_lines": [
+            116
+        ], 
+        "id": 122
+    }, 
+    {
+        "code": "return str(self.title,\",\",self.len)", 
+        "corresponding_lines": [
+            117
+        ], 
+        "id": 123
+    }, 
+    {
+        "code": "self.len=\"len\"", 
+        "corresponding_lines": [
+            118
+        ], 
+        "id": 124
+    }, 
+    {
+        "code": "return \"\"+self.title+\",\"+str(self.len)", 
+        "corresponding_lines": [
+            119
+        ], 
+        "id": 125
+    }, 
+    {
+        "code": "return self.title+\",\"+str.self(len)", 
+        "corresponding_lines": [
+            120
+        ], 
+        "id": 126
+    }, 
+    {
+        "code": "def __str__(self,title,len):", 
+        "corresponding_lines": [
+            121
+        ], 
+        "id": 127
+    }, 
+    {
+        "code": "return str(self.title+\", \"+self.len)", 
+        "corresponding_lines": [
+            122
+        ], 
+        "id": 128
+    }, 
+    {
+        "code": "s=self.code=('Respect',150)", 
+        "corresponding_lines": [
+            123
+        ], 
+        "id": 129
+    }, 
+    {
+        "code": "return \"\"\"self.title + \", \" + str(self.len) +\"\"\"", 
+        "corresponding_lines": [
+            124
+        ], 
+        "id": 130
+    }, 
+    {
+        "code": "def __int__(self,name,leng):", 
+        "corresponding_lines": [
+            125
+        ], 
+        "id": 131
+    }, 
+    {
+        "code": "return self.name+', '+str(self.leng)", 
+        "corresponding_lines": [
+            126
+        ], 
+        "id": 132
+    }, 
+    {
+        "code": "return str(self.title+', '+self.num)", 
+        "corresponding_lines": [
+            127
+        ], 
+        "id": 133
+    }, 
+    {
+        "code": "return str(self.title)+\", \"+str(self.num)", 
+        "corresponding_lines": [
+            128
+        ], 
+        "id": 134
+    }, 
+    {
+        "code": "self.len=str(self.len)", 
+        "corresponding_lines": [
+            129
+        ], 
+        "id": 135
+    }, 
+    {
+        "code": "return str(self.title)+\", \"+str(self.len)", 
+        "corresponding_lines": [
+            130
+        ], 
+        "id": 136
+    }, 
+    {
+        "code": "return str(self.title,str(self.len))", 
+        "corresponding_lines": [
+            131
+        ], 
+        "id": 137
+    }, 
+    {
+        "code": "return \"self.title\"+\", \"+str(self.len)", 
+        "corresponding_lines": [
+            132
+        ], 
+        "id": 138
+    }, 
+    {
+        "code": "return self.title+\" \"+str(len)", 
+        "corresponding_lines": [
+            133
+        ], 
+        "id": 139
+    }, 
+    {
+        "code": "def __self__(title,len):", 
+        "corresponding_lines": [
+            51
+        ], 
+        "id": 140
+    }, 
+    {
+        "code": "return title+', '+len", 
+        "corresponding_lines": [
+            134
+        ], 
+        "id": 141
+    }, 
+    {
+        "code": "class Songs:", 
+        "corresponding_lines": [
+            135
+        ], 
+        "id": 142
+    }, 
+    {
+        "code": "def __init__(self,name,leng):", 
+        "corresponding_lines": [
+            136
+        ], 
+        "id": 143
+    }, 
+    {
+        "code": "return self.name+\", \"+str(self.leng)", 
+        "corresponding_lines": [
+            137
+        ], 
+        "id": 144
+    }, 
+    {
+        "code": "return self.title+\" \"+self.len(str)", 
+        "corresponding_lines": [
+            138
+        ], 
+        "id": 145
+    }, 
+    {
+        "code": "def __init__(Song,title,len):", 
+        "corresponding_lines": [
+            139
+        ], 
+        "id": 146
+    }, 
+    {
+        "code": "Song.title=str(title)", 
+        "corresponding_lines": [
+            140
+        ], 
+        "id": 147
+    }, 
+    {
+        "code": "Song.len=len", 
+        "corresponding_lines": [
+            141
+        ], 
+        "id": 148
+    }, 
+    {
+        "code": "def __str__(Song):", 
+        "corresponding_lines": [
+            142
+        ], 
+        "id": 149
+    }, 
+    {
+        "code": "return Song.title+\", \"+str(Song.len)", 
+        "corresponding_lines": [
+            143
+        ], 
+        "id": 150
+    }, 
+    {
+        "code": "return title___2+\", \"+str(len___2)", 
+        "corresponding_lines": [
+            144
+        ], 
+        "id": 151
+    }, 
+    {
+        "code": "return(str(self.title),int(self.len))", 
+        "corresponding_lines": [
+            145
+        ], 
+        "id": 152
+    }, 
+    {
+        "code": "return(\"self.title +\",\" + self.len\")", 
+        "corresponding_lines": [
+            146
+        ], 
+        "id": 153
+    }, 
+    {
+        "code": "self.title=name", 
+        "corresponding_lines": [
+            147
+        ], 
+        "id": 154
+    }, 
+    {
+        "code": "def _init_(self,title,num):", 
+        "corresponding_lines": [
+            148
+        ], 
+        "id": 155
+    }, 
+    {
+        "code": "class Song(self):", 
+        "corresponding_lines": [
+            149
+        ], 
+        "id": 156
+    }, 
+    {
+        "code": "return self.title+', '+self.len", 
+        "corresponding_lines": [
+            150
+        ], 
+        "id": 157
+    }, 
+    {
+        "code": "return self.title+\" \"+self.len.str()", 
+        "corresponding_lines": [
+            151
+        ], 
+        "id": 158
+    }, 
+    {
+        "code": "title=self.title()", 
+        "corresponding_lines": [
+            152
+        ], 
+        "id": 159
+    }, 
+    {
+        "code": "num=self.title()", 
+        "corresponding_lines": [
+            153
+        ], 
+        "id": 160
+    }, 
+    {
+        "code": "def __self__(title,num):", 
+        "corresponding_lines": [
+            154
+        ], 
+        "id": 161
+    }, 
+    {
+        "code": "return title+', '+num", 
+        "corresponding_lines": [
+            155
+        ], 
+        "id": 162
+    }, 
+    {
+        "code": "def __int__(self,name,lenh):", 
+        "corresponding_lines": [
+            156
+        ], 
+        "id": 163
+    }, 
+    {
+        "code": "return self.name+', '+str(self.lenh)", 
+        "corresponding_lines": [
+            157
+        ], 
+        "id": 164
+    }, 
+    {
+        "code": "def __init__(self,Song,leng):", 
+        "corresponding_lines": [
+            158
+        ], 
+        "id": 165
+    }, 
+    {
+        "code": "self.title=Song", 
+        "corresponding_lines": [
+            159
+        ], 
+        "id": 166
+    }, 
+    {
+        "code": "return self.Song+\" \"+self.leng", 
+        "corresponding_lines": [
+            160
+        ], 
+        "id": 167
+    }, 
+    {
+        "code": "def __intit__(self,title,len):", 
+        "corresponding_lines": [
+            161
+        ], 
+        "id": 168
+    }, 
+    {
+        "code": "return(self.title,\",\",self.len)", 
+        "corresponding_lines": [
+            162
+        ], 
+        "id": 169
+    }, 
+    {
+        "code": "return self.title+\", \"+str(self.num)", 
+        "corresponding_lines": [
+            163
+        ], 
+        "id": 170
+    }, 
+    {
+        "code": "return result", 
+        "corresponding_lines": [
+            164, 
+            207
+        ], 
+        "id": 171
+    }, 
+    {
+        "code": "self.num=len(len___2)", 
+        "corresponding_lines": [
+            165
+        ], 
+        "id": 172
+    }, 
+    {
+        "code": "return self.num", 
+        "corresponding_lines": [
+            166
+        ], 
+        "id": 173
+    }, 
+    {
+        "code": "return title+\", \"+str(len)", 
+        "corresponding_lines": [
+            178, 
+            167
+        ], 
+        "id": 174
+    }, 
+    {
+        "code": "return self.title+\",\"+\" \"+str(self.length)", 
+        "corresponding_lines": [
+            168
+        ], 
+        "id": 175
+    }, 
+    {
+        "code": "return self.title+', '+str(self.length)", 
+        "corresponding_lines": [
+            169
+        ], 
+        "id": 176
+    }, 
+    {
+        "code": "return self.title+\" \"+self.length", 
+        "corresponding_lines": [
+            170
+        ], 
+        "id": 177
+    }, 
+    {
+        "code": "self.number=len", 
+        "corresponding_lines": [
+            171
+        ], 
+        "id": 178
+    }, 
+    {
+        "code": "return self.title+\",\"+str(self.number)", 
+        "corresponding_lines": [
+            172
+        ], 
+        "id": 179
+    }, 
+    {
+        "code": "return \"self.title,str(self.len)\"", 
+        "corresponding_lines": [
+            173
+        ], 
+        "id": 180
+    }, 
+    {
+        "code": "def __init__(x,y):", 
+        "corresponding_lines": [
+            174
+        ], 
+        "id": 181
+    }, 
+    {
+        "code": "title=str(x)", 
+        "corresponding_lines": [
+            175
+        ], 
+        "id": 182
+    }, 
+    {
+        "code": "len=int(y)", 
+        "corresponding_lines": [
+            176
+        ], 
+        "id": 183
+    }, 
+    {
+        "code": "return self.title+\", \"+str(self.leng)", 
+        "corresponding_lines": [
+            75
+        ], 
+        "id": 184
+    }, 
+    {
+        "code": "return(self.title,self.length)", 
+        "corresponding_lines": [
+            179
+        ], 
+        "id": 185
+    }, 
+    {
+        "code": "return self.title+\" ,\"+self.len", 
+        "corresponding_lines": [
+            180
+        ], 
+        "id": 186
+    }, 
+    {
+        "code": "def __init__(self,title,len___5):", 
+        "corresponding_lines": [
+            2
+        ], 
+        "id": 187
+    }, 
+    {
+        "code": "self.len=len___5", 
+        "corresponding_lines": [
+            4
+        ], 
+        "id": 188
+    }, 
+    {
+        "code": "s=Song('Respect',190)", 
+        "corresponding_lines": [
+            181
+        ], 
+        "id": 189
+    }, 
+    {
+        "code": "self.alen=len", 
+        "corresponding_lines": [
+            182
+        ], 
+        "id": 190
+    }, 
+    {
+        "code": "return self.title+\", \"+self.alen", 
+        "corresponding_lines": [
+            183
+        ], 
+        "id": 191
+    }, 
+    {
+        "code": "class Song(title,len):", 
+        "corresponding_lines": [
+            184
+        ], 
+        "id": 192
+    }, 
+    {
+        "code": "self.num-=num", 
+        "corresponding_lines": [
+            185
+        ], 
+        "id": 193
+    }, 
+    {
+        "code": "self.code=('Respect',150)", 
+        "corresponding_lines": [
+            186
+        ], 
+        "id": 194
+    }, 
+    {
+        "code": "return str(self.title,self.len)", 
+        "corresponding_lines": [
+            187
+        ], 
+        "id": 195
+    }, 
+    {
+        "code": "return(self.title,len)", 
+        "corresponding_lines": [
+            188
+        ], 
+        "id": 196
+    }, 
+    {
+        "code": "print self.title+\", \"+self.len", 
+        "corresponding_lines": [
+            189
+        ], 
+        "id": 197
+    }, 
+    {
+        "code": "return self.title+\", \"+self.leng", 
+        "corresponding_lines": [
+            191
+        ], 
+        "id": 198
+    }, 
+    {
+        "code": "s=Song('Respect',150(str))", 
+        "corresponding_lines": [
+            192
+        ], 
+        "id": 199
+    }, 
+    {
+        "code": "length=str(self.len)", 
+        "corresponding_lines": [
+            193
+        ], 
+        "id": 200
+    }, 
+    {
+        "code": "return self.title+\", \"+length", 
+        "corresponding_lines": [
+            194
+        ], 
+        "id": 201
+    }, 
+    {
+        "code": "return title+','+len", 
+        "corresponding_lines": [
+            195
+        ], 
+        "id": 202
+    }, 
+    {
+        "code": "return self.title+\", \"+str(self.number)", 
+        "corresponding_lines": [
+            196
+        ], 
+        "id": 203
+    }, 
+    {
+        "code": "def __intit(self,title,length):", 
+        "corresponding_lines": [
+            197
+        ], 
+        "id": 204
+    }, 
+    {
+        "code": "self.length=length", 
+        "corresponding_lines": [
+            198
+        ], 
+        "id": 205
+    }, 
+    {
+        "code": "return str(self.title)+','+str(self.len)", 
+        "corresponding_lines": [
+            199
+        ], 
+        "id": 206
+    }, 
+    {
+        "code": "return \"\"+self.title+\", \"+str(self.len)", 
+        "corresponding_lines": [
+            200
+        ], 
+        "id": 207
+    }, 
+    {
+        "code": "return self.name+\" \"+str(self.leng)", 
+        "corresponding_lines": [
+            202
+        ], 
+        "id": 208
+    }, 
+    {
+        "code": "def _init_(self,title,length):", 
+        "corresponding_lines": [
+            203
+        ], 
+        "id": 209
+    }, 
+    {
+        "code": "self.len=length", 
+        "corresponding_lines": [
+            204
+        ], 
+        "id": 210
+    }, 
+    {
+        "code": "return self.name+\" , \"+str(self.leng)", 
+        "corresponding_lines": [
+            205
+        ], 
+        "id": 211
+    }, 
+    {
+        "code": "result=self.title+\", \"+str(self.len)", 
+        "corresponding_lines": [
+            206
+        ], 
+        "id": 212
+    }, 
+    {
+        "code": "self.num-=len___2", 
+        "corresponding_lines": [
+            208
+        ], 
+        "id": 213
+    }, 
+    {
+        "code": "return self.title+\" \"+length", 
+        "corresponding_lines": [
+            209
+        ], 
+        "id": 214
+    }, 
+    {
+        "code": "self.len=len(title)", 
+        "corresponding_lines": [
+            210
+        ], 
+        "id": 215
+    }, 
+    {
+        "code": "return self.title+\", \"+str(len(title))", 
+        "corresponding_lines": [
+            211
+        ], 
+        "id": 216
+    }, 
+    {
+        "code": "return str.title+\", \"+str.len", 
+        "corresponding_lines": [
+            212
+        ], 
+        "id": 217
+    }, 
+    {
+        "code": "return title+\", \"+self.len", 
+        "corresponding_lines": [
+            213
+        ], 
+        "id": 218
+    }, 
+    {
+        "code": "return self.title+str(self.length)", 
+        "corresponding_lines": [
+            214
+        ], 
+        "id": 219
+    }, 
+    {
+        "code": "return(str(self.title),self.len)", 
+        "corresponding_lines": [
+            215
+        ], 
+        "id": 220
+    }, 
+    {
+        "code": "return self.title+\" \"+str(self.num)", 
+        "corresponding_lines": [
+            216
+        ], 
+        "id": 221
+    }, 
+    {
+        "code": "print self.title+\", \"+str(self.len)", 
+        "corresponding_lines": [
+            47
+        ], 
+        "id": 222
+    }, 
+    {
+        "code": "self.leng=0", 
+        "corresponding_lines": [
+            74
+        ], 
+        "id": 223
+    }, 
+    {
+        "code": "print(self.title,\",\",self.len)", 
+        "corresponding_lines": [
+            201
+        ], 
+        "id": 224
+    }
+]

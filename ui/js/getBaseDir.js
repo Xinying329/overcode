@@ -29,7 +29,7 @@ function getBaseDir(callback) {
             return;
         }
         if (config.base_dirs[base_dir_key] === undefined) {
-            callback(new Error('No entry in config.json for key: ' + base_dir_key), null);
+            callback(new Error('!!! in config.json for key: ' + base_dir_key), null);
             return;
         }
 

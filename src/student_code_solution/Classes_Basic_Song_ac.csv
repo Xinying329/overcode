@@ -1,0 +1,6816 @@
+,acid,anon_code
+2041,Classes_Basic_Song_ac,"class Song:
+    
+    def __init__(self, title, length):
+        
+        self.title = title
+        self.length = length
+        
+    def __str__(self):
+        
+        return self.title + "", "" + str(self.length)
+
+s = Song('Respect',150)
+print(s)
+
+"
+2042,Classes_Basic_Song_ac,"class Song:
+    
+    def __init__(self, title, length):
+        
+        self.title = title
+        self.length = length
+        
+    def __str__(self):
+        
+        return self.title + "" "" + self.length
+
+s = Song('Respect',150)
+print(s)
+
+"
+2048,Classes_Basic_Song_ac,"class Song:
+    
+    def __init__(self, title, length):
+        
+        self.title = title
+        self.len = length
+        
+    def __str__(self):
+        
+        return self.title + "" "" + self.length
+
+s = Song('Respect',150)
+print(s)
+
+"
+2050,Classes_Basic_Song_ac,"class Song:
+    
+    def __init__(self, title, length):
+        
+        self.title = title
+        self.length = length
+        
+    def __str__(self):
+        
+        return self.title + "" "" + str(self.length)
+
+s = Song('Respect',150)
+print(s)
+
+"
+2527,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + "", "" + str(self.len)
+
+
+s = Song('Respect',150)
+print(s)
+
+"
+2550,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + "" "" + str(len)
+
+
+s = Song('Respect',150)
+print(s)
+
+"
+2555,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + "" "" + str(self.len)
+
+
+s = Song('Respect',150)
+print(s)
+
+"
+4718,Classes_Basic_Song_ac,"class Song:
+    def __init__(self,title,len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title
+               #self.len
+    
+s = Song('Respect',150)
+print(s)
+
+"
+4720,Classes_Basic_Song_ac,"class Song:
+    def __init__(self,title,len):
+        self.title = title
+        self.len = int(len)
+    def __str__(self):
+        return """"""self.title + "", "" + str(self.len) +""""""
+    
+s = Song('Respect',150)
+print(s)
+
+"
+4723,Classes_Basic_Song_ac,"class Song:
+    def __init__(self,title,len):
+        self.title = title
+        self.len = int(len)
+    def __str__(self):
+        return self.title + "" "" + str(self.len)
+               #self.len
+    
+s = Song('Respect',150)
+print(s)
+
+"
+4724,Classes_Basic_Song_ac,"class Song:
+    def __init__(self,title,len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title
+               self.len
+    
+s = Song('Respect',150)
+print(s)
+
+"
+4726,Classes_Basic_Song_ac,"class Song:
+    def __init__(self,title,len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + "" "" + self.len
+    
+s = Song('Respect',150)
+print(s)
+
+"
+4729,Classes_Basic_Song_ac,"class Song:
+    def __init__(self,title,len):
+        self.title = title
+        self.len = ""len""
+    def __str__(self):
+        return self.title
+               #self.len
+    
+s = Song('Respect',150)
+print(s)
+
+"
+4730,Classes_Basic_Song_ac,"class Song:
+    def __init__(self,title,len):
+        self.title = title
+        self.len = int(len)
+    def __str__(self):
+        return self.title + "" "" + self.len
+               #self.len
+    
+s = Song('Respect',150)
+print(s)
+
+"
+4737,Classes_Basic_Song_ac,"class Song:
+    def __init__(self,title,len):
+        self.title = title
+        self.len = ""len""
+    def __str__(self):
+        return self.title + "" "" + self.len
+               #self.len
+    
+s = Song('Respect',150)
+print(s)
+
+"
+4738,Classes_Basic_Song_ac,"class Song:
+    def __init__(self,title,len):
+        self.title = title
+        self.len = int(len)
+    def __str__(self):
+        return self.title + "", "" + str(self.len)
+    
+s = Song('Respect',150)
+print(s)
+
+"
+6045,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+        
+    def __str__(self):
+        return self.title + "", "" + str(self.len)
+    
+s = Song('Respect',150)
+print(s)
+
+"
+6046,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+        
+    def __str__(self):
+        return self.title + "" "" + str(self.len)
+    
+s = Song('Respect',150)
+print(s)
+
+"
+6051,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+        
+    def __str__(self):
+        return self.title + "" "" + self.len
+    
+s = Song('Respect',150)
+print(s)
+
+"
+8215,Classes_Basic_Song_ac,"class Song:
+    def __init__ (self, title, len)
+        self.title = title
+        self.len = len
+        
+    def __str__ (self, title, len)
+    
+    
+s = Song('Respect',150)
+print(s)
+
+"
+8216,Classes_Basic_Song_ac,"class Song(object):
+     def __init__(self,title,len):
+        self.angle1=angle1
+        self.angle2=angle2
+    
+    
+s = Song('Respect',150)
+print(s)
+
+"
+8217,Classes_Basic_Song_ac,"class Song(object):
+     def __init__(self,title,len):
+        self.title=title
+        self.len=len
+    
+    
+s = Song('Respect',150)
+print(s)
+
+"
+8382,Classes_Basic_Song_ac,"
+class Song: 
+    def __init__(self,title,len(int):
+        self.title=title
+        self.len=len(int)
+    
+    def __str__(self):
+        return (self.title + "" "" + self.len)
+
+s = Song('Respect',150)
+print(s)
+
+"
+8386,Classes_Basic_Song_ac,"
+class Song: 
+    def __init__(self,title,len:
+        self.title=title
+        self.len=len
+    
+    def __str__(self):
+        return (self.title + "" "" + self.len)
+
+s = Song('Respect',150(str))
+print(s)
+
+"
+8387,Classes_Basic_Song_ac,"
+class Song: 
+    def __init__(self,title,len):
+        self.title=title
+        self.len=len
+    
+    def __str__(self):
+        return (self.title + "" "" + self.len)
+
+s = Song('Respect',150(str))
+print(s)
+
+"
+8389,Classes_Basic_Song_ac,"
+class Song: 
+    def __init__(self,title,len):
+        self.title=title
+        self.len=len
+    
+    def __str__(self):
+        return (self.title + "" "" + self.len)
+
+s = Song('Respect',150)
+print(s)
+
+"
+8391,Classes_Basic_Song_ac,"
+class Song: 
+    def __init__(self,title,len):
+        self.title=title
+        self.len=len
+    
+    def __str__(self):
+        return self.title + "" "" + self.len(str)
+
+s = Song('Respect',150)
+print(s)
+
+"
+8392,Classes_Basic_Song_ac,"
+class Song: 
+    def __init__(self,title,len):
+        self.title=title
+        self.len=len
+    
+    def __str__(self):
+        return self.title + "" "" + self.len
+
+s = Song('Respect',150)
+print(s)
+
+"
+8393,Classes_Basic_Song_ac,"
+class Song: 
+    def __init__(self,title,len):
+        self.title=title
+        self.len=len
+    
+    def __str__(self):
+        return (self.title + "" "" + self.len)
+
+s = Song('Respect',150)
+print(s)
+
+"
+8466,Classes_Basic_Song_ac,"class Song: 
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+
+    def __str__(self):
+        return self.title + "", "" + str(self.len)
+s = Song('Respect',150)
+print(s)
+
+"
+16614,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    
+    def __str__(self):
+        return self.title + "", "" + str(self.len)
+
+s = Song('Respect',150)
+print(s)
+
+"
+16620,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    
+    def __str__(self):
+        return self.title + "", "" + self.len
+
+s = Song('Respect',150)
+print(s)
+
+"
+17058,Classes_Basic_Song_ac,"class Song:
+    def __init__ (self, title, len):
+        self.title=title
+        self.len=len
+    def __str__(self):
+        return self.title+"", ""+str(self.len)
+s = Song('Respect',150)
+print(s)
+
+"
+17059,Classes_Basic_Song_ac,"class Song:
+    def __init__ (self, title, len):
+        self.title=title
+        self.len=len
+    def __str__(self):
+        return self.title+"" ""+str(self.len)
+s = Song('Respect',150)
+print(s)
+
+"
+17060,Classes_Basic_Song_ac,"class Song:
+    def __init__ (self, title, len):
+        self.title=title
+        self.len=len
+    def __str__(self):
+        return self.title+"" ""+self.len
+s = Song('Respect',150)
+print(s)
+
+"
+17789,Classes_Basic_Song_ac,"class Song:
+    def __init__(self,title,len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return f ""{self.title}, {self.len}""
+
+
+s = Song('Respect',150)
+print(s)
+
+"
+17790,Classes_Basic_Song_ac,"class Song:
+    def __init__(self,title,len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return f""{self.title}, {self.len})
+
+
+s = Song('Respect',150)
+print(s)
+
+"
+17791,Classes_Basic_Song_ac,"class Song:
+    def __init__(self,title,len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return f""self.title, self.len""
+
+
+s = Song('Respect',150)
+print(s)
+
+"
+17793,Classes_Basic_Song_ac,"class Song:
+    def __init__(self,title,len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return f'{self.title}, {self.len}'
+
+
+s = Song('Respect',150)
+print(s)
+
+"
+17794,Classes_Basic_Song_ac,"class Song:
+    def __init__(self,title,len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return f(self.title, self.len)
+
+
+s = Song('Respect',150)
+print(s)
+
+"
+17795,Classes_Basic_Song_ac,"class Song:
+    def __init__(self,title,len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return f""{self.title}, {self.len}"")
+
+
+s = Song('Respect',150)
+print(s)
+
+"
+17796,Classes_Basic_Song_ac,"class Song:
+    def __init__(self,title,len):
+        self.title = title
+        self.len = len
+    def __str__(self)
+        return f""self.title, self.len""
+
+
+s = Song('Respect',150)
+print(s)
+
+"
+18499,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + "", "" + self.len
+s = Song('Respect',150)
+print(s)
+
+"
+18502,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + "", "" + str(self.len)
+s = Song('Respect',150)
+print(s)
+
+"
+19212,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    
+    def __str__(self):
+        return self.title + "", "" + self.len
+
+
+s = Song('Respect',150)
+print(s)
+
+"
+19214,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    
+    def __str__(self):
+        return (self.title, self.len)
+s = Song('Respect',150)
+print(s)
+
+"
+19215,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    
+    def __str__(self):
+        return self.title + "", "" + str(self.len)
+
+
+s = Song('Respect',150)
+print(s)
+
+"
+19216,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    
+    def __str__(self):
+        return (str(self.title), self.len)
+
+
+s = Song('Respect',150)
+print(s)
+
+"
+19217,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    
+    def __str__(self):
+        return (self.title, self.len)
+
+
+s = Song('Respect',150)
+print(s)
+
+"
+19218,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    
+    def __str__(self):
+        return (str(self.title), int(self.len))
+
+
+s = Song('Respect',150)
+print(s)
+
+"
+19767,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    
+    def __str__(self):
+        return self.title + "", "" + str(self.len)
+
+s = Song('Respect',150)
+print(s)
+
+"
+19769,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    
+    def __str__(self):
+        return self.title + "","" + str(self.len)
+
+
+s = Song('Respect',150)
+print(s)
+
+"
+20461,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+        
+    def __str__(self):
+        print(self.title, "","", self.len)
+
+s = Song('Respect',150)
+print(s)
+
+"
+20462,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+        
+    def __str__(self):
+        return self.title, "","", self.len
+
+s = Song('Respect',150)
+print(s)
+
+"
+20464,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+        
+    def __str__(self):
+        return self.title + "","" + str(self.len)
+
+s = Song('Respect',150)
+print(s)
+
+"
+20465,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+        
+    def __str__(self):
+        print(title, "","", len)
+
+s = Song('Respect',150)
+print(s)
+
+"
+20466,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+        
+    def __str__(self):
+        return str(self.title, "","", self.len)
+
+s = Song('Respect',150)
+print(s)
+
+"
+20467,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+        
+    def __str__(self):
+        return self.title + "", "" + str(self.len)
+
+s = Song('Respect',150)
+print(s)
+
+"
+21204,Classes_Basic_Song_ac,"class Song:
+    
+    def __intit(self, title, length):
+        self.title = title
+        self.length = length
+    
+    def __str__(self):
+        return self.title + "", "" + str(self.length)
+
+
+s = Song('Respect',150)
+print(s)
+
+"
+21206,Classes_Basic_Song_ac,"class Song:
+    
+    def __intit(self, title, len):
+        self.title = title
+        self.len = len
+    
+    def __str__(self):
+        return self.title + "", "" + str(self.len)
+
+
+s = Song('Respect',150)
+print(s)
+
+"
+21207,Classes_Basic_Song_ac,"class Song:
+    
+    def __intit(self, title, len):
+        self.title = title
+        self.len = len
+    
+    def __str__(self):
+        return self.title + "", "" + self.len
+    
+s = Song('Respect',150)
+print(s)
+
+"
+21208,Classes_Basic_Song_ac,"class Song:
+    
+    def __intit(self, title, len):
+        self.title = title
+        self.len = len
+    
+    def __str__(self):
+        return self.title + "", "" + str(self.len)
+
+def main():
+    s = Song('Respect',150)
+    print(s)
+
+"
+21209,Classes_Basic_Song_ac,"class Song:
+    
+    def __init__(self, title, length):
+        self.title = title
+        self.length = length
+    
+    def __str__(self):
+        return self.title + "", "" + str(self.length)
+
+
+s = Song('Respect',150)
+print(s)
+
+"
+21804,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + "","" + str(self.len)
+
+s = Song('Respect',150)
+print(s)
+
+"
+21810,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + "", "" + str(self.len)
+
+s = Song('Respect',150)
+print(s)
+
+"
+21811,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len - len
+    def __str__(self):
+        return self.title + "","" + self.len
+
+s = Song('Respect',150)
+print(s)
+
+"
+21813,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + "","" + self.len
+
+s = Song('Respect',150)
+print(s)
+
+"
+23730,Classes_Basic_Song_ac,"class Song:
+    def __init__(self,title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + "" ,""+ str(self.len)
+s = Song('Respect',150)
+print(s)
+
+"
+23731,Classes_Basic_Song_ac,"class Song:
+    def __init__(self,title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title, str(self.len)
+s = Song('Respect',150)
+print(s)
+
+"
+23732,Classes_Basic_Song_ac,"class Song:
+    def __init__(self,title, len):
+        self.title = name
+        self.len = len
+    def __str__(self):
+        return self.title +"", "" +self.len
+s = Song('Respect',150)
+print(s)
+
+"
+23735,Classes_Basic_Song_ac,"class Song:
+    def __init__(self,title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + self.len
+s = Song('Respect',150)
+print(s)
+
+"
+23736,Classes_Basic_Song_ac,"class Song:
+    def __init__(self,title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + str(self.len)
+s = Song('Respect',150)
+print(s)
+
+"
+23737,Classes_Basic_Song_ac,"class Song:
+    def __init__(self,title, len):
+        self.title = name
+        self.len = len
+    def __str__(self):
+        reurn self.title +"", "" +self.len
+s = Song('Respect',150)
+print(s)
+
+"
+23738,Classes_Basic_Song_ac,"class Song:
+    def __init__(self,title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + "", ""+ str(self.len)
+s = Song('Respect',150)
+print(s)
+
+"
+23739,Classes_Basic_Song_ac,"class Song:
+    def __init__(self,title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title +"", "" +self.len
+s = Song('Respect',150)
+print(s)
+
+"
+24502,Classes_Basic_Song_ac,"class Song:
+    def __init__ (self, title, num):
+        self.title = title
+        self.num = num
+    def __str__(self):
+        return self.title + "" "" + self.num
+    
+s = Song('Respect',150)
+print(s)
+
+"
+25089,Classes_Basic_Song_ac,"class Song:
+    def _init_ (self, title, len):
+        self.title = title
+        self.len = len
+    def _str_(self):
+        return self.title + "" "" + self.len
+s = Song('Respect',150)
+print(s)
+
+"
+25090,Classes_Basic_Song_ac,"class Song(title, len):
+    def _init_ (self, title, len):
+        self.title = title
+        self.len = len
+    def _str_(self):
+        return self.title + "" "" + self.len
+    
+s = Song('Respect',150)
+print(s)
+
+"
+25092,Classes_Basic_Song_ac,"class Song():
+    def _init_ (self, title, len):
+        self.title = title
+        self.len = len
+    def _str_(self):
+        return self.title + "" "" + self.len
+    
+s = Song('Respect',150)
+print(s)
+
+"
+25093,Classes_Basic_Song_ac,"class Song:
+    def _init_ (self, title, len):
+        self.title = title
+        self.len = len
+    def _str_(self):
+        return self.title + "" "" + self.len
+    
+s = Song('Respect',150)
+print(s)
+
+"
+25094,Classes_Basic_Song_ac,"class Song(self):
+    def _init_ (self, title, len):
+        self.title = title
+        self.len = len
+    def _str_(self):
+        return self.title + "" "" + self.len
+    
+s = Song('Respect',150)
+print(s)
+
+"
+25095,Classes_Basic_Song_ac,"    
+s = Song('Respect',150)
+print(s)
+
+class Song:
+    def _init_ (self, title, len):
+        self.title = title
+        self.len = len
+    def _str_(self):
+        return self.title + "" "" + self.len"
+25104,Classes_Basic_Song_ac,"class Song:
+    def _init_ (self, title, len):
+        self.title = title
+        self.len = len
+    def _str_(self):
+        return self.title + "" "" + self.len
+    
+s = Song('Respect',150)
+print(s)
+
+"
+25105,Classes_Basic_Song_ac,"class Song:
+    def __init__ (self, title, num):
+        self.title = title
+        self.num = num
+    def __str__(self):
+        return self.title + "", "" + str(self.num)
+    
+s = Song('Respect',150)
+print(s)
+
+"
+25106,Classes_Basic_Song_ac,"class Song:
+    def __init__ (self, title, num):
+        self.title = title
+        self.num = num
+    def __str__(self):
+        return self.title + "" "" + str(self.num)
+    
+s = Song('Respect',150)
+print(s)
+
+"
+25108,Classes_Basic_Song_ac,"class Song:
+    def _init_ (self, title, num):
+        self.title = title
+        self.num = num
+    def _str_(self):
+        return self.title + "" "" + self.num
+    
+s = Song('Respect',150)
+print(s)
+
+"
+25739,Classes_Basic_Song_ac,"class Song:
+    def __init__(self,title,len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + "", "" + str(self.len)
+s = Song('Respect',150)
+print(s)
+
+"
+26259,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + "", "" + self.len
+    
+s = Song('Respect',150)
+print(s)
+
+"
+26262,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + "", "" + str(self.len)
+    
+s = Song('Respect',150)
+print(s)
+
+"
+27221,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len): 
+        self.title = title
+        self.len = len 
+    def __str__(self):
+        return self.title + "", "" + str(self.len)
+s = Song('Respect',150)
+print(s)
+
+"
+27224,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len): 
+        self.title = title
+        self.len = len 
+    def __str__(self):
+        return self.title + "" ,"" + self.len
+s = Song('Respect',150)
+print(s)
+
+"
+27244,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len): 
+        self.title = title
+        self.len = len 
+    def __str__(self):
+        return self.title + "" ,"" + str(self.len)
+s = Song('Respect',150)
+print(s)
+
+"
+28410,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + "","" + str(self.len)
+s = Song('Respect',150)
+print(s)
+
+"
+28412,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + "", "" + str(self.len)
+s = Song('Respect',150)
+print(s)
+
+"
+28427,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + ', ' + str(self.len)
+s = Song('Respect',150)
+print(s)
+
+"
+28430,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + ',' + str(self.len)
+s = Song('Respect',150)
+print(s)
+
+"
+28431,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + ',' + self.len
+s = Song('Respect',150)
+print(s)
+
+"
+28727,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+       
+    def __str__(self):
+        return self.title + "", "" + str(self.len)
+
+s = Song('Respect',150)
+print(s)
+
+"
+28731,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+       
+    def __str__(self):
+        return self.title + "" "" + self.len
+
+s = Song('Respect',150)
+print(s)
+
+"
+28734,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+       
+    def __str__(self):
+        return self.title + "" "" + str(self.len)
+
+s = Song('Respect',150)
+print(s)
+
+"
+29453,Classes_Basic_Song_ac,"class Song:
+    
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+        
+    def __str__(self):
+        return self.title + "","" + str(self.len)
+    
+s = Song('Respect',150)
+print(s)
+
+"
+29454,Classes_Basic_Song_ac,"class Song:
+    
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+        
+    def __str__(self):
+        return self.title + "","" + self.len
+    
+s = Song('Respect',150)
+print(s)
+
+"
+29456,Classes_Basic_Song_ac,"class Song:
+    
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+        
+    def __str__(self):
+        return self.title + "", "" + str(self.len)
+    
+s = Song('Respect',150)
+print(s)
+
+"
+29955,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + "", "" + self.len
+
+s = Song('Respect',150)
+print(s)
+
+"
+29956,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return str(self.title) + "", "" + str(self.len)
+
+s = Song('Respect',150)
+print(s)
+
+"
+30271,Classes_Basic_Song_ac,"class Song:
+    __init__(self, title, len):
+        self.title = title
+        self.len = len
+    __str__(self):
+        return self.title + "", "" + str(len)
+
+s = Song('Respect',150)
+print(s)
+
+"
+30272,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+        
+    def __str__(self):
+        return self.title + "", "" + str(self.len)
+
+s = Song('Respect',150)
+print(s)
+
+"
+30273,Classes_Basic_Song_ac,"class Song:
+    __init__(self, title, leng):
+        self.title = title
+        self.leng = leng
+        
+    __str__(self):
+        return self.title + "", "" + str(legn)
+
+s = Song('Respect',150)
+print(s)
+
+"
+30275,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+        
+    def __str__(self):
+        return self.title + "", "" + str(len)
+
+s = Song('Respect',150)
+print(s)
+
+"
+31130,Classes_Basic_Song_ac,"class Song:
+    def __init__(self,title,len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + "", "" + str(self.len)
+s = Song('Respect',150)
+print(s)
+
+"
+31140,Classes_Basic_Song_ac,"class Song:
+    def __init__(self,title,len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + "", "" + self.len
+s = Song('Respect',150)
+print(s)
+
+"
+31324,Classes_Basic_Song_ac,"class Song:
+    
+    def __init__(self, title, num):
+        self.title = title
+        self.num = len(num)
+    
+    def __str__(self):
+        return self.title
+        return self.num
+        
+s = Song('Respect', 150)
+print(s)
+
+"
+31342,Classes_Basic_Song_ac,"class Song:
+    
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    
+    def __str__(self):
+        return self.title
+        return self.len
+        
+s = Song('Respect',150)
+print(s)
+
+"
+31343,Classes_Basic_Song_ac,"class Song:
+    
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    
+    def __str__(self):
+        return self.title + "", "" + str(self.len)
+       
+        
+s = Song('Respect', 150)
+print(s)
+
+"
+31344,Classes_Basic_Song_ac,"class Song:
+    
+    def __init__(self, title, num):
+        self.title = title
+        self.len = len
+    
+    def __str__(self):
+        return self.title + "", "" + str(self.len)
+       
+        
+s = Song('Respect', 150)
+print(s)
+
+"
+32031,Classes_Basic_Song_ac,"class Song:
+    
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+        
+    def __str__(self):
+        return self.title + "", "" + str(self.len)
+    
+s = Song('Respect',150)
+print(s)
+
+"
+32572,Classes_Basic_Song_ac,"class Song:
+    __init__(self,title,len):
+        self.title = title
+        self.number = number
+        
+    __str__(self):
+        return self.title + "","" + str(self.number)
+    
+s = Song('Respect',150)
+print(s)
+
+"
+32574,Classes_Basic_Song_ac,"class Song:
+    def __init__(self,title,number):
+        self.title = title
+        self.number = number
+        
+    def __str__(self):
+        return self.title + "","" + str(self.number)
+    
+s = Song('Respect',150)
+print(s)
+
+"
+32576,Classes_Basic_Song_ac,"class Song:
+    __init__(self,title,number):
+        self.title = title
+        self.number = number
+        
+    __str__(self):
+        return self.title + "","" + str(self.number)
+    
+s = Song('Respect',150)
+print(s)
+
+"
+32583,Classes_Basic_Song_ac,"class Song:
+    def __init__(self,title,number):
+        self.title = title
+        self.number = number
+        
+    def __str__(self):
+        return self.title + "", "" + str(self.number)
+    
+s = Song('Respect',150)
+print(s)
+
+"
+33142,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+        
+    def __str__(self):
+        return self.title + ', ' + str(self.len)
+
+
+s = Song('Respect',150)
+print(s)
+
+"
+33143,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+        
+    def __str__(self):
+        return self.title + ', ' + self.len
+
+
+s = Song('Respect',150)
+print(s)
+
+"
+33147,Classes_Basic_Song_ac,"class Song:
+    def _init_(self, title, len):
+        self.title = title
+        self.len = len
+        
+    def _str_(self):
+        return self.title + ', ' + self.len
+
+
+s = Song('Respect',150)
+print(s)
+
+"
+33691,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, num):
+        self.title = title
+        self.num = num
+    def __str__(self):
+        return self.title + "", "" + str(self.num)
+s = Song('Respect',150)
+print(s)
+
+"
+33694,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, num):
+        self.title = title
+        self.num = num
+    def __str__(self):
+        return self.title + "", "" + self.num
+s = Song('Respect',150)
+print(s)
+
+"
+34470,Classes_Basic_Song_ac,"class Song: 
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return str(self.title) + str(len)
+    
+
+    
+s = Song('Respect',150)
+print(s)
+
+"
+34471,Classes_Basic_Song_ac,"class Song: 
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title +"", ""+ str(len)
+    
+
+    
+s = Song('Respect',150)
+print(s)
+
+"
+34472,Classes_Basic_Song_ac,"class Song: 
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + "", "" + str(len)
+    
+
+    
+s = Song('Respect',150)
+print(s)
+
+"
+34473,Classes_Basic_Song_ac,"class Song: 
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title +"", ""+ str(self.len)
+    
+
+    
+s = Song('Respect',150)
+print(s)
+
+"
+34474,Classes_Basic_Song_ac,"class Song: 
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + "", "" + len
+    
+
+    
+s = Song('Respect',150)
+print(s)
+
+"
+34475,Classes_Basic_Song_ac,"class Song: 
+    def __init__(self, title, len):
+        self.title = title
+        self.len = str(len)
+    def __str__(self):
+        return str(self.title) + str(len)
+    
+
+    
+s = Song('Respect',150)
+print(s)
+
+"
+34479,Classes_Basic_Song_ac,"class Song: 
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + "", "" + str(self.len)
+s = Song('Respect',150)
+print(s)
+
+"
+34480,Classes_Basic_Song_ac,"class Song: 
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.tutle + "", "" + str(self.len)
+s = Song('Respect',150)
+print(s)
+
+"
+34617,Classes_Basic_Song_ac,"class Song():
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return str(self.title,self.len)
+    
+    
+    
+s = Song('Respect',150)
+print(s)
+
+"
+34618,Classes_Basic_Song_ac,"class Song():
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return str(self.title) + ', ' + str(self.len)
+    
+    
+    
+s = Song('Respect',150)
+print(s)
+
+"
+34619,Classes_Basic_Song_ac,"class Song():
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return (title,len)
+    
+    
+    
+s = Song('Respect',150)
+print(s)
+
+"
+34620,Classes_Basic_Song_ac,"class Song():
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return (self.title,self.len)
+    
+    
+    
+s = Song('Respect',150)
+print(s)
+
+"
+34621,Classes_Basic_Song_ac,"class Song():
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return str(self.title) + ',' str(self.len)
+    
+    
+    
+s = Song('Respect',150)
+print(s)
+
+"
+34623,Classes_Basic_Song_ac,"class Song():
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return str(self.title) + ',' + str(self.len)
+    
+    
+    
+s = Song('Respect',150)
+print(s)
+
+"
+35150,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+      
+    def __str__(self):
+        return self.title + ' ' + self.len
+        
+        
+s = Song('Respect',150)
+print(s)
+
+"
+35151,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+      
+    def __str__(self):
+        return self.title + ' ' + str(self.len)
+        
+        
+s = Song('Respect',150)
+print(s)
+
+"
+35152,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+      
+    def __str__(self):
+        return self.title + ', ' + str(self.len)
+        
+        
+s = Song('Respect',150)
+print(s)
+
+"
+35786,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+        
+    def __str__(self):
+        return self.title + str(self.len)
+
+def main():
+    s = Song('Respect',150)
+    print(s)
+
+main()"
+35788,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+        
+    def __str__(self):
+        return self.title + self.len
+
+def main():
+    s = Song('Respect',150)
+    print(s)
+
+main()"
+35789,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+        
+    def __str__(self):
+        return self.title + "", "" + str(self.len)
+
+def main():
+    s = Song('Respect',150)
+    print(s)
+
+main()"
+35792,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+        
+    def __str__(self):
+        return self.title + "", "" str(self.len)
+
+def main():
+    s = Song('Respect',150)
+    print(s)
+
+main()"
+35793,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+        
+    def __str__(self):
+        return self.title + "" "" + self.len
+
+def main():
+    s = Song('Respect',150)
+    print(s)
+
+main()"
+35797,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+        
+    def __str__(self):
+        return self.title + "" "" + self.len
+
+def main()
+s = Song('Respect',150)
+print(s)
+
+main()"
+37494,Classes_Basic_Song_ac,"class Song:
+    
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    
+    def __str__(self):
+        return title + "","" + len
+
+    
+def main():
+s = Song('Respect',150)
+print(s)
+
+main()
+
+"
+37499,Classes_Basic_Song_ac,"class Song:
+    
+    def __init__(self, title, leng):
+        self.title = title
+        self.leng = 0
+    
+    def __str__(self):
+        return self.title + "", "" + str(self.len)
+
+    
+def main():
+s = Song('Respect', 150)
+print(s)
+
+main()
+
+"
+37503,Classes_Basic_Song_ac,"class Song:
+    
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    
+    def __str__(self):
+        return self.title + "", "" + str(self.len)
+
+    
+def main():
+s = Song('Respect', 150)
+print(s)
+
+main()
+
+"
+37505,Classes_Basic_Song_ac,"class Song:
+    
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    
+    def __str__(self):
+        return str(title) + "","" + str(len)
+
+    
+def main():
+s = Song('Respect',150)
+print(s)
+
+main()
+
+"
+37506,Classes_Basic_Song_ac,"class Song:
+    
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    
+    def __str__(self):
+        return self.title + "","" + str(self.len)
+
+    
+def main():
+s = Song('Respect',150)
+print(s)
+
+main()
+
+"
+37507,Classes_Basic_Song_ac,"class Song:
+    
+    def __init__(self, title, leng):
+        self.title = title
+        self.leng = 0
+    
+    def __str__(self):
+        return self.title + "", "" + str(self.leng)
+
+    
+def main():
+s = Song('Respect', 150)
+print(s)
+
+main()
+
+"
+37508,Classes_Basic_Song_ac,"class Song:
+    
+    def __init__(self, title, leng):
+        self.title = title
+        self.leng = 0
+    
+    def __str__(self):
+        return self.title + "", "" + str(self.leng)
+
+    
+def main():
+    s = Song('Respect', 150)
+    print(s)
+
+main()
+
+"
+37510,Classes_Basic_Song_ac,"class Song:
+    
+    def __init__(self, title, len):
+        self.title = title
+        self.leng = len
+    
+    def __str__(self):
+        return self.title + "", "" + str(self.len)
+
+    
+def main():
+    s = Song('Respect', 150)
+    print(s)
+
+main()
+
+"
+37513,Classes_Basic_Song_ac,"class Song:
+    
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    
+    def __str__(self):
+        return self.title + "","" + str(self.len)
+
+    
+def main():
+s = Song('Respect', 150)
+print(s)
+
+main()
+
+"
+37514,Classes_Basic_Song_ac,"class Song:
+    
+    def __init__(self, title, leng):
+        self.title = title
+        self.len = len
+    
+    def __str__(self):
+        return self.title + "", "" + str(self.len)
+
+    
+def main():
+s = Song('Respect', 150)
+print(s)
+
+main()
+
+"
+37515,Classes_Basic_Song_ac,"class Song:
+    
+    def __init__(self, title, leng):
+        self.title = title
+        self.leng = leng
+    
+    def __str__(self):
+        return self.title + "", "" + str(self.leng)
+
+    
+def main():
+    s = Song('Respect', 150)
+    print(s)
+
+main()
+
+"
+37517,Classes_Basic_Song_ac,"class Song:
+    
+    def __init__(self, title, num):
+        self.title = title
+        self.num = num
+    
+    def __str__(self):
+        return self.title + "", "" + str(self.num)
+
+    
+def main():
+    s = Song('Respect', 150)
+    print(s)
+
+main()
+
+"
+38059,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + "", "" + str(self.len)
+    
+s = Song('Respect',150)
+print(s)
+
+"
+38232,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        length = str(self.len)
+        return self.title + "" "" + length
+s = Song('Respect',150)
+print(s)
+
+"
+38233,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + "" "" self.len
+s = Song('Respect',150)
+print(s)
+
+"
+38237,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + "" "" + self.len
+s = Song('Respect',150)
+print(s)
+
+"
+38245,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        length = str(self.len
+                     0
+        return self.title + "" "" + length
+s = Song('Respect',150)
+print(s)
+
+"
+38247,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + "" "" + self.len.str()
+s = Song('Respect',150)
+print(s)
+
+"
+38248,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        length = str(self.len)
+        return self.title + "", "" + length
+s = Song('Respect',150)
+print(s)
+
+"
+39448,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + "", "" + self.len
+
+
+s = Song('Respect',150)
+print(s)
+
+"
+39449,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return title + "", "" +len
+
+
+s = Song('Respect',150)
+print(s)
+
+"
+39451,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + "", "" + str(self.len)
+
+
+s = Song('Respect',150)
+print(s)
+
+"
+39903,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + "", "" + self.len
+s = Song('Respect',150)
+print(s)
+
+"
+39904,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + "", "" + str(self.len)
+s = Song('Respect',150)
+print(s)
+
+"
+40427,Classes_Basic_Song_ac,"
+class Song:
+    def __init__(self, title, num):
+        self.title = title
+        self.num = num
+        
+    def __self__(self):
+        return (self.title + ', ' + self.num)
+    
+s = Song('Respect', 150)
+print(s)"
+40433,Classes_Basic_Song_ac,"
+class Song:
+    def __init__(self, title, num):
+        self.title = title
+        self.num = num
+        
+    def __str__(self):
+        return self.title + ', ' + self.num
+    
+s = Song('Respect', 150)
+print(s)"
+40437,Classes_Basic_Song_ac,"
+class Song:
+    def __init__(self, title, num):
+        self.title = title
+        self.num = num
+        
+    def __self__(title, num):
+        return self.title + ', ' + self.num
+    
+s = Song('Respect', 150)
+print(s)"
+40438,Classes_Basic_Song_ac,"
+class Song:
+    def __init__(self, title, num):
+        self.title = title
+        self.num = num
+        
+    def __self__(self):
+        return str(self.title + ', ' + self.num)
+    
+s = Song('Respect', 150)
+print(s)"
+40439,Classes_Basic_Song_ac,"
+class Song:
+    def __init__(self, title, num):
+        self.title = title
+        self.num = num
+        
+    def __self__(title, num):
+        return title + ', ' + num
+    
+s = Song('Respect', 150)
+print(s)"
+40440,Classes_Basic_Song_ac,"
+
+class Song:
+    def __init__(self, title, num):
+        title = self.title()
+        num = self.title()
+        
+    def __self__(title, num):
+        return title + ', ' + num
+    
+s = Song('Respect', 150)
+print(s)"
+40441,Classes_Basic_Song_ac,"
+class Song:
+    def __init__(self, title, num):
+        title = self.title()
+        num = self.num()
+        
+    def __self__(title, num):
+        return title + ', ' + num
+    
+s = Song('Respect', 150)
+print(s)"
+40442,Classes_Basic_Song_ac,"
+s = Song('Respect',150)
+print(s)
+
+class Song:
+    def __init__(self, title, num):
+        title = self.title()
+        num = self.title()
+        
+    def __self__(title, num):
+        return title + ', ' + num
+    
+s = Song('Respect', 150)
+print(s)"
+40443,Classes_Basic_Song_ac,"
+class Song:
+    def __init__(self, title, num):
+        self.title = title
+        self.num = num
+        
+    def __str__(self):
+        return self.title + ', ' + str(self.num)
+    
+s = Song('Respect', 150)
+print(s)"
+40445,Classes_Basic_Song_ac,"
+class Song:
+    def __init__(self, title, num):
+        self.title = title
+        self.num = num
+        
+    def __self__(self):
+        return (self.title + ', ' + str(self.num))
+    
+s = Song('Respect', 150)
+print(s)"
+40447,Classes_Basic_Song_ac,"
+class Song:
+    def __init__(self, title, num):
+        self.title = title
+        self.num = num
+        
+    def __self__(self):
+        return self.title + ', ' + self.num
+    
+s = Song('Respect', 150)
+print(s)"
+40448,Classes_Basic_Song_ac,"
+class Song:
+    def __init__(self, title, num):
+        self.title = title
+        self.num = num
+        
+    def __self__(self):
+        return self.title + ', ' + self.num
+    
+s = Song('Respect', 150)
+print(s)"
+41343,Classes_Basic_Song_ac,"class Song: 
+    def __init__(self, title, length):
+        self.title = title 
+        self.length = length 
+    def __str__(self): 
+        return title + str(length)
+s = Song('Respect',150)
+print(s)
+
+"
+41347,Classes_Basic_Song_ac,"class Song: 
+    def __init__(self, title, length):
+        self.title = title 
+        self.length = length 
+    def __str__(self): 
+        return self.title + "" "" + str(self.length)
+s = Song('Respect',150)
+print(s)
+
+"
+41348,Classes_Basic_Song_ac,"class Song: 
+    def __init__(self, title, length):
+        self.title = title 
+        self.length = length 
+    def __str__(self): 
+        return self.title + str(self.length)
+s = Song('Respect',150)
+print(s)
+
+"
+41349,Classes_Basic_Song_ac,"class Song: 
+    def __init__(self, title, length):
+        self.title = title 
+        self.length = length 
+    def __str__(self): 
+        return title + (str)length 
+s = Song('Respect',150)
+print(s)
+
+"
+41350,Classes_Basic_Song_ac,"class Song: 
+    def __init__(self, title, length):
+        self.title = title 
+        self.length = length 
+    def __str__(self): 
+        return self.title + "", "" + str(self.length)
+s = Song('Respect',150)
+print(s)
+
+"
+42317,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    
+    def __str__(self):
+        return self.title + "", "" + self.len
+    
+s = Song('Respect',150)
+print(s)
+"
+42323,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    
+    def __str__(self):
+        return self.title + "", "" + self.len
+    
+    
+main():
+    s = Song('Respect',150)
+    print(s)
+
+main()
+"
+42324,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    
+    def __str__(self):
+        return self.title + "", "" + str(self.len)
+    
+s = Song('Respect',150)
+print(s)
+"
+42330,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    
+    def __str__(self):
+        return self.title + "", "" + self.len
+    
+    
+main():
+    s = Song('Respect',150)
+    print(s)
+
+"
+43477,Classes_Basic_Song_ac,"class Song: 
+    def __init__(self,name,leng): 
+        self.name=name
+        self.leng=leng
+    def __str__(self): 
+        return self.name+"" , ""+ str(self.leng)
+s = Song('Respect',150)
+print(s)
+
+"
+43486,Classes_Basic_Song_ac,"
+s = Song('Respect',150)
+class Song: 
+    def __init__(self,title,leng): 
+        self.name=name
+        self.title=title
+        self.leng=leng
+    def __str__(self): 
+        return self.name+"" ""+ self.leng
+print(s)
+
+"
+43487,Classes_Basic_Song_ac,"class Song: 
+    def __init__(self,name,leng): 
+        self.name=name
+        self.leng=leng
+    def __str__(self): 
+        return self.name+"",""+ str(self.leng)
+s = Song('Respect',150)
+print(s)
+
+"
+43488,Classes_Basic_Song_ac,"class Song: 
+    def __init__(self,name,leng): 
+        self.name=name
+        self.leng=leng
+    def __str__(self): 
+        return self.name+"" ""+ self.leng
+s = Song('Respect',150)
+print(s)
+
+"
+43490,Classes_Basic_Song_ac,"
+s = Song('Respect',150)
+class Song: 
+    def __init__(self,Song,leng): 
+        self.name=name
+        self.title=Song
+        self.leng=leng
+    def __str__(self): 
+        return self.Song+"" ""+ self.leng
+print(s)
+
+"
+43491,Classes_Basic_Song_ac,"class Song: 
+    def __init__(self,title,leng): 
+        self.name=name
+        self.title=title
+        self.leng=leng
+    def __str__(self): 
+        return self.name+"" ""+ self.leng
+s = Song('Respect',150)
+print(s)
+
+"
+43492,Classes_Basic_Song_ac,"class Song: 
+    def __init__(self,name,leng): 
+        self.name=name
+        self.leng=leng
+    def __str__(self): 
+        return self.name+"", ""+ str(self.leng)
+s = Song('Respect',150)
+print(s)
+
+"
+43493,Classes_Basic_Song_ac,"class Song: 
+    def __init__(self,name,leng): 
+        self.name=name
+        self.leng=leng
+    def __str__(self): 
+        return self.name+"" ""+ str(self.leng)
+s = Song('Respect',150)
+print(s)
+
+"
+43567,Classes_Basic_Song_ac,"class Song:
+    def __init__(self,title,length):
+        self.title= title
+        self.length= length
+    def __str__(self):
+        return f'{self.title}: {self.length}'
+class Album(Song):
+    def __init__(self, name, songs):
+        self.name=name
+        self.songs=songs
+    def length(self):
+        total=0
+        for song in songs:
+            total+=song.length
+        return total
+s1=Song(""Something"",120)
+s2=Song(""Here Comes the Sun"",122)
+a1=Album(""Abbey Road"",[s1,s2])
+print(a1.length())
+
+    
+
+s = Song('Respect',150)
+print(s)
+
+"
+43568,Classes_Basic_Song_ac,"class Song:
+    def __init__(self,title,length):
+        self.title= title
+        self.length= length
+    def __str__(self):
+        return f'{self.title}: {self.length}'
+class Album(Song):
+    def __init__(self, name, songs):
+        self.name=name
+        self.songs=songs
+    def length(self):
+        total=0
+        for song in self.songs:
+            total+=song.length
+        return total
+s1=Song(""Something"",120)
+s2=Song(""Here Comes the Sun"",122)
+a1=Album(""Abbey Road"",[s1,s2])
+print(a1.length())
+
+    
+
+s = Song('Respect',150)
+print(s)
+
+"
+43569,Classes_Basic_Song_ac,"class Song:
+    def __init__(self,title,length):
+        self.title= title
+        self.length= length
+    def __str__(self):
+        return f'{self.title}, {self.length}'
+class Album(Song):
+    def __init__(self, name, songs):
+        self.name=name
+        self.songs=songs
+    def length(self):
+        total=0
+        for song in self.songs:
+            total+=song.length
+        return total
+s1=Song(""Something"",120)
+s2=Song(""Here Comes the Sun"",122)
+a1=Album(""Abbey Road"",[s1,s2])
+print(a1.length())
+
+    
+
+s = Song('Respect',150)
+print(s)
+
+"
+44158,Classes_Basic_Song_ac,"class Song:
+    def __init__(self,title,len):
+        self.title=title
+        self.len=len
+    def _str_(self):
+        return self.title+"",""+self.len
+s = Song('Respect',150)
+print(s)
+
+"
+44159,Classes_Basic_Song_ac,"class Song:
+    def __init__(self,title,len):
+        self.title= title
+        self.len= len
+    def __str__(self):
+        return self.title+"",""+self.len
+s = Song('Respect',150)
+print(s)
+
+"
+44167,Classes_Basic_Song_ac,"class Song:
+    def_init_(self,title,len):
+        self.title=title
+        self.len=len
+    def _str_(self):
+        return self.title+"",""+self.len
+s = Song('Respect',150)
+print(s)
+
+"
+44169,Classes_Basic_Song_ac,"class Song:
+    def __init__(self,title,len):
+        self.title= title
+        self.len= len
+    def __str__(self):
+        return self.title+"",""+self.len
+    
+def main(): 
+s = Song('Respect',150)
+print(s)
+
+main()"
+44170,Classes_Basic_Song_ac,"class Song:
+    def __init__(self,title,len):
+        self.title= title
+        self.len= len
+    def __str__(self):
+        return self.title+"",""+self.len
+    
+
+s = Song('Respect',150)
+print(s)
+
+"
+44171,Classes_Basic_Song_ac,"class Song:
+    def __init__(self,title,len):
+        self.title= title
+        self.len= len
+    def __str__(self):
+        return f'{self.title},{self.len}'
+    
+
+s = Song('Respect',150)
+print(s)
+
+"
+44175,Classes_Basic_Song_ac,"class Song:
+    def __init__(self,title,len):
+        self.title= title
+        self.len= len
+    def __str__(self):
+        return f'{self.title}, {self.len}'
+    
+
+s = Song('Respect',150)
+print(s)
+
+"
+44905,Classes_Basic_Song_ac,"class Song:
+    def __int__(self,title,len):
+        self.title=title
+        self.len=len
+    def __str__(self):
+        return self.title+','self.len
+s = Song('Respect',150)
+print(s)
+
+"
+44907,Classes_Basic_Song_ac,"class Song:
+    def __int__(self,title,len):
+        self.title=title
+        self.len=len
+    def__str__(self):
+        return self.title+','self.len
+s = Song('Respect',150)
+print(s)
+
+"
+44908,Classes_Basic_Song_ac,"class Song:
+    def __int__(self,title,len):
+        self.title=title
+        self.len=len
+    def __str__(self):
+        return self.title+','+self.len
+s = Song('Respect',150)
+print(s)
+
+"
+44909,Classes_Basic_Song_ac,"class Song:
+    def __int__(self,title,len):
+        self.title=title
+        self.len=len
+    def __str__(self):
+        return self.title+', '+str(self.len)
+s = Song('Respect',150)
+print(s)
+
+"
+44910,Classes_Basic_Song_ac,"class Song:
+    def __int__(self,title,len):
+        self.title=title
+        self.len=len
+    def __str__(self):
+        return self.title+','+str(self.len)
+s = Song('Respect',150)
+print(s)
+
+"
+44911,Classes_Basic_Song_ac,"class Song:
+    def __int__(self,title,len):
+        self.title=title
+        self.len=len
+    def __str__(self):
+        return self.title+', '+self.len
+s = Song('Respect',150)
+print(s)
+
+"
+44912,Classes_Basic_Song_ac,"class Song:
+    def __int__(self,title,lenh):
+        self.title=title
+        self.lenh=lenh
+    def __str__(self):
+        return self.title+', '+str(self.lenh)
+s = Song('Respect',150)
+print(s)
+
+"
+44913,Classes_Basic_Song_ac,"class Song:
+    def __int__(self,title,lenh):
+        self.title=title
+        self.len=lenh
+    def __str__(self):
+        return self.title+', '+self.lenh
+s = Song('Respect',150)
+print(s)
+
+"
+44914,Classes_Basic_Song_ac,"class Song:
+    def __int__(self,name,lenh):
+        self.name=name
+        self.lenh=lenh
+    def __str__(self):
+        return self.name +', '+str(self.lenh)
+s = Song('Respect',150)
+print(s)
+
+"
+44915,Classes_Basic_Song_ac,"class Song:
+    def __int__(self,title,lenh):
+        self.title=title
+        self.len=lenh
+    def __str__(self):
+        return self.title+', '+str(self.lenh)
+s = Song('Respect',150)
+print(s)
+
+"
+44916,Classes_Basic_Song_ac,"class Song:
+    def __int__(self,name,leng):
+        self.name=name
+        self.leng=leng
+    def __str__(self):
+        return self.name +', '+str(self.leng)
+s = Song('Respect',150)
+print(s)
+
+"
+44917,Classes_Basic_Song_ac,"class Song:
+    def __int__(self,name,leng):
+        self.name=name
+        self.leng=leng
+    def __str__(self):
+        return self.name +', '+str(self.leng)
+    
+s = Song('Respect',150)
+print(s)
+
+"
+44918,Classes_Basic_Song_ac,"class Songs:
+    def __init__(self,name,leng):
+        self.name=name
+        self.leng=leng
+    def __str__(self):
+        return self.name+"", ""+str(self.leng)
+s = Song('Respect',150)
+print(s)
+
+"
+44919,Classes_Basic_Song_ac,"class Song:
+    def __int__(self,name,leng):
+        self.name=name
+        self.leng=leng
+    def __str__(self):
+        return self.name +', '+str(self.leng)   
+s = Song('Respect',150)
+print(s)
+
+"
+44920,Classes_Basic_Song_ac,"class Song:
+    def __init__(self,name,leng):
+        self.name=name
+        self.leng=leng
+    def __str__(self):
+        return self.name+"", ""+str(self.leng)
+s = Song('Respect',150)
+print(s)
+
+"
+45352,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+        
+    def __str__(self):
+        return self.title + "", "" + self.len
+
+
+s = Song('Respect',150)
+print(s)
+
+"
+45353,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+        
+    def __str__(self):
+        return self.title + "", "" + str(self.len)
+
+
+s = Song('Respect',150)
+print(s)
+
+"
+46216,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+        
+    def __str__(self):
+        return self.title +"", ""+str(self.len)
+
+
+s = Song('Respect',150)
+print(s)
+
+"
+46217,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+        
+    def __str__(self):
+        return self.title +"",""+self.len
+
+
+s = Song('Respect',150)
+print(s)
+
+"
+46220,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+        
+    def __str__(self):
+        return self.title +"",""+str(self.len)
+
+
+s = Song('Respect',150)
+print(s)
+
+"
+46443,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    
+    def __str__(self):
+        return self.title + "", "" + str(len)
+    
+s = Song('Respect',150)
+print(s)
+
+"
+46445,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    
+    def __str__():
+        return self.title + "", "" + str(len)
+    
+s = Song('Respect',150)
+print(s)
+
+"
+46446,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    
+    def __str__(self):
+        return self.title + "", "" + str(self.len)
+    
+s = Song('Respect',150)
+print(s)
+
+"
+47220,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+        
+    def __str__(self):
+        return title + "", "" + len
+    
+    
+s = Song('Respect',150)
+print(s)
+
+"
+47221,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+        
+    def __str__(self):
+        return self.title + "", "" + self.len
+    
+    
+s = Song('Respect',150)
+print(s)
+
+"
+47222,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+        
+def __str__(s):
+    return s.title + "", "" + s.len
+    
+    
+s = Song('Respect',150)
+print(s)
+
+"
+47223,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+        
+    def __str__():
+        return title + "", "" + len
+    
+    
+s = Song('Respect',150)
+print(s)
+
+"
+47226,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+        
+    def __str__(self):
+        return self.title + "", "" + str(self.len)
+    
+    
+s = Song('Respect',150)
+print(s)
+
+"
+47957,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + "", "" + str(self.len
+s = Song('Respect',150)
+print(s)
+
+"
+47961,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return title + "", "" + self.len
+s = Song('Respect',150)
+print(s)
+
+"
+47962,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + "", "" + str(self.len)
+s = Song('Respect',150)
+print(s)
+
+"
+48457,Classes_Basic_Song_ac,"class Song:
+    def __init_(self, title, len):
+        self.title = title
+        self.len = len
+        
+    def __str__(self):
+        return self.title + "","" + self.len
+    
+s = Song('Respect',150)
+print(s)
+
+"
+48459,Classes_Basic_Song_ac,"
+s = Song('Respect',150)
+print(s)
+
+class Song:
+    def __init_(self, title, len):
+        self.title = title
+        self.len = len
+        
+    def __str__(self):
+        return self.title + "","" + self.len
+
+"
+48461,Classes_Basic_Song_ac,"
+
+class Song:
+    def __init_(self, title, len_):
+        self.title = title
+        self.len = len_
+        
+    def __str__(self):
+        return self.title + "","" + self.len
+    
+s = Song('Respect',150)
+print(s)
+    
+
+"
+48463,Classes_Basic_Song_ac,"
+
+class Song:
+    def __init_(self, title, len):
+        self.title = title
+        self.len = len
+        
+    def __str__(self):
+        return self.title + "","" + self.len
+    
+
+"
+48464,Classes_Basic_Song_ac,"
+
+class Song:
+    def __init_(self, title, len):
+        self.title = title
+        self.len = len
+        
+    def __str__(self):
+        return self.title + "","" + self.len
+    
+s = Song()
+print(s)
+    
+
+"
+48465,Classes_Basic_Song_ac,"s = Song('Respect',150)
+print(s)
+
+class Song:
+    def __init_(self, title, len):
+        self.title = title
+        self.len = len
+        
+    def __str__(self):
+        return self.title + "","" + self.len
+    
+
+"
+48466,Classes_Basic_Song_ac,"
+class Song:
+    def __init_(self, title, len_):
+        self.title = title
+        self.len = len_
+        
+    def __str__(self):
+        return self.title + "","" + self.len
+    
+s = Song(self, 'Respect', 150)
+print(s)
+    
+
+"
+48468,Classes_Basic_Song_ac,"
+class Song:
+    def __init_(self, title, len_):
+        self.title = title
+        self.len = len_
+        
+    def __str__(self):
+        return self.title + "","" + self.len
+    
+s = Song('Respect',150)
+print(s)
+    
+
+"
+48469,Classes_Basic_Song_ac,"
+class Song:
+    def __init_(self, title, len_):
+        self.title = title
+        self.len = len_
+        
+    def __str__(self):
+        return self.title + "","" + self.len
+    
+s = Song('Respect', 150)
+print(s)
+    
+
+"
+48470,Classes_Basic_Song_ac,"
+class Song:
+    def __init_(self, title, len_):
+        self.title = title
+        self.len = len_
+        
+    def __str__(self):
+        return self.title + "","" + self.len
+    
+s = Song('Respect', 150)
+print(s)
+    
+
+"
+48473,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len_):
+        self.title = title
+        self.len = len_
+        
+    def __str__(self):
+        return self.title + "", "" + str(self.len)
+    
+s = Song('Respect', 150)
+print(s)
+    
+
+"
+48477,Classes_Basic_Song_ac,"
+class Song:
+    def __init_(self, title, len_):
+        self.title = title
+        self.len = len_
+        
+    def __str__(self):
+        return self.title + "","" + str(self.len)
+    
+s = Song('Respect', 150)
+print(s)
+    
+
+"
+48479,Classes_Basic_Song_ac,"
+    
+s = Song('Respect', 150)
+print(s)
+    
+
+"
+49031,Classes_Basic_Song_ac,"class Song:
+    def __init__ (self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + "",""  + str(self.len)
+s = Song('Respect',150)
+print(s)
+
+"
+49038,Classes_Basic_Song_ac,"class Song:
+    def __init__ (self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self)
+        return (self.title, self.len)
+s = Song('Respect',150)
+print(s)
+
+"
+49043,Classes_Basic_Song_ac,"class Song:
+    def __init__ (self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return (self.title, self.len)
+s = Song('Respect',150)
+print(s)
+
+"
+49045,Classes_Basic_Song_ac,"class Song:
+    def __init__ (self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + "", ""  + str(self.len)
+s = Song('Respect',150)
+print(s)
+
+"
+49343,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + "", "" + str(self.len)
+
+s = Song('Respect',150)
+print(s)
+
+"
+49884,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + "","" + self.len
+    
+    
+s = Song('Respect',150)
+print(s)
+
+"
+49885,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + "", "" + str(self.len)
+    
+    
+s = Song('Respect',150)
+print(s)
+
+"
+50530,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, length):
+        self.title = title
+        self.length = length
+        
+    def __str__(self):
+        return self.title + "", "" + self.length
+s = Song('Respect',150)
+print(s)
+
+"
+50534,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, length):
+        self.title = title
+        self.length = length
+        
+    def __str__(self):
+        return self.title + "", "" + str(self.length)
+s = Song('Respect',150)
+print(s)
+
+"
+51856,Classes_Basic_Song_ac,"class Song: 
+    def __init__(self, title, len):
+        self.title = title 
+        self.len = len
+    def __str__(self): 
+        return self.title + "", "" + self.len
+s = Song('Respect',150)
+print(s)
+
+
+
+"
+51861,Classes_Basic_Song_ac,"class Song: 
+    def __init__(self, title, len):
+        self.title = title 
+        self.len = len
+    def __str__(self): 
+        return self.title + "", "" + str(self.len)
+s = Song('Respect',150)
+print(s)
+
+
+
+"
+52512,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+        
+    def __str__(self):
+        return self.title + "", "" + str(self.len)
+
+s = Song('Respect',150)
+print(s)
+
+"
+53166,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, length):
+        self.title = title
+        self.length = length
+    def __str__(self):
+        return self.title + "", "" + str(self.length)
+    
+s = Song('Respect',150)
+print(s)
+
+"
+53167,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, length):
+        self.title = title
+        self.length = length
+    def __str__(self):
+        return self.title + "", "" + self.length
+    
+s = Song('Respect',150)
+print(s)
+
+"
+53170,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, length):
+        self.title = title
+        self.length = length
+    def __str__(self):
+        return title + "", "" + length
+    
+s = Song('Respect',150)
+print(s)
+
+"
+54570,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+        
+    def __str__(self):
+        return self.title + "" "" + str(self.len)
+
+
+s = Song('Respect',150)
+print(s)
+
+"
+54582,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+        
+    def __str__(self):
+        return self.title + "" "" + self.len
+
+
+s = Song('Respect',150)
+print(s)
+
+"
+54583,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+        
+    def __str__(self):
+        return self.title + "", "" + str(self.len)
+
+
+s = Song('Respect',150)
+print(s)
+
+"
+54585,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = length
+        
+    def __str__(self):
+        return self.title + "" "" + self.len
+
+
+s = Song('Respect',150)
+print(s)
+
+"
+55036,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    
+    def __str__(self):
+        return title + "", "" + len
+
+
+s = Song('Respect',150)
+print(s)
+
+"
+55038,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    
+    def __str__(self):
+        return self.title + "", "" + str(self.len)
+
+
+s = Song('Respect',150)
+print(s)
+
+"
+55039,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    
+    def __str__(self):
+        return self.title + "", "" + self.len
+
+
+s = Song('Respect',150)
+print(s)
+
+"
+55430,Classes_Basic_Song_ac,"class Song:
+    
+    def __init__(self, title, length):
+        self.title = title
+        self.length = length
+    
+    def __str__(self):
+        return self.title + ', ' + self.length
+
+s = Song('Respect',150)
+print(s)
+
+"
+55432,Classes_Basic_Song_ac,"class Song:
+    
+    def __init__(self, title, length):
+        self.title = title
+        self.length = length
+    
+    def __str__(self):
+        return self.title + ', ' + str(self.length)
+
+s = Song('Respect',150)
+print(s)
+
+"
+55435,Classes_Basic_Song_ac,"class Song:
+    
+    def __init__(self, title, length):
+        self.title = title
+        self.length = length
+    
+    def __str__(self):
+        return f'{self.title}, {self.length}'
+
+s = Song('Respect',150)
+print(s)
+
+"
+55983,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title 
+        self.len = len
+    def __str__(self):
+        return self.title + "", "" + self.len
+s = Song('Respect',150)
+print(s)
+
+"
+55984,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title 
+        self.len = len
+    def __str__(self):
+        return self.title + "", "" + str(self.len)
+s = Song('Respect',150)
+print(s)
+
+"
+56691,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + "" "" + self.len
+s = Song('Respect',150)
+print(s)
+
+"
+56692,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + "", "" + str(self.len)
+s = Song('Respect',150)
+print(s)
+
+"
+56693,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + "" "" + str(self.len)
+s = Song('Respect',150)
+print(s)
+
+"
+56694,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + "","" + str(self.len)
+s = Song('Respect',150)
+print(s)
+
+"
+57457,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + "", "" + str(self.len)
+
+
+s = Song('Respect',150)
+print(s)
+
+"
+57458,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + "", "" + self.len
+
+
+s = Song('Respect',150)
+print(s)
+
+"
+58197,Classes_Basic_Song_ac,"class Song:
+    
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+        
+    def __str__(self)
+        return title + str(len)
+
+s = Song('Respect',150)
+print(s)
+
+"
+58198,Classes_Basic_Song_ac,"class Song:
+    
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+        
+    def __str__(self):
+        return self.title + str(self.len)
+
+s = Song('Respect',150)
+print(s)
+
+"
+58201,Classes_Basic_Song_ac,"class Song:
+    
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+        
+    def __str__(self):
+        return title + str(len)
+
+s = Song('Respect',150)
+print(s)
+
+"
+58217,Classes_Basic_Song_ac,"class Song:
+    
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+        
+    def __str__(self):
+        return self.title + "", "" + str(self.len)
+
+s = Song('Respect',150)
+print(s)
+
+"
+58671,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        result = self.title + "", "" + self.len
+        return result
+s = Song('Respect',150)
+print(s)
+
+"
+58672,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        result = self.title + "", "" + str(self.len)
+        return result
+s = Song('Respect',150)
+print(s)
+
+"
+58673,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def__str__(self):
+        result = self.title + "", "" + self.len
+s = Song('Respect',150)
+print(s)
+
+"
+58675,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        result = self.title + "", "" + self.len
+s = Song('Respect',150)
+print(s)
+
+"
+59304,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, length):
+        self.title = title
+        self.length = length
+    
+    def __str__(self):
+        return self.title + "" "" + str(self.length)
+
+s = Song('Respect',150)
+print(s)
+
+"
+59306,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.length = len
+    
+    def __str__(self):
+        return self.title + "","" + "" "" + str(self.len)
+
+s = Song('Respect',150)
+print(s)
+
+"
+59307,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title):
+        self.title = title
+    
+    def __str__(self):
+        return title, len(self)
+
+s = Song('Respect',150)
+print(s)
+
+"
+59309,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, length):
+        self.title = title
+        self.length = length
+    
+    def __str__(self):
+        return self.title + "","" + "" "" + str(self.length)
+
+s = Song('Respect',150)
+print(s)
+
+"
+59310,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, length):
+        self.title = title
+        self.length = length
+    
+    def __str__(self):
+        return self.title + "" "" + self.length
+
+s = Song('Respect',150)
+print(s)
+
+"
+59311,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, length):
+        self.title = title
+        self.length = length
+    
+    def __str__(self):
+        return self.title, self.length
+
+s = Song('Respect',150)
+print(s)
+
+"
+59312,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, length):
+        self.title = title
+        self.length = length
+    
+    def __str__(self):
+        return title, length
+
+s = Song('Respect',150)
+print(s)
+
+"
+59313,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, length):
+        self.title = title
+        self.length = length
+    
+    def __str__(self):
+        return self.title + "","" + "" "" + str(self.length)
+    
+s = Song('Respect',150)
+print(s)
+
+"
+59705,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, leng):
+        self.title = title
+        self.leng = leng
+    
+    def __str__(self):
+        return self.title + "", "" + self.leng
+
+s = Song('Respect',150)
+print(s)
+
+"
+59707,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, leng):
+        self.title = title
+        self.leng = leng
+    
+    def __str__(self):
+        return self.title + "", "" + str(self.leng)
+
+s = Song('Respect',150)
+print(s)
+
+"
+60187,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+        
+    def __str__(self):
+        return self.title + "", "" + self.len
+        
+s = Song('Respect',150)
+print(s)
+
+"
+60188,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+        
+    def __str__(self):
+        return self.title + "", "" + str(self.len)
+        
+s = Song('Respect',150)
+print(s)
+
+"
+60784,Classes_Basic_Song_ac,"class Song:
+    def __init__(self,title,len):
+        self.title=title
+        self.len=len
+    def __str__(self):
+        return self.title+"", ""+str(self.len)
+s = Song('Respect',150)
+print(s)
+
+"
+61649,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+        
+    def __str__(self):
+        return self.title + "", "" + self.len
+    
+s = Song('Respect',150)
+print(s)
+
+"
+61650,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = str(len)
+        
+    def __str__(self):
+        return self.title + "", "" + self.len
+    
+s = Song('Respect',150)
+print(s)
+
+"
+62068,Classes_Basic_Song_ac,"class Song:
+    def __init__(x, y):
+        title = str(x)
+        len = int(y)
+    def __str__(title, len):
+        return title + "", "" + str(len)
+           
+s = Song('Respect',150)
+print(s)
+
+"
+62069,Classes_Basic_Song_ac,"class Song:
+    def __init__(x, y):
+        title = str(x)
+        len = int(y)
+    def __str__:
+        return title + "", "" + str(len)
+           
+s = Song('Respect',150)
+print(s)
+
+"
+62077,Classes_Basic_Song_ac,"class Song:
+    def __init__(Song, title, len):
+        Song.title = str(title)
+        int(len(Song.title)) = int(len)
+    def __str__(Song):
+        return Song.title + "", "" + str(Song.len)
+s = Song('Respect',150)
+print(s)
+
+"
+62079,Classes_Basic_Song_ac,"class Song:
+    def __init__(Song, title, len):
+        Song.title = str(title)
+        len(Song.title) = int(len)
+    def __str__(Song):
+        return Song.title + "", "" + str(Song.len)
+s = Song('Respect',150)
+print(s)
+
+"
+62080,Classes_Basic_Song_ac,"class Song:
+    def __init__(Song, title, len):
+        Song.title = title
+        len(Song.title) = len
+    def __str__(Song):
+        return Song.title + "", "" + str(Song.len)
+s = Song('Respect',150)
+print(s)
+
+"
+62081,Classes_Basic_Song_ac,"class Song:
+    def __init__(Song, title, len):
+        Song.title = str(title)
+        Song.len = len
+    def __str__(Song):
+        return Song.title + "", "" + str(Song.len)
+s = Song('Respect',150)
+print(s)
+
+"
+62588,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title=title
+        self.len=str(len)
+    def __str__(self):
+        return self.title + "", "" + self.len
+
+
+s = Song('Respect',150)
+print(s)
+
+"
+62589,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, alen):
+        self.title=title
+        self.alen=alen
+    def __str__(self):
+        return self.title + "", "" + self.alen
+
+
+s = Song('Respect',150)
+print(s)
+
+"
+62590,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, alen):
+        self.title=title
+        self.len=len
+    def __str__(self):
+        return self.title + "", "" + str(self.len)
+
+
+s = Song('Respect',150)
+print(s)
+
+"
+62591,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title=title
+        self.len=len
+    def __str__(self):
+        return self.title + "", "" + self.len
+
+
+s = Song('Respect',150)
+print(s)
+
+"
+62592,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, alen):
+        self.title=title
+        self.len=str(len)
+    def __str__(self):
+        return self.title + "", "" + self.len
+
+
+s = Song('Respect',150)
+print(s)
+
+"
+62593,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, alen):
+        self.title=title
+        self.len=str(len)
+    def __str__(self):
+        return self.title + "", "" + self.alen
+
+
+s = Song('Respect',150)
+print(s)
+
+"
+63080,Classes_Basic_Song_ac,"class Song:
+    def __init__(self,title):
+        self.title = title
+        self.len = len(title)
+        
+    def __str__(self):
+        return self.title+"", ""+str(len(title))
+    
+s = Song('Respect',150)
+print(s)
+
+"
+63092,Classes_Basic_Song_ac,"class Song:
+    def __init__(self,title,len):
+        self.title = title
+        self.len =len
+        
+    def __str__(self):
+        return self.title+"", ""+str(len)
+    
+s = Song('Respect',150)
+print(s)
+
+"
+63093,Classes_Basic_Song_ac,"class Song:
+    def __init__(self,title,len):
+        self.title = title
+        self.len = len
+        
+    def __str__(self):
+        return self.title+"", ""+str(self.len)
+    
+s = Song('Respect',150)
+print(s)
+
+"
+64041,Classes_Basic_Song_ac,"class song:
+    def __init__(self, tittle, len):
+        self.tittle = tittle
+        self.len = len
+    def __str__(self):
+        return self.tittle + "","" self.len
+s = Song('Respect',150)
+print(s)
+
+"
+64054,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        self.len = str(self.len)
+        return self.title + print("","") + self.len
+s = Song('Respect',150)
+print(s)
+
+"
+64055,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, tittle, len):
+        self.tittle = tittle
+        self.len = len
+    def __str__(self):
+        return self.tittle + self.len
+s = Song('Respect',150)
+print(s)
+
+"
+64056,Classes_Basic_Song_ac,"class song:
+    def __init__(self, tittle, len):
+        self.tittle = tittle
+        self.len = len
+    def __str__(self):
+        return self.tittle + self.len
+s = Song('Respect',150)
+print(s)
+
+"
+64057,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + self.len
+s = Song('Respect',150)
+print(s)
+
+"
+64058,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        self.len = str(self.len)
+        return self.title + "", "" + self.len
+s = Song('Respect',150)
+print(s)
+
+"
+64059,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title
+        return self.len
+s = Song('Respect',150)
+print(s)
+
+"
+64060,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        self.len = str(self.len)
+        return self.title + "","" + self.len
+s = Song('Respect',150)
+print(s)
+
+"
+64061,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        self.len = str(self.len)
+        return self.title + self.len
+s = Song('Respect',150)
+print(s)
+
+"
+64581,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, length):
+        self.title = title
+        self.length = length
+    
+    def __str__(self):
+        return self.title + "", "" + self.length
+    
+s = Song('Respect',150)
+print(s)
+
+"
+64582,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, length):
+        self.title = title
+        self.length = length
+    
+    def __str__(self):
+        return self.title + "", "" + length
+    
+s = Song('Respect',150)
+print(s)
+
+"
+64583,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, length):
+        self.title = title
+        self.length = length
+    
+    def __str__(self):
+        return self.title + "", "" + str(self.length)
+    
+s = Song('Respect',150)
+print(s)
+
+"
+65386,Classes_Basic_Song_ac,"class Song:
+    def _init_(self,title,len):
+        self.title=title
+        self.len=len
+    def _str_(self):
+        return self.title + "", "" + str(self.len)
+s = Song('Respect',150)
+print(s)
+
+"
+65387,Classes_Basic_Song_ac,"class Song:
+    def __init__(self,title,len):
+        self.title = title
+        self.len= len
+    def __str__(self):
+        return self.title + "", "" + str(self.len)
+
+s = Song('Respect',150)
+print(s)
+
+"
+65388,Classes_Basic_Song_ac,"class Song:
+    def _init_(self,title,len):
+        self.title = title
+        self.len= len
+    def _str_(self):
+        return self.title + "", "" + str(self.len)
+
+s = Song('Respect',150)
+print(s)
+
+"
+65389,Classes_Basic_Song_ac,"class Song:
+    def _init_(self,title,len):
+        self.title=title
+        self.len=len
+    def _str_(self):
+        return self.title + "", "" + str(self.len)
+
+s = Song('Respect',150)
+print(s)
+
+"
+65746,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return title + "", "" + str(len)
+    
+s = Song('Respect',150)
+print(s)
+
+"
+65749,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + "", "" + str(self.len)
+    
+s = Song('Respect',150)
+print(s)
+
+"
+66095,Classes_Basic_Song_ac,"class Song:
+    
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    
+    def __str__(self):
+        return self.title + "", "" + self.len
+
+s = Song('Respect',150)
+print(s)
+
+"
+66096,Classes_Basic_Song_ac,"class Song:
+    
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    
+    def __str__(self):
+        return self.title + "", "" + str(self.len)
+
+s = Song('Respect',150)
+print(s)
+
+"
+66670,Classes_Basic_Song_ac,"class Song:
+    def __init__(self,title,len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + ',' + str(self.len)
+s = Song('Respect',150)
+print(s)
+
+"
+66674,Classes_Basic_Song_ac,"class Song:
+    def __init__(self,title,len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + ', ' + str(self.len)
+s = Song('Respect',150)
+print(s)
+
+"
+66675,Classes_Basic_Song_ac,"class Song:
+    def __init__(self,title,len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return title + ',' + len
+s = Song('Respect',150)
+print(s)
+
+"
+66677,Classes_Basic_Song_ac,"class Song:
+    def __init__(self,title,len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + ',' + self.len
+s = Song('Respect',150)
+print(s)
+
+"
+67623,Classes_Basic_Song_ac,"
+s = Song('Respect',150)
+print(s)
+
+class Song: 
+    def __init__(self, title, num):
+        self.title = title
+        self.num = num
+    def __str__(self):
+        return self.title + "", "" + self.num"
+67629,Classes_Basic_Song_ac,"
+s = Song('Respect',150)
+print(s)
+
+class Song: 
+    def __init__(self, title, num):
+        self.title = title
+        self.num = num
+    def __str__(self):
+        return str(self.title) + "", "" + str(self.num)
+"
+67630,Classes_Basic_Song_ac,"
+class Song: 
+    def __init__(self, title, num):
+        self.title = title
+        self.num = num
+    def __str__(self):
+        return self.title + "", "" + self.num
+    
+    
+s = Song('Respect',150)
+print(s)"
+67631,Classes_Basic_Song_ac,"
+class Song: 
+    def __init__(self, title, num):
+        self.title = title
+        self.num = num
+    def __str__(self):
+        return str(self.title) + "", "" + str(self.num)
+    
+    
+s = Song('Respect',150)
+print(s)"
+68384,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(title, len):
+        return self.title + "","" + self.len
+        
+              
+        
+s = Song('Respect',150)
+print(s)
+
+"
+68385,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = str(len)
+    def __str__(self):
+        return self.title + "","" + self.len
+                      
+s = Song('Respect',150)
+print(s)
+
+"
+68386,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = str(len)
+    def __str__(title, len):
+        return self.title + "","" + self.len
+                      
+s = Song('Respect',150)
+print(s)
+
+"
+68387,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = str(len)
+    def __str__(self):
+        return self.title + "", "" + self.len
+                      
+s = Song('Respect',150)
+print(s)
+
+"
+69009,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+
+
+s = Song('Respect',150)
+print(s)
+
+"
+69010,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + "", "" + self.len
+
+
+s = Song('Respect',150)
+print(s)
+
+"
+69012,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + "", "" + str(self.len)
+
+
+s = Song('Respect',150)
+print(s)
+
+"
+69699,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + "", "" + self.len
+
+
+s = Song('Respect',150)
+print(s)
+
+"
+69700,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return title, len
+
+
+s = Song('Respect',150)
+print(s)
+
+"
+69701,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return (self.title, self.len)
+
+
+s = Song('Respect',150)
+print(s)
+
+"
+69704,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + "", "" + str(self.len)
+
+
+s = Song('Respect',150)
+print(s)
+
+"
+69705,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title, len
+
+
+s = Song('Respect',150)
+print(s)
+
+"
+70344,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    
+    def __str__(self):
+        return self.title + "", "" + self.len
+
+
+s = Song('Respect',150)
+print(s)
+
+"
+70346,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    
+    def __str__(self):
+        return f""{self.title}, {self.len}""
+
+
+s = Song('Respect',150)
+print(s)
+
+"
+70401,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len 
+    def __str__(self):
+        return self.title + "", "" + str(self.len)
+s = Song('Respect',150)
+print(s)
+
+"
+70402,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len 
+    def __str__(self):
+        return self.title + "", "" + self.len
+s = Song('Respect',150)
+print(s)
+
+"
+71081,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + "", "" + str(self.len)
+s = Song('Respect',150)
+print(s)
+
+"
+71264,Classes_Basic_Song_ac,"class Song():
+    
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+        
+    def __str__(self):
+        return self.title + "", "" + str(self.len)
+
+s = Song('Respect',150)
+print(s)
+
+"
+71265,Classes_Basic_Song_ac,"class Song():
+    
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+        
+
+
+s = Song('Respect',150)
+print(s)
+
+"
+71266,Classes_Basic_Song_ac,"class Song():
+    
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+        
+    def __str__(self):
+        return self.title + "", "" + self.len
+        
+
+
+s = Song('Respect',150)
+print(s)
+
+"
+71267,Classes_Basic_Song_ac,"class Song():
+    
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+        
+    def __str__(self):
+        return self.title + "", "" + self.len
+
+s = Song('Respect',150)
+print(s)
+
+"
+71864,Classes_Basic_Song_ac,"class Song():
+    
+    def __int__(self, title, len):
+        self.title = title
+        self.len = len
+        
+    def __str__(self):
+        return self.title + "", "" + self.len
+
+s = Song('Respect',150)
+print(s)
+
+"
+71867,Classes_Basic_Song_ac,"class Song(title, len):
+    
+    def __int__(self, title, len):
+        self.title = title
+        self.len = len
+        
+    def __str__(self):
+        return self.title + "", "" + self.len
+
+s = Song('Respect',150)
+print(s)
+
+"
+71869,Classes_Basic_Song_ac,"class Song():
+    
+    def __int__(self, title, len):
+        self.title = title
+        self.len = len
+        
+    def __str__(self):
+        return self.title + "", "" + str(self.len)
+
+s = Song('Respect',150)
+print(s)
+
+"
+71870,Classes_Basic_Song_ac,"class Song:
+    
+    def __int__(self, title, len):
+        self.title = title
+        self.len = len
+        
+    def __str__(self)
+        return self.title + "", "" + self.len
+
+s = Song('Respect',150)
+print(s)
+
+"
+71871,Classes_Basic_Song_ac,"class Song:
+    
+    def __int__(self, title, len):
+        self.title = title
+        self.len = len
+        
+    def __str__(self):
+        return self.title + "", "" + str(self.len)
+
+
+
+"
+71872,Classes_Basic_Song_ac,"class Song:
+    
+    def __int__(self, title, len):
+        self.title = title
+        self.len = len
+        
+    def __str__(self):
+        return self.title + "", "" + str(self.len)
+
+s = Song('Respect',150)
+print(s)
+
+"
+71875,Classes_Basic_Song_ac,"class Song:
+    
+    def __int__(self, title, len):
+        self.title = title
+        self.len = len
+        
+    def __str__(self):
+        return self.title + "", "" + self.len
+
+s = Song('Respect',150)
+print(s)
+
+"
+71876,Classes_Basic_Song_ac,"class Song():
+    
+    def __int__(self, title, len):
+        self.title = title
+        self.len = len
+        
+    def __str__(self):
+        return self.title + "", "" + self.len
+
+s = Song('Respect',150)
+print(s)
+
+"
+71877,Classes_Basic_Song_ac,"class Song(self):
+    
+    def __int__(self, title, len):
+        self.title = title
+        self.len = len
+        
+    def __str__(self):
+        return self.title + "", "" + self.len
+
+s = Song('Respect',150)
+print(s)
+
+"
+71878,Classes_Basic_Song_ac,"class Song:
+    
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+        
+    def __str__(self):
+        return self.title + "", "" + str(self.len)
+
+s = Song('Respect',150)
+print(s)
+
+"
+71879,Classes_Basic_Song_ac,"class Song:
+    
+    def __int__(self, title, len):
+        self.title = title
+        self.len = len
+        
+    def __str__(self):
+        return self.title + "", "" + self.len
+
+s = Song('Respect',150)
+print(s)
+
+"
+72560,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + "", "" + self.len
+
+
+s = Song('Respect',150)
+print(s)
+
+"
+72580,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = str(title)
+        self.len = int(len)
+    def __str__(self):
+        return self.title + "", "" + self.len
+
+
+s = Song('Respect',150)
+print(s)
+
+"
+72582,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = str(title)
+        self.len = str(len)
+    def __str__(self):
+        return self.title + "", "" + self.len
+
+
+s = Song('Respect',150)
+print(s)
+
+"
+73173,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, length):
+        title = self.title
+        length = self.length
+    def __str__(self)
+        return title + "", "" + str(length)
+s = Song('Respect',150)
+print(s)
+
+"
+73175,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, length):
+        title = self.title
+        length = self.length
+    def __str__(self):
+        return self.title + "", "" + str(self.length)
+s = Song('Respect',150)
+print(s)
+
+"
+73176,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, length):
+        title = self.title
+        length = self.length
+    def __str__(self):
+        return title + "", "" + str(length)
+s = Song('Respect',150)
+print(s)
+
+"
+73177,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, length):
+        self.title = title
+        self.length = length
+    def __str__(self):
+        return self.title + "", "" + str(self.length)
+s = Song('Respect',150)
+print(s)
+
+"
+73585,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + "","" + str(self.len)
+
+"
+73586,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + "","" + self.len
+
+"
+73587,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + "", "" + str(self.len)
+
+"
+73588,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + "","" + self.len
+s = Song('Respect',150)
+print(s)
+
+"
+74151,Classes_Basic_Song_ac,"
+class Song:
+    
+    def __init__ (self, title, len):
+        self.title = title
+        self.len = len 
+    def __str__(self):
+        return self.title + ', '+str(self.len)
+
+s = Song('Respect',150)
+print(s)
+"
+74155,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + ', ' + str(self.len)
+s = Song('Respect',150)
+print(s)
+
+"
+74783,Classes_Basic_Song_ac,"class Song:
+    def __init__ (self, title, len):
+        self.title = title
+        self.len = len
+    def __str__ (self):
+        return self.title + "" "" + self.len
+
+s = Song('Respect',150)
+print(s)
+
+"
+74786,Classes_Basic_Song_ac,"class Song:
+    def __init__ (self, title, len):
+        self.title = title
+        self.len = len
+    def __str__ (self):
+        return self.title + "" "" + str(self.len)
+
+s = Song('Respect',150)
+print(s)
+
+"
+74798,Classes_Basic_Song_ac,"class Song:
+    def __init__ (self, title, len):
+        self.title = title
+        self.len = len
+    def __str__ (self):
+        return self.title + "", "" + str(self.len)
+
+s = Song('Respect',150)
+print(s)
+
+"
+75312,Classes_Basic_Song_ac,"class Song
+
+def __init__(self, title, length):
+    self.title = title
+    self.length = length
+    
+def __str__(self):
+    return self.title + ', ' + self.length
+
+    
+    
+s = Song('Respect',150)
+print(s)
+
+"
+75313,Classes_Basic_Song_ac,"class Song:
+
+    def __init__(self, title, length):
+        self.title = title
+        self.length = length
+    
+    def __str__(self):
+        return self.title + ', ' + self.length
+
+    
+    
+s = Song('Respect',150)
+print(s)
+
+"
+75314,Classes_Basic_Song_ac,"class Song:
+
+def __init__(self, title, length):
+    self.title = title
+    self.length = length
+    
+def __str__(self):
+    return self.title + ', ' + self.length
+
+    
+    
+s = Song('Respect',150)
+print(s)
+
+"
+75316,Classes_Basic_Song_ac,"class Song:
+
+    def __init__(self, title, length):
+        self.title = title
+        self.length = str(length)
+    
+    def __str__(self):
+        return self.title + ', ' + self.length
+
+    
+    
+s = Song('Respect',150)
+print(s)
+
+"
+75815,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+        
+    def __str__(self, s):
+        s = Song('Respect',150)
+        print(s)
+
+"
+75816,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+        
+    def __str__(self, s):
+        s = Song('Respect',150)
+print(s)
+
+"
+75819,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+        
+    def __str__(s):
+        s = Song('Respect',150)
+        print(s)
+
+"
+75821,Classes_Basic_Song_ac,"class Song: 
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + "","" + str.self(len)
+s = Song('Respect',150)
+print(s)
+
+"
+75822,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + self.len
+s = Song('Respect',150)
+print(s)
+
+"
+75823,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+        
+    def __str__(self, 's'):
+        s = Song('Respect',150)
+        print(s)
+
+"
+75825,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+        
+    def __str__(self, s):
+        s = Song('Respect',150)
+        print(s)
+
+"
+75826,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+        
+    def __str__(self, title, len):
+        return self.title + self.len
+s = Song('Respect',150)
+print(s)
+
+"
+75827,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + "","" + self.len
+s = Song('Respect',150)
+print(s)
+
+"
+75828,Classes_Basic_Song_ac,"class Song: 
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + "","" + str.self.len
+s = Song('Respect',150)
+print(s)
+
+"
+75829,Classes_Basic_Song_ac,"class Song: 
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + "","" + str(self.len)
+s = Song('Respect',150)
+print(s)
+
+"
+75830,Classes_Basic_Song_ac,"class Song: 
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + "", "" + str(self.len)
+s = Song('Respect',150)
+print(s)
+
+"
+76457,Classes_Basic_Song_ac,"
+
+
+class Song:
+    def __init__(self,title,len):
+        self.title = tile
+        self.len = len
+        
+    def __str__(self):
+        return self.title + "", "" + self.len
+    
+s = Song('Respect',150)
+print(s)
+"
+76465,Classes_Basic_Song_ac,"class Song:
+    def __init__(self,title,len):
+        self.title = title
+        self.len = len
+        
+    def __str__(self):
+        return self.title + "", "" + self.len
+    
+s = Song('Respect',150)
+print(s)
+"
+76468,Classes_Basic_Song_ac,"class Song:
+    def __init__(self,title,len):
+        self.title = tile
+        self.len = len
+        
+    def __str__(self):
+        return self.title + "", "" + self.len
+    
+s = Song('Respect',150)
+print(s)
+"
+76469,Classes_Basic_Song_ac,"class Song:
+    def __init__(self,title,len):
+        self.title = title
+        self.len = len
+        
+    def __str__(self):
+        return f'{self.title}, {self.len}'
+    
+s = Song('Respect',150)
+print(s)
+"
+76936,Classes_Basic_Song_ac,"class Song(): 
+    def __init__ (self, title, len):
+        self.title = title
+        self.len = len
+        
+    def __str__(self):
+        return str(self.title) + "", "" +str(self.len)
+s = Song('Respect',150)
+print(s)
+
+"
+76938,Classes_Basic_Song_ac,"class Song(): 
+    def __init__ (self, title, len):
+        self.title = title
+        self.len = len
+        
+    def __str__(self):
+        return self.title + "", "" +self.len
+s = Song('Respect',150)
+print(s)
+
+"
+77402,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + self.len
+s = Song('Respect',150)
+print(s)
+
+"
+77403,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + "", "" + str(self.len)
+s = Song('Respect',150)
+print(s)
+
+"
+77404,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + "","" + str(self.len)
+s = Song('Respect',150)
+print(s)
+
+"
+77405,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + str(self.len)
+s = Song('Respect',150)
+print(s)
+
+"
+77406,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + "" "" + self.len
+s = Song('Respect',150)
+print(s)
+
+"
+78066,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = str(len)
+    def __str__(self):
+        return self.title + "", "" + self.len
+s = Song('Respect',150)
+print(s)
+
+"
+78071,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        str(self.len) = len
+    def __str__(self):
+        return self.title + "", "" + self.len
+s = Song('Respect',150)
+print(s)
+
+"
+78072,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + "", "" + self.len
+s = Song('Respect',150)
+print(s)
+
+"
+78948,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + "", "" + str(self.len)
+s = Song('Respect',150)
+print(s)
+
+"
+78950,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + "" ,"" + str(self.len)
+s = Song('Respect',150)
+print(s)
+
+"
+79518,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + "", "" + str(self.len)
+
+
+s = Song('Respect',150)
+print(s)
+
+"
+79527,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + "", "" + self.len
+
+
+s = Song('Respect',150)
+print(s)
+
+"
+79528,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return title + "", "" + len
+
+
+s = Song('Respect',150)
+print(s)
+
+"
+79994,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + "" "" + self.len
+
+
+s = Song('Respect',150)
+print(s)
+
+"
+80002,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + "" "" + str(self.len)
+
+
+s = Song('Respect',150)
+print(s)
+
+"
+80004,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + "", "" + str(self.len)
+
+
+s = Song('Respect',150)
+print(s)
+
+"
+80579,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + "", "" + self.len
+
+s = Song('Respect',150)
+print(s)
+
+"
+80583,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return str(self.title + "", "" + self.len)
+
+s = Song('Respect',150)
+print(s)
+
+"
+80586,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return str(self.title + "", "" + self.len)
+
+    s = Song('Respect',150)
+print(s)
+
+"
+80588,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + "", "" + self.len
+
+    s = Song('Respect',150)
+print(s)
+
+"
+80590,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return str(self.title + "", "" + len)
+
+    s = Song('Respect',150)
+print(s)
+
+"
+80591,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + "", "" + str(self.len)
+
+s = Song('Respect',150)
+print(s)
+
+"
+80595,Classes_Basic_Song_ac,"
+s = Song('Respect',150)
+print(s)
+
+"
+80596,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + "", "" + str(self.len)
+
+s = Song('Respect',150)
+print(s)
+"
+80870,Classes_Basic_Song_ac,"class Song:
+    def __init__(self,title,len):
+        self.title=title
+        self.len=len
+    def __str__(self):
+        return f'{self.title}, {self.len}'
+s = Song('Respect',150)
+print(s)
+
+"
+80871,Classes_Basic_Song_ac,"class Song:
+    def __init__(self,title,len):
+        self.title=title
+        self.len=len
+    def __str__(self):
+        return f'{self.title},{self.len}'
+s = Song('Respect',150)
+print(s)
+
+"
+81430,Classes_Basic_Song_ac,"class Song:
+    def __init__(self,title,len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title +"", "" + str(self.len)
+
+s = Song('Respect',150)
+print(s)
+
+"
+81435,Classes_Basic_Song_ac,"class Song:
+    def __init__(self,title,len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title +"","" + str(self.len)
+
+s = Song('Respect',150)
+print(s)
+
+"
+81437,Classes_Basic_Song_ac,"class Song:
+    def __init__(self,title,len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title +"","" + self.len
+s = Song('Respect',150)
+print(s)
+
+"
+82155,Classes_Basic_Song_ac,"class Song:
+
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+
+    def __str__(self):
+        return self.title + "", "" + str(self.len)
+
+def main():
+    s = Song('Respect',150)
+    print(s)
+
+main()
+
+
+
+"
+82160,Classes_Basic_Song_ac,"
+s = Song('Respect',150)
+print(s)
+
+
+"
+82161,Classes_Basic_Song_ac,"class Song:
+
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+
+    def __str__(self):
+        return self.title + "", "" + self.len
+
+def main():
+    s = Song('Respect',150)
+    print(s)
+
+main()
+
+
+
+"
+82771,Classes_Basic_Song_ac,"class Song:
+    def __init__ (self, title, len):
+        self.title= title
+        self.len = len
+    def __str__(self):
+        return self.title + "", "" + str(self.len)
+    
+    
+s = Song('Respect',150)
+print(s)
+
+"
+82785,Classes_Basic_Song_ac,"class Song:
+    def __init__ (self, title, len)
+        self.title= title
+        self.len = len
+    def __str__(self):
+        return self.title + "" "" self.len
+    
+    
+s = Song('Respect',150)
+print(s)
+
+"
+82789,Classes_Basic_Song_ac,"class Song:
+    def __init__ (self, title, len):
+        self.title= title
+        self.len = len
+    def __str__(self):
+        return self.title + "", "" + (self.len)
+    
+    
+s = Song('Respect',150)
+print(s)
+
+"
+82790,Classes_Basic_Song_ac,"class Song:
+    def __init__ (self, title, len):
+        self.title= title
+        self.len = len
+    def __str__(self):
+        return self.title + "", "" self.len
+    
+    
+s = Song('Respect',150)
+print(s)
+
+"
+82791,Classes_Basic_Song_ac,"class Song:
+    def __init__ (self, title, len):
+        self.title= title
+        self.len = len
+    def __str__(self):
+        return self.title + "" "" self.len
+    
+    
+s = Song('Respect',150)
+print(s)
+
+"
+83635,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    
+    def __str__(self):
+        return self.title + "", "" + str(self.len)
+
+s = Song('Respect',150)
+print(s)
+
+"
+83638,Classes_Basic_Song_ac,"class Song:
+    def _init_(self, title, len):
+        self.title = title
+        self.len = len
+    
+    def _str_(self):
+        return self.title + "", "" + self.len
+
+s = Song('Respect',150)
+print(s)
+
+"
+83639,Classes_Basic_Song_ac,"class Song:
+    def _init_(self, title, len):
+        self.title = title
+        self.len = len
+    
+    def _str_(self):
+        return self.title + "", "" + str(self.len)
+
+s = Song('Respect',150)
+print(s)
+
+"
+84353,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + "", "" + self.len
+
+    
+s = Song('Respect',150)
+print(s)
+
+"
+84355,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + "", "" + str(self.len)
+
+    
+s = Song('Respect',150)
+print(s)
+
+"
+84469,Classes_Basic_Song_ac,"class Song:
+    
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+        
+    def __str__(self):
+        return self.title + "", "" + str(self.len)
+        
+s = Song('Respect',150)
+print(s)
+
+"
+84471,Classes_Basic_Song_ac,"class Song:
+    
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+        
+    def __str__(self):
+        return self.title + "", "" + str(self.len)
+        
+s = Song('Respect',10)
+print(s)
+
+"
+84476,Classes_Basic_Song_ac,"class Song:
+    
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+        
+    def __str__(self):
+        return self.title + "", "" + str(self.len)
+        
+s = Song('Respect',190)
+print(s)
+
+"
+84477,Classes_Basic_Song_ac,"class Song:
+    
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+        
+    def __str__(self):
+        return self.title + "", "" + str(self.len)
+        
+s = Song('Respect',150)
+print(s)
+
+"
+84479,Classes_Basic_Song_ac,"class Song:
+    
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+        
+    def __str__(self):
+        return self.title + "", "" + str(self.len)
+        
+s = Song('Respect',10)
+print(s)
+
+"
+84816,Classes_Basic_Song_ac,"class Song:
+    
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+        
+    def __str__(self):
+        return self.title + "", "" + str(self.len)
+        
+s = Song('Respect',150)
+print(s)
+
+"
+84853,Classes_Basic_Song_ac,"class Song:
+    
+    def __init__(self, title, len):
+        title = self.title
+        len = self.len
+        
+    def __str__(self):
+        return title + "", "" + len
+        
+s = Song('Respect',150)
+print(s)
+
+"
+84859,Classes_Basic_Song_ac,"class Song:
+    
+    def __init__(self, title, len):
+        title = self.title
+        len = self.len
+        
+    def __str__(self):
+        return str.title + "", "" + str.len
+        
+s = Song('Respect',150)
+print(s)
+
+"
+84860,Classes_Basic_Song_ac,"class Song:
+    
+    def __init__(self, title, len):
+        title = self.title
+        len = self.title
+        
+    def __str__(self):
+        return title + "", "" + len
+        
+s = Song('Respect',150)
+print(s)
+
+"
+84861,Classes_Basic_Song_ac,"class Song:
+    
+    def __init__(self, title, len):
+        title = self.title
+        len = self.len
+        
+    def __str__(self):
+        return self.title + "", "" + self.len
+        
+s = Song('Respect',150)
+print(s)
+
+"
+84862,Classes_Basic_Song_ac,"class Song:
+    
+    def __init__(self, title, len):
+        title = self.title
+        len = self.len
+        
+    def __str__(self):
+        return self.title + "", "" + str(self.len)
+        
+s = Song('Respect',150)
+print(s)
+
+"
+84863,Classes_Basic_Song_ac,"class Song:
+    
+    def __init__(self, title, len):
+        title = title.self
+        len = title.self
+        
+    def __str__(self):
+        return title + "", "" + len
+        
+s = Song('Respect',150)
+print(s)
+
+"
+85521,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+        
+    def __str__(self):
+        return self.title + "", "" + str(self.len)
+    
+s = Song('Respect',150)
+print(s)
+
+"
+85522,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+        
+    def __str__(self):
+        return self.title + "", "" + self.len
+s = Song('Respect',150)
+print(s)
+
+"
+86706,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+        
+    def __str__(self, title, len):
+        return self.title + "", "" + self.len
+
+
+
+s = Song('Respect',150)
+print(s)
+
+"
+86709,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+        
+    def __str__(self):
+        return self.title + "", "" + self.len
+
+
+
+s = Song('Respect',150)
+print(s)
+
+"
+86713,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+        
+    def __str__(self):
+        return self.title + "", "" + str(self.len)
+
+
+
+s = Song('Respect',150)
+print(s)
+
+"
+87354,Classes_Basic_Song_ac,"class Song:
+    def __init__(self,title,len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + "", "" + self.len
+    
+s = Song('Respect',150)
+print(s)
+
+"
+87358,Classes_Basic_Song_ac,"class Song:
+    def __init__(self,title,len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + "", "" + str(self.len)
+    
+s = Song('Respect',150)
+print(s)
+
+"
+87363,Classes_Basic_Song_ac,"class Song:
+    def __init__(self,title,len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + "", "" + (str)self.len
+    
+s = Song('Respect',150)
+print(s)
+
+"
+87924,Classes_Basic_Song_ac,"class Song:
+    
+    def __init__(self, title, length):
+        self.title = title
+        self.len = length
+        
+    def __str__(self):
+        return self.title + "" "" + self.length
+    
+s = Song('Respect',150)
+print(s)
+
+"
+87928,Classes_Basic_Song_ac,"class Song:
+    
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+        
+    def __str__(self):
+        return self.title + "", "" + str(self.len)
+
+s = Song('Respect',150)
+print(s)
+
+"
+87929,Classes_Basic_Song_ac,"class Song:
+    
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+        
+    def __str__(self):
+        return self.title + "" "" + str(self.len)
+
+s = Song('Respect',150)
+print(s)
+
+"
+87930,Classes_Basic_Song_ac,"class Song:
+    
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+        
+    def __str__(self):
+        return self.title + "" "" + self.len
+    
+s = Song('Respect',150)
+print(s)
+
+"
+87931,Classes_Basic_Song_ac,"class Song:
+    
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+        
+    def __str__(self):
+        return self.title + "" "" + (str)self.len
+    
+s = Song('Respect',150)
+print(s)
+
+"
+88592,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return str(self.title) + "","" + str(self.len)
+
+"
+88596,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + "","" + self.len
+        "
+88597,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + "","" + self.len
+
+    
+s = Song('Respect',150)
+print(s)
+"
+88598,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + "" "" + self.len
+
+    
+s = Song('Respect',150)
+print(s)
+"
+88599,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + "","" + str(self.len)
+"
+88600,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return str(self.title) + "","" + str(self.len)
+
+    
+s = Song('Respect',150)
+print(s)
+"
+88601,Classes_Basic_Song_ac,"
+s = Song('Respect',150)
+print(s)
+
+class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + "","" + self.len
+        "
+88602,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + "","" + self.len
+
+    
+s = Song('Respect',150)
+print(s)
+"
+88603,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, number):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + "","" + self.len
+
+    
+s = Song('Respect',150)
+print(s)
+"
+88604,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + "","" + str(self.len)
+
+    
+s = Song('Respect',150)
+print(s)
+"
+88609,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title +"","" + self.len
+
+
+s = Song('Respect',150)
+print(s)
+
+"
+88612,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + "","" + str(self.len)
+
+
+s = Song('Respect',150)
+print(s)
+
+"
+88615,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + "", "" + str(self.len)
+
+s = Song('Respect',150)
+print(s)
+
+"
+89254,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = int(len)
+    def __str__(self):
+        return self.title +"","" self.len
+
+        
+
+s = Song('Respect',150)
+print(s)
+"
+89261,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = int(len)
+    def __str__(self):
+        return self.title +"","" + self.len
+
+        
+
+s = Song('Respect',150)
+print(s)
+"
+89262,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return (self.title , self.len)
+
+        
+
+s = Song('Respect',150)
+print(s)
+"
+89263,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return ""self.title +"","" + self.len""
+
+        
+
+s = Song('Respect',150)
+print(s)
+"
+89264,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title +"","" + self.len
+
+        
+
+s = Song('Respect',150)
+print(s)
+"
+89785,Classes_Basic_Song_ac,"class Song:
+    def __init__(self,title,len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return str(self.title, self.len)
+    
+s = Song('Respect',150)
+print(s)
+
+"
+89787,Classes_Basic_Song_ac,"class Song:
+    def __init__(self,title,len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return ""self.title,str(self.len)""
+    
+s = Song('Respect',150)
+print(s)
+
+"
+89788,Classes_Basic_Song_ac,"class Song:
+    def __init__(self,title,len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title,self.len
+    
+s = Song('Respect',150)
+print(s)
+
+"
+89789,Classes_Basic_Song_ac,"class Song:
+    def __init__(self,title,len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return str(self.title, ste(self.len))
+    
+s = Song('Respect',150)
+print(s)
+
+"
+89790,Classes_Basic_Song_ac,"class Song:
+    def __init__(self,title,len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return ""{self.title}, {str(self.len)}""
+    
+s = Song('Respect',150)
+print(s)
+
+"
+89791,Classes_Basic_Song_ac,"class Song:
+    def __init__(self,title,len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return str(title, len)
+    
+s = Song('Respect',150)
+print(s)
+
+"
+89792,Classes_Basic_Song_ac,"class Song:
+    def __init__(self,title,len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return str(self.title, str(self.len))
+    
+s = Song('Respect',150)
+print(s)
+
+"
+89793,Classes_Basic_Song_ac,"class Song:
+    def __init__(self,title,len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return """"+self.title+"",""+str(self.len)
+    
+s = Song('Respect',150)
+print(s)
+
+"
+89794,Classes_Basic_Song_ac,"class Song:
+    def __init__(self,title,len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return """"+self.title+"", ""+str(self.len)
+    
+s = Song('Respect',150)
+print(s)
+
+"
+89855,Classes_Basic_Song_ac,"class Song:
+    def __init__(self,title,len):
+        self.title = title
+        self.len = len
+        
+    def  __str__(self):
+        return self.title + "", "" + self.len
+
+
+
+
+s = Song('Respect',150)
+print(s)
+
+"
+89856,Classes_Basic_Song_ac,"class Song:
+    def __init__:
+        self.title = title
+        self.len = len
+        
+    def  __str__:
+        return title + "", "" + len
+
+
+
+
+s = Song('Respect',150)
+print(s)
+
+"
+89861,Classes_Basic_Song_ac,"class Song:
+    def __init__(self,title,len):
+        self.title = title
+        self.len = len
+        
+    def  __str__:
+        return title + "", "" + len
+
+
+
+
+s = Song('Respect',150)
+print(s)
+
+"
+89862,Classes_Basic_Song_ac,"class Song:
+    def __init__(self,title,len):
+        self.title = title
+        self.len = len
+        
+    def  __str__(self):
+        return title + "", "" + len
+
+
+
+
+s = Song('Respect',150)
+print(s)
+
+"
+89864,Classes_Basic_Song_ac,"class Song:
+    def __init__(self,title,len):
+        self.title = title
+        self.len = len
+        
+    def  __str__(self):
+        
+        return self.title + "", "" + str(self.len)
+
+
+
+
+s = Song('Respect',150)
+print(s)
+
+"
+90371,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return ""self.title"" + "", "" + str(self.len)
+
+
+s = Song('Respect',150)
+print(s)
+
+"
+90374,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + "", "" + str(self.len)
+
+
+s = Song('Respect',150)
+print(s)
+
+"
+90376,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len)
+        self.title = title
+        self.len = len
+    def __str__(self)
+        return ""self.title"" + "", "" + str(self.len)
+
+
+s = Song('Respect',150)
+print(s)
+
+"
+91313,Classes_Basic_Song_ac,"
+s = Song('Respect',150)
+print(s)
+
+class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + "", "" + self.len
+"
+91314,Classes_Basic_Song_ac,"
+s = Song('Respect',150)
+print(s)
+
+class Song:
+    def __init__(self, title, str(len)):
+        self.title = title
+        str(self.len) = len
+    def __str__(self):
+        return self.title + "", "" + self.len
+"
+91315,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, 'title', len):
+        self.title = title
+        self.str(len) = len
+    def __str__(self):
+        return self.title + "","" + self.len
+
+s = Song('Respect',150)
+print(s)"
+91316,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + "","" + self.len
+
+s = Song('Respect',150)
+print(s)"
+91317,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, 'title', str.len):
+        self.title = title
+        self.str(len) = len
+    def __str__(self):
+        return self.title + "","" + self.len
+
+s = Song('Respect',150)
+print(s)"
+91318,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.str(len) = len
+    def __str__(self):
+        return self.title + "","" + self.len
+
+s = Song('Respect',150)
+print(s)"
+91319,Classes_Basic_Song_ac,"
+s = Song('Respect',150)
+print(s)
+
+class Song:
+    def __init__(self, title, len):
+        self.title = title
+        str(self.len) = len
+    def __str__(self):
+        return self.title + "", "" + self.len
+"
+91320,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, str.len):
+        self.title = title
+        self.str(len) = len
+    def __str__(self):
+        return self.title + "","" + self.len
+
+s = Song('Respect',150)
+print(s)"
+91321,Classes_Basic_Song_ac,"
+s = Song('Respect',150)
+print(s)
+
+"
+91323,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        self.len = str(self.len)
+        return self.title + "", "" + self.len
+s = Song('Respect',150)
+print(s)
+
+"
+91324,Classes_Basic_Song_ac,"class Song:
+    def __intit__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        self.len = str(self.len)
+        return self.title + "", "" + self.len
+s = Song('Respect',150)
+print(s)
+
+"
+91326,Classes_Basic_Song_ac,"class Song:
+    def __intit__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        self.len = str(self.len)
+        return self.title + "", "" + self.len
+    
+s = Song('Respect',150)
+print(s)
+
+"
+91984,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + "", "" + str(self.len)
+    
+s = Song('Respect',150)
+print(s)
+
+"
+91990,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + "", "" + self.len
+    
+s = Song('Respect',150)
+print(s)
+
+"
+92579,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, length):
+        self.title = title
+        self.len = length
+        
+    def __str__(self):
+        return self.title + "", "" + str(self.len)
+    
+s = Song('Respect',150)
+print(s)
+
+"
+92584,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, length):
+        self.title = title
+        self.len = length
+        
+    def __str__(self):
+        return self.title + "", "" + self.len
+    
+s = Song('Respect',150)
+print(s)
+
+"
+92585,Classes_Basic_Song_ac,"class Song:
+    def _init_(self, title, len):
+        self.title = title
+        self.len = len
+        
+    def _str_(self):
+        return self.title + "", "" + self.len
+    
+s = Song('Respect',150)
+print(s)
+
+"
+92588,Classes_Basic_Song_ac,"class Song:
+    def _init_(self, title, length):
+        self.title = title
+        self.len = length
+        
+    def _str_(self):
+        return self.title + "", "" + self.len
+    
+s = Song('Respect',150)
+print(s)
+
+"
+92933,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title;
+        self.len = len;
+    def __str__(self):
+        return self.title + "", "" + str(self.len)
+s = Song('Respect',150)
+print(s)
+
+"
+93578,Classes_Basic_Song_ac,"class Song:
+    def _init_(self,title, len):
+        self.title= title
+        self.len= len
+        
+    def _str_ (self):
+        return self.title + "", "" + self.len
+self.code= ('Respect',150)
+print(s)
+
+"
+93580,Classes_Basic_Song_ac,"class Song:
+    def _init_(self,title, len):
+        self.title= title
+        self.len= len
+        
+    def _str_ (self):
+        return self.title + "", "" + self.len
+
+s= self.code= ('Respect',150)
+print(s)
+
+"
+93581,Classes_Basic_Song_ac,"class Song:
+    def _init_(self,title, len):
+        self.title= title
+        self.len= len
+        
+    def _str_ (self):
+        return self.title + "", "" + self.len
+
+s = Song('Respect',150)
+print(s)
+
+"
+93582,Classes_Basic_Song_ac,"class Song:
+    def __init__(self,title, len):
+        self.title= title
+        self.len= len
+        
+    def __str__ (self):
+        return self.title + "", "" + str(self.len)
+
+s = Song('Respect',150)
+print(s)
+
+"
+93585,Classes_Basic_Song_ac,"class Song:
+    def __init__(self,title, len):
+        self.title= title
+        self.len= len
+        
+    def __str__ (self):
+        return self.title + "", "" + self.len
+
+s = Song('Respect',150)
+print(s)
+
+"
+93924,Classes_Basic_Song_ac,"
+
+class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+     
+    def __str__(self):
+        return self.title + "", "" + self.num
+
+s = Song('Respect',150)
+print(s)    
+    
+
+"
+93925,Classes_Basic_Song_ac,"
+
+class Song:
+    def __init__(self, title, num):
+        self.title = title
+        self.num -= num
+     
+    def __str__(self):
+        return self.title + "", "" + self.num
+
+s = Song('Respect',150)
+print(s)    
+    
+
+"
+93926,Classes_Basic_Song_ac,"
+s = Song('Respect',150)
+print(s)
+
+class Song:
+    def __init__(self, title, num):
+        self.title = title
+        self.num -= num
+     
+    def __str__(self):
+        return self.title + "", "" + self.num
+    
+    
+
+"
+93927,Classes_Basic_Song_ac,"
+
+class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+     
+    def __str__(self):
+        return self.title + "", "" + str(self.num)
+
+s = Song('Respect',150)
+print(s)    
+    
+
+"
+93928,Classes_Basic_Song_ac,"
+class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+     
+    def __str__(self):
+        return self.title + "", "" + str(self.len)
+
+s = Song('Respect',150)
+print(s)    
+    
+
+"
+94318,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+        
+    def __str__(self):
+        return self.title + "", "" + str(self.len)
+
+s = Song('Respect',150)
+print(s)
+
+"
+94319,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+        
+    def __str__(self):
+        print(self.title + "", "" + self.len)
+
+s = Song('Respect',150)
+print(s)
+
+"
+94320,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+        
+    def __str__(self):
+        print(self.title + "", "" + str(self.len))
+
+s = Song('Respect',150)
+print(s)
+
+"
+94710,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, length):
+        self.title = title
+        self.length = length
+    def __str__(self):
+        return self.title + "", "" + str(length)
+        
+s = Song('Respect',150)
+print(s)
+
+"
+94713,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, length):
+        self.title = title
+        self.length = length
+    def __str__(self):
+        return self.title + "", "" + str(self.length)
+        
+s = Song('Respect',150)
+print(s)
+
+"
+95418,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title= title
+        self.len = len
+    def __str__(self):
+        return self.title, self.len
+
+
+s = Song('Respect',150)
+print(s)
+
+"
+95420,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + "", "" + str(self.len)
+
+s = Song('Respect',150)
+print(s)
+
+"
+95425,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title= title
+        self.len = len
+    def __str__(self):
+        reurn title, len
+
+
+s = Song('Respect',150)
+print(s)
+
+"
+95426,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + self.len
+
+
+s = Song('Respect',150)
+print(s)
+
+"
+95431,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title + "", "" + self.len
+
+s = Song('Respect',150)
+print(s)
+
+"
+95432,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title
+
+
+s = Song('Respect',150)
+print(s)
+
+"
+95433,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+    def __str__(self):
+        return self.title, self.len
+
+
+s = Song('Respect',150)
+print(s)
+
+"
+95434,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title= title
+        self.len = len
+    def __str__(self):
+        return title, len
+
+
+s = Song('Respect',150)
+print(s)
+
+"
+95900,Classes_Basic_Song_ac,"class Song:
+    def __init__(self,title,len):
+        self.title = title
+        self.len = len
+       
+    def __str__(self):
+        return self.title + "", "" + str(self.len)
+s = Song('Respect',150)
+print(s)
+
+"
+95902,Classes_Basic_Song_ac,"class Song:
+    def __init__(self,title,len):
+        self.title = title
+        self.len = int(len)
+       
+    def __str__(self):
+        return self.title + "","" + self.len
+s = Song('Respect',150)
+print(s)
+
+"
+95903,Classes_Basic_Song_ac,"class Song:
+    def __init__(self,title,len):
+        self.title = title
+        self.len = len
+       
+    def __str__(self):
+        return self.title + "","" + self.len
+s = Song('Respect',150)
+print(s)
+
+"
+95904,Classes_Basic_Song_ac,"class Song:
+    def __init__(self,title,len):
+        self.title = title
+        self.len = len
+       
+    def __str__(self):
+        return self.title + "","" + str(self.len)
+s = Song('Respect',150)
+print(s)
+
+"
+96213,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+        
+    def __str__(self):
+        return self.title + "" "" + str(self.len)
+    
+s = Song('Respect',150)
+print(s)
+
+"
+96214,Classes_Basic_Song_ac,"class Song:
+   
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+s = Song('Respect',150)
+print(s)
+
+"
+96217,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+        
+    def __str__():
+        return self.title, self.len
+s = Song('Respect',150)
+print(s)
+
+"
+96218,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+        return self.title, self.len
+s = Song('Respect',150)
+print(s)
+
+"
+96219,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+        
+    def __str__(self):
+        return self.title, self.len
+    
+s = Song('Respect',150)
+print(s)
+
+"
+96221,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+        
+    def __str__(self):
+        return self.title + "" "" + self.len
+    
+s = Song('Respect',150)
+print(s)
+
+"
+96222,Classes_Basic_Song_ac,"class Song:
+    def __init__(self, title, len):
+        self.title = title
+        self.len = len
+        
+    def __str__(self):
+        return self.title + "", "" + str(self.len)
+    
+s = Song('Respect',150)
+print(s)
+
+"
