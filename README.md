@@ -1,7 +1,7 @@
-# overcode
+# Overcode
 OverCode's public repo (in development). See http://people.csail.mit.edu/elg/overcode for papers, posters, and talks.
 
-# Basic Folder Tree - Only highlight the core folders + files might change by users
+## Basic Folder Tree - Only highlight the core folders + files might change by users
 ```bash
 ├── src
 │   ├── pipeline_preprocessing.py
