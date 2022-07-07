@@ -6,7 +6,7 @@ OverCode's public repo (in development). See http://people.csail.mit.edu/elg/ove
 1. Create a subdirectory under src named `target`
 2. Extract solutions from a csv
 ```python testcase_making/extract_solutions_final.py student_code_solution/NAME_OF_THE_CODE_FILE target```
-3. Find a correct submission and name it as `answer.py` in the subdirectory called "data"
+3. Find a correct submission and name it as `answer.py` in the subdirectory named `data`
 4. Next to the `data` subdirectory, add a `testCase.py` file. Each line in this file is a single test case, i.e., a Python function call, prepended by the command `print`
 5. Preprocessor: Execute the solutions on the testcases
     * In this repo's `src` directory, execute```python run_pipeline.py PATH_TO_TARGET_DIRECTORY --run-pre -n FUNCTION_NAME```
