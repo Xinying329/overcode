@@ -36,8 +36,9 @@ OverCode's public repo (in development). See http://people.csail.mit.edu/elg/ove
 ## Running the pipeline
 0. ```cd src```
 1. Create a subdirectory under src named `target`
-2. Extract solutions from a csv
-```python testcase_making/extract_solutions_final.py student_code_solution/NAME_OF_THE_CODE_FILE target```
+2. Extract solutions from a code submission csv created from Runestone
+Here's an example of a row in the expected CSV format: ['acid','anon_code']
+```python testcase_making/extract_solutions_Runestone.py student_code_solution/NAME_OF_THE_CODE_FILE target```
 3. Find a correct submission and name it as `answer.py` in the subdirectory named `data`
 4. Next to the `data` subdirectory, add a `testCase.py` file. Each line in this file is a single test case, i.e., a Python function call, prepended by the command `print`
 5. Preprocessor: Execute the solutions on the testcases
