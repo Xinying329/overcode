@@ -1,6 +1,38 @@
 # overcode
 OverCode's public repo (in development). See http://people.csail.mit.edu/elg/overcode for papers, posters, and talks.
 
+# Basic Folder Tree - Only highlight the core folders + files might change by users
+```bash
+├── src
+│   ├── pipeline_preprocessing.py
+│   ├── pipeline.py
+│   ├── run_pipeline.py
+│   ├── student_code_solution
+│   │   ├── code_submission_package.csv
+│   ├── target
+│   │   ├── data
+│   │   │    ├── answer.py
+│   │   │    ├── code_submission.py ONE PER FILE
+│   │   │    ├── augmentedData
+│   │   │    ├── pickleFiles
+│   │   │    ├── tidyData
+│   │   ├── testCase.py
+│   │   ├── output
+│   │   │    ├── correctOutput.json
+│   │   │    ├── lines.json
+│   │   │    ├── phrases.json
+│   │   │    ├── solutions.json
+│   │   │    ├── var_mappings.json
+│   │   │    ├── solutions.json
+│   │   │    ├── variables.json
+├── view
+│   ├── overcode_data
+│   │   ├── target
+│   ├── runServer.sh
+└── README.md
+```
+
+
 ## Running the pipeline
 0. ```cd src```
 1. Create a subdirectory under src named `target`
